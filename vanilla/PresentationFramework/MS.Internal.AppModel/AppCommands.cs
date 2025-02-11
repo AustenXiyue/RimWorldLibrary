@@ -1,0 +1,36 @@
+namespace MS.Internal.AppModel;
+
+internal enum AppCommands
+{
+	Edit_Cut = 8001,
+	Edit_Copy,
+	Edit_Paste,
+	Edit_SelectAll,
+	Edit_Find,
+	Edit_Digitalsignatures,
+	Edit_Digitalsignatures_SignDocument,
+	Edit_Digitalsignatures_RequestSignature,
+	Edit_Digitalsignatures_ViewSignature,
+	Edit_Permission,
+	Edit_Permission_Set,
+	Edit_Permission_View,
+	Edit_Permission_Restrict,
+	View_StatusBar,
+	View_Stop,
+	View_Refresh,
+	View_FullScreen,
+	View_Zoom,
+	View_Zoom_In,
+	View_Zoom_Out,
+	View_Zoom_400,
+	View_Zoom_250,
+	View_Zoom_150,
+	View_Zoom_100,
+	View_Zoom_75,
+	View_Zoom_50,
+	View_Zoom_25,
+	View_Zoom_PageWidth,
+	View_Zoom_WholePage,
+	View_Zoom_TwoPages,
+	View_Zoom_Thumbnails
+}

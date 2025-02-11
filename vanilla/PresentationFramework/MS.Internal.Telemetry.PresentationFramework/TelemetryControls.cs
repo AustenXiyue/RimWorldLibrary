@@ -1,0 +1,52 @@
+using System;
+
+namespace MS.Internal.Telemetry.PresentationFramework;
+
+[Flags]
+internal enum TelemetryControls : long
+{
+	None = 0L,
+	Border = 1L,
+	Button = 2L,
+	Calendar = 4L,
+	Canvas = 8L,
+	CheckBox = 0x10L,
+	ComboBox = 0x20L,
+	ContentControl = 0x40L,
+	DataGrid = 0x80L,
+	DatePicker = 0x100L,
+	DockPanel = 0x200L,
+	DocumentViewer = 0x400L,
+	Expander = 0x800L,
+	Frame = 0x1000L,
+	Grid = 0x2000L,
+	GridSplitter = 0x4000L,
+	GroupBox = 0x8000L,
+	Image = 0x10000L,
+	Label = 0x20000L,
+	ListBox = 0x40000L,
+	ListView = 0x80000L,
+	MediaElement = 0x100000L,
+	Menu = 0x200000L,
+	PasswordBox = 0x400000L,
+	ProgressBar = 0x800000L,
+	RadioButton = 0x1000000L,
+	RichTextBox = 0x2000000L,
+	ScrollBar = 0x4000000L,
+	ScrollViewer = 0x8000000L,
+	Separator = 0x10000000L,
+	Slider = 0x20000000L,
+	StackPanel = 0x40000000L,
+	StatusBar = 0x80000000L,
+	TabControl = 0x100000000L,
+	TextBlock = 0x200000000L,
+	TextBox = 0x400000000L,
+	ToolBar = 0x800000000L,
+	ToolBarPanel = 0x1000000000L,
+	ToolBarTray = 0x2000000000L,
+	TreeView = 0x4000000000L,
+	ViewBox = 0x8000000000L,
+	WebBrowser = 0x10000000000L,
+	WrapPanel = 0x20000000000L,
+	FlowDocument = 0x40000000000L
+}

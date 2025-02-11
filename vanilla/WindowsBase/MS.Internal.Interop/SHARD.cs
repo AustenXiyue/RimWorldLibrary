@@ -1,0 +1,13 @@
+namespace MS.Internal.Interop;
+
+internal enum SHARD
+{
+	PIDL = 1,
+	PATHA,
+	PATHW,
+	APPIDINFO,
+	APPIDINFOIDLIST,
+	LINK,
+	APPIDINFOLINK,
+	SHELLITEM
+}

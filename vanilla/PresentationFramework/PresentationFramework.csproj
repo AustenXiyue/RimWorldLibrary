@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>PresentationFramework</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>netcoreapp8.0</TargetFramework>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>12.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="split.cur" />
+    <None Remove="splitopen.cur" />
+    <EmbeddedResource Include="split.cur" LogicalName="split.cur" />
+    <EmbeddedResource Include="splitopen.cur" LogicalName="splitopen.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="WindowsBase">
+      <HintPath>..\..\..\..\..\..\..\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.8\WindowsBase.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore">
+      <HintPath>..\..\..\..\..\..\..\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.8\PresentationCore.dll</HintPath>
+    </Reference>
+    <Reference Include="UIAutomationProvider">
+      <HintPath>..\..\..\..\..\..\..\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.8\UIAutomationProvider.dll</HintPath>
+    </Reference>
+    <Reference Include="UIAutomationTypes">
+      <HintPath>..\..\..\..\..\..\..\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.8\UIAutomationTypes.dll</HintPath>
+    </Reference>
+    <Reference Include="ReachFramework">
+      <HintPath>..\..\..\..\..\..\..\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.8\ReachFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Printing">
+      <HintPath>..\..\..\..\..\..\..\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.8\System.Printing.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Packaging">
+      <HintPath>..\..\..\..\..\..\..\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.8\System.IO.Packaging.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationUI">
+      <HintPath>..\..\..\..\..\..\..\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.8\PresentationUI.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Configuration.ConfigurationManager">
+      <HintPath>..\..\..\..\..\..\..\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.8\System.Configuration.ConfigurationManager.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Extensions">
+      <HintPath>..\..\..\..\..\..\..\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.8\System.Windows.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Accessibility">
+      <HintPath>..\..\..\..\..\..\..\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.8\Accessibility.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

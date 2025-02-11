@@ -1,0 +1,21 @@
+using Verse;
+
+namespace CombatExtended;
+
+public class CompProperties_FireModes : CompProperties
+{
+	public int aimedBurstShotCount = -1;
+
+	public bool aiUseBurstMode = false;
+
+	public bool noSingleShot = false;
+
+	public bool noSnapshot = false;
+
+	public AimMode aiAimMode = AimMode.AimedShot;
+
+	public CompProperties_FireModes()
+	{
+		compClass = typeof(CompFireModes);
+	}
+}

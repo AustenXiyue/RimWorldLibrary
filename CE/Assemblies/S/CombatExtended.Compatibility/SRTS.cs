@@ -1,0 +1,21 @@
+using Verse;
+
+namespace CombatExtended.Compatibility;
+
+public class SRTS : IPatch
+{
+	public bool CanInstall()
+	{
+		Log.Message("Combat Extended :: Checking SRTS Expanded");
+		if (!ModLister.HasActiveModWithName("SRTS Expanded"))
+		{
+			return false;
+		}
+		return true;
+	}
+
+	public void Install()
+	{
+		Log.Message("Combat Extended :: Installing SRTS Expanded");
+	}
+}
