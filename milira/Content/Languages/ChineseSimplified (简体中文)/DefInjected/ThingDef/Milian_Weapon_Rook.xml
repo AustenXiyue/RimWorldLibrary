@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 战车片刃刀 -->
+  <Milian_RookBlade.label>战车片刃刀</Milian_RookBlade.label>
+  <!-- EN: 米莉安战车的制式单刃刀。 -->
+  <Milian_RookBlade.description>米莉安战车的制式单刃刀。</Milian_RookBlade.description>
+  <!-- EN: 刃 -->
+  <Milian_RookBlade.tools.0.label>刃</Milian_RookBlade.tools.0.label>
+  
+  <!-- EN: 战车战身刀 -->
+  <Milian_RookBladeII.label>战车战身刀</Milian_RookBladeII.label>
+  <!-- EN: 米莉安战车的制式战身刀。夸张的大小与厚度使得它攻守兼备。 -->
+  <Milian_RookBladeII.description>米莉安战车的制式战身刀。夸张的大小与厚度使得它攻守兼备。</Milian_RookBladeII.description>
+  <!-- EN: 刃 -->
+  <Milian_RookBladeII.tools.0.label>刃</Milian_RookBladeII.tools.0.label>
+  
+</LanguageData>

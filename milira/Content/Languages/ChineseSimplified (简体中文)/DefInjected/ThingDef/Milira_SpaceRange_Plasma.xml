@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 离子冲击炮 -->
+  <Milira_PlasmaCannon.label>离子冲击炮</Milira_PlasmaCannon.label>
+  <!-- EN: 能够发射离子团的便携式发射器，发射的离子团能够融毁命中单位的护甲。\n\n可以充能。 -->
+  <Milira_PlasmaCannon.description>能够发射离子团的便携式发射器，发射的离子团能够融毁命中单位的护甲。\n\n可以充能。</Milira_PlasmaCannon.description>
+  <!-- EN: stock -->
+  <Milira_PlasmaCannon.tools.stock.label>炮身</Milira_PlasmaCannon.tools.stock.label>
+  <!-- EN: barrel -->
+  <Milira_PlasmaCannon.tools.barrel.label>炮管</Milira_PlasmaCannon.tools.barrel.label>
+  <!-- EN: 离子冲击炮 -->
+  <Milira_PlasmaCannon.verbs.Verb_ChargeShoot.label>离子冲击炮</Milira_PlasmaCannon.verbs.Verb_ChargeShoot.label>
+  
+  <!-- EN: 离子急射机枪 -->
+  <Milira_PlasmaMG.label>离子急射机枪</Milira_PlasmaMG.label>
+  <!-- EN: 能够连续发射离子束的便携式发射器，发射的离子束能够融毁命中单位的护甲。\n\n可以充能。\n\n可以在短点射模式和急射模式之间切换。 -->
+  <Milira_PlasmaMG.description>能够连续发射离子束的便携式发射器，发射的离子束能够融毁命中单位的护甲。\n\n可以充能。\n\n可以在短点射模式和急射模式之间切换。</Milira_PlasmaMG.description>
+  <!-- EN: stock -->
+  <Milira_PlasmaMG.tools.stock.label>枪托</Milira_PlasmaMG.tools.stock.label>
+  <!-- EN: barrel -->
+  <Milira_PlasmaMG.tools.barrel.label>枪管</Milira_PlasmaMG.tools.barrel.label>
+  <!-- EN: 离子急射机枪 -->
+  <Milira_PlasmaMG.verbs.Verb_ChargeShoot.label>离子急射机枪</Milira_PlasmaMG.verbs.Verb_ChargeShoot.label>
+  <Milira_PlasmaMG.comps.CompRangeWeaponVerbSwitch.gizmoLabel1>点射模式</Milira_PlasmaMG.comps.CompRangeWeaponVerbSwitch.gizmoLabel1>
+  <Milira_PlasmaMG.comps.CompRangeWeaponVerbSwitch.gizmoDesc1>当前为点射模式，点击切换至急射模式。</Milira_PlasmaMG.comps.CompRangeWeaponVerbSwitch.gizmoDesc1>
+  <Milira_PlasmaMG.comps.CompRangeWeaponVerbSwitch.gizmoLabel2>急射模式</Milira_PlasmaMG.comps.CompRangeWeaponVerbSwitch.gizmoLabel2>
+  <Milira_PlasmaMG.comps.CompRangeWeaponVerbSwitch.gizmoDesc2>当前为急射模式，点击切换至点射模式。</Milira_PlasmaMG.comps.CompRangeWeaponVerbSwitch.gizmoDesc2>
+  
+  <!-- EN: 离子手枪 -->
+  <Milira_PlasmaPistol.label>离子手枪</Milira_PlasmaPistol.label>
+  <!-- EN: 能够快速发射离子束的小型发射器，发射的离子束能够融毁命中单位的护甲。\n\n可以充能。\n\n可以在速射模式和散射模式之间切换。 -->
+  <Milira_PlasmaPistol.description>能够快速发射离子束的小型发射器，发射的离子束能够融毁命中单位的护甲。\n\n可以充能。\n\n可以在速射模式和散射模式之间切换。</Milira_PlasmaPistol.description>
+  <!-- EN: stock -->
+  <Milira_PlasmaPistol.tools.stock.label>枪身</Milira_PlasmaPistol.tools.stock.label>
+  <!-- EN: barrel -->
+  <Milira_PlasmaPistol.tools.barrel.label>枪管</Milira_PlasmaPistol.tools.barrel.label>
+  <!-- EN: 离子手枪 -->
+  <Milira_PlasmaPistol.verbs.Verb_ChargeShoot.label>离子手枪</Milira_PlasmaPistol.verbs.Verb_ChargeShoot.label>
+  <Milira_PlasmaPistol.comps.CompRangeWeaponVerbSwitch.gizmoLabel1>速射模式</Milira_PlasmaPistol.comps.CompRangeWeaponVerbSwitch.gizmoLabel1>
+  <Milira_PlasmaPistol.comps.CompRangeWeaponVerbSwitch.gizmoDesc1>当前为速射模式，点击切换至散射模式。</Milira_PlasmaPistol.comps.CompRangeWeaponVerbSwitch.gizmoDesc1>
+  <Milira_PlasmaPistol.comps.CompRangeWeaponVerbSwitch.gizmoLabel2>散射模式</Milira_PlasmaPistol.comps.CompRangeWeaponVerbSwitch.gizmoLabel2>
+  <Milira_PlasmaPistol.comps.CompRangeWeaponVerbSwitch.gizmoDesc2>当前为散射模式，点击切换至速射模式。</Milira_PlasmaPistol.comps.CompRangeWeaponVerbSwitch.gizmoDesc2>
+  
+  <!-- EN: 离子步枪 -->
+  <Milira_PlasmaRifle.label>离子步枪</Milira_PlasmaRifle.label>
+  <!-- EN: 能够快速发射离子束的便携式发射器，发射的离子束能够融毁命中单位的护甲。\n\n可以充能。\n\n可以在收束模式和扩散模式之间切换。 -->
+  <Milira_PlasmaRifle.description>能够快速发射离子束的便携式发射器，发射的离子束能够融毁命中单位的护甲。\n\n可以充能。\n\n可以在收束模式和扩散模式之间切换。</Milira_PlasmaRifle.description>
+  <!-- EN: stock -->
+  <Milira_PlasmaRifle.tools.stock.label>枪身</Milira_PlasmaRifle.tools.stock.label>
+  <!-- EN: barrel -->
+  <Milira_PlasmaRifle.tools.barrel.label>枪管</Milira_PlasmaRifle.tools.barrel.label>
+  <!-- EN: 离子步枪 -->
+  <Milira_PlasmaRifle.verbs.Verb_ChargeShoot.label>离子步枪</Milira_PlasmaRifle.verbs.Verb_ChargeShoot.label>
+  <Milira_PlasmaRifle.comps.CompRangeWeaponVerbSwitch.gizmoLabel1>收束模式</Milira_PlasmaRifle.comps.CompRangeWeaponVerbSwitch.gizmoLabel1>
+  <Milira_PlasmaRifle.comps.CompRangeWeaponVerbSwitch.gizmoDesc1>当前为收束模式，点击切换至扩散模式。</Milira_PlasmaRifle.comps.CompRangeWeaponVerbSwitch.gizmoDesc1>
+  <Milira_PlasmaRifle.comps.CompRangeWeaponVerbSwitch.gizmoLabel2>扩散模式</Milira_PlasmaRifle.comps.CompRangeWeaponVerbSwitch.gizmoLabel2>
+  <Milira_PlasmaRifle.comps.CompRangeWeaponVerbSwitch.gizmoDesc2>当前为扩散模式，点击切换至收束模式。</Milira_PlasmaRifle.comps.CompRangeWeaponVerbSwitch.gizmoDesc2>
+  
+  <!-- EN: 冲击离子团 -->
+  <MiliraBullet_PlasmaCannon.label>冲击离子团</MiliraBullet_PlasmaCannon.label>
+  
+  <!-- EN: 负载冲击离子团 -->
+  <MiliraBullet_PlasmaCannonCharged.label>负载冲击离子团</MiliraBullet_PlasmaCannonCharged.label>
+  
+  <!-- EN: 离子束 -->
+  <MiliraBullet_PlasmaMG.label>离子束</MiliraBullet_PlasmaMG.label>
+  
+  <!-- EN: 负载离子束 -->
+  <MiliraBullet_PlasmaMGCharged.label>负载离子束</MiliraBullet_PlasmaMGCharged.label>
+  
+  <!-- EN: 离子束 -->
+  <MiliraBullet_PlasmaPistol.label>离子束</MiliraBullet_PlasmaPistol.label>
+  
+  <!-- EN: 离子束 -->
+  <MiliraBullet_PlasmaPistolCharged.label>离子束</MiliraBullet_PlasmaPistolCharged.label>
+  
+  <!-- EN: 离子束 -->
+  <MiliraBullet_PlasmaRifle.label>离子束</MiliraBullet_PlasmaRifle.label>
+  
+  <!-- EN: 负载离子束 -->
+  <MiliraBullet_PlasmaRifleCharged.label>负载离子束</MiliraBullet_PlasmaRifleCharged.label>
+  
+  <!-- EN: 负载扩散离子束 -->
+  <MiliraBullet_PlasmaRifleCharged_Switched.label>负载扩散离子束</MiliraBullet_PlasmaRifleCharged_Switched.label>
+  
+</LanguageData>

@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+  <RecipeDef Name="Milian_GestatingRecipe_BaseI" ParentName="BaseMechanoidRecipe" Abstract="True">
+    <gestationCycles>3</gestationCycles>
+  </RecipeDef>
+
+  <RecipeDef Name="Milian_GestatingRecipe_BaseII" ParentName="BaseMechanoidRecipe" Abstract="True">
+    <gestationCycles>4</gestationCycles>
+  </RecipeDef>
+
+  <RecipeDef Name="Milian_GestatingRecipe_BaseIII" ParentName="BaseMechanoidRecipe" Abstract="True">
+    <gestationCycles>5</gestationCycles>
+  </RecipeDef>
+
+  <RecipeDef Name="Milian_GestatingRecipe_BaseIV" ParentName="BaseMechanoidRecipe" Abstract="True">
+    <gestationCycles>8</gestationCycles>
+  </RecipeDef>
+
+  <!-- 培育士兵I型 -->
+  <!-- <RecipeDef ParentName="Milian_GestatingRecipe_BaseI">
+    <defName>Milian_Mechanoid_Test</defName>
+    <label>测试用</label>
+    <description>培育一个型号为士兵I型的米莉安。</description>
+    <formingTicks>600</formingTicks>
+    <ingredients Inherit="False">
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Milira_MilianReactor</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <Milian_Mechanoid_RookIV>1</Milian_Mechanoid_RookIV>
+    </products>
+    <descriptionHyperlinks>
+      <ThingDef>Milian_Mechanoid_PawnI</ThingDef>
+    </descriptionHyperlinks>
+  </RecipeDef> -->
+
+  <!-- ====一级科技=================================================================== -->
+
+  <!-- 培育士兵I型 -->
+  <RecipeDef ParentName="Milian_GestatingRecipe_BaseI">
+    <defName>Milian_Mechanoid_PawnI</defName>
+    <label>Gestate Pawn I</label>
+    <description>Gestate a Milian modeled Pawn I.</description>
+    <researchPrerequisite>Milira_MilianTech_PawnI</researchPrerequisite>
+    <ingredients Inherit="False">
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Milira_SunPlateSteel</li>
+          </thingDefs>
+        </filter>
+        <count>20</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>35</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Milira_SplendidSteel</li>
+          </thingDefs>
+        </filter>
+        <count>145</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Milira_SolarCrystal</li>
+          </thingDefs>
+        </filter>
+        <count>8</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>4</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Milira_FeatherThread</li>
+          </thingDefs>
+        </filter>
+        <count>85</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Milira_MilianReactor</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Milian_NamePlate_Pawn</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <Milian_Mechanoid_PawnI>1</Milian_Mechanoid_PawnI>
+    </products>
+    <descriptionHyperlinks>
+      <ThingDef>Milian_Mechanoid_PawnI</ThingDef>
+    </descriptionHyperlinks>
+  </RecipeDef>
+
+
+  <!-- 培育士兵II型 -->
+  <RecipeDef ParentName="Milian_GestatingRecipe_BaseI">
+    <defName>Milian_Mechanoid_PawnII</defName>
+    <label>Gestate Pawn II</label>
+    <description>Gestate a Milian modeled Pawn II.</description>
+    <researchPrerequisite>Milira_MilianTech_PawnII</researchPrerequisite>
+    <ingredients Inherit="False">
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Milira_SunPlateSteel</li>
+          </thingDefs>
+        </filter>
+        <count>20</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>35</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Milira_SplendidSteel</li>
+          </thingDefs>
+        </filter>
+        <count>185</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Milira_SolarCrystal</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Milira_FeatherThread</li>
+          </thingDefs>
+        </filter>
+        <count>85</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Milira_SunLightFuel</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Milira_MilianReactor</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Milian_NamePlate_Pawn</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <Milian_Mechanoid_PawnII>1</Milian_Mechanoid_PawnII>
+    </products>
+    <descriptionHyperlinks>
+      <ThingDef>Milian_Mechanoid_PawnII</ThingDef>
+    </descriptionHyperlinks>
+  </RecipeDef>
+
+
+  <!-- ====二级科技=================================================================== -->
+  
+  <!-- 培育禁卫军 -->
+  <RecipeDef ParentName="Milian_GestatingRecipe_BaseII">
+    <defName>Milian_Mechanoid_PawnIII</defName>
+    <label>Gestate Guard</label>
+    <description>Gestate a Milian modeled Guard.</description>
+    <researchPrerequisite>Milira_MilianTech_PawnIII</researchPrerequisite>
+    <ingredients Inherit="False">
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Milira_SunPlateSteel</li>
+          </thingDefs>
+        </filter>
+        <count>35</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>45</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Milira_SplendidSteel</li>
+          </thingDefs>
+        </filter>
+        <count>190</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Milira_SolarCrystal</li>
+          </thingDefs>
+        </filter>
+        <count>12</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>8</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Milira_FeatherThread</li>
+          </thingDefs>
+        </filter>
+        <count>115</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Milira_MilianReactor</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Milian_NamePlate_Pawn</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <Milian_Mechanoid_PawnIII>1</Milian_Mechanoid_PawnIII>
+    </products>
+    <descriptionHyperlinks>
+      <ThingDef>Milian_Mechanoid_PawnIII</ThingDef>
+    </descriptionHyperlinks>
+  </RecipeDef>
+
+  <!-- 培育百夫长 -->
+  <RecipeDef ParentName="Milian_GestatingRecipe_BaseIII">
+    <defName>Milian_Mechanoid_PawnIV</defName>
+    <label>Gestate Captain</label>
+    <description>Gestate a Milian modeled Captain.</description>
+    <researchPrerequisite>Milira_MilianTech_PawnIV</researchPrerequisite>
+    <ingredients Inherit="False">
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Milira_SunPlateSteel</li>
+          </thingDefs>
+        </filter>
+        <count>45</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>85</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Milira_SplendidSteel</li>
+          </thingDefs>
+        </filter>
+        <count>340</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Milira_SolarCrystal</li>
+          </thingDefs>
+        </filter>
+        <count>21</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>15</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentSpacer</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Milira_SunLightFuel</li>
+          </thingDefs>
+        </filter>
+        <count>35</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Milira_FeatherThread</li>
+          </thingDefs>
+        </filter>
+        <count>115</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Milira_MilianReactor</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Milian_NamePlate_Pawn</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <Milian_Mechanoid_PawnIV>1</Milian_Mechanoid_PawnIV>
+    </products>
+    <descriptionHyperlinks>
+      <ThingDef>Milian_Mechanoid_PawnIV</ThingDef>
+    </descriptionHyperlinks>
+  </RecipeDef>
+
+</Defs>

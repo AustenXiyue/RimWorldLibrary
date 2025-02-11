@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 辉煌信标 -->
+  <Milira_DropBeaconCluster.label>辉煌信标</Milira_DropBeaconCluster.label>
+  <!-- EN: 一座能够向天空发射信标的装置。激活后立刻呼叫一队米莉安支援战场。 -->
+  <Milira_DropBeaconCluster.description>一座能够向天空发射信标的装置。激活后立刻呼叫一队米莉安支援战场。</Milira_DropBeaconCluster.description>
+  <Milira_DropBeaconCluster.comps.CompDelayedPawnSpawnOnWakeup.activatedMessageKey>辉煌信标呼叫了一队米莉安支援战场。</Milira_DropBeaconCluster.comps.CompDelayedPawnSpawnOnWakeup.activatedMessageKey>
+
+  <!-- EN: 碎片方舟 -->
+  <Milira_MilianCapsule.label>碎片方舟</Milira_MilianCapsule.label>
+  <!-- EN: 盛装着米莉安的舱室。激活时会立刻打开。 -->
+  <Milira_MilianCapsule.description>盛装着米莉安的舱室。激活时会立刻打开。</Milira_MilianCapsule.description>
+  
+  <!-- EN: 卡利多之影 -->
+  <Milira_ProjectionNode.label>卡利多之影</Milira_ProjectionNode.label>
+  <!-- EN: 一个自供能的投影单元，持续不断地在上空维持着天空都市中随处可见的旌旗的影像。 -->
+  <Milira_ProjectionNode.description>一个自供能的投影单元，持续不断地在上空维持着天空都市中随处可见的旌旗的影像。</Milira_ProjectionNode.description>
+  
+  <!-- EN: 谐振仪 -->
+  <Milira_Resonator_Bishop.label>谐振仪</Milira_Resonator_Bishop.label>
+  <!-- EN: 能够提供特定职阶调谐的自供能建筑，有一个小范围的低角护盾提供保护，但本身极其脆弱。 -->
+  <Milira_Resonator_Bishop.description>能够提供特定职阶调谐的自供能建筑，有一个小范围的低角护盾提供保护，但本身极其脆弱。</Milira_Resonator_Bishop.description>
+  <Milira_Resonator_Bishop.comps.CompResonator.appendString>调谐：主教</Milira_Resonator_Bishop.comps.CompResonator.appendString>
+  
+  <!-- EN: 谐振仪 -->
+  <Milira_Resonator_Knight.label>谐振仪</Milira_Resonator_Knight.label>
+  <!-- EN: 能够提供特定职阶调谐的自供能建筑，有一个小范围的低角护盾提供保护，但本身极其脆弱。 -->
+  <Milira_Resonator_Knight.description>能够提供特定职阶调谐的自供能建筑，有一个小范围的低角护盾提供保护，但本身极其脆弱。</Milira_Resonator_Knight.description>
+  <Milira_Resonator_Knight.comps.CompResonator.appendString>调谐：骑士</Milira_Resonator_Knight.comps.CompResonator.appendString>
+  
+  <!-- EN: 谐振仪 -->
+  <Milira_Resonator_Pawn.label>谐振仪</Milira_Resonator_Pawn.label>
+  <!-- EN: 能够提供特定职阶调谐的自供能建筑，有一个小范围的低角护盾提供保护，但本身极其脆弱。 -->
+  <Milira_Resonator_Pawn.description>能够提供特定职阶调谐的自供能建筑，有一个小范围的低角护盾提供保护，但本身极其脆弱。</Milira_Resonator_Pawn.description>
+  <Milira_Resonator_Pawn.comps.CompResonator.appendString>调谐：士兵</Milira_Resonator_Pawn.comps.CompResonator.appendString>
+  
+  <!-- EN: 谐振仪 -->
+  <Milira_Resonator_Rook.label>谐振仪</Milira_Resonator_Rook.label>
+  <!-- EN: 能够提供特定职阶调谐的自供能建筑，有一个小范围的低角护盾提供保护，但本身极其脆弱。 -->
+  <Milira_Resonator_Rook.description>能够提供特定职阶调谐的自供能建筑，有一个小范围的低角护盾提供保护，但本身极其脆弱。</Milira_Resonator_Rook.description>
+  <Milira_Resonator_Rook.comps.CompResonator.appendString>调谐：战车</Milira_Resonator_Rook.comps.CompResonator.appendString>
+  
+  <!-- EN: 日凌晶簇 -->
+  <Milira_SolarCrystalDruse.label>日凌晶簇</Milira_SolarCrystalDruse.label>
+  <!-- EN: 受到强辐射影响自然形成的晶簇，可以开采出日凌晶。 -->
+  <Milira_SolarCrystalDruse.description>受到强辐射影响自然形成的晶簇，可以开采出日凌晶。</Milira_SolarCrystalDruse.description>
+  
+</LanguageData>

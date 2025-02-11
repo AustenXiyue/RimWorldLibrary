@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Ancot.TextMote_Block>格挡</Ancot.TextMote_Block>
+  <Ancot.TextMote_Break>破盾</Ancot.TextMote_Break>
+  <Ancot.TextMote_Penetrate>穿透</Ancot.TextMote_Penetrate>
+
+  <Ancot.TextMote_TendQuality>包扎质量：{0}</Ancot.TextMote_TendQuality>
+  <Ancot.TextMote_Dodge>闪避</Ancot.TextMote_Dodge>
+
+</LanguageData>

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 适应装甲 -->
+  <Milian_AdaptiveArmor.label>适应装甲</Milian_AdaptiveArmor.label>
+  <!-- EN: 这个单位正在根据承受的攻击提升防护抗性。 -->
+  <Milian_AdaptiveArmor.description>这个单位正在根据承受的攻击提升防护抗性。</Milian_AdaptiveArmor.description>
+  
+  <!-- EN: 米莉拉浮游系统 -->
+  <Milira_FloatSystem.label>米莉拉浮游系统</Milira_FloatSystem.label>
+  <!-- EN: 这个单位穿戴了浮游系统。 -->
+  <Milira_FloatSystem.description>这个单位穿戴了浮游系统。</Milira_FloatSystem.description>
+  
+  <!-- EN: 米莉拉头饰额外渲染 -->
+  <Milira_Hood.label>米莉拉头饰额外渲染</Milira_Hood.label>
+  <!-- EN: 头饰额外渲染。 -->
+  <Milira_Hood.description>头饰额外渲染。</Milira_Hood.description>
+  
+  <!-- EN: 米莉拉头饰额外渲染 -->
+  <Milira_SunHat.label>米莉拉头饰额外渲染</Milira_SunHat.label>
+  <!-- EN: 头饰额外渲染。 -->
+  <Milira_SunHat.description>头饰额外渲染。</Milira_SunHat.description>
+
+  <Milira_MilianHomeTerminal.label>家用终端</Milira_MilianHomeTerminal.label>
+  <Milira_MilianHomeTerminal.description>这个单位佩戴了家用终端。</Milira_MilianHomeTerminal.description>
+  
+</LanguageData>

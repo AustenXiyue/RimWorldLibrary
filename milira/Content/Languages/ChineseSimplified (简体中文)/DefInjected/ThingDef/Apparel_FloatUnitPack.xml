@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 小型离子浮游单元背包 -->
+  <Milira_FloatUnitPack.label>小型离子浮游单元背包</Milira_FloatUnitPack.label>
+  <!-- EN: 能够在身边部署自律小型离子浮游单元的背包。通过切换出击和跟随模式来控制浮游单元行为。 -->
+  <Milira_FloatUnitPack.description>能够在身边部署自律小型离子浮游单元的背包。通过切换出击和跟随模式来控制浮游单元行为。</Milira_FloatUnitPack.description>
+  <!-- EN: 浮游单元 -->
+  <Milira_FloatUnitPack.comps.CompApparelReloadable_DeployPawn.chargeNoun>浮游单元</Milira_FloatUnitPack.comps.CompApparelReloadable_DeployPawn.chargeNoun>
+  <!-- EN: on cooldown -->
+  <Milira_FloatUnitPack.comps.CompApparelReloadable_DeployPawn.cooldownGerund>冷却中</Milira_FloatUnitPack.comps.CompApparelReloadable_DeployPawn.cooldownGerund>
+  <!-- EN: 释放浮游单元 -->
+  <Milira_FloatUnitPack.verbs.0.label>释放浮游单元</Milira_FloatUnitPack.verbs.0.label>
+  
+  <!-- EN: 自律护盾浮游单元背包 -->
+  <Milira_FloatUnitPack_Shield.label>自律护盾浮游单元背包</Milira_FloatUnitPack_Shield.label>
+  <!-- EN: 能够在身边部署自律护盾浮游单元的背包。通过切换出击和跟随模式来控制浮游单元行为。 -->
+  <Milira_FloatUnitPack_Shield.description>能够在身边部署自律护盾浮游单元的背包。通过切换出击和跟随模式来控制浮游单元行为。</Milira_FloatUnitPack_Shield.description>
+  <!-- EN: 浮游单元 -->
+  <Milira_FloatUnitPack_Shield.comps.CompApparelReloadable_DeployPawn.chargeNoun>浮游单元</Milira_FloatUnitPack_Shield.comps.CompApparelReloadable_DeployPawn.chargeNoun>
+  <!-- EN: on cooldown -->
+  <Milira_FloatUnitPack_Shield.comps.CompApparelReloadable_DeployPawn.cooldownGerund>冷却中</Milira_FloatUnitPack_Shield.comps.CompApparelReloadable_DeployPawn.cooldownGerund>
+  <!-- EN: 释放浮游单元 -->
+  <Milira_FloatUnitPack_Shield.verbs.0.label>释放浮游单元</Milira_FloatUnitPack_Shield.verbs.0.label>
+  
+</LanguageData>

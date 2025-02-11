@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: weapon charge tick -->
+  <Ancot_WeaponChargeTick.label>能量武器充能间隔</Ancot_WeaponChargeTick.label>
+  <!-- EN: The ticks required by each auto recharge of this weapon. -->
+  <Ancot_WeaponChargeTick.description>这把武器每次自动充能需要的时间。</Ancot_WeaponChargeTick.description>
+  <!-- EN: {0} s -->
+  <Ancot_WeaponChargeTick.formatString>{0} 秒</Ancot_WeaponChargeTick.formatString>
+  
+  <!-- EN: weapon charge tick factor -->
+  <Ancot_WeaponChargeTickFactor.label>能量武器充能间隔乘数</Ancot_WeaponChargeTickFactor.label>
+  <!-- EN: The factor of weapon charge tick. -->
+  <Ancot_WeaponChargeTickFactor.description>武器充能间隔的时间会乘以这个值。</Ancot_WeaponChargeTickFactor.description>
+  
+  <!-- EN: weapon max charge -->
+  <Ancot_WeaponMaxCharge.label>能量武器最大充能</Ancot_WeaponMaxCharge.label>
+  <!-- EN: The max charge of this weapon. -->
+  <Ancot_WeaponMaxCharge.description>这把武器能够储存的最大能量。</Ancot_WeaponMaxCharge.description>
+  
+  <!-- EN: weapon max charge factor -->
+  <Ancot_WeaponMaxChargeFactor.label>能量武器最大充能乘数</Ancot_WeaponMaxChargeFactor.label>
+  <!-- EN: The factor of weapon max charge. -->
+  <Ancot_WeaponMaxChargeFactor.description>这把武器能够储存的最大能量会乘以这个值。</Ancot_WeaponMaxChargeFactor.description>
+  
+</LanguageData>

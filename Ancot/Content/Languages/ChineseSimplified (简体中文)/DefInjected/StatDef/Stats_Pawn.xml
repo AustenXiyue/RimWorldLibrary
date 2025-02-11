@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: projectile armor penetration multiplier -->
+  <Ancot_ProjectileArmorPenetrationMultiplier.label>子弹护甲穿透乘数</Ancot_ProjectileArmorPenetrationMultiplier.label>
+  <!-- EN: . -->
+  <Ancot_ProjectileArmorPenetrationMultiplier.description>由此生物发射的子弹的护甲穿透会乘以这个值。</Ancot_ProjectileArmorPenetrationMultiplier.description>
+  
+  <!-- EN: projectile damage multiplier -->
+  <Ancot_ProjectileDamageMultiplier.label>子弹伤害乘数</Ancot_ProjectileDamageMultiplier.label>
+  <!-- EN: . -->
+  <Ancot_ProjectileDamageMultiplier.description>由此生物发射的子弹造成的伤害会乘以这个值。</Ancot_ProjectileDamageMultiplier.description>
+
+
+  <Ancot_CaravanMoveSpeedFactor.label>远行队移动速度乘数</Ancot_CaravanMoveSpeedFactor.label>
+  <Ancot_CaravanMoveSpeedFactor.description>此生物在远行队中时能够提供的远行队移动速度偏移。</Ancot_CaravanMoveSpeedFactor.description>
+  
+  <Ancot_MechRepairSpeed.label>机械维修速度</Ancot_MechRepairSpeed.label>
+  <Ancot_MechRepairSpeed.description>此生物维修机械体速度的乘数。</Ancot_MechRepairSpeed.description>
+  
+  <Ancot_FieldForceResistance.label>场力抗性</Ancot_FieldForceResistance.label>
+  <Ancot_FieldForceResistance.description>此生物对于场力位移作用的抵抗能力。</Ancot_FieldForceResistance.description>
+  
+</LanguageData>

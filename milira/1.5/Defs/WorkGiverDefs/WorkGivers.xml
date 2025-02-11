@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <WorkGiverDef>
+    <defName>Milira_SunBlastFurnaceBill</defName>
+    <label>craft at sunblast furnace</label>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>Crafting</workType>
+    <priorityInType>100</priorityInType>
+    <fixedBillGiverDefs>
+      <li>Milira_SunBlastFurnace</li>
+    </fixedBillGiverDefs>
+    <verb>craft</verb>
+    <gerund>craft at</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+    <prioritizeSustains>true</prioritizeSustains>
+  </WorkGiverDef>
+
+  <WorkGiverDef>
+    <defName>Milira_UniversalBenchBill</defName>
+    <label>craft at univertsal workbench</label>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>Crafting</workType>
+    <priorityInType>100</priorityInType>
+    <fixedBillGiverDefs>
+      <li>Milira_UniversalBench</li>
+    </fixedBillGiverDefs>
+    <verb>craft</verb>
+    <gerund>craft at</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+    <prioritizeSustains>true</prioritizeSustains>
+  </WorkGiverDef>
+
+  <WorkGiverDef>
+    <defName>Milira_EmptySunLightFuelContainer</defName>
+    <label>empty Solar Fuel</label>
+    <giverClass>Milira.WorkGiver_EmptySunLightFuelContainer</giverClass>
+    <workType>Hauling</workType>
+    <verb>extract from</verb>
+    <gerund>extracting from</gerund>
+    <priorityInType>110</priorityInType>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+  </WorkGiverDef>
+  
+
+  <JobDef>
+    <defName>Milira_EmptySunLightFuelContainer</defName>
+    <driverClass>JobDriver_EmptyThingContainer</driverClass>
+    <reportString>extracting TargetB from TargetA.</reportString>
+    <containerReservationLayer>Empty</containerReservationLayer>
+  </JobDef>
+
+  <WorkGiverDef ParentName="HaulToBase">
+    <defName>Milira_HaulToCarrier</defName>
+    <label>haul resource to fortress</label>
+    <giverClass>Milira.WorkGiver_HaulResourcesToCarrier</giverClass>
+  </WorkGiverDef>
+
+
+
+</Defs>

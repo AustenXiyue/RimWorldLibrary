@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[@Name="Milira_OverheadBase"]/statBases</xpath>
+        <value>
+            <Bulk>1</Bulk>
+            <WornBulk>0.5</WornBulk>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[@Name="Milira_EyeCoverBaseII"]/statBases</xpath>
+        <value>
+            <Bulk>1</Bulk>
+            <WornBulk>0.5</WornBulk>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="Milira_SunHat"]/statBases</xpath>
+        <value>
+            <Bulk>4</Bulk>
+            <WornBulk>1</WornBulk>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="Milira_SunHat"]/statBases/StuffEffectMultiplierArmor</xpath>
+        <value>
+            <StuffEffectMultiplierArmor>2</StuffEffectMultiplierArmor>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="Milira_PlushBeret"]/statBases</xpath>
+        <value>
+            <Bulk>4</Bulk>
+            <WornBulk>1</WornBulk>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="Milira_PlushBeret"]/statBases/StuffEffectMultiplierArmor</xpath>
+        <value>
+            <StuffEffectMultiplierArmor>2</StuffEffectMultiplierArmor>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="Milira_Sunglasses"]/statBases</xpath>
+        <value>
+            <Bulk>0.5</Bulk>
+            <WornBulk>0.2</WornBulk>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="Milira_ValkyrHelmet"]/statBases</xpath>
+        <value>
+            <Bulk>4</Bulk>
+            <WornBulk>1</WornBulk>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="Milira_ValkyrHelmet"]/statBases/ArmorRating_Sharp</xpath>
+        <value>
+            <ArmorRating_Sharp>9</ArmorRating_Sharp>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="Milira_ValkyrHelmet"]/statBases/ArmorRating_Blunt</xpath>
+        <value>
+            <ArmorRating_Blunt>8</ArmorRating_Blunt>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="Milira_ValkyrHelmet"]/statBases/StuffEffectMultiplierArmor</xpath>
+        <value>
+            <StuffEffectMultiplierArmor>6</StuffEffectMultiplierArmor>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="Milira_ValkyrHelmet"]/equippedStatOffsets/MeleeHitChance</xpath>
+        <value>
+            <MeleeHitChance>8.0</MeleeHitChance>
+            <MeleeCritChance>0.50</MeleeCritChance>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="Milira_Hood"]/statBases/ArmorRating_Sharp</xpath>
+        <value>
+            <ArmorRating_Sharp>4</ArmorRating_Sharp>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="Milira_Hood"]/statBases/ArmorRating_Blunt</xpath>
+        <value>
+            <ArmorRating_Blunt>4</ArmorRating_Blunt>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="Milira_Hood"]/statBases/StuffEffectMultiplierArmor</xpath>
+        <value>
+            <StuffEffectMultiplierArmor>3.5</StuffEffectMultiplierArmor>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="Milira_DaedalusHelmet"]/statBases</xpath>
+        <value>
+            <Bulk>4</Bulk>
+            <WornBulk>1</WornBulk>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="Milira_DaedalusHelmet"]/statBases/ArmorRating_Sharp</xpath>
+        <value>
+            <ArmorRating_Sharp>4</ArmorRating_Sharp>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="Milira_DaedalusHelmet"]/statBases/ArmorRating_Blunt</xpath>
+        <value>
+            <ArmorRating_Blunt>2</ArmorRating_Blunt>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="Milira_DaedalusHelmet"]/statBases/StuffEffectMultiplierArmor</xpath>
+        <value>
+            <StuffEffectMultiplierArmor>4</StuffEffectMultiplierArmor>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="Milira_MilianHomeTerminal"]/statBases</xpath>
+        <value>
+            <Bulk>0.2</Bulk>
+            <WornBulk>0.1</WornBulk>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="Milira_ArtemisHelmet"]/statBases</xpath>
+        <value>
+            <Bulk>4</Bulk>
+            <WornBulk>1</WornBulk>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="Milira_ArtemisHelmet"]/statBases/ArmorRating_Sharp</xpath>
+        <value>
+            <ArmorRating_Sharp>5</ArmorRating_Sharp>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="Milira_ArtemisHelmet"]/statBases/ArmorRating_Blunt</xpath>
+        <value>
+            <ArmorRating_Blunt>3</ArmorRating_Blunt>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="Milira_ArtemisHelmet"]/statBases/StuffEffectMultiplierArmor</xpath>
+        <value>
+            <StuffEffectMultiplierArmor>3</StuffEffectMultiplierArmor>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="Milira_ArtemisHelmet"]/equippedStatOffsets/ShootingAccuracyPawn</xpath>
+        <value>
+            <ShootingAccuracyPawn>8.0</ShootingAccuracyPawn>
+            <AimingAccuracy>0.80</AimingAccuracy>
+        </value>
+    </Operation>
+
+</Patch>

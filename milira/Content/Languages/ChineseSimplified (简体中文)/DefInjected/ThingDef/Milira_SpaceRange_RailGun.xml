@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 轻型轨道炮 -->
+  <Milira_HandRailGun.label>轻型轨道炮</Milira_HandRailGun.label>
+  <!-- EN: 在长导轨上利用电磁力加速钢钉的武器，发射的钢钉具有极大的动能，命中时产生的冲击力还会波及目标周围以及身后，造成一半子弹伤害。 -->
+  <Milira_HandRailGun.description>在长导轨上利用电磁力加速钢钉的武器，发射的钢钉具有极大的动能，命中时产生的冲击力还会波及目标周围以及身后，造成一半子弹伤害。</Milira_HandRailGun.description>
+  <!-- EN: stock -->
+  <Milira_HandRailGun.tools.stock.label>枪身</Milira_HandRailGun.tools.stock.label>
+  <!-- EN: barrel -->
+  <Milira_HandRailGun.tools.barrel.label>枪管</Milira_HandRailGun.tools.barrel.label>
+  <!-- EN: 轻型轨道炮 -->
+  <Milira_HandRailGun.verbs.Verb_Shoot.label>轻型轨道炮</Milira_HandRailGun.verbs.Verb_Shoot.label>
+  
+  <!-- EN: 磁轨步枪 -->
+  <Milira_MagneticRailRifle.label>磁轨步枪</Milira_MagneticRailRifle.label>
+  <!-- EN: 在长导轨上利用电磁力加速子弹的武器，发射的子弹拥有极大的动能。 -->
+  <Milira_MagneticRailRifle.description>在长导轨上利用电磁力加速子弹的武器，发射的子弹拥有极大的动能。</Milira_MagneticRailRifle.description>
+  <!-- EN: stock -->
+  <Milira_MagneticRailRifle.tools.stock.label>枪身</Milira_MagneticRailRifle.tools.stock.label>
+  <!-- EN: barrel -->
+  <Milira_MagneticRailRifle.tools.barrel.label>枪管</Milira_MagneticRailRifle.tools.barrel.label>
+  <!-- EN: 磁轨步枪 -->
+  <Milira_MagneticRailRifle.verbs.Verb_Shoot.label>磁轨步枪</Milira_MagneticRailRifle.verbs.Verb_Shoot.label>
+  
+  <!-- EN: 钢钉 -->
+  <MiliraBullet_HandRailGun.label>钢钉</MiliraBullet_HandRailGun.label>
+  
+  <!-- EN: 电磁弹 -->
+  <MiliraBullet_MagneticRailRifle.label>电磁弹</MiliraBullet_MagneticRailRifle.label>
+  
+</LanguageData>

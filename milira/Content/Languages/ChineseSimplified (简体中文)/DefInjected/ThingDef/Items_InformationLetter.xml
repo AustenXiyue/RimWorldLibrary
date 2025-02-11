@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 教会卷宗：天羽教会 -->
+  <Milira_InformationLetterI_ChurchIntrodction.label>教会卷宗：天羽教会</Milira_InformationLetterI_ChurchIntrodction.label>
+  <!-- EN: 记录了关于天羽教会信息的卷宗。 -->
+  <Milira_InformationLetterI_ChurchIntrodction.description>记录了关于天羽教会信息的卷宗。</Milira_InformationLetterI_ChurchIntrodction.description>
+  <!-- EN: 初代教宗为了宣扬主的伟大，让主的光辉照耀更多悲惨之人所创立的组织；教会名为天羽，实为“本轻微如羽毛一般，但因为主的存在而镀上了天空的光辉”之意。\n初代的教宗带领着最初的信徒与主建立了友善的联系，一直延续至今。一直以来，主教导着、引领着我等，让我等在这边缘世界里重新找到生命的意义；而主所做的一切却并未要求过任何形式的回报。我等无以为报，将主所给予的恩惠洒向更多人便成为了教会创立的初衷与目的。教会怀着这样愿景传承了百年有余，此后也将继续延续下去。 -->
+  <Milira_InformationLetterI_ChurchIntrodction.comps.CompReadDiaLog_Nested.customDiaLog.0.content>初代教宗为了宣扬主的伟大，让主的光辉照耀更多悲惨之人所创立的组织；教会名为天羽，实为“本轻微如羽毛一般，但因为主的存在而镀上了天空的光辉”之意。\n初代的教宗带领着最初的信徒与主建立了友善的联系，一直延续至今。一直以来，主教导着、引领着我等，让我等在这边缘世界里重新找到生命的意义；而主所做的一切却并未要求过任何形式的回报。我等无以为报，将主所给予的恩惠洒向更多人便成为了教会创立的初衷与目的。教会怀着这样愿景传承了百年有余，此后也将继续延续下去。</Milira_InformationLetterI_ChurchIntrodction.comps.CompReadDiaLog_Nested.customDiaLog.0.content>
+  <Milira_InformationLetterI_ChurchIntrodction.comps.CompReadDiaLog_Nested.customDiaLog.0.optionText>完毕</Milira_InformationLetterI_ChurchIntrodction.comps.CompReadDiaLog_Nested.customDiaLog.0.optionText>
+  <!-- EN: 阅读卷宗 -->
+  <Milira_InformationLetterI_ChurchIntrodction.comps.CompReadDiaLog_Nested.useLabel>阅读卷宗</Milira_InformationLetterI_ChurchIntrodction.comps.CompReadDiaLog_Nested.useLabel>
+  
+  <!-- EN: 教会卷宗：职阶许可 -->
+  <Milira_InformationLetterI_ClassPermission.label>教会卷宗：职阶许可</Milira_InformationLetterI_ClassPermission.label>
+  <!-- EN: 记录了关于职阶许可信息的卷宗。 -->
+  <Milira_InformationLetterI_ClassPermission.description>记录了关于职阶许可信息的卷宗。</Milira_InformationLetterI_ClassPermission.description>
+  <!-- EN: 镶嵌在米莉安体内的，对应着各个职阶的许可芯片。芯片承担着大脑一般的职责，米莉安的行为模式和思维逻辑均由其决定。\n职阶许可有严格的职阶间区分，但在同一职阶下辖的不同型号中是通用的。制造职阶许可的技术远超我等的认知。\n过于精密的构造使得职阶许可极难被完好地拆解，教会的工程师在拆解米莉安时尝试过取出职阶许可，成功的次数甚少。或许只有创造出米莉安的主才能完美做到。\n             -->
+  <Milira_InformationLetterI_ClassPermission.comps.CompReadDiaLog_Nested.customDiaLog.0.content>镶嵌在米莉安体内的，对应着各个职阶的许可芯片。芯片承担着大脑一般的职责，米莉安的行为模式和思维逻辑均由其决定。\n职阶许可有严格的职阶间区分，但在同一职阶下辖的不同型号中是通用的。制造职阶许可的技术远超我等的认知。\n过于精密的构造使得职阶许可极难被完好地拆解，教会的工程师在拆解米莉安时尝试过取出职阶许可，成功的次数甚少。或许只有创造出米莉安的主才能完美做到。</Milira_InformationLetterI_ClassPermission.comps.CompReadDiaLog_Nested.customDiaLog.0.content>
+  <Milira_InformationLetterI_ClassPermission.comps.CompReadDiaLog_Nested.customDiaLog.0.optionText>完毕</Milira_InformationLetterI_ClassPermission.comps.CompReadDiaLog_Nested.customDiaLog.0.optionText>
+  <!-- EN: 阅读卷宗 -->
+  <Milira_InformationLetterI_ClassPermission.comps.CompReadDiaLog_Nested.useLabel>阅读卷宗</Milira_InformationLetterI_ClassPermission.comps.CompReadDiaLog_Nested.useLabel>
+  
+  <!-- EN: 教会卷宗：米莉安 -->
+  <Milira_InformationLetterI_Milian.label>教会卷宗：米莉安</Milira_InformationLetterI_Milian.label>
+  <!-- EN: 记录了关于米莉安信息的卷宗。 -->
+  <Milira_InformationLetterI_Milian.description>记录了关于米莉安信息的卷宗。</Milira_InformationLetterI_Milian.description>
+  <!-- EN: 主仿造自身样貌创造的人形机械仆从，被赋予了和主名讳相近的名字。米莉安型号繁多，下辖各种职阶，职阶赋予职责。\n米莉安在战场上是强大的。和那些缺少协调性的机械体不同，它们懂得如何配合作战。它们的思维方式与人接近。\n每个米莉安都由一枚以日光燃料为能源的动力炉驱动，这种高压能量的动力炉甚至可以维持千年的运转。它们的思维则由特殊的芯片控制着。\n主投放米莉安与我们共同抵御外敌，并指导我等维护、保养甚至复活击毁的米莉安。但维持米莉安运行的职阶许可芯片均由主直接提供，我等并没有被教授制作的方法。\n             -->
+  <Milira_InformationLetterI_Milian.comps.CompReadDiaLog_Nested.customDiaLog.0.content>主仿造自身样貌创造的人形机械仆从，被赋予了和主名讳相近的名字。米莉安型号繁多，下辖各种职阶，职阶赋予职责。\n米莉安在战场上是强大的。和那些缺少协调性的机械体不同，它们懂得如何配合作战。它们的思维方式与人接近。\n每个米莉安都由一枚以日光燃料为能源的动力炉驱动，这种高压能量的动力炉甚至可以维持千年的运转。它们的思维则由特殊的芯片控制着。\n主投放米莉安与我们共同抵御外敌，并指导我等维护、保养甚至复活击毁的米莉安。但维持米莉安运行的职阶许可芯片均由主直接提供，我等并没有被教授制作的方法。</Milira_InformationLetterI_Milian.comps.CompReadDiaLog_Nested.customDiaLog.0.content>
+  <Milira_InformationLetterI_Milian.comps.CompReadDiaLog_Nested.customDiaLog.0.optionText>完毕</Milira_InformationLetterI_Milian.comps.CompReadDiaLog_Nested.customDiaLog.0.optionText>
+  <!-- EN: 阅读卷宗 -->
+  <Milira_InformationLetterI_Milian.comps.CompReadDiaLog_Nested.useLabel>阅读卷宗</Milira_InformationLetterI_Milian.comps.CompReadDiaLog_Nested.useLabel>
+  
+  <!-- EN: 教会卷宗：米莉安主教职阶 -->
+  <Milira_InformationLetterI_MilianClass_Bishop.label>教会卷宗：米莉安主教职阶</Milira_InformationLetterI_MilianClass_Bishop.label>
+  <!-- EN: 记录了关于米莉安主教职阶信息的卷宗。 -->
+  <Milira_InformationLetterI_MilianClass_Bishop.description>记录了关于米莉安主教职阶信息的卷宗。</Milira_InformationLetterI_MilianClass_Bishop.description>
+  <!-- EN: 米莉安部队的战场后勤，为友军提供掩护和支援的职阶。主教所属的个体通常战斗能力孱弱，但其能够辅助其他职阶的友军形成更强大的战力。\n             -->
+  <Milira_InformationLetterI_MilianClass_Bishop.comps.CompReadDiaLog_Nested.customDiaLog.0.content>米莉安部队的战场后勤，为友军提供掩护和支援的职阶。主教所属的个体通常战斗能力孱弱，但其能够辅助其他职阶的友军形成更强大的战力。</Milira_InformationLetterI_MilianClass_Bishop.comps.CompReadDiaLog_Nested.customDiaLog.0.content>
+  <Milira_InformationLetterI_MilianClass_Bishop.comps.CompReadDiaLog_Nested.customDiaLog.0.optionText>完毕</Milira_InformationLetterI_MilianClass_Bishop.comps.CompReadDiaLog_Nested.customDiaLog.0.optionText>
+  <!-- EN: 阅读卷宗 -->
+  <Milira_InformationLetterI_MilianClass_Bishop.comps.CompReadDiaLog_Nested.useLabel>阅读卷宗</Milira_InformationLetterI_MilianClass_Bishop.comps.CompReadDiaLog_Nested.useLabel>
+  
+  <!-- EN: 教会卷宗：主教I型 -->
+  <Milira_InformationLetterI_MilianClass_BishopI.label>教会卷宗：主教I型</Milira_InformationLetterI_MilianClass_BishopI.label>
+  <!-- EN: 记录了关于主教I型信息的卷宗。 -->
+  <Milira_InformationLetterI_MilianClass_BishopI.description>记录了关于主教I型信息的卷宗。</Milira_InformationLetterI_MilianClass_BishopI.description>
+  <!-- EN: 主教职阶所属，型号为I型的米莉安。能够对友军提供远程维修的辅助型号，配合骑士与战车能够形成极其坚固的前沿阵线。\n然而本体并没有太高的防护性能，需要友军在战斗中着重保护。\n             -->
+  <Milira_InformationLetterI_MilianClass_BishopI.comps.CompReadDiaLog_Nested.customDiaLog.0.content>主教职阶所属，型号为I型的米莉安。能够对友军提供远程维修的辅助型号，配合骑士与战车能够形成极其坚固的前沿阵线。\n然而本体并没有太高的防护性能，需要友军在战斗中着重保护。</Milira_InformationLetterI_MilianClass_BishopI.comps.CompReadDiaLog_Nested.customDiaLog.0.content>
+  <Milira_InformationLetterI_MilianClass_BishopI.comps.CompReadDiaLog_Nested.customDiaLog.0.optionText>完毕</Milira_InformationLetterI_MilianClass_BishopI.comps.CompReadDiaLog_Nested.customDiaLog.0.optionText>
+  <!-- EN: 阅读卷宗 -->
+  <Milira_InformationLetterI_MilianClass_BishopI.comps.CompReadDiaLog_Nested.useLabel>阅读卷宗</Milira_InformationLetterI_MilianClass_BishopI.comps.CompReadDiaLog_Nested.useLabel>
+  
+  <!-- EN: 教会卷宗：主教II型 -->
+  <Milira_InformationLetterI_MilianClass_BishopII.label>教会卷宗：主教II型</Milira_InformationLetterI_MilianClass_BishopII.label>
+  <!-- EN: 记录了关于主教II型信息的卷宗。 -->
+  <Milira_InformationLetterI_MilianClass_BishopII.description>记录了关于主教II型信息的卷宗。</Milira_InformationLetterI_MilianClass_BishopII.description>
+  <!-- EN: 主教职阶所属，型号为II型的米莉安。能够使用低角护盾单元支援前沿阵线，或是保护正在受到攻击的友军，护盾展开时还会产生能够推开敌人的力场。\n             -->
+  <Milira_InformationLetterI_MilianClass_BishopII.comps.CompReadDiaLog_Nested.customDiaLog.0.content>主教职阶所属，型号为II型的米莉安。能够使用低角护盾单元支援前沿阵线，或是保护正在受到攻击的友军，护盾展开时还会产生能够推开敌人的力场。</Milira_InformationLetterI_MilianClass_BishopII.comps.CompReadDiaLog_Nested.customDiaLog.0.content>
+  <Milira_InformationLetterI_MilianClass_BishopII.comps.CompReadDiaLog_Nested.customDiaLog.0.optionText>完毕</Milira_InformationLetterI_MilianClass_BishopII.comps.CompReadDiaLog_Nested.customDiaLog.0.optionText>
+  <!-- EN: 阅读卷宗 -->
+  <Milira_InformationLetterI_MilianClass_BishopII.comps.CompReadDiaLog_Nested.useLabel>阅读卷宗</Milira_InformationLetterI_MilianClass_BishopII.comps.CompReadDiaLog_Nested.useLabel>
+  
+  <!-- EN: 教会卷宗：执政官 -->
+  <Milira_InformationLetterI_MilianClass_BishopIII.label>教会卷宗：执政官</Milira_InformationLetterI_MilianClass_BishopIII.label>
+  <!-- EN: 记录了关于执政官信息的卷宗。 -->
+  <Milira_InformationLetterI_MilianClass_BishopIII.description>记录了关于执政官信息的卷宗。</Milira_InformationLetterI_MilianClass_BishopIII.description>
+  <!-- EN: 主教职阶所属，型号为II型的米莉安。能够使用低角护盾单元支援前沿阵线，或是保护正在受到攻击的友军，护盾展开时还会产生能够推开敌人的力场。\n             -->
+  <Milira_InformationLetterI_MilianClass_BishopIII.comps.CompReadDiaLog_Nested.customDiaLog.0.content>主教职阶所属，型号为执政官的米莉安。操控大量自律浮游单元牵制敌人并辅助进攻，并且能够为友军标记敌人弱点的辅助型号。尽管自身战斗能力欠佳，但集群出现时释放的大量浮游单元能够形成不小的压迫力。</Milira_InformationLetterI_MilianClass_BishopIII.comps.CompReadDiaLog_Nested.customDiaLog.0.content>
+  <Milira_InformationLetterI_MilianClass_BishopIII.comps.CompReadDiaLog_Nested.customDiaLog.0.optionText>完毕</Milira_InformationLetterI_MilianClass_BishopIII.comps.CompReadDiaLog_Nested.customDiaLog.0.optionText>
+  <!-- EN: 阅读卷宗 -->
+  <Milira_InformationLetterI_MilianClass_BishopIII.comps.CompReadDiaLog_Nested.useLabel>阅读卷宗</Milira_InformationLetterI_MilianClass_BishopIII.comps.CompReadDiaLog_Nested.useLabel>
+  
+  <!-- EN: 教会卷宗：枢机主教 -->
+  <Milira_InformationLetterI_MilianClass_BishopIV.label>教会卷宗：枢机主教</Milira_InformationLetterI_MilianClass_BishopIV.label>
+  <!-- EN: 记录了关于枢机主教信息的卷宗。 -->
+  <Milira_InformationLetterI_MilianClass_BishopIV.description>记录了关于枢机主教信息的卷宗。</Milira_InformationLetterI_MilianClass_BishopIV.description>
+  <!-- EN: 主教职阶所属，型号为枢机主教的米莉安。进入战场时往往会使用光学迷彩掩盖身形，同时游走迂回到侧面战场对敌人发动难以察觉的偷袭。\n尽管在开火时会短暂暴露自身，但枢机主教会不断地寻找安全的射击位置。\n             -->
+  <Milira_InformationLetterI_MilianClass_BishopIV.comps.CompReadDiaLog_Nested.customDiaLog.0.content>主教职阶所属，型号为枢机主教的米莉安。进入战场时往往会使用光学迷彩掩盖身形，同时游走迂回到侧面战场对敌人发动难以察觉的偷袭。\n尽管在开火时会短暂暴露自身，但枢机主教会不断地寻找安全的射击位置。</Milira_InformationLetterI_MilianClass_BishopIV.comps.CompReadDiaLog_Nested.customDiaLog.0.content>
+  <Milira_InformationLetterI_MilianClass_BishopIV.comps.CompReadDiaLog_Nested.customDiaLog.0.optionText>完毕</Milira_InformationLetterI_MilianClass_BishopIV.comps.CompReadDiaLog_Nested.customDiaLog.0.optionText>
+  <!-- EN: 阅读卷宗 -->
+  <Milira_InformationLetterI_MilianClass_BishopIV.comps.CompReadDiaLog_Nested.useLabel>阅读卷宗</Milira_InformationLetterI_MilianClass_BishopIV.comps.CompReadDiaLog_Nested.useLabel>
+  
+  <!-- EN: 教会卷宗：米莉安骑士职阶 -->
+  <Milira_InformationLetterI_MilianClass_Knight.label>教会卷宗：米莉安骑士职阶</Milira_InformationLetterI_MilianClass_Knight.label>
+  <!-- EN: 记录了关于米莉安骑士职阶信息的卷宗。 -->
+  <Milira_InformationLetterI_MilianClass_Knight.description>记录了关于米莉安骑士职阶信息的卷宗。</Milira_InformationLetterI_MilianClass_Knight.description>
+  <!-- EN: 具有卓越机动性的米莉安，拥有极其广阔的活动范围，承担着近身战斗和保护友军的职责。\n             -->
+  <Milira_InformationLetterI_MilianClass_Knight.comps.CompReadDiaLog_Nested.customDiaLog.0.content>具有卓越机动性的米莉安，拥有极其广阔的活动范围，承担着近身战斗和保护友军的职责。</Milira_InformationLetterI_MilianClass_Knight.comps.CompReadDiaLog_Nested.customDiaLog.0.content>
+  <Milira_InformationLetterI_MilianClass_Knight.comps.CompReadDiaLog_Nested.customDiaLog.0.optionText>完毕</Milira_InformationLetterI_MilianClass_Knight.comps.CompReadDiaLog_Nested.customDiaLog.0.optionText>
+  <!-- EN: 阅读卷宗 -->
+  <Milira_InformationLetterI_MilianClass_Knight.comps.CompReadDiaLog_Nested.useLabel>阅读卷宗</Milira_InformationLetterI_MilianClass_Knight.comps.CompReadDiaLog_Nested.useLabel>
+  
+  <!-- EN: 教会卷宗：骑士I型 -->
+  <Milira_InformationLetterI_MilianClass_KnightI.label>教会卷宗：骑士I型</Milira_InformationLetterI_MilianClass_KnightI.label>
+  <!-- EN: 记录了关于骑士I型信息的卷宗。 -->
+  <Milira_InformationLetterI_MilianClass_KnightI.description>记录了关于骑士I型信息的卷宗。</Milira_InformationLetterI_MilianClass_KnightI.description>
+  <!-- EN: 骑士职阶所属，型号为I型的米莉安。能够在移动中不断地提升自己的速度，所能造成的伤害也会因此提升。在广阔平原上的集团冲锋具有极强的杀伤力，但在狭小或充满障碍的场地上效果会大打折扣。\n             -->
+  <Milira_InformationLetterI_MilianClass_KnightI.comps.CompReadDiaLog_Nested.customDiaLog.0.content>骑士职阶所属，型号为I型的米莉安。能够在移动中不断地提升自己的速度，所能造成的伤害也会因此提升。在广阔平原上的集团冲锋具有极强的杀伤力，但在狭小或充满障碍的场地上效果会大打折扣。</Milira_InformationLetterI_MilianClass_KnightI.comps.CompReadDiaLog_Nested.customDiaLog.0.content>
+  <Milira_InformationLetterI_MilianClass_KnightI.comps.CompReadDiaLog_Nested.customDiaLog.0.optionText>完毕</Milira_InformationLetterI_MilianClass_KnightI.comps.CompReadDiaLog_Nested.customDiaLog.0.optionText>
+  <!-- EN: 阅读卷宗 -->
+  <Milira_InformationLetterI_MilianClass_KnightI.comps.CompReadDiaLog_Nested.useLabel>阅读卷宗</Milira_InformationLetterI_MilianClass_KnightI.comps.CompReadDiaLog_Nested.useLabel>
+  
+  <!-- EN: 教会卷宗：骑士II型 -->
+  <Milira_InformationLetterI_MilianClass_KnightII.label>教会卷宗：骑士II型</Milira_InformationLetterI_MilianClass_KnightII.label>
+  <!-- EN: 记录了关于骑士II型信息的卷宗。 -->
+  <Milira_InformationLetterI_MilianClass_KnightII.description>记录了关于骑士II型信息的卷宗。</Milira_InformationLetterI_MilianClass_KnightII.description>
+  <!-- EN: 骑士职阶所属，型号为II型的米莉安。比起进攻更加偏向于防御，通常能够和战车一同组成米莉安的前沿阵线。持有的盾牌在防御射击和投射物时效果颇佳，但无法有效抵挡重型近战武器的冲击力。\n             -->
+  <Milira_InformationLetterI_MilianClass_KnightII.comps.CompReadDiaLog_Nested.customDiaLog.0.content>骑士职阶所属，型号为II型的米莉安。比起进攻更加偏向于防御，通常能够和战车一同组成米莉安的前沿阵线。持有的盾牌在防御射击和投射物时效果颇佳，但无法有效抵挡重型近战武器的冲击力。</Milira_InformationLetterI_MilianClass_KnightII.comps.CompReadDiaLog_Nested.customDiaLog.0.content>
+  <Milira_InformationLetterI_MilianClass_KnightII.comps.CompReadDiaLog_Nested.customDiaLog.0.optionText>完毕</Milira_InformationLetterI_MilianClass_KnightII.comps.CompReadDiaLog_Nested.customDiaLog.0.optionText>
+  <!-- EN: 阅读卷宗 -->
+  <Milira_InformationLetterI_MilianClass_KnightII.comps.CompReadDiaLog_Nested.useLabel>阅读卷宗</Milira_InformationLetterI_MilianClass_KnightII.comps.CompReadDiaLog_Nested.useLabel>
+  
+  <!-- EN: 教会卷宗：征战骑士 -->
+  <Milira_InformationLetterI_MilianClass_KnightIII.label>教会卷宗：征战骑士</Milira_InformationLetterI_MilianClass_KnightIII.label>
+  <!-- EN: 记录了关于征战骑士信息的卷宗。 -->
+  <Milira_InformationLetterI_MilianClass_KnightIII.description>记录了关于征战骑士信息的卷宗。</Milira_InformationLetterI_MilianClass_KnightIII.description>
+  <!-- EN: 骑士职阶所属，型号为征战骑士的米莉安。得益于挂载有推进器的装甲保持着常态的高速移动，依赖旋翼推进在中近距离对敌人发起迅捷的往复突进，擅长追击和缠斗。\n             -->
+  <Milira_InformationLetterI_MilianClass_KnightIII.comps.CompReadDiaLog_Nested.customDiaLog.0.content>骑士职阶所属，型号为征战骑士的米莉安。得益于挂载有推进器的装甲保持着常态的高速移动，依赖旋翼推进在中近距离对敌人发起迅捷的往复突进，擅长追击和缠斗。</Milira_InformationLetterI_MilianClass_KnightIII.comps.CompReadDiaLog_Nested.customDiaLog.0.content>
+  <Milira_InformationLetterI_MilianClass_KnightIII.comps.CompReadDiaLog_Nested.customDiaLog.0.optionText>完毕</Milira_InformationLetterI_MilianClass_KnightIII.comps.CompReadDiaLog_Nested.customDiaLog.0.optionText>
+  <!-- EN: 阅读卷宗 -->
+  <Milira_InformationLetterI_MilianClass_KnightIII.comps.CompReadDiaLog_Nested.useLabel>阅读卷宗</Milira_InformationLetterI_MilianClass_KnightIII.comps.CompReadDiaLog_Nested.useLabel>
+  
+  <!-- EN: 教会卷宗：帕拉丁 -->
+  <Milira_InformationLetterI_MilianClass_KnightIV.label>教会卷宗：帕拉丁</Milira_InformationLetterI_MilianClass_KnightIV.label>
+  <!-- EN: 记录了关于帕拉丁信息的卷宗。 -->
+  <Milira_InformationLetterI_MilianClass_KnightIV.description>记录了关于帕拉丁信息的卷宗。</Milira_InformationLetterI_MilianClass_KnightIV.description>
+  <!-- EN: 骑士职阶所属，型号为帕拉丁的米莉安。拥有全面的防御能力，外层的能量护盾在防御低冲击力的投射物时效果拔群，持有的盾牌也能一定程度上防御投射物和近身攻击。\n能够在近身战中牵制对手，同时优先向友军附近的敌人扔出能够造成范围眩晕的飞锤。\n             -->
+  <Milira_InformationLetterI_MilianClass_KnightIV.comps.CompReadDiaLog_Nested.customDiaLog.0.content>骑士职阶所属，型号为帕拉丁的米莉安。拥有全面的防御能力，外层的能量护盾在防御低冲击力的投射物时效果拔群，持有的盾牌也能一定程度上防御投射物和近身攻击。\n能够在近身战中牵制对手，同时优先向友军附近的敌人扔出能够造成范围眩晕的飞锤。</Milira_InformationLetterI_MilianClass_KnightIV.comps.CompReadDiaLog_Nested.customDiaLog.0.content>
+  <Milira_InformationLetterI_MilianClass_KnightIV.comps.CompReadDiaLog_Nested.customDiaLog.0.optionText>完毕</Milira_InformationLetterI_MilianClass_KnightIV.comps.CompReadDiaLog_Nested.customDiaLog.0.optionText>
+  <!-- EN: 阅读卷宗 -->
+  <Milira_InformationLetterI_MilianClass_KnightIV.comps.CompReadDiaLog_Nested.useLabel>阅读卷宗</Milira_InformationLetterI_MilianClass_KnightIV.comps.CompReadDiaLog_Nested.useLabel>
+  
+  <!-- EN: 教会卷宗：米莉安士兵职阶 -->
+  <Milira_InformationLetterI_MilianClass_Pawn.label>教会卷宗：米莉安士兵职阶</Milira_InformationLetterI_MilianClass_Pawn.label>
+  <!-- EN: 记录了关于米莉安士兵职阶信息的卷宗。 -->
+  <Milira_InformationLetterI_MilianClass_Pawn.description>记录了关于米莉安士兵职阶信息的卷宗。</Milira_InformationLetterI_MilianClass_Pawn.description>
+  <!-- EN: 职阶为士兵的米莉安数量众多。虽然个体能力有限，但在战场中往往集群出现，因而能够成为米莉安部队的重要火力组成。\n同时，拥有庞大数量的士兵也是米莉安的战力补给，一旦其他职阶的米莉安战死，临近的士兵就能够通过升变迅速填补空缺。米莉安的部队因而生生不息。\n             -->
+  <Milira_InformationLetterI_MilianClass_Pawn.comps.CompReadDiaLog_Nested.customDiaLog.0.content>职阶为士兵的米莉安数量众多。虽然个体能力有限，但在战场中往往集群出现，因而能够成为米莉安部队的重要火力组成。\n同时，拥有庞大数量的士兵也是米莉安的战力补给，一旦其他职阶的米莉安战死，临近的士兵就能够通过升变迅速填补空缺。米莉安的部队因而生生不息。</Milira_InformationLetterI_MilianClass_Pawn.comps.CompReadDiaLog_Nested.customDiaLog.0.content>
+  <Milira_InformationLetterI_MilianClass_Pawn.comps.CompReadDiaLog_Nested.customDiaLog.0.optionText>完毕</Milira_InformationLetterI_MilianClass_Pawn.comps.CompReadDiaLog_Nested.customDiaLog.0.optionText>
+  <!-- EN: 阅读卷宗 -->
+  <Milira_InformationLetterI_MilianClass_Pawn.comps.CompReadDiaLog_Nested.useLabel>阅读卷宗</Milira_InformationLetterI_MilianClass_Pawn.comps.CompReadDiaLog_Nested.useLabel>
+  
+  <!-- EN: 教会卷宗：士兵I型 -->
+  <Milira_InformationLetterI_MilianClass_PawnI.label>教会卷宗：士兵I型</Milira_InformationLetterI_MilianClass_PawnI.label>
+  <!-- EN: 记录了关于士兵I型信息的卷宗。 -->
+  <Milira_InformationLetterI_MilianClass_PawnI.description>记录了关于士兵I型信息的卷宗。</Milira_InformationLetterI_MilianClass_PawnI.description>
+  <!-- EN: 士兵职阶所属，型号为I型的米莉安，数量众多。个体战力欠佳，但往往在战场上集群出现。\n             -->
+  <Milira_InformationLetterI_MilianClass_PawnI.comps.CompReadDiaLog_Nested.customDiaLog.0.content>士兵职阶所属，型号为I型的米莉安，数量众多。个体战力欠佳，但往往在战场上集群出现。</Milira_InformationLetterI_MilianClass_PawnI.comps.CompReadDiaLog_Nested.customDiaLog.0.content>
+  <Milira_InformationLetterI_MilianClass_PawnI.comps.CompReadDiaLog_Nested.customDiaLog.0.optionText>完毕</Milira_InformationLetterI_MilianClass_PawnI.comps.CompReadDiaLog_Nested.customDiaLog.0.optionText>
+  <!-- EN: 阅读卷宗 -->
+  <Milira_InformationLetterI_MilianClass_PawnI.comps.CompReadDiaLog_Nested.useLabel>阅读卷宗</Milira_InformationLetterI_MilianClass_PawnI.comps.CompReadDiaLog_Nested.useLabel>
+  
+  <!-- EN: 教会卷宗：士兵II型 -->
+  <Milira_InformationLetterI_MilianClass_PawnII.label>教会卷宗：士兵II型</Milira_InformationLetterI_MilianClass_PawnII.label>
+  <!-- EN: 记录了关于士兵II型信息的卷宗。 -->
+  <Milira_InformationLetterI_MilianClass_PawnII.description>记录了关于士兵II型信息的卷宗。</Milira_InformationLetterI_MilianClass_PawnII.description>
+  <!-- EN: 士兵职阶所属，型号为II型的米莉安，通常作为辅助单位出现在战场上。装备的电磁榴弹浮游炮能够瘫痪防御设施和机械体。\n             -->
+  <Milira_InformationLetterI_MilianClass_PawnII.comps.CompReadDiaLog_Nested.customDiaLog.0.content>士兵职阶所属，型号为II型的米莉安，通常作为辅助单位出现在战场上。装备的电磁榴弹浮游炮能够瘫痪防御设施和机械体。</Milira_InformationLetterI_MilianClass_PawnII.comps.CompReadDiaLog_Nested.customDiaLog.0.content>
+  <Milira_InformationLetterI_MilianClass_PawnII.comps.CompReadDiaLog_Nested.customDiaLog.0.optionText>完毕</Milira_InformationLetterI_MilianClass_PawnII.comps.CompReadDiaLog_Nested.customDiaLog.0.optionText>
+  <!-- EN: 阅读卷宗 -->
+  <Milira_InformationLetterI_MilianClass_PawnII.comps.CompReadDiaLog_Nested.useLabel>阅读卷宗</Milira_InformationLetterI_MilianClass_PawnII.comps.CompReadDiaLog_Nested.useLabel>
+  
+  <!-- EN: 教会卷宗：禁卫军 -->
+  <Milira_InformationLetterI_MilianClass_PawnIII.label>教会卷宗：禁卫军</Milira_InformationLetterI_MilianClass_PawnIII.label>
+  <!-- EN: 记录了关于禁卫军信息的卷宗。 -->
+  <Milira_InformationLetterI_MilianClass_PawnIII.description>记录了关于禁卫军信息的卷宗。</Milira_InformationLetterI_MilianClass_PawnIII.description>
+  <!-- EN: 士兵职阶所属，型号为禁卫军的米莉安，集群出现时能够在正面战场提供可观的火力覆盖，同时对防御工事造成毁灭性打击。\n             -->
+  <Milira_InformationLetterI_MilianClass_PawnIII.comps.CompReadDiaLog_Nested.customDiaLog.0.content>士兵职阶所属，型号为禁卫军的米莉安，集群出现时能够在正面战场提供可观的火力覆盖，同时对防御工事造成毁灭性打击。</Milira_InformationLetterI_MilianClass_PawnIII.comps.CompReadDiaLog_Nested.customDiaLog.0.content>
+  <Milira_InformationLetterI_MilianClass_PawnIII.comps.CompReadDiaLog_Nested.customDiaLog.0.optionText>完毕</Milira_InformationLetterI_MilianClass_PawnIII.comps.CompReadDiaLog_Nested.customDiaLog.0.optionText>
+  <!-- EN: 阅读卷宗 -->
+  <Milira_InformationLetterI_MilianClass_PawnIII.comps.CompReadDiaLog_Nested.useLabel>阅读卷宗</Milira_InformationLetterI_MilianClass_PawnIII.comps.CompReadDiaLog_Nested.useLabel>
+  
+  <!-- EN: 教会卷宗：百夫长 -->
+  <Milira_InformationLetterI_MilianClass_PawnIV.label>教会卷宗：百夫长</Milira_InformationLetterI_MilianClass_PawnIV.label>
+  <!-- EN: 记录了关于百夫长信息的卷宗。 -->
+  <Milira_InformationLetterI_MilianClass_PawnIV.description>记录了关于百夫长信息的卷宗。</Milira_InformationLetterI_MilianClass_PawnIV.description>
+  <!-- EN: 士兵职阶所属，型号为百夫长的米莉安，通常在大规模的军事行动中出现。其装备的四联装火箭发射器能够对大范围内的目标发动快速的轰炸，在成规模的战斗中往往能够压制成片的敌人。\n             -->
+  <Milira_InformationLetterI_MilianClass_PawnIV.comps.CompReadDiaLog_Nested.customDiaLog.0.content>士兵职阶所属，型号为百夫长的米莉安，通常在大规模的军事行动中出现。其装备的四联装火箭发射器能够对大范围内的目标发动快速的轰炸，在成规模的战斗中往往能够压制成片的敌人。</Milira_InformationLetterI_MilianClass_PawnIV.comps.CompReadDiaLog_Nested.customDiaLog.0.content>
+  <Milira_InformationLetterI_MilianClass_PawnIV.comps.CompReadDiaLog_Nested.customDiaLog.0.optionText>完毕</Milira_InformationLetterI_MilianClass_PawnIV.comps.CompReadDiaLog_Nested.customDiaLog.0.optionText>
+  <!-- EN: 阅读卷宗 -->
+  <Milira_InformationLetterI_MilianClass_PawnIV.comps.CompReadDiaLog_Nested.useLabel>阅读卷宗</Milira_InformationLetterI_MilianClass_PawnIV.comps.CompReadDiaLog_Nested.useLabel>
+  
+  <!-- EN: 教会卷宗：米莉安战车职阶 -->
+  <Milira_InformationLetterI_MilianClass_Rook.label>教会卷宗：米莉安战车职阶</Milira_InformationLetterI_MilianClass_Rook.label>
+  <!-- EN: 记录了关于米莉安战车职阶信息的卷宗。 -->
+  <Milira_InformationLetterI_MilianClass_Rook.description>记录了关于米莉安战车职阶信息的卷宗。</Milira_InformationLetterI_MilianClass_Rook.description>
+  <!-- EN: 拥有厚重装甲的米莉安，负责推进阵线和承担敌方火力，即使经受枪林弹雨的洗礼它们也不会为之停滞半分。\n虽然因为昂贵的造价和维护费用鲜有在战场上大量出现，但每一个战车的存在都会对敌人造成极大的威慑力。\n             -->
+  <Milira_InformationLetterI_MilianClass_Rook.comps.CompReadDiaLog_Nested.customDiaLog.0.content>拥有厚重装甲的米莉安，负责推进阵线和承担敌方火力，即使经受枪林弹雨的洗礼它们也不会为之停滞半分。\n虽然因为昂贵的造价和维护费用鲜有在战场上大量出现，但每一个战车的存在都会对敌人造成极大的威慑力。</Milira_InformationLetterI_MilianClass_Rook.comps.CompReadDiaLog_Nested.customDiaLog.0.content>
+  <Milira_InformationLetterI_MilianClass_Rook.comps.CompReadDiaLog_Nested.customDiaLog.0.optionText>完毕</Milira_InformationLetterI_MilianClass_Rook.comps.CompReadDiaLog_Nested.customDiaLog.0.optionText>
+  <!-- EN: 阅读卷宗 -->
+  <Milira_InformationLetterI_MilianClass_Rook.comps.CompReadDiaLog_Nested.useLabel>阅读卷宗</Milira_InformationLetterI_MilianClass_Rook.comps.CompReadDiaLog_Nested.useLabel>
+  
+  <!-- EN: 教会卷宗：战车I型 -->
+  <Milira_InformationLetterI_MilianClass_RookI.label>教会卷宗：战车I型</Milira_InformationLetterI_MilianClass_RookI.label>
+  <!-- EN: 记录了关于战车I型信息的卷宗。 -->
+  <Milira_InformationLetterI_MilianClass_RookI.description>记录了关于战车I型信息的卷宗。</Milira_InformationLetterI_MilianClass_RookI.description>
+  <!-- EN: 战车职阶所属，型号为I型的米莉安。携带的低角能量盾能够阻挡投射物进入，但不会妨碍友军进行射击。\n低角护盾会受到电磁干扰的影响，但短暂失效后就会复原。\n             -->
+  <Milira_InformationLetterI_MilianClass_RookI.comps.CompReadDiaLog_Nested.customDiaLog.0.content>战车职阶所属，型号为I型的米莉安。携带的低角能量盾能够阻挡投射物进入，但不会妨碍友军进行射击。\n低角护盾会受到电磁干扰的影响，但短暂失效后就会复原。</Milira_InformationLetterI_MilianClass_RookI.comps.CompReadDiaLog_Nested.customDiaLog.0.content>
+  <Milira_InformationLetterI_MilianClass_RookI.comps.CompReadDiaLog_Nested.customDiaLog.0.optionText>完毕</Milira_InformationLetterI_MilianClass_RookI.comps.CompReadDiaLog_Nested.customDiaLog.0.optionText>
+  <!-- EN: 阅读卷宗 -->
+  <Milira_InformationLetterI_MilianClass_RookI.comps.CompReadDiaLog_Nested.useLabel>阅读卷宗</Milira_InformationLetterI_MilianClass_RookI.comps.CompReadDiaLog_Nested.useLabel>
+  
+  <!-- EN: 教会卷宗：战车II型 -->
+  <Milira_InformationLetterI_MilianClass_RookII.label>教会卷宗：战车II型</Milira_InformationLetterI_MilianClass_RookII.label>
+  <!-- EN: 记录了关于战车II型信息的卷宗。 -->
+  <Milira_InformationLetterI_MilianClass_RookII.description>记录了关于战车II型信息的卷宗。</Milira_InformationLetterI_MilianClass_RookII.description>
+  <!-- EN: 战车职阶所属，型号为II型的米莉安。持有如城墙一般厚重的巨盾，本身也穿戴了厚重的装甲，能够承受大量的攻击。这使得战车II型往往难以被正面击破。\n             -->
+  <Milira_InformationLetterI_MilianClass_RookII.comps.CompReadDiaLog_Nested.customDiaLog.0.content>战车职阶所属，型号为II型的米莉安。持有如城墙一般厚重的巨盾，本身也穿戴了厚重的装甲，能够承受大量的攻击。这使得战车II型往往难以被正面击破。</Milira_InformationLetterI_MilianClass_RookII.comps.CompReadDiaLog_Nested.customDiaLog.0.content>
+  <Milira_InformationLetterI_MilianClass_RookII.comps.CompReadDiaLog_Nested.customDiaLog.0.optionText>完毕</Milira_InformationLetterI_MilianClass_RookII.comps.CompReadDiaLog_Nested.customDiaLog.0.optionText>
+  <!-- EN: 阅读卷宗 -->
+  <Milira_InformationLetterI_MilianClass_RookII.comps.CompReadDiaLog_Nested.useLabel>阅读卷宗</Milira_InformationLetterI_MilianClass_RookII.comps.CompReadDiaLog_Nested.useLabel>
+  
+  <!-- EN: 教会卷宗：无畏战车 -->
+  <Milira_InformationLetterI_MilianClass_RookIII.label>教会卷宗：无畏战车</Milira_InformationLetterI_MilianClass_RookIII.label>
+  <!-- EN: 记录了关于无畏战车信息的卷宗。 -->
+  <Milira_InformationLetterI_MilianClass_RookIII.description>记录了关于无畏战车信息的卷宗。</Milira_InformationLetterI_MilianClass_RookIII.description>
+  <!-- EN: 战车职阶所属，型号为无畏战车的米莉安。相比于维持阵线更擅长突入敌阵，扰乱敌方阵型的同时造成杀伤的型号。依靠推进器能够发动冲击力极高的长距离冲锋，碾压并击飞沿途的任何阻拦者。\n其穿戴的装甲有着适应攻击的效果，在持续受到攻击时会逐渐积累对攻击的抗性，最终达到近乎免疫的程度。\n             -->
+  <Milira_InformationLetterI_MilianClass_RookIII.comps.CompReadDiaLog_Nested.customDiaLog.0.content>战车职阶所属，型号为无畏战车的米莉安。相比于维持阵线更擅长突入敌阵，扰乱敌方阵型的同时造成杀伤的型号。依靠推进器能够发动冲击力极高的长距离冲锋，碾压并击飞沿途的任何阻拦者。\n其穿戴的装甲有着适应攻击的效果，在持续受到攻击时会逐渐积累对攻击的抗性，最终达到近乎免疫的程度。</Milira_InformationLetterI_MilianClass_RookIII.comps.CompReadDiaLog_Nested.customDiaLog.0.content>
+  <Milira_InformationLetterI_MilianClass_RookIII.comps.CompReadDiaLog_Nested.customDiaLog.0.optionText>完毕</Milira_InformationLetterI_MilianClass_RookIII.comps.CompReadDiaLog_Nested.customDiaLog.0.optionText>
+  <!-- EN: 阅读卷宗 -->
+  <Milira_InformationLetterI_MilianClass_RookIII.comps.CompReadDiaLog_Nested.useLabel>阅读卷宗</Milira_InformationLetterI_MilianClass_RookIII.comps.CompReadDiaLog_Nested.useLabel>
+  
+  <!-- EN: 教会卷宗：不落要塞 -->
+  <Milira_InformationLetterI_MilianClass_RookIV.label>教会卷宗：不落要塞</Milira_InformationLetterI_MilianClass_RookIV.label>
+  <!-- EN: 记录了关于不落要塞信息的卷宗。 -->
+  <Milira_InformationLetterI_MilianClass_RookIV.description>记录了关于不落要塞信息的卷宗。</Milira_InformationLetterI_MilianClass_RookIV.description>
+  <!-- EN: 战车职阶所属，型号为不落要塞的米莉安。使用随身携带的材料，在敌阵外围架起重型粒子炮轰击敌人的型号。\n在经过短暂的准备时间后不落要塞就能够持续展开威力巨大的曲射炮击，这使得其在攻坚战中无往不利。因为其昂贵的造价并不会在战场上过多出现，但一个不落要塞就足以决定战局的走向。\n             -->
+  <Milira_InformationLetterI_MilianClass_RookIV.comps.CompReadDiaLog_Nested.customDiaLog.0.content>战车职阶所属，型号为不落要塞的米莉安。使用随身携带的材料，在敌阵外围架起重型粒子炮轰击敌人的型号。\n在经过短暂的准备时间后不落要塞就能够持续展开威力巨大的曲射炮击，这使得其在攻坚战中无往不利。因为其昂贵的造价并不会在战场上过多出现，但一个不落要塞就足以决定战局的走向。</Milira_InformationLetterI_MilianClass_RookIV.comps.CompReadDiaLog_Nested.customDiaLog.0.content>
+  <Milira_InformationLetterI_MilianClass_RookIV.comps.CompReadDiaLog_Nested.customDiaLog.0.optionText>完毕</Milira_InformationLetterI_MilianClass_RookIV.comps.CompReadDiaLog_Nested.customDiaLog.0.optionText>
+  <!-- EN: 阅读卷宗 -->
+  <Milira_InformationLetterI_MilianClass_RookIV.comps.CompReadDiaLog_Nested.useLabel>阅读卷宗</Milira_InformationLetterI_MilianClass_RookIV.comps.CompReadDiaLog_Nested.useLabel>
+  
+  <!-- EN: 教会卷宗：米莉拉 -->
+  <Milira_InformationLetterI_Milira.label>教会卷宗：米莉拉</Milira_InformationLetterI_Milira.label>
+  <!-- EN: 记录了关于米莉拉信息的卷宗。 -->
+  <Milira_InformationLetterI_Milira.description>记录了关于米莉拉信息的卷宗。</Milira_InformationLetterI_Milira.description>
+  <!-- EN: 于天空降临世间的高贵生灵，我等所信奉的神明。主执掌着不为我等所知的力量，对科学的发展也远超常理认知。我等本如蝼蚁一般渺小，主却愿意为我等降下名为知识的恩惠，这一定是这个残酷而悲惨的世界中唯一的救赎。-->
+  <Milira_InformationLetterI_Milira.comps.CompReadDiaLog_Nested.customDiaLog.0.content>于天空降临世间的高贵生灵，我等所信奉的神明。主执掌着不为我等所知的力量，对科学的发展也远超常理认知。我等本如蝼蚁一般渺小，主却愿意为我等降下名为知识的恩惠，这一定是这个残酷而悲惨的世界中唯一的救赎。</Milira_InformationLetterI_Milira.comps.CompReadDiaLog_Nested.customDiaLog.0.content>
+  <Milira_InformationLetterI_Milira.comps.CompReadDiaLog_Nested.customDiaLog.0.optionText>完毕</Milira_InformationLetterI_Milira.comps.CompReadDiaLog_Nested.customDiaLog.0.optionText>
+  <!-- EN: 阅读卷宗 -->
+  <Milira_InformationLetterI_Milira.comps.CompReadDiaLog_Nested.useLabel>阅读卷宗</Milira_InformationLetterI_Milira.comps.CompReadDiaLog_Nested.useLabel>
+  
+  <!-- EN: 教会卷宗：日凌晶 -->
+  <Milira_InformationLetterI_SolarCrystal.label>教会卷宗：日凌晶</Milira_InformationLetterI_SolarCrystal.label>
+  <!-- EN: 记录了关于日凌晶信息的卷宗。 -->
+  <Milira_InformationLetterI_SolarCrystal.description>记录了关于日凌晶信息的卷宗。</Milira_InformationLetterI_SolarCrystal.description>
+  <!-- EN: 日凌晶是一种水晶在受到过量电磁辐射影响下产生性质变化而形成的特殊晶体，具有优良的物理性质。由于其形成的条件极为苛刻，在自然环境中几乎无法天然形成，只有在剧烈的耀斑活动期间或者电磁辐射较强的宇宙环境中才有出现的可能。\n            日凌晶在材料学上存在着不可替代性。虽然物理强度不佳，但其在作为多种能量形式的介质使用时能量损耗率极小，因此主将其广泛运用于各种元件的制作。\n            除了用作制作材料以外，日凌晶也具有较高的观赏性和收藏价值。\n            主的云端都市盛产这种水晶。推测存在某种人为干扰的方法能够大量地产出日凌晶，但主从未向我等透露过相关细节。\n             -->
+  <Milira_InformationLetterI_SolarCrystal.comps.CompReadDiaLog_Nested.customDiaLog.0.content>日凌晶是一种水晶在受到过量电磁辐射影响下产生性质变化而形成的特殊晶体，具有优良的物理性质。由于其形成的条件极为苛刻，在自然环境中几乎无法天然形成，只有在剧烈的耀斑活动期间或者电磁辐射较强的宇宙环境中才有出现的可能。\n            日凌晶在材料学上存在着不可替代性。虽然物理强度不佳，但其在作为多种能量形式的介质使用时能量损耗率极小，因此主将其广泛运用于各种元件的制作。\n            除了用作制作材料以外，日凌晶也具有较高的观赏性和收藏价值。\n            主的云端都市盛产这种水晶。推测存在某种人为干扰的方法能够大量地产出日凌晶，但主从未向我等透露过相关细节。</Milira_InformationLetterI_SolarCrystal.comps.CompReadDiaLog_Nested.customDiaLog.0.content>
+  <Milira_InformationLetterI_SolarCrystal.comps.CompReadDiaLog_Nested.customDiaLog.0.optionText>完毕</Milira_InformationLetterI_SolarCrystal.comps.CompReadDiaLog_Nested.customDiaLog.0.optionText>
+  <!-- EN: 阅读卷宗 -->
+  <Milira_InformationLetterI_SolarCrystal.comps.CompReadDiaLog_Nested.useLabel>阅读卷宗</Milira_InformationLetterI_SolarCrystal.comps.CompReadDiaLog_Nested.useLabel>
+  
+  <!-- EN: 教会卷宗：太阳熔炉 -->
+  <Milira_InformationLetterI_SunBlastFurnace.label>教会卷宗：太阳熔炉</Milira_InformationLetterI_SunBlastFurnace.label>
+  <!-- EN: 记录了关于太阳熔炉信息的卷宗。 -->
+  <Milira_InformationLetterI_SunBlastFurnace.description>记录了关于太阳熔炉信息的卷宗。</Milira_InformationLetterI_SunBlastFurnace.description>
+  <!-- EN: 主所使用的锻造台，由特殊的燃料驱动。使用时能够达到极高的温度并且发出耀眼的光芒，据传全力运转时就连太阳也为之失色，想必其名字也是由此得来。主使用太阳熔炉锻造出许多物品，传说就连生命也能从中诞生。\n主在地面建立了锻造营地，我等也被允许在此窥其全貌，并学习到使用太阳熔炉的方法。曾有人祈求主传授太阳熔炉的铸造技术，但主对此始终闭口不言。\n擅自使用太阳熔炉的行为是严令禁止的。教会中所有使用太阳熔炉的行为都需要得到主的许可方能进行，非法使用则会招致主的怒火。\n             -->
+  <Milira_InformationLetterI_SunBlastFurnace.comps.CompReadDiaLog_Nested.customDiaLog.0.content>主所使用的锻造台，由特殊的燃料驱动。使用时能够达到极高的温度并且发出耀眼的光芒，据传全力运转时就连太阳也为之失色，想必其名字也是由此得来。主使用太阳熔炉锻造出许多物品，传说就连生命也能从中诞生。\n主在地面建立了锻造营地，我等也被允许在此窥其全貌，并学习到使用太阳熔炉的方法。曾有人祈求主传授太阳熔炉的铸造技术，但主对此始终闭口不言。\n擅自使用太阳熔炉的行为是严令禁止的。教会中所有使用太阳熔炉的行为都需要得到主的许可方能进行，非法使用则会招致主的怒火。</Milira_InformationLetterI_SunBlastFurnace.comps.CompReadDiaLog_Nested.customDiaLog.0.content>
+  <Milira_InformationLetterI_SunBlastFurnace.comps.CompReadDiaLog_Nested.customDiaLog.0.optionText>完毕</Milira_InformationLetterI_SunBlastFurnace.comps.CompReadDiaLog_Nested.customDiaLog.0.optionText>
+  <!-- EN: 阅读卷宗 -->
+  <Milira_InformationLetterI_SunBlastFurnace.comps.CompReadDiaLog_Nested.useLabel>阅读卷宗</Milira_InformationLetterI_SunBlastFurnace.comps.CompReadDiaLog_Nested.useLabel>
+  
+  <!-- EN: 教会卷宗：日光花 -->
+  <Milira_InformationLetterI_SunLightFlower.label>教会卷宗：日光花</Milira_InformationLetterI_SunLightFlower.label>
+  <!-- EN: 记录了关于日光花信息的卷宗。 -->
+  <Milira_InformationLetterI_SunLightFlower.description>记录了关于日光花信息的卷宗。</Milira_InformationLetterI_SunLightFlower.description>
+  <!-- EN: 能够从光照中汲取到特殊能量的作物，其结出的日光果实是制取日光燃料的重要源材料之一。难以想象主的许多科学发现都依赖于这样一朵小小的花。\n似乎是主的天空都市中常见的植物，在地面上也偶有分布，但据主所言在地面上的日光花长势并不甚好。\n我等在主的指导下学会了种植日光花，并在光照条件完备的城镇建立了日光花圃，以供给制作日光燃料所需。\n             -->
+  <Milira_InformationLetterI_SunLightFlower.comps.CompReadDiaLog_Nested.customDiaLog.0.content>能够从光照中汲取到特殊能量的作物，其结出的日光果实是制取日光燃料的重要源材料之一。难以想象主的许多科学发现都依赖于这样一朵小小的花。\n似乎是主的天空都市中常见的植物，在地面上也偶有分布，但据主所言在地面上的日光花长势并不甚好。\n我等在主的指导下学会了种植日光花，并在光照条件完备的城镇建立了日光花圃，以供给制作日光燃料所需。</Milira_InformationLetterI_SunLightFlower.comps.CompReadDiaLog_Nested.customDiaLog.0.content>
+  <Milira_InformationLetterI_SunLightFlower.comps.CompReadDiaLog_Nested.customDiaLog.0.optionText>完毕</Milira_InformationLetterI_SunLightFlower.comps.CompReadDiaLog_Nested.customDiaLog.0.optionText>
+  <!-- EN: 阅读卷宗 -->
+  <Milira_InformationLetterI_SunLightFlower.comps.CompReadDiaLog_Nested.useLabel>阅读卷宗</Milira_InformationLetterI_SunLightFlower.comps.CompReadDiaLog_Nested.useLabel>
+  
+  <!-- EN: 教会卷宗：日光燃料 -->
+  <Milira_InformationLetterI_SunLightFuel.label>教会卷宗：日光燃料</Milira_InformationLetterI_SunLightFuel.label>
+  <!-- EN: 记录了关于日光燃料信息的卷宗。 -->
+  <Milira_InformationLetterI_SunLightFuel.description>记录了关于日光燃料信息的卷宗。</Milira_InformationLetterI_SunLightFuel.description>
+  <!-- EN: 具有极高的能量密度的液体燃料，在主的世界中应用广泛。我等曾尝试将日光燃料代替化合燃料使用，但过高的能量密度使得机器往往无法承受其燃烧时释放的能量，均以失败告终。\n而日光燃料本身却能够由日光果实萃取液与化和燃料依照一定比例精炼制得，这一奇异的特性使得我等也能够实现日光燃料的大量生产。除此之外，主还掌握着直接将光能通过某种形式固化成日光燃料的方法。\n在对日光燃料性质的长期探索与学习过程中，我等也逐渐摸索出了其在发电，以及炼制日盘钢技术上的应用。关于日光燃料的妥善利用方式仍然是探索中的重要一环。\n             -->
+  <Milira_InformationLetterI_SunLightFuel.comps.CompReadDiaLog_Nested.customDiaLog.0.content>具有极高的能量密度的液体燃料，在主的世界中应用广泛。我等曾尝试将日光燃料代替化合燃料使用，但过高的能量密度使得机器往往无法承受其燃烧时释放的能量，均以失败告终。\n而日光燃料本身却能够由日光果实萃取液与化和燃料依照一定比例精炼制得，这一奇异的特性使得我等也能够实现日光燃料的大量生产。除此之外，主还掌握着直接将光能通过某种形式固化成日光燃料的方法。\n在对日光燃料性质的长期探索与学习过程中，我等也逐渐摸索出了其在发电，以及炼制日盘钢技术上的应用。关于日光燃料的妥善利用方式仍然是探索中的重要一环。</Milira_InformationLetterI_SunLightFuel.comps.CompReadDiaLog_Nested.customDiaLog.0.content>
+  <Milira_InformationLetterI_SunLightFuel.comps.CompReadDiaLog_Nested.customDiaLog.0.optionText>完毕</Milira_InformationLetterI_SunLightFuel.comps.CompReadDiaLog_Nested.customDiaLog.0.optionText>
+  <!-- EN: 阅读卷宗 -->
+  <Milira_InformationLetterI_SunLightFuel.comps.CompReadDiaLog_Nested.useLabel>阅读卷宗</Milira_InformationLetterI_SunLightFuel.comps.CompReadDiaLog_Nested.useLabel>
+  
+  <!-- EN: 教会卷宗：日盘钢 -->
+  <Milira_InformationLetterI_SunPlateSteel.label>教会卷宗：日盘钢</Milira_InformationLetterI_SunPlateSteel.label>
+  <!-- EN: 记录了关于日盘钢信息的卷宗。 -->
+  <Milira_InformationLetterI_SunPlateSteel.description>记录了关于日盘钢信息的卷宗。</Milira_InformationLetterI_SunPlateSteel.description>
+  <!-- EN: 坚硬，耐高温并且延展性良好的金属材料，在各种方面都有着广泛的应用。主能够使用太阳熔炉冶炼这种金属，但这项技术我等至今没有掌握。\n不过在对日光燃料的漫长探索中，我等开发出了使用反应釜炼制日盘钢的方法。虽然以这种方式生产日盘钢时参与反应的日光燃料会因为不充分燃烧而发生爆炸，最终炸毁反应釜，但我等终究是实现了日盘钢的冶炼。\n日盘钢的物理特性导致常规的生产器械加工变得极为困难。即使是主，对于需要大量日盘钢的物品仍然需要依赖太阳熔炉才能制作。\n             -->
+  <Milira_InformationLetterI_SunPlateSteel.comps.CompReadDiaLog_Nested.customDiaLog.0.content>坚硬，耐高温并且延展性良好的金属材料，在各种方面都有着广泛的应用。主能够使用太阳熔炉冶炼这种金属，但这项技术我等至今没有掌握。\n不过在对日光燃料的漫长探索中，我等开发出了使用反应釜炼制日盘钢的方法。虽然以这种方式生产日盘钢时参与反应的日光燃料会因为不充分燃烧而发生爆炸，最终炸毁反应釜，但我等终究是实现了日盘钢的冶炼。\n日盘钢的物理特性导致常规的生产器械加工变得极为困难。即使是主，对于需要大量日盘钢的物品仍然需要依赖太阳熔炉才能制作。</Milira_InformationLetterI_SunPlateSteel.comps.CompReadDiaLog_Nested.customDiaLog.0.content>
+  <Milira_InformationLetterI_SunPlateSteel.comps.CompReadDiaLog_Nested.customDiaLog.0.optionText>完毕</Milira_InformationLetterI_SunPlateSteel.comps.CompReadDiaLog_Nested.customDiaLog.0.optionText>
+  <!-- EN: 阅读卷宗 -->
+  <Milira_InformationLetterI_SunPlateSteel.comps.CompReadDiaLog_Nested.useLabel>阅读卷宗</Milira_InformationLetterI_SunPlateSteel.comps.CompReadDiaLog_Nested.useLabel>
+  
+</LanguageData>

@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>MiliraBullet_ParticleRifle</defName>
+    <label>particle beam</label>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>15</damageAmountBase>
+      <armorPenetrationBase>0.12</armorPenetrationBase>
+      <stoppingPower>1.5</stoppingPower>
+      <speed>125</speed>
+    </projectile>
+    <graphicData>
+      <texPath>Milira/ProjectileNew/Bullet_Particle</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+  </ThingDef>
+
+  <!-- <ThingDef Name="Milira_StandardParticleWeaponBase" ParentName="BaseMakeableGun" Abstract="True">
+    <recipeMaker>
+      <researchPrerequisite>Milira_StandardParticleWeapon</researchPrerequisite>
+      <recipeUsers Inherit="false">
+        <li>Milira_SunBlastFurnace</li>
+      </recipeUsers>
+    </recipeMaker>
+    <weaponTags>
+      <li>Milira_StandardParticleWeapon</li>
+    </weaponTags>
+    <tradeability>None</tradeability>
+  </ThingDef>
+
+  <ThingDef Name="Milira_HeavyParticleWeaponBase" ParentName="BaseMakeableGun" Abstract="True">
+    <recipeMaker>
+      <researchPrerequisite>Milira_HeavyParticleWeapon</researchPrerequisite>
+      <recipeUsers Inherit="false">
+        <li>Milira_SunBlastFurnace</li>
+      </recipeUsers>
+    </recipeMaker>
+    <comps>
+      <li Class="CompProperties_Biocodable"/>
+    </comps>
+    <weaponTags>
+      <li>Milira_HeavyParticleWeapon</li>
+    </weaponTags>
+    <tradeability>None</tradeability>
+  </ThingDef>
+
+
+
+  
+  <ThingDef ParentName="Milira_StandardParticleWeaponBase">
+    <defName>Milira_ParticleRifle</defName>
+    <label>粒子步枪</label>
+    <description>能够快速发射粒子束的便携式发射器，可以充能。\n\n武器充能期间，粒子束的伤害和护甲穿透提升，并且会在命中时引发小范围爆炸。\n\n可以在普通模式和狙击模式之间切换。狙击模式下射程提升，连射次数降低。</description>
+    <graphicData>
+      <texPath>Milira/Weapon/ParticleRifle</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.4</drawSize>
+    </graphicData>
+    <generateCommonality>1</generateCommonality>
+    <uiIconScale>1.2</uiIconScale>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <statBases>
+      <WorkToMake>90000</WorkToMake>
+      <Mass>3.2</Mass>
+      <AccuracyTouch>0.62</AccuracyTouch>
+      <AccuracyShort>0.85</AccuracyShort>
+      <AccuracyMedium>0.72</AccuracyMedium>
+      <AccuracyLong>0.65</AccuracyLong>
+      <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
+      <Ancot_WeaponMaxCharge>20</Ancot_WeaponMaxCharge>
+      <Ancot_WeaponChargeTick>120</Ancot_WeaponChargeTick>
+    </statBases>
+    <weaponTags>
+      <li>Milira_ParticleRifle</li>
+    </weaponTags>
+    <costList>
+      <Milira_SunPlateSteel>75</Milira_SunPlateSteel>
+      <Plasteel>50</Plasteel>
+      <ComponentSpacer>3</ComponentSpacer>
+    </costList>
+    <recipeMaker>
+      <skillRequirements>
+        <Crafting>12</Crafting>
+      </skillRequirements>
+      <displayPriority>415</displayPriority>
+    </recipeMaker>
+    <verbs>
+      <li>
+        <verbClass>AncotLibrary.Verb_ChargeShoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>MiliraBullet_ParticleRifle</defaultProjectile>
+        <warmupTime>1.8</warmupTime>
+        <range>37.9</range>
+        <burstShotCount>5</burstShotCount>
+        <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+        <soundCast>Milira_Shot_PlasmaRifle</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>3</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.7</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>1.7</cooldownTime>
+      </li>
+    </tools>
+    <equippedStatOffsets>
+      <ShootingAccuracyPawn>6.0</ShootingAccuracyPawn>
+    </equippedStatOffsets>
+    <comps>
+      <li Class="AncotLibrary.CompProperties_RangeWeaponVerbSwitch">
+        <gizmoOrder>0</gizmoOrder>
+        <gizmoLabel1>收束模式</gizmoLabel1>
+        <gizmoLabel2>扩散模式</gizmoLabel2>
+        <gizmoDesc1>切换到蓄能模式下发射爆炸离子束的扩散模式。</gizmoDesc1>
+        <gizmoDesc2>切换到蓄能模式下发射单体离子束的收束模式。</gizmoDesc2>
+        <aiInitialSwitchChance>0.3</aiInitialSwitchChance>
+        <verbProps>
+          <verbClass>AncotLibrary.Verb_ChargeShoot</verbClass>
+          <isPrimary>true</isPrimary>
+          <hasStandardCommand>true</hasStandardCommand>
+          <defaultProjectile>MiliraBullet_ParticleRifle</defaultProjectile>
+          <warmupTime>1.8</warmupTime>
+          <range>35.9</range>
+          <burstShotCount>5</burstShotCount>
+          <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+          <soundCast>Milira_Shot_PlasmaRifle</soundCast>
+          <soundCastTail>GunTail_Heavy</soundCastTail>
+          <muzzleFlashScale>6</muzzleFlashScale>
+          <ai_AvoidFriendlyFireRadius>3</ai_AvoidFriendlyFireRadius>
+        </verbProps>
+      </li>
+      <li Class="AncotLibrary.CompProperties_WeaponCharge">
+        <projectileCharged>MiliraBullet_ParticleRifleCharged</projectileCharged>
+        <projectileCharged_Switched>MiliraBullet_ParticleRifleCharged_Switched</projectileCharged_Switched>
+        <chargeFireEffecter>Milira_ParticleChargeFire_Forward</chargeFireEffecter>
+        <chargeOnResetRatio>1.0</chargeOnResetRatio>
+        <resetTicks>1800</resetTicks>
+        <barColor>(0.86,0.87,0.70,0.8)</barColor>
+      </li>   
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>MiliraBullet_ParticleRifle</defName>
+    <label>粒子束</label>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>15</damageAmountBase>
+      <armorPenetrationBase>0.12</armorPenetrationBase>
+      <stoppingPower>1.5</stoppingPower>
+      <speed>125</speed>
+    </projectile>
+    <graphicData>
+      <texPath>Milira/ProjectileNew/Bullet_Particle</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>MiliraBullet_ParticleRifleCharged</defName>
+    <label>负载粒子束</label>
+    <thingClass>AncotLibrary.Projectile_Custom</thingClass>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>24</damageAmountBase>
+      <armorPenetrationBase>0.16</armorPenetrationBase>
+      <stoppingPower>1.5</stoppingPower>
+      <speed>125</speed>
+    </projectile>
+    <graphicData>
+      <texPath>Milira/ProjectileNew/Bullet_ParticleCharged</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+    <modExtensions>
+      <li Class="AncotLibrary.Projectile_Custom_Extension">
+        <impactEffecter>Milira_ParticleChargeHit</impactEffecter>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>MiliraBullet_ParticleRifleCharged_Switched</defName>
+    <label>负载扩散粒子束</label>
+    <thingClass>AncotLibrary.Projectile_ExplosiveCustom</thingClass>
+    <projectile>
+      <damageDef>Milira_ParticleBomb</damageDef>
+      <explosionRadius>1</explosionRadius>
+      <damageAmountBase>24</damageAmountBase>
+      <armorPenetrationBase>0.2</armorPenetrationBase>
+      <stoppingPower>1.8</stoppingPower>
+      <speed>125</speed>
+    </projectile>
+    <graphicData>
+      <texPath>Milira/ProjectileNew/Bullet_ParticleExplode</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+    <modExtensions>
+      <li Class="AncotLibrary.Projectile_ExplosiveCustom_Extension">
+        <impactEffecter>Milira_ParticleChargeHit</impactEffecter>
+      </li>
+    </modExtensions>
+  </ThingDef> -->
+
+
+
+
+
+</Defs>

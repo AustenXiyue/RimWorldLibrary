@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 米莉拉的战锤 -->
+  <Milira_Hammer.label>米莉拉的战锤</Milira_Hammer.label>
+  <!-- EN: 米莉拉的战锤。持有者能够使用刻印在武器中的战技。 -->
+  <Milira_Hammer.description>米莉拉的战锤。持有者能够使用刻印在武器中的战技。</Milira_Hammer.description>
+  <!-- EN: 锤 -->
+  <Milira_Hammer.tools.0.label>锤</Milira_Hammer.tools.0.label>
+  <!-- EN: 柄 -->
+  <Milira_Hammer.tools.1.label>柄</Milira_Hammer.tools.1.label>
+  
+  <!-- EN: 米莉拉的骑枪 -->
+  <Milira_Lance.label>米莉拉的骑枪</Milira_Lance.label>
+  <!-- EN: 米莉拉的骑枪。持有者能够使用刻印在武器中的战技。 -->
+  <Milira_Lance.description>米莉拉的骑枪。持有者能够使用刻印在武器中的战技。</Milira_Lance.description>
+  <!-- EN: 枪尖 -->
+  <Milira_Lance.tools.0.label>枪尖</Milira_Lance.tools.0.label>
+  
+  <!-- EN: 米莉拉的战镰 -->
+  <Milira_Sickle.label>米莉拉的战镰</Milira_Sickle.label>
+  <!-- EN: 米莉拉的战镰。持有者能够使用刻印在武器中的战技。 -->
+  <Milira_Sickle.description>米莉拉的战镰。持有者能够使用刻印在武器中的战技。</Milira_Sickle.description>
+  <!-- EN: 刃 -->
+  <Milira_Sickle.tools.0.label>刃</Milira_Sickle.tools.0.label>
+  <!-- EN: 杆 -->
+  <Milira_Sickle.tools.1.label>杆</Milira_Sickle.tools.1.label>
+  
+  <!-- EN: 米莉拉的战矛 -->
+  <Milira_Spear.label>米莉拉的战矛</Milira_Spear.label>
+  <!-- EN: 米莉拉的战矛。持有者能够使用刻印在武器中的战技。 -->
+  <Milira_Spear.description>米莉拉的战矛。持有者能够使用刻印在武器中的战技。</Milira_Spear.description>
+  <!-- EN: 矛尖 -->
+  <Milira_Spear.tools.0.label>矛尖</Milira_Spear.tools.0.label>
+  <!-- EN: 刃 -->
+  <Milira_Spear.tools.1.label>刃</Milira_Spear.tools.1.label>
+  
+  <!-- EN: 米莉拉的大剑 -->
+  <Milira_TwoHandSword.label>米莉拉的大剑</Milira_TwoHandSword.label>
+  <!-- EN: 米莉拉的大剑。持有者能够使用刻印在武器中的战技。 -->
+  <Milira_TwoHandSword.description>米莉拉的大剑。持有者能够使用刻印在武器中的战技。</Milira_TwoHandSword.description>
+  <!-- EN: 刃 -->
+  <Milira_TwoHandSword.tools.0.label>刃</Milira_TwoHandSword.tools.0.label>
+  
+</LanguageData>

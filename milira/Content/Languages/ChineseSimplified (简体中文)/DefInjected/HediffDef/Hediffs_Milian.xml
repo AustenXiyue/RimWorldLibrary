@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 浮游单元 -->
+  <Milian_FloatUnit.label>浮游单元</Milian_FloatUnit.label>
+  <!-- EN: 这个单位是一个浮游单元。 -->
+  <Milian_FloatUnit.description>这个单位是一个浮游单元。</Milian_FloatUnit.description>
+  
+  <!-- EN: 国王指令 -->
+  <Milian_KingCommand.label>国王指令</Milian_KingCommand.label>
+  <!-- EN: 。 -->
+  <Milian_KingCommand.description>这个单位正在受到国王指令的影响。</Milian_KingCommand.description>
+  
+  <!-- EN: 失序调谐 -->
+  <Milian_KingTuningWeak.label>失序调谐</Milian_KingTuningWeak.label>
+  <!-- EN: 这个单位现在处于不稳定调谐的状态。 -->
+  <Milian_KingTuningWeak.description>这个单位现在处于不稳定调谐的状态。</Milian_KingTuningWeak.description>
+  
+  <!-- EN: 自主作战 -->
+  <Milira_MilianAutoFightHint.label>自主作战</Milira_MilianAutoFightHint.label>
+  <!-- EN: 该米莉安拥有自主作战的权限。处于自主作战状态下时，米莉安无视机械师控制范围，将搜索可能存在的威胁并尝试将其消灭作为最高优先级事项。活动消耗额外能量25%/天。\n征兆以获得当前米莉安的控制权。 -->
+  <Milira_MilianAutoFightHint.description>该米莉安拥有自主作战的权限。处于自主作战状态下时，米莉安无视机械师控制范围，将搜索可能存在的威胁并尝试将其消灭作为最高优先级事项。活动消耗额外能量25%/天。\n征兆以获得当前米莉安的控制权。</Milira_MilianAutoFightHint.description>
+  
+</LanguageData>

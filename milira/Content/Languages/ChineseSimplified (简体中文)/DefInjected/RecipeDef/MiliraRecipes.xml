@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 制作日光燃料x10 -->
+  <Milira_MakeSunLightFuel.label>制作日光燃料x10</Milira_MakeSunLightFuel.label>
+  <!-- EN: 使用日光果实和化和燃料调和制作日光燃料。 -->
+  <Milira_MakeSunLightFuel.description>使用日光果实和化和燃料调和制作日光燃料。</Milira_MakeSunLightFuel.description>
+  <!-- EN: 调和日光燃料。 -->
+  <Milira_MakeSunLightFuel.jobString>调和日光燃料。</Milira_MakeSunLightFuel.jobString>
+  
+  <!-- EN: 打印羽仿布x30 -->
+  <Milira_PrintFeatherThread.label>打印羽仿布x30</Milira_PrintFeatherThread.label>
+  <!-- EN: 在米莉拉万用工作台打印羽仿布。 -->
+  <Milira_PrintFeatherThread.description>在米莉拉万用工作台打印羽仿布。</Milira_PrintFeatherThread.description>
+  <!-- EN: 打印羽仿布中。 -->
+  <Milira_PrintFeatherThread.jobString>打印羽仿布中。</Milira_PrintFeatherThread.jobString>
+  
+  <!-- EN: 打印辉钢x100 -->
+  <Milira_PrintSplendidSteel.label>打印辉钢x100</Milira_PrintSplendidSteel.label>
+  <!-- EN: 在米莉拉万用工作台打印辉钢。 -->
+  <Milira_PrintSplendidSteel.description>在米莉拉万用工作台打印辉钢。</Milira_PrintSplendidSteel.description>
+  <!-- EN: 打印辉钢中。 -->
+  <Milira_PrintSplendidSteel.jobString>打印辉钢中。</Milira_PrintSplendidSteel.jobString>
+  
+  <!-- EN: 熔炼日盘钢x100 -->
+  <Milira_SmeltSunPlateSteel.label>熔炼日盘钢x100</Milira_SmeltSunPlateSteel.label>
+  <!-- EN: 在太阳熔炉熔炼日盘钢。 -->
+  <Milira_SmeltSunPlateSteel.description>在太阳熔炉熔炼日盘钢。</Milira_SmeltSunPlateSteel.description>
+  <!-- EN: 熔炼日盘钢中。 -->
+  <Milira_SmeltSunPlateSteel.jobString>熔炼日盘钢中。</Milira_SmeltSunPlateSteel.jobString>
+  
+</LanguageData>

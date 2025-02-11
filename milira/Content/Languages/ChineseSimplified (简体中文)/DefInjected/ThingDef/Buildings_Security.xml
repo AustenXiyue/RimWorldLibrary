@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 冲击粒子团 -->
+  <MiliraBullet_HeavyParticle.label>冲击粒子团</MiliraBullet_HeavyParticle.label>
+  
+  <!-- EN: 电浆团 -->
+  <MiliraBullet_HeavyPlasma.label>电浆团</MiliraBullet_HeavyPlasma.label>
+  
+  <!-- EN: 电磁弹 -->
+  <MiliraBullet_HeavyRailGun.label>电磁弹</MiliraBullet_HeavyRailGun.label>
+  
+  <!-- EN: 离子束 -->
+  <MiliraBullet_TurretPlasma.label>离子束</MiliraBullet_TurretPlasma.label>
+  
+  <!-- EN: 火箭弹 -->
+  <MiliraProjectile_HeavyRocket.label>火箭弹</MiliraProjectile_HeavyRocket.label>
+  
+  <!-- EN: 重型粒子冲击炮塔 -->
+  <MiliraTurret_HeavyParticle.label>重型粒子冲击炮塔</MiliraTurret_HeavyParticle.label>
+  <!-- EN: 自供能的重型粒子冲击炮塔，连续发射具有高冲击力的粒子团。 -->
+  <MiliraTurret_HeavyParticle.description>自供能的重型粒子冲击炮塔，连续发射具有高冲击力的粒子团。</MiliraTurret_HeavyParticle.description>
+  
+  <!-- EN: 重型电浆炮塔 -->
+  <MiliraTurret_HeavyPlasma.label>重型电浆炮塔</MiliraTurret_HeavyPlasma.label>
+  <!-- EN: 自供能的重型电浆炮塔，发射能够融毁护甲的电浆团。 -->
+  <MiliraTurret_HeavyPlasma.description>自供能的重型电浆炮塔，发射能够融毁护甲的电浆团。</MiliraTurret_HeavyPlasma.description>
+  
+  <!-- EN: 重型电磁加农炮塔 -->
+  <MiliraTurret_HeavyRailGun.label>重型电磁加农炮塔</MiliraTurret_HeavyRailGun.label>
+  <!-- EN: 自供能的重型电磁加农炮塔，发射高速的电磁弹。 -->
+  <MiliraTurret_HeavyRailGun.description>自供能的重型电磁加农炮塔，发射高速的电磁弹。</MiliraTurret_HeavyRailGun.description>
+  
+  <!-- EN: 联装火箭炮塔 -->
+  <MiliraTurret_HeavyRocketLauncher.label>联装火箭炮塔</MiliraTurret_HeavyRocketLauncher.label>
+  <!-- EN: 自供能的联装火箭炮塔，发射覆盖一片区域的火箭弹。 -->
+  <MiliraTurret_HeavyRocketLauncher.description>自供能的联装火箭炮塔，发射覆盖一片区域的火箭弹。</MiliraTurret_HeavyRocketLauncher.description>
+  
+  <!-- EN: 小型离子炮塔 -->
+  <MiliraTurret_Plasma.label>小型离子炮塔</MiliraTurret_Plasma.label>
+  <!-- EN: 自供能的小型离子炮塔，发射能够融毁护甲的离子束。 -->
+  <MiliraTurret_Plasma.description>自供能的小型离子炮塔，发射能够融毁护甲的离子束。</MiliraTurret_Plasma.description>
+  
+  <!-- EN: 重型粒子冲击炮 -->
+  <MiliraTurretGun_HeavyParticle.label>重型粒子冲击炮</MiliraTurretGun_HeavyParticle.label>
+  <!-- EN: 装载在固定炮塔上的重型粒子冲击炮。 -->
+  <MiliraTurretGun_HeavyParticle.description>装载在固定炮塔上的重型粒子冲击炮。</MiliraTurretGun_HeavyParticle.description>
+  <!-- EN: 重型粒子冲击炮 -->
+  <MiliraTurretGun_HeavyParticle.verbs.Verb_Shoot.label>重型粒子冲击炮</MiliraTurretGun_HeavyParticle.verbs.Verb_Shoot.label>
+  
+  <!-- EN: 重型电浆炮 -->
+  <MiliraTurretGun_HeavyPlasma.label>重型电浆炮</MiliraTurretGun_HeavyPlasma.label>
+  <!-- EN: 装载在固定炮塔上的重型电浆炮。 -->
+  <MiliraTurretGun_HeavyPlasma.description>装载在固定炮塔上的重型电浆炮。</MiliraTurretGun_HeavyPlasma.description>
+  <!-- EN: 重型电浆炮 -->
+  <MiliraTurretGun_HeavyPlasma.verbs.Verb_Shoot.label>重型电浆炮</MiliraTurretGun_HeavyPlasma.verbs.Verb_Shoot.label>
+  
+  <!-- EN: 重型电磁加农炮 -->
+  <MiliraTurretGun_HeavyRailGun.label>重型电磁加农炮</MiliraTurretGun_HeavyRailGun.label>
+  <!-- EN: 装载在固定炮塔上的重型电磁加农炮。 -->
+  <MiliraTurretGun_HeavyRailGun.description>装载在固定炮塔上的重型电磁加农炮。</MiliraTurretGun_HeavyRailGun.description>
+  <!-- EN: 重型电磁加农炮 -->
+  <MiliraTurretGun_HeavyRailGun.verbs.Verb_Shoot.label>重型电磁加农炮</MiliraTurretGun_HeavyRailGun.verbs.Verb_Shoot.label>
+  
+  <!-- EN: 联装火箭发射器 -->
+  <MiliraTurretGun_HeavyRocketLauncher.label>联装火箭发射器</MiliraTurretGun_HeavyRocketLauncher.label>
+  <!-- EN: 装载在固定炮塔上的联装火箭发射器。 -->
+  <MiliraTurretGun_HeavyRocketLauncher.description>装载在固定炮塔上的联装火箭发射器。</MiliraTurretGun_HeavyRocketLauncher.description>
+  <!-- EN: 联装火箭发射器 -->
+  <MiliraTurretGun_HeavyRocketLauncher.verbs.Verb_Shoot.label>联装火箭发射器</MiliraTurretGun_HeavyRocketLauncher.verbs.Verb_Shoot.label>
+  
+  <!-- EN: 小型离子炮 -->
+  <MiliraTurretGun_Plasma.label>小型离子炮</MiliraTurretGun_Plasma.label>
+  <!-- EN: 装载在固定炮塔上的小型离子炮。 -->
+  <MiliraTurretGun_Plasma.description>装载在固定炮塔上的小型离子炮。</MiliraTurretGun_Plasma.description>
+  <!-- EN: 小型离子炮 -->
+  <MiliraTurretGun_Plasma.verbs.Verb_Shoot.label>小型离子炮</MiliraTurretGun_Plasma.verbs.Verb_Shoot.label>
+  
+</LanguageData>

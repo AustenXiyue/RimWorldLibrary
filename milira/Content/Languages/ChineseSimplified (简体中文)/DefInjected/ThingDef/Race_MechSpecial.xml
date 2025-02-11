@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 自律离子浮游单元 -->
+  <Milian_AutonomousFloatUnit.label>自律离子浮游单元</Milian_AutonomousFloatUnit.label>
+  <!-- EN: 能够发射离子束攻击敌人的浮游单元。 -->
+  <Milian_AutonomousFloatUnit.description>能够发射离子束攻击敌人的浮游单元。</Milian_AutonomousFloatUnit.description>
+  <!-- EN: body -->
+  <Milian_AutonomousFloatUnit.tools.body.label>机身</Milian_AutonomousFloatUnit.tools.body.label>
+  
+  <!-- EN: 自律浮游单元 -->
+  <Milian_AutonomousFloatUnit_PlasmaBlaster.label>自律浮游单元</Milian_AutonomousFloatUnit_PlasmaBlaster.label>
+  <!-- EN: 自律浮游单元。 -->
+  <Milian_AutonomousFloatUnit_PlasmaBlaster.description>自律浮游单元。</Milian_AutonomousFloatUnit_PlasmaBlaster.description>
+  <!-- EN: 自律浮游单元 -->
+  <Milian_AutonomousFloatUnit_PlasmaBlaster.verbs.Verb_Shoot.label>自律浮游单元</Milian_AutonomousFloatUnit_PlasmaBlaster.verbs.Verb_Shoot.label>
+  
+  <!-- EN: 护盾浮游单元 -->
+  <Milian_FloatUnit_Shield.label>护盾浮游单元</Milian_FloatUnit_Shield.label>
+  <!-- EN: 搭载了一面低角护盾的浮游单元。 -->
+  <Milian_FloatUnit_Shield.description>搭载了一面低角护盾的浮游单元。</Milian_FloatUnit_Shield.description>
+  <!-- EN: body -->
+  <Milian_FloatUnit_Shield.tools.body.label>机身</Milian_FloatUnit_Shield.tools.body.label>
+  
+  <!-- EN: 小型离子浮游单元 -->
+  <Milian_FloatUnit_SmallPlasma.label>小型离子浮游单元</Milian_FloatUnit_SmallPlasma.label>
+  <!-- EN: 能够发射微小离子束攻击敌人的小型浮游单元。 -->
+  <Milian_FloatUnit_SmallPlasma.description>能够发射微小离子束攻击敌人的小型浮游单元。</Milian_FloatUnit_SmallPlasma.description>
+  <!-- EN: body -->
+  <Milian_FloatUnit_SmallPlasma.tools.body.label>机身</Milian_FloatUnit_SmallPlasma.tools.body.label>
+  
+  <!-- EN: 小型离子浮游单元 -->
+  <Milian_FloatUnit_SmallPlasmaGun.label>小型离子浮游单元</Milian_FloatUnit_SmallPlasmaGun.label>
+  <!-- EN: 小型离子浮游单元。 -->
+  <Milian_FloatUnit_SmallPlasmaGun.description>小型离子浮游单元。</Milian_FloatUnit_SmallPlasmaGun.description>
+  <!-- EN: 小型离子浮游单元 -->
+  <Milian_FloatUnit_SmallPlasmaGun.verbs.Verb_Shoot.label>小型离子浮游单元</Milian_FloatUnit_SmallPlasmaGun.verbs.Verb_Shoot.label>
+  
+  <!-- EN: 离子束 -->
+  <MiliraBullet_AutonomousFloatUnit_ParticleBlaster.label>离子束</MiliraBullet_AutonomousFloatUnit_ParticleBlaster.label>
+  
+  <!-- EN: 离子束 -->
+  <MiliraBullet_FloatUnit_SmallPlasmaGun.label>离子束</MiliraBullet_FloatUnit_SmallPlasmaGun.label>
+  
+</LanguageData>

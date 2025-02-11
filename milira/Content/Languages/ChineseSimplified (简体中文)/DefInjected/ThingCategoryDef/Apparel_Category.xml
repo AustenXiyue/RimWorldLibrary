@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 米莉拉衣物 -->
+  <Milira_Apparel.label>米莉拉衣物</Milira_Apparel.label>
+  
+  <!-- EN: 米莉拉浮游炮 -->
+  <Milira_Apparel_CombatDrone.label>米莉拉浮游炮</Milira_Apparel_CombatDrone.label>
+  
+  <!-- EN: 米莉拉夹层衣物 -->
+  <Milira_Apparel_Middle.label>米莉拉夹层衣物</Milira_Apparel_Middle.label>
+  
+  <!-- EN: 米莉拉贴身衣物 -->
+  <Milira_Apparel_OnSkin.label>米莉拉贴身衣物</Milira_Apparel_OnSkin.label>
+  
+  <!-- EN: 米莉拉头饰 -->
+  <Milira_Apparel_Overhead.label>米莉拉头饰</Milira_Apparel_Overhead.label>
+  
+  <!-- EN: 米莉拉外层衣物 -->
+  <Milira_Apparel_Shell.label>米莉拉外层衣物</Milira_Apparel_Shell.label>
+  
+  <!-- EN: 米莉拉配件 -->
+  <Milira_Apparel_Utility.label>米莉拉配件</Milira_Apparel_Utility.label>
+  
+</LanguageData>

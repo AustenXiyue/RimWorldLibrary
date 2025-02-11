@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <JobDef>
+    <defName>Ancot_SharpenWeapon</defName>
+    <driverClass>AncotLibrary.JobDriver_GainHediffSelf_Sharpen</driverClass>
+    <reportString>sharpening weapon.</reportString>
+    <playerInterruptible>false</playerInterruptible>
+  </JobDef>
+
+  <JobDef>
+    <defName>Ancot_EmergencyTend</defName>
+    <driverClass>AncotLibrary.JobDriver_EmergencyTend</driverClass>
+    <reportString>emergency tending.</reportString>
+    <playerInterruptible>true</playerInterruptible>
+  </JobDef>
+
+
+</Defs>

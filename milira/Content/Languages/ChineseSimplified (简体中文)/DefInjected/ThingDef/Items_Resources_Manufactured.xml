@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 太阳熔炉炉心模型 -->
+  <Milira_FurnaceCoreModel.label>太阳熔炉炉心模型</Milira_FurnaceCoreModel.label>
+  <!-- EN: 太阳熔炉核心组件的模型，通过研究该模型可以了解太阳熔炉的建造方法。 -->
+  <Milira_FurnaceCoreModel.description>太阳熔炉核心组件的模型，通过研究该模型可以了解太阳熔炉的建造方法。</Milira_FurnaceCoreModel.description>
+  <!-- EN: 研究太阳熔炉炉心 -->
+  <Milira_FurnaceCoreModel.comps.CompAnalyzableUnlockResearch.activateDescString>研究太阳熔炉炉心</Milira_FurnaceCoreModel.comps.CompAnalyzableUnlockResearch.activateDescString>
+  <!-- EN: 研究... -->
+  <Milira_FurnaceCoreModel.comps.CompAnalyzableUnlockResearch.activateLabelString>研究...</Milira_FurnaceCoreModel.comps.CompAnalyzableUnlockResearch.activateLabelString>
+  <!-- EN: 通过研究太阳熔炉炉心，{PAWN_labelShort} 已经知晓了太阳熔炉建造的方法！现在可以指派殖民者研究太阳熔炉的建造和相关科技了。 -->
+  <Milira_FurnaceCoreModel.comps.CompAnalyzableUnlockResearch.completedLetter>通过研究太阳熔炉炉心，{PAWN_labelShort} 已经知晓了太阳熔炉建造的方法！现在可以指派殖民者研究太阳熔炉的建造和相关科技了。</Milira_FurnaceCoreModel.comps.CompAnalyzableUnlockResearch.completedLetter>
+  <!-- EN: {RESEARCH} 已解锁 -->
+  <Milira_FurnaceCoreModel.comps.CompAnalyzableUnlockResearch.completedLetterLabel>{RESEARCH} 已解锁</Milira_FurnaceCoreModel.comps.CompAnalyzableUnlockResearch.completedLetterLabel>
+  <!-- EN: 选择由谁研究太阳熔炉炉心 -->
+  <Milira_FurnaceCoreModel.comps.CompAnalyzableUnlockResearch.guiLabelString>选择由谁研究太阳熔炉炉心</Milira_FurnaceCoreModel.comps.CompAnalyzableUnlockResearch.guiLabelString>
+  <!-- EN: 能够由殖民者研究 -->
+  <Milira_FurnaceCoreModel.comps.CompAnalyzableUnlockResearch.inspectString>能够由殖民者研究</Milira_FurnaceCoreModel.comps.CompAnalyzableUnlockResearch.inspectString>
+  <!-- EN: 研究太阳熔炉炉心 -->
+  <Milira_FurnaceCoreModel.comps.CompAnalyzableUnlockResearch.jobString>研究太阳熔炉炉心</Milira_FurnaceCoreModel.comps.CompAnalyzableUnlockResearch.jobString>
+  
+  <!-- EN: 米莉安动力炉心 -->
+  <Milira_MilianReactor.label>米莉安动力炉心</Milira_MilianReactor.label>
+  <!-- EN: 米莉安的核心动力部件。 -->
+  <Milira_MilianReactor.description>米莉安的核心动力部件。</Milira_MilianReactor.description>
+  
+  <!-- EN: 谐振子 -->
+  <Milira_ResonatorCore.label>谐振子</Milira_ResonatorCore.label>
+  <!-- EN: 谐振仪的核心部件。 -->
+  <Milira_ResonatorCore.description>谐振仪的核心部件。</Milira_ResonatorCore.description>
+  
+  <!-- EN: 日凌晶 -->
+  <Milira_SolarCrystal.label>日凌晶</Milira_SolarCrystal.label>
+  <!-- EN: 在过量的太阳电磁辐射影响下产生了性质变化的水晶。 -->
+  <Milira_SolarCrystal.description>在过量的太阳电磁辐射影响下产生了性质变化的水晶。</Milira_SolarCrystal.description>
+  
+  <!-- EN: 米莉拉星舰电池 -->
+  <Milira_StarshipBattery.label>米莉拉星舰电池</Milira_StarshipBattery.label>
+  <!-- EN: 足以支撑一艘小型飞船星际航行的燃料电池，安装在炮台内可以维持近乎永久的能源供应。 -->
+  <Milira_StarshipBattery.description>足以支撑一艘小型飞船星际航行的燃料电池，安装在炮台内可以维持近乎永久的能源供应。</Milira_StarshipBattery.description>
+  
+  <!-- EN: 日光燃料 -->
+  <Milira_SunLightFuel.label>日光燃料</Milira_SunLightFuel.label>
+  <!-- EN: 能量密度极高的可燃液体，需要妥善保存。 -->
+  <Milira_SunLightFuel.description>能量密度极高的可燃液体，需要妥善保存。</Milira_SunLightFuel.description>
+  
+</LanguageData>

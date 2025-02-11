@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Ancot.MessagePermitDropPawn_join>{FACTION_name}已经在附近投下了指定的单位。</Ancot.MessagePermitDropPawn_join>
+
+  <Ancot.MessagePermitPerformed>{FACTION_name}已经在指定位置履行了许可要求。</Ancot.MessagePermitPerformed>
+  
+  <Ancot.NoApparelToMend>{0}没有满足条件的衣物可以修补。</Ancot.NoApparelToMend>
+  
+  <Ancot.targetNeedNoTend>选取的目标不需要包扎。</Ancot.targetNeedNoTend>
+
+  <Ancot.DropEquipmentOnHediffRemoved>{0}移除了{1}，导致{2}掉落。</Ancot.DropEquipmentOnHediffRemoved>
+
+</LanguageData>

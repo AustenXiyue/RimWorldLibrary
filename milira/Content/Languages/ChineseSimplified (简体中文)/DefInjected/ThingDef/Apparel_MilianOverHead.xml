@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 米莉安分析耳机 -->
+  <Milian_BishopHeadset.label>米莉安分析耳机</Milian_BishopHeadset.label>
+  <!-- EN: 能够帮助收集信息，更好地分析战场形势的头部装备。 -->
+  <Milian_BishopHeadset.description>能够帮助收集信息，更好地分析战场形势的头部装备。</Milian_BishopHeadset.description>
+  
+  <!-- EN: 米莉安目镜 -->
+  <Milian_Goggle.label>米莉安目镜</Milian_Goggle.label>
+  <!-- EN: 为视觉传感器提供防护的头部装备。 -->
+  <Milian_Goggle.description>为视觉传感器提供防护的头部装备。</Milian_Goggle.description>
+  
+  <!-- EN: 米莉安装甲目镜 -->
+  <Milian_GoggleArmored.label>米莉安装甲目镜</Milian_GoggleArmored.label>
+  <!-- EN: 为视觉传感器提供防护的头部装备。 -->
+  <Milian_GoggleArmored.description>为视觉传感器提供防护的头部装备。</Milian_GoggleArmored.description>
+  
+  <!-- EN: 米莉安通讯耳机 -->
+  <Milian_KnightHeadset.label>米莉安通讯耳机</Milian_KnightHeadset.label>
+  <!-- EN: 能够稳定信号传输，更好地实时通讯的头部装备。 -->
+  <Milian_KnightHeadset.description>能够稳定信号传输，更好地实时通讯的头部装备。</Milian_KnightHeadset.description>
+  
+  <!-- EN: 米莉安运动耳机 -->
+  <Milian_KnightHeadsetII.label>米莉安运动耳机</Milian_KnightHeadsetII.label>
+  <!-- EN: 能够稳定信号传输，更好地实时通讯的头部装备。 -->
+  <Milian_KnightHeadsetII.description>能够稳定信号传输，更好地实时通讯的头部装备。</Milian_KnightHeadsetII.description>
+  
+  <!-- EN: 米莉安角形头冠 -->
+  <Milian_KnightHeadsetIII.label>米莉安角形头冠</Milian_KnightHeadsetIII.label>
+  <!-- EN: 提供防护的头部装备。 -->
+  <Milian_KnightHeadsetIII.description>提供防护的头部装备。</Milian_KnightHeadsetIII.description>
+  
+  <!-- EN: 米莉安中枢耳机 -->
+  <Milian_PivotHeadSet.label>米莉安中枢耳机</Milian_PivotHeadSet.label>
+  <!-- EN: 能够辅助思考，更好地分析战场形势的头部装备。 -->
+  <Milian_PivotHeadSet.description>能够辅助思考，更好地分析战场形势的头部装备。</Milian_PivotHeadSet.description>
+  
+  <!-- EN: 米莉安冲击面具 -->
+  <Milian_RookMask.label>米莉安冲击面具</Milian_RookMask.label>
+  <!-- EN: 提供防护的面罩。 -->
+  <Milian_RookMask.description>提供防护的面罩。</Milian_RookMask.description>
+  
+  <!-- EN: 米莉安寂静猎手兜帽 -->
+  <Milian_SilentHunterHood.label>米莉安寂静猎手兜帽</Milian_SilentHunterHood.label>
+  <!-- EN: 有一定防护能力的兜帽。 -->
+  <Milian_SilentHunterHood.description>有一定防护能力的兜帽。</Milian_SilentHunterHood.description>
+  
+  <!-- EN: 米莉安撞角头盔 -->
+  <Milian_StrikerHelmet.label>米莉安撞角头盔</Milian_StrikerHelmet.label>
+  <!-- EN: 提供防护的带角全盔。 -->
+  <Milian_StrikerHelmet.description>提供防护的带角全盔。</Milian_StrikerHelmet.description>
+  
+</LanguageData>

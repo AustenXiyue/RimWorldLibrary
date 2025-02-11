@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 米莉安羽形盾 -->
+  <Milian_FeatherShapeShield.label>米莉安羽形盾</Milian_FeatherShapeShield.label>
+  <!-- EN: 米莉安常用的羽毛形状的中型盾牌。持有时无法射击。 -->
+  <Milian_FeatherShapeShield.description>米莉安常用的羽毛形状的中型盾牌。持有时无法射击。</Milian_FeatherShapeShield.description>
+  <Milian_FeatherShapeShield.comps.CompPhysicalShield.gizmoLabel>持盾防御</Milian_FeatherShapeShield.comps.CompPhysicalShield.gizmoLabel>
+  <Milian_FeatherShapeShield.comps.CompPhysicalShield.gizmoDesc>举起盾牌以防御来自正面的攻击。</Milian_FeatherShapeShield.comps.CompPhysicalShield.gizmoDesc>
+  
+  <!-- EN: 米莉安骑士盾 -->
+  <Milian_KnightShield.label>米莉安骑士盾</Milian_KnightShield.label>
+  <!-- EN: 米莉安常用的轻型骑士盾牌。 -->
+  <Milian_KnightShield.description>米莉安常用的轻型骑士盾牌。</Milian_KnightShield.description>
+  <Milian_KnightShield.comps.CompPhysicalShield.gizmoLabel>持盾防御</Milian_KnightShield.comps.CompPhysicalShield.gizmoLabel>
+  <Milian_KnightShield.comps.CompPhysicalShield.gizmoDesc>举起盾牌以防御来自正面的攻击。</Milian_KnightShield.comps.CompPhysicalShield.gizmoDesc>
+  
+  <!-- EN: 米莉安独眼城门盾 -->
+  <Milian_RookShield.label>米莉安独眼城门盾</Milian_RookShield.label>
+  <!-- EN: 米莉安常用的重型盾牌，犹如一面巨大的城墙一般厚重。持有时无法射击。 -->
+  <Milian_RookShield.description>米莉安常用的重型盾牌，犹如一面巨大的城墙一般厚重。持有时无法射击。</Milian_RookShield.description>
+  <Milian_RookShield.comps.CompPhysicalShield.gizmoLabel>持盾防御</Milian_RookShield.comps.CompPhysicalShield.gizmoLabel>
+  <Milian_RookShield.comps.CompPhysicalShield.gizmoDesc>举起盾牌以防御来自正面的攻击。</Milian_RookShield.comps.CompPhysicalShield.gizmoDesc>
+  
+</LanguageData>

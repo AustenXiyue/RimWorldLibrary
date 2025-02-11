@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="Milira_PsychicDefensePendant"]/statBases</xpath>
+        <value>
+            <Bulk>0.5</Bulk>
+            <WornBulk>0.2</WornBulk>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="Milira_DropBeaconPack"]/statBases</xpath>
+        <value>
+            <Bulk>5</Bulk>
+            <WornBulk>1</WornBulk>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[@Name="Milira_ResonatorPack_Base"]/statBases</xpath>
+        <value>
+            <Bulk>5</Bulk>
+            <WornBulk>1</WornBulk>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[@Name="Milira_ChargeableWeaponUtilityBase"]/statBases</xpath>
+        <value>
+            <Bulk>1</Bulk>
+            <WornBulk>0.5</WornBulk>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="Milira_DaedalusWings"]/statBases</xpath>
+        <value>
+            <Bulk>4</Bulk>
+            <WornBulk>1</WornBulk>
+        </value>
+    </Operation>
+
+</Patch>

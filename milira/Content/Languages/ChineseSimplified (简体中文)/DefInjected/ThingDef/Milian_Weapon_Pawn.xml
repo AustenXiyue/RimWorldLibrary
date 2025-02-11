@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 粒子冲击炮 -->
+  <Milian_ParticleBeamBlaster.label>粒子冲击炮</Milian_ParticleBeamBlaster.label>
+  <!-- EN: 具备高速连发能力的轻型粒子冲击炮，其巨大的冲击力通常能够压制大部分敌人，对建筑物也有不错的效果。 -->
+  <Milian_ParticleBeamBlaster.description>具备高速连发能力的轻型粒子冲击炮，其巨大的冲击力通常能够压制大部分敌人，对建筑物也有不错的效果。</Milian_ParticleBeamBlaster.description>
+  <!-- EN: 枪身 -->
+  <Milian_ParticleBeamBlaster.tools.0.label>枪身</Milian_ParticleBeamBlaster.tools.0.label>
+  <!-- EN: 粒子冲击炮 -->
+  <Milian_ParticleBeamBlaster.verbs.Verb_ChargeShoot.label>粒子冲击炮</Milian_ParticleBeamBlaster.verbs.Verb_ChargeShoot.label>
+  
+  <!-- EN: 粒子光束枪 -->
+  <Milian_ParticleBeamGun.label>粒子光束枪</Milian_ParticleBeamGun.label>
+  <!-- EN: 利用粒子束流对目标造成冲击的枪械。 -->
+  <Milian_ParticleBeamGun.description>利用粒子束流对目标造成冲击的枪械。</Milian_ParticleBeamGun.description>
+  <!-- EN: 枪身 -->
+  <Milian_ParticleBeamGun.tools.0.label>枪身</Milian_ParticleBeamGun.tools.0.label>
+  <!-- EN: 粒子光束枪 -->
+  <Milian_ParticleBeamGun.verbs.Verb_Shoot.label>粒子光束枪</Milian_ParticleBeamGun.verbs.Verb_Shoot.label>
+  
+  <!-- EN: 脉冲光束枪 -->
+  <Milian_PulsedBeamGun.label>脉冲光束枪</Milian_PulsedBeamGun.label>
+  <!-- EN: 能够发射脉冲束流的枪械。对有机体的杀伤效果极其有限，但能够瘫痪命中目标的电子设备。 -->
+  <Milian_PulsedBeamGun.description>能够发射脉冲束流的枪械。对有机体的杀伤效果极其有限，但能够瘫痪命中目标的电子设备。</Milian_PulsedBeamGun.description>
+  <!-- EN: 枪身 -->
+  <Milian_PulsedBeamGun.tools.0.label>枪身</Milian_PulsedBeamGun.tools.0.label>
+  <!-- EN: 脉冲光束枪 -->
+  <Milian_PulsedBeamGun.verbs.Verb_Shoot.label>脉冲光束枪</Milian_PulsedBeamGun.verbs.Verb_Shoot.label>
+  
+  <!-- EN: 冲击粒子团 -->
+  <MilianBullet_ParticleBeamBlaster.label>冲击粒子团</MilianBullet_ParticleBeamBlaster.label>
+  
+  <!-- EN: 负载冲击粒子团 -->
+  <MilianBullet_ParticleBeamBlasterCharged.label>负载冲击粒子团</MilianBullet_ParticleBeamBlasterCharged.label>
+  
+  <!-- EN: 粒子束 -->
+  <MilianBullet_ParticleBeamGun.label>粒子束</MilianBullet_ParticleBeamGun.label>
+  
+  <!-- EN: 脉冲光束 -->
+  <MilianBullet_PulsedBeamGun.label>脉冲光束</MilianBullet_PulsedBeamGun.label>
+  
+</LanguageData>

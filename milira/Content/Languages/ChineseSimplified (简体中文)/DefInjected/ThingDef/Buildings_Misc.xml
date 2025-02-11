@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 太阳熔炉增压罐 -->
+  <Milira_SunBlasterBoosterJar.label>太阳熔炉增压罐</Milira_SunBlasterBoosterJar.label>
+  <!-- EN: 能够增大太阳熔炉的燃料利用率，从而增加工作速度的辅助装置。一座太阳熔炉最多可以连接4个增压罐。 -->
+  <Milira_SunBlasterBoosterJar.description>能够增大太阳熔炉的燃料利用率，从而增加工作速度的辅助装置。一座太阳熔炉最多可以连接4个增压罐。</Milira_SunBlasterBoosterJar.description>
+  
+</LanguageData>

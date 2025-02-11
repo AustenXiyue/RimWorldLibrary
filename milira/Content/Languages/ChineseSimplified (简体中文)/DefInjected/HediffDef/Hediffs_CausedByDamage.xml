@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 电浆熔毁 -->
+  <Milira_PlasmaMeltdown.label>电浆熔毁</Milira_PlasmaMeltdown.label>
+  <!-- EN: 该单位的护甲正在因为遭受到电浆攻击而熔毁。 -->
+  <Milira_PlasmaMeltdown.description>该单位的护甲正在因为遭受到电浆攻击而熔毁。</Milira_PlasmaMeltdown.description>
+  <!-- EN: 10% -->
+  <Milira_PlasmaMeltdown.stages._10.label>10%</Milira_PlasmaMeltdown.stages._10.label>
+  <!-- EN: 20% -->
+  <Milira_PlasmaMeltdown.stages._20.label>20%</Milira_PlasmaMeltdown.stages._20.label>
+  <!-- EN: 30% -->
+  <Milira_PlasmaMeltdown.stages._30.label>30%</Milira_PlasmaMeltdown.stages._30.label>
+  <!-- EN: 40% -->
+  <Milira_PlasmaMeltdown.stages._40.label>40%</Milira_PlasmaMeltdown.stages._40.label>
+  <!-- EN: 50% -->
+  <Milira_PlasmaMeltdown.stages._50.label>50%</Milira_PlasmaMeltdown.stages._50.label>
+  <!-- EN: 60% -->
+  <Milira_PlasmaMeltdown.stages._60.label>60%</Milira_PlasmaMeltdown.stages._60.label>
+  <!-- EN: 70% -->
+  <Milira_PlasmaMeltdown.stages._70.label>70%</Milira_PlasmaMeltdown.stages._70.label>
+  <!-- EN: 80% -->
+  <Milira_PlasmaMeltdown.stages._80.label>80%</Milira_PlasmaMeltdown.stages._80.label>
+  <!-- EN: 90% -->
+  <Milira_PlasmaMeltdown.stages._90.label>90%</Milira_PlasmaMeltdown.stages._90.label>
+  <!-- EN: 100% -->
+  <Milira_PlasmaMeltdown.stages._100.label>100%</Milira_PlasmaMeltdown.stages._100.label>
+  
+  <!-- EN: 弱点标记 -->
+  <Milira_PlasmaVulnerable.label>弱点标记</Milira_PlasmaVulnerable.label>
+  <!-- EN: 该单位的被标记了弱点部位，受到的伤害会增加。 -->
+  <Milira_PlasmaVulnerable.description>该单位的被标记了弱点部位，受到的伤害会增加。</Milira_PlasmaVulnerable.description>
+  
+</LanguageData>

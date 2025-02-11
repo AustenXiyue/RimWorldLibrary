@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 米莉拉阿忒弥斯之眼 -->
+  <Milira_ArtemisHelmet.label>米莉拉阿忒弥斯之眼</Milira_ArtemisHelmet.label>
+  <!-- EN: 能够辅助瞄准的头部设备，提高射击精准度的同时也能够大幅度降低穿戴者的瞄准时间。也具备一定防护能力。 -->
+  <Milira_ArtemisHelmet.description>能够辅助瞄准的头部设备，提高射击精准度的同时也能够大幅度降低穿戴者的瞄准时间。也具备一定防护能力。</Milira_ArtemisHelmet.description>
+  
+  <!-- EN: 米莉拉代达罗斯之冠 -->
+  <Milira_DaedalusHelmet.label>米莉拉代达罗斯之冠</Milira_DaedalusHelmet.label>
+  <!-- EN: 辅助指挥米莉安的头部装备，还能少量提升穿戴者的机械维护和整备能力。 -->
+  <Milira_DaedalusHelmet.description>辅助指挥米莉安的头部装备，还能少量提升穿戴者的机械维护和整备能力。</Milira_DaedalusHelmet.description>
+  
+  <!-- EN: 米莉拉旅行兜帽 -->
+  <Milira_Hood.label>米莉拉旅行兜帽</Milira_Hood.label>
+  <!-- EN: 米莉拉地上旅者常常佩戴的兜帽。兜帽特殊的设计可以使米莉拉的光环在视觉上隐藏起来。 -->
+  <Milira_Hood.description>米莉拉地上旅者常常佩戴的兜帽。兜帽特殊的设计可以使米莉拉的光环在视觉上隐藏起来。</Milira_Hood.description>
+  
+  <!-- EN: 米莉拉毛绒贝雷帽 -->
+  <Milira_PlushBeret.label>米莉拉毛绒贝雷帽</Milira_PlushBeret.label>
+  <!-- EN: 有着毛绒绒边缘的贝雷帽。 -->
+  <Milira_PlushBeret.description>有着毛绒绒边缘的贝雷帽。</Milira_PlushBeret.description>
+  
+  <!-- EN: 米莉拉墨镜 -->
+  <Milira_Sunglasses.label>米莉拉墨镜</Milira_Sunglasses.label>
+  <!-- EN: 一副酷酷墨镜。 -->
+  <Milira_Sunglasses.description>一副酷酷墨镜。</Milira_Sunglasses.description>
+  
+  <!-- EN: 米莉拉墨镜（额头） -->
+  <Milira_SunglassesII.label>米莉拉墨镜（额头）</Milira_SunglassesII.label>
+  <!-- EN: 一副酷酷墨镜。 -->
+  <Milira_SunglassesII.description>一副酷酷墨镜。</Milira_SunglassesII.description>
+  
+  <!-- EN: 米莉拉阳帽 -->
+  <Milira_SunHat.label>米莉拉阳帽</Milira_SunHat.label>
+  <!-- EN: 充满轻松惬意氛围的宽边阳帽。 -->
+  <Milira_SunHat.description>充满轻松惬意氛围的宽边阳帽。</Milira_SunHat.description>
+  
+  <!-- EN: 米莉拉瓦尔基里战盔 -->
+  <Milira_ValkyrHelmet.label>米莉拉瓦尔基里战盔</Milira_ValkyrHelmet.label>
+  <!-- EN: 造型相当古老的头盔，也许是延续自天空精灵们很早就在使用的盔甲风格。得益于极致时代的材料学与先进的科学技术，这副头盔拥有与古旧的外形并不相衬的夸张防护能力。 -->
+  <Milira_ValkyrHelmet.description>造型相当古老的头盔，也许是延续自天空精灵们很早就在使用的盔甲风格。得益于极致时代的材料学与先进的科学技术，这副头盔拥有与古旧的外形并不相衬的夸张防护能力。</Milira_ValkyrHelmet.description>
+  
+  <Milira_MilianHomeTerminal.label>米莉拉家用终端</Milira_MilianHomeTerminal.label>
+  <Milira_MilianHomeTerminal.description>一枚民用终端耳机，佩戴者能够借此指挥少量米莉安。由于集成在终端内的芯片算力有限，在佩戴者未拥有机控中枢时，该终端支持的最大带宽数量为10。</Milira_MilianHomeTerminal.description>
+  
+</LanguageData>

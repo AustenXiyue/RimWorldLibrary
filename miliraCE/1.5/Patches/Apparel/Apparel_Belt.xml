@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <!-- Milira_Apparel_PlasmaShockGrenade -->
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="Milira_Apparel_PlasmaShockGrenade"]/verbs/li[verbClass="Verb_LaunchProjectileStatic"]</xpath>
+        <value>
+            <li Class="CombatExtended.VerbPropertiesCE">
+                <label>throw plasma shock grenade</label>
+                <verbClass>CombatExtended.Verb_LaunchProjectileStaticCE</verbClass>
+                <targetParams>
+                    <canTargetLocations>true</canTargetLocations>
+                </targetParams>
+                <hasStandardCommand>true</hasStandardCommand>
+                <onlyManualCast>false</onlyManualCast>
+                <range>18.9</range>
+                <warmupTime>0.1</warmupTime>
+                <minRange>3</minRange>
+                <!-- <forcedMissRadius>1.0</forcedMissRadius> -->
+                <soundCast>ThrowGrenade</soundCast>
+                <muzzleFlashScale>0</muzzleFlashScale>
+                <drawHighlightWithLineOfSight>true</drawHighlightWithLineOfSight>
+                <ignorePartialLoSBlocker>true</ignorePartialLoSBlocker>
+                <defaultProjectile>Bullet_MiliraPlasmaShockGrenade</defaultProjectile>
+                <rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
+            </li>
+        </value>
+    </Operation>
+
+    <!-- Milira_Apparel_RepulsiveGrenade -->
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="Milira_Apparel_RepulsiveGrenade"]/statBases</xpath>
+        <value>
+            <SightsEfficiency>2.16</SightsEfficiency>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="Milira_Apparel_RepulsiveGrenade"]/verbs/li[verbClass="Verb_LaunchProjectileStatic"]</xpath>
+        <value>
+            <li Class="CombatExtended.VerbPropertiesCE">
+                <label>throw repulsive grenade</label>
+                <verbClass>CombatExtended.Verb_LaunchProjectileStaticCE</verbClass>
+                <targetParams>
+                    <canTargetLocations>true</canTargetLocations>
+                </targetParams>
+                <hasStandardCommand>true</hasStandardCommand>
+                <onlyManualCast>false</onlyManualCast>
+                <range>18.9</range>
+                <warmupTime>0.1</warmupTime>
+                <minRange>3</minRange>
+                <!-- <forcedMissRadius>1.0</forcedMissRadius> -->
+                <soundCast>ThrowGrenade</soundCast>
+                <muzzleFlashScale>0</muzzleFlashScale>
+                <drawHighlightWithLineOfSight>true</drawHighlightWithLineOfSight>
+                <ignorePartialLoSBlocker>true</ignorePartialLoSBlocker>
+                <defaultProjectile>Bullet_MiliraRepulsiveGrenade</defaultProjectile>
+                <rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
+            </li>
+        </value>
+    </Operation>
+
+    <!-- Milira_Apparel_AttractiveGrenade -->
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="Milira_Apparel_AttractiveGrenade"]/statBases</xpath>
+        <value>
+            <SightsEfficiency>2.16</SightsEfficiency>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="Milira_Apparel_AttractiveGrenade"]/verbs/li[verbClass="Verb_LaunchProjectileStatic"]</xpath>
+        <value>
+            <li Class="CombatExtended.VerbPropertiesCE">
+                <label>throw gravitational grenade</label>
+                <verbClass>CombatExtended.Verb_LaunchProjectileStaticCE</verbClass>
+                <targetParams>
+                    <canTargetLocations>true</canTargetLocations>
+                </targetParams>
+                <hasStandardCommand>true</hasStandardCommand>
+                <onlyManualCast>false</onlyManualCast>
+                <range>18.9</range>
+                <warmupTime>0.1</warmupTime>
+                <minRange>3</minRange>
+                <!-- <forcedMissRadius>1.0</forcedMissRadius> -->
+                <soundCast>ThrowGrenade</soundCast>
+                <muzzleFlashScale>0</muzzleFlashScale>
+                <drawHighlightWithLineOfSight>true</drawHighlightWithLineOfSight>
+                <ignorePartialLoSBlocker>true</ignorePartialLoSBlocker>
+                <defaultProjectile>Bullet_MiliraAttractiveGrenade</defaultProjectile>
+                <rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
+            </li>
+        </value>
+    </Operation>
+
+</Patch>

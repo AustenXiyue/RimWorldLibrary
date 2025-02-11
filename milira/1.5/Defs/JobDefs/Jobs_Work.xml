@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <JobDef>
+    <defName>Milian_Fortress</defName>
+    <driverClass>Milira.JobDriver_FortressMode</driverClass>
+    <reportString>moving.</reportString>
+    <allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+    <casualInterruptible>false</casualInterruptible>
+    <playerInterruptible>false</playerInterruptible>
+    <suspendable>false</suspendable>
+  </JobDef>
+
+  <JobDef>
+    <defName>Milian_DisassembleBroadShieldUnit</defName>
+    <driverClass>Milira.JobDriver_DisassembleBroadShieldUnit</driverClass>
+    <reportString>Disassembling a shield unit.</reportString>
+    <allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+    <casualInterruptible>false</casualInterruptible>
+    <playerInterruptible>true</playerInterruptible>
+    <suspendable>true</suspendable>
+    <forceCompleteBeforeNextJob>false</forceCompleteBeforeNextJob>
+    <checkOverrideOnDamage>Never</checkOverrideOnDamage>
+    <neverShowWeapon>true</neverShowWeapon>
+  </JobDef>
+
+  <JobDef>
+    <defName>Milian_RepairMechRemote</defName>
+    <driverClass>Milira.JobDriver_MilianRepair</driverClass>
+    <reportString>repairing TargetA.</reportString>
+    <neverShowWeapon>true</neverShowWeapon>
+  </JobDef>
+
+  <JobDef>
+    <defName>Milian_ReleaseUnits</defName>
+    <driverClass>AncotLibrary.JobDriver_ReleaseMechs_Custom</driverClass>
+    <reportString>releasing units.</reportString>
+  </JobDef>
+  
+</Defs>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[@Name="Milian_ShieldBase"]/statBases</xpath>
+        <value>
+            <Bulk>1</Bulk>
+            <WornBulk>1</WornBulk>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="Milian_FeatherShapeShield"]/statBases</xpath>
+        <value>
+            <Bulk>6</Bulk>
+            <WornBulk>3</WornBulk>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="Milian_FeatherShapeShield"]/statBases/ArmorRating_Sharp</xpath>
+        <value>
+            <ArmorRating_Sharp>1.5</ArmorRating_Sharp>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="Milian_FeatherShapeShield"]/statBases/ArmorRating_Blunt</xpath>
+        <value>
+            <ArmorRating_Blunt>2.4</ArmorRating_Blunt>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="Milian_FeatherShapeShield"]/statBases/StuffEffectMultiplierArmor</xpath>
+        <value>
+            <StuffEffectMultiplierArmor>6</StuffEffectMultiplierArmor>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="Milian_KnightShield"]/statBases</xpath>
+        <value>
+            <Bulk>3</Bulk>
+            <WornBulk>1.5</WornBulk>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="Milian_KnightShield"]/statBases/ArmorRating_Sharp</xpath>
+        <value>
+            <ArmorRating_Sharp>1.5</ArmorRating_Sharp>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="Milian_KnightShield"]/statBases/ArmorRating_Blunt</xpath>
+        <value>
+            <ArmorRating_Blunt>2.4</ArmorRating_Blunt>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="Milian_KnightShield"]/statBases/StuffEffectMultiplierArmor</xpath>
+        <value>
+            <StuffEffectMultiplierArmor>4.5</StuffEffectMultiplierArmor>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="Milian_RookShield"]/statBases</xpath>
+        <value>
+            <Bulk>15</Bulk>
+            <WornBulk>10</WornBulk>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="Milian_RookShield"]/statBases/ArmorRating_Sharp</xpath>
+        <value>
+            <ArmorRating_Sharp>4</ArmorRating_Sharp>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="Milian_RookShield"]/statBases/ArmorRating_Blunt</xpath>
+        <value>
+            <ArmorRating_Blunt>6</ArmorRating_Blunt>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="Milian_RookShield"]/statBases/StuffEffectMultiplierArmor</xpath>
+        <value>
+            <StuffEffectMultiplierArmor>9</StuffEffectMultiplierArmor>
+        </value>
+    </Operation>
+
+</Patch>

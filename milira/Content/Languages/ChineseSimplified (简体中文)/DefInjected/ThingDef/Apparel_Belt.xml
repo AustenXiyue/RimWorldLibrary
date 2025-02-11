@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 引力手雷腰带 -->
+  <Milira_Apparel_AttractiveGrenade.label>引力手雷腰带</Milira_Apparel_AttractiveGrenade.label>
+  <!-- EN: 一串挂在腰间的引力手雷。扔出后能够将一定范围内的单位向中心牵引。 -->
+  <Milira_Apparel_AttractiveGrenade.description>一串挂在腰间的引力手雷。扔出后能够将一定范围内的单位向中心牵引。</Milira_Apparel_AttractiveGrenade.description>
+  <!-- EN: 手雷 -->
+  <Milira_Apparel_AttractiveGrenade.comps.CompApparelReloadable.chargeNoun>手雷</Milira_Apparel_AttractiveGrenade.comps.CompApparelReloadable.chargeNoun>
+  <!-- EN: on cooldown -->
+  <Milira_Apparel_AttractiveGrenade.comps.CompApparelReloadable.cooldownGerund>on cooldown</Milira_Apparel_AttractiveGrenade.comps.CompApparelReloadable.cooldownGerund>
+  <!-- EN: 投掷引力手雷 -->
+  <Milira_Apparel_AttractiveGrenade.verbs.0.label>投掷引力手雷</Milira_Apparel_AttractiveGrenade.verbs.0.label>
+  
+  <!-- EN: 离子震爆手雷腰带 -->
+  <Milira_Apparel_PlasmaShockGrenade.label>离子震爆手雷腰带</Milira_Apparel_PlasmaShockGrenade.label>
+  <!-- EN: 一串挂在腰间的离子震爆手雷。能够造成离子爆炸并融毁击中单位的护甲。 -->
+  <Milira_Apparel_PlasmaShockGrenade.description>一串挂在腰间的离子震爆手雷。能够造成离子爆炸并融毁击中单位的护甲。</Milira_Apparel_PlasmaShockGrenade.description>
+  <!-- EN: 手雷 -->
+  <Milira_Apparel_PlasmaShockGrenade.comps.CompApparelReloadable.chargeNoun>手雷</Milira_Apparel_PlasmaShockGrenade.comps.CompApparelReloadable.chargeNoun>
+  <!-- EN: on cooldown -->
+  <Milira_Apparel_PlasmaShockGrenade.comps.CompApparelReloadable.cooldownGerund>on cooldown</Milira_Apparel_PlasmaShockGrenade.comps.CompApparelReloadable.cooldownGerund>
+  <!-- EN: 投掷离子震爆手雷 -->
+  <Milira_Apparel_PlasmaShockGrenade.verbs.0.label>投掷离子震爆手雷</Milira_Apparel_PlasmaShockGrenade.verbs.0.label>
+  
+  <!-- EN: 斥力手雷腰带 -->
+  <Milira_Apparel_RepulsiveGrenade.label>斥力手雷腰带</Milira_Apparel_RepulsiveGrenade.label>
+  <!-- EN: 一串挂在腰间的斥力手雷。扔出后能够将一定范围内的单位弹开。 -->
+  <Milira_Apparel_RepulsiveGrenade.description>一串挂在腰间的斥力手雷。扔出后能够将一定范围内的单位弹开。</Milira_Apparel_RepulsiveGrenade.description>
+  <!-- EN: 手雷 -->
+  <Milira_Apparel_RepulsiveGrenade.comps.CompApparelReloadable.chargeNoun>手雷</Milira_Apparel_RepulsiveGrenade.comps.CompApparelReloadable.chargeNoun>
+  <!-- EN: on cooldown -->
+  <Milira_Apparel_RepulsiveGrenade.comps.CompApparelReloadable.cooldownGerund>on cooldown</Milira_Apparel_RepulsiveGrenade.comps.CompApparelReloadable.cooldownGerund>
+  <!-- EN: 投掷斥力手雷 -->
+  <Milira_Apparel_RepulsiveGrenade.verbs.0.label>投掷斥力手雷</Milira_Apparel_RepulsiveGrenade.verbs.0.label>
+  
+  <!-- EN: 引力手雷 -->
+  <MiliraProj_AttractiveGrenade.label>引力手雷</MiliraProj_AttractiveGrenade.label>
+  
+  <!-- EN: 离子震爆手雷 -->
+  <MiliraProj_PlasmaShockGrenade.label>离子震爆手雷</MiliraProj_PlasmaShockGrenade.label>
+  
+  <!-- EN: 斥力手雷 -->
+  <MiliraProj_RepulsiveGrenade.label>斥力手雷</MiliraProj_RepulsiveGrenade.label>
+  
+</LanguageData>

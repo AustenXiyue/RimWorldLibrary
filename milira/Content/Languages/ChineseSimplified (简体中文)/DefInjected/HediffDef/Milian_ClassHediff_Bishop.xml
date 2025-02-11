@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 执子：主教 -->
+  <Milian_ClassHediff_Bishop.label>执子：主教</Milian_ClassHediff_Bishop.label>
+  <!-- EN: 赋予「主教」权能。 -->
+  <Milian_ClassHediff_Bishop.description>赋予「主教」权能。</Milian_ClassHediff_Bishop.description>
+  
+  <Milian_ClassHediff_Bishop.stages.1.label>调谐I</Milian_ClassHediff_Bishop.stages.1.label>
+  <Milian_ClassHediff_Bishop.stages.2.label>调谐II</Milian_ClassHediff_Bishop.stages.2.label>
+  <Milian_ClassHediff_Bishop.stages.3.label>调谐III</Milian_ClassHediff_Bishop.stages.3.label>
+  <Milian_ClassHediff_Bishop.stages.4.label>调谐IV</Milian_ClassHediff_Bishop.stages.4.label>
+  
+</LanguageData>

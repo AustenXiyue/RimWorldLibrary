@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 战车I型 -->
+  <Milian_Mechanoid_RookI.label>战车I型</Milian_Mechanoid_RookI.label>
+  
+  <!-- EN: 战车II型 -->
+  <Milian_Mechanoid_RookII.label>战车II型</Milian_Mechanoid_RookII.label>
+  
+  <!-- EN: 无畏战车 -->
+  <Milian_Mechanoid_RookIII.label>无畏战车</Milian_Mechanoid_RookIII.label>
+  
+  <!-- EN: 不落要塞 -->
+  <Milian_Mechanoid_RookIV.label>不落要塞</Milian_Mechanoid_RookIV.label>
+  
+</LanguageData>

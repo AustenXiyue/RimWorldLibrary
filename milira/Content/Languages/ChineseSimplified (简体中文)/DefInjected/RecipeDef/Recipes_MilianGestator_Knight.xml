@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 培育骑士I型 -->
+  <Milian_Mechanoid_KnightI.label>培育骑士I型</Milian_Mechanoid_KnightI.label>
+  <!-- EN: 培育一个型号为骑士I型的米莉安。 -->
+  <Milian_Mechanoid_KnightI.description>培育一个型号为骑士I型的米莉安。</Milian_Mechanoid_KnightI.description>
+  <!-- EN: Gestating mech. -->
+  <Milian_Mechanoid_KnightI.jobString>培育机械体中。</Milian_Mechanoid_KnightI.jobString>
+  
+  <!-- EN: 培育骑士II型 -->
+  <Milian_Mechanoid_KnightII.label>培育骑士II型</Milian_Mechanoid_KnightII.label>
+  <!-- EN: 培育一个型号为骑士II型的米莉安。 -->
+  <Milian_Mechanoid_KnightII.description>培育一个型号为骑士II型的米莉安。</Milian_Mechanoid_KnightII.description>
+  <!-- EN: Gestating mech. -->
+  <Milian_Mechanoid_KnightII.jobString>培育机械体中。</Milian_Mechanoid_KnightII.jobString>
+  
+  <!-- EN: 培育征战骑士 -->
+  <Milian_Mechanoid_KnightIII.label>培育征战骑士</Milian_Mechanoid_KnightIII.label>
+  <!-- EN: 培育一个型号为征战骑士的米莉安。 -->
+  <Milian_Mechanoid_KnightIII.description>培育一个型号为征战骑士的米莉安。</Milian_Mechanoid_KnightIII.description>
+  <!-- EN: Gestating mech. -->
+  <Milian_Mechanoid_KnightIII.jobString>培育机械体中。</Milian_Mechanoid_KnightIII.jobString>
+  
+  <!-- EN: 培育帕拉丁 -->
+  <Milian_Mechanoid_KnightIV.label>培育帕拉丁</Milian_Mechanoid_KnightIV.label>
+  <!-- EN: 培育一个型号为帕拉丁的米莉安。 -->
+  <Milian_Mechanoid_KnightIV.description>培育一个型号为帕拉丁的米莉安。</Milian_Mechanoid_KnightIV.description>
+  <!-- EN: Gestating mech. -->
+  <Milian_Mechanoid_KnightIV.jobString>培育机械体中。</Milian_Mechanoid_KnightIV.jobString>
+  
+</LanguageData>

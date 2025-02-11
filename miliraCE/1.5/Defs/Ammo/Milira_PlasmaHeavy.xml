@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <ThingCategoryDef>
+        <defName>AmmoMiliraPlasmaHeavy</defName>
+        <label>Milira Heavy Ion Cell</label>
+        <parent>AmmoMilira</parent>
+        <iconPath>UI/Icons/ThingCategories/CaliberPlasmaLarge</iconPath>
+    </ThingCategoryDef>
+
+    <!-- ==================== AmmoSet ========================== -->
+
+    <CombatExtended.AmmoSetDef>
+        <defName>AmmoSet_MiliraPlasmaCannon</defName>
+        <label>Milira Heavy Ion Cell</label>
+        <ammoTypes>
+            <Ammo_MiliraPlasmaHeavy>Bullet_MiliraPlasmaCannon</Ammo_MiliraPlasmaHeavy>
+        </ammoTypes>
+    </CombatExtended.AmmoSetDef>
+
+    <CombatExtended.AmmoSetDef>
+        <defName>AmmoSet_MiliraPlasmaCannonCharged</defName>
+        <label>Milira Heavy Ion Cell</label>
+        <ammoTypes>
+            <Ammo_MiliraPlasmaHeavy>Bullet_MiliraPlasmaCannonCharged</Ammo_MiliraPlasmaHeavy>
+        </ammoTypes>
+    </CombatExtended.AmmoSetDef>
+
+    <!-- ==================== Ammo ========================== -->
+
+    <ThingDef Class="CombatExtended.AmmoDef" ParentName="SpacerMediumAmmoBase">
+        <defName>Ammo_MiliraPlasmaHeavy</defName>
+        <label>Milira Heavy Ion Cell</label>
+        <description>Ion containment cell optimized for heavy launchers used by Milira.</description>
+        <statBases>
+            <Mass>0.134</Mass>
+            <Bulk>0.51</Bulk>
+            <MarketValue>2.52</MarketValue>
+        </statBases>
+        <tradeTags>
+            <li>CE_AutoEnableTrade</li>
+            <li>CE_AutoEnableCrafting_Milira_UniversalBench</li>
+        </tradeTags>
+        <thingCategories>
+            <li>AmmoMiliraPlasmaHeavy</li>
+        </thingCategories>
+        <graphicData>
+            <texPath>Things/Ammo/PlasmaCell/Heavy</texPath>
+            <graphicClass>CombatExtended.Graphic_StackCountRanged</graphicClass>
+        </graphicData>
+        <ammoClass>Plasma</ammoClass>
+    </ThingDef>
+
+    <!-- ================== Projectiles ================== -->
+
+    <ThingDef ParentName="BaseExplosiveBullet">
+        <defName>Bullet_MiliraPlasmaCannon</defName>
+        <label>impact plasma cluster</label>
+        <thingClass>CombatExtended.ProjectileCE_Explosive</thingClass>
+        <projectile Class="CombatExtended.ProjectilePropertiesCE">
+            <damageDef>Milira_PlasmaBombBig</damageDef>
+            <explosionRadius>2.0</explosionRadius>
+            <damageAmountBase>12</damageAmountBase>
+            <armorPenetrationSharp>8</armorPenetrationSharp>
+            <armorPenetrationBlunt>16</armorPenetrationBlunt>
+            <stoppingPower>1.0</stoppingPower>
+            <speed>105</speed>
+        </projectile>
+        <graphicData>
+            <texPath>Milira/ProjectileNew/Bullet_PlasmaExplode</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(1.2,1.2)</drawSize>
+            <shaderType>TransparentPostLight</shaderType>
+        </graphicData>
+        <modExtensions>
+            <li Class="AncotLibrary.ExplosiveProjectileExtension">
+                <doTrail>true</doTrail>
+                <trailFleck>Milira_AirPuffGlow</trailFleck>
+                <trailFreauency>1</trailFreauency>
+                <trailColor>(0.4,0.8,1.0)</trailColor>
+            </li>
+        </modExtensions>
+        <comps>
+            <li Class="MiliraCE.CompProperties_ProjectileFleckColorable">
+                <FleckDatas>
+                    <li>
+                        <fleck>Milira_AirPuffGlow</fleck>
+                        <fleckColor>(0.4, 0.8, 1.0)</fleckColor>
+                        <emissionsPerTick>1</emissionsPerTick>
+                        <flecksPerEmission>1</flecksPerEmission>
+                        <scale>1</scale>
+                    </li>
+                </FleckDatas>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <ThingDef ParentName="BaseExplosiveBullet">
+        <defName>Bullet_MiliraPlasmaCannonCharged</defName>
+        <label>impact plasma cluster charged</label>
+        <thingClass>CombatExtended.ProjectileCE_Explosive</thingClass>
+        <projectile Class="CombatExtended.ProjectilePropertiesCE">
+            <damageDef>Milira_PlasmaBombBig</damageDef>
+            <explosionRadius>3.5</explosionRadius>
+            <damageAmountBase>42</damageAmountBase>
+            <armorPenetrationSharp>25</armorPenetrationSharp>
+            <armorPenetrationBlunt>47.2</armorPenetrationBlunt>
+            <stoppingPower>2.4</stoppingPower>
+            <speed>125</speed>
+        </projectile>
+        <graphicData>
+            <texPath>Milira/ProjectileNew/Bullet_PlasmaExplode</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(1.5,1.5)</drawSize>
+            <shaderType>TransparentPostLight</shaderType>
+        </graphicData>
+        <modExtensions>
+            <li Class="AncotLibrary.ExplosiveProjectileExtension">
+                <doTrail>true</doTrail>
+                <trailFleck>Milira_AirPuffGlow</trailFleck>
+                <trailFreauency>1</trailFreauency>
+                <trailColor>(0.4,0.8,1.0)</trailColor>
+                <doExtraExplosion>true</doExtraExplosion>
+                <extraExplosionCount>1</extraExplosionCount>
+                <extraExplosionDamageType>EMP</extraExplosionDamageType>
+            </li>
+        </modExtensions>
+        <comps>
+            <li Class="CombatExtended.CompProperties_ExplosiveCE">
+                <damageAmountBase>42</damageAmountBase>
+                <explosiveDamageType>EMP</explosiveDamageType>
+                <explosiveRadius>3.5</explosiveRadius>
+            </li>
+            <li Class="MiliraCE.CompProperties_ProjectileFleckColorable">
+                <FleckDatas>
+                    <li>
+                        <fleck>Milira_AirPuffGlow</fleck>
+                        <fleckColor>(0.4, 0.8, 1.0)</fleckColor>
+                        <emissionsPerTick>1</emissionsPerTick>
+                        <flecksPerEmission>1</flecksPerEmission>
+                        <scale>1</scale>
+                    </li>
+                </FleckDatas>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <!-- ==================== Recipes ========================== -->
+
+    <RecipeDef ParentName="MiliraCE_MiliraAmmoPlasmaHeavyRecipeBase">
+        <defName>MakeAmmo_MiliraPlasmaHeavy</defName>
+        <label>make Milira Heavy Ion Cells</label>
+        <description>Craft 75 shots' worth of Milira Heavy Ion Cells.</description>
+        <jobString>Making Milira Heavy Ion Cells.</jobString>
+        <workAmount>6800</workAmount>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Steel</li>
+                    </thingDefs>
+                </filter>
+                <count>20</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Plasteel</li>
+                    </thingDefs>
+                </filter>
+                <count>9</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>ComponentIndustrial</li>
+                    </thingDefs>
+                </filter>
+                <count>2</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>Steel</li>
+                <li>Plasteel</li>
+                <li>ComponentIndustrial</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <Ammo_MiliraPlasmaHeavy>75</Ammo_MiliraPlasmaHeavy>
+        </products>
+    </RecipeDef>
+
+</Defs>

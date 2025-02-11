@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 爆速飞行 -->
+  <Milira_ShortFly.label>爆速飞行</Milira_ShortFly.label>
+  <!-- EN: 扇动双翼，在瞬间爆发出接近音速的飞行速度。使用会消耗饥饿度和休息值，两者任一低于一定值时无法使用。 -->
+  <Milira_ShortFly.description>扇动双翼，在瞬间爆发出接近音速的飞行速度。使用会消耗饥饿度和休息值，两者任一低于一定值时无法使用。</Milira_ShortFly.description>
+  <!-- EN: jump -->
+  <Milira_ShortFly.verbProperties.label>jump</Milira_ShortFly.verbProperties.label>
+  
+  <!-- EN: 斯露德的撼地 -->
+  <Milira_Skill_Hammer.label>斯露德的撼地</Milira_Skill_Hammer.label>
+  <!-- EN: 外放能量形成大锤，随后高高跃起砸向敌人的战技。能够对落地点附近大片的敌人造成伤害和眩晕并击退一段距离，对建筑物效果拔群。\n战技对单位造成100%武器护甲穿透的100%武器面板伤害，额外附带20%武器面板伤害眩晕并击退一段距离；对建筑物额外造成1200%武器面板伤害。使用战技消耗40点武器能量。 -->
+  <Milira_Skill_Hammer.description>外放能量形成大锤，随后高高跃起砸向敌人的战技。能够对落地点附近大片的敌人造成伤害和眩晕并击退一段距离，对建筑物效果拔群。\n战技对单位造成100%武器护甲穿透的100%武器面板伤害，额外附带20%武器面板伤害眩晕并击退一段距离；对建筑物额外造成1200%武器面板伤害。使用战技消耗40点武器能量。</Milira_Skill_Hammer.description>
+  <!-- EN: jump -->
+  <Milira_Skill_Hammer.verbProperties.label>撼地</Milira_Skill_Hammer.verbProperties.label>
+  
+  <!-- EN: 洁萝尔的冲锋 -->
+  <Milira_Skill_Lance.label>洁萝尔的冲锋</Milira_Skill_Lance.label>
+  <!-- EN: 短暂蓄力后向目标方向快速冲锋，贯穿路径上所有敌人的战技。能够对一整条直线上的敌人造成伤害，被阻拦时停止冲锋。\n战技造成100%武器护甲穿透的100%武器面板伤害，使用战技消耗30点武器能量。 -->
+  <Milira_Skill_Lance.description>短暂蓄力后向目标方向快速冲锋，贯穿路径上所有敌人的战技。能够对一整条直线上的敌人造成伤害，被阻拦时停止冲锋。\n战技造成100%武器护甲穿透的100%武器面板伤害，使用战技消耗30点武器能量。</Milira_Skill_Lance.description>
+  <!-- EN: jump -->
+  <Milira_Skill_Lance.verbProperties.label>冲锋</Milira_Skill_Lance.verbProperties.label>
+  
+  <!-- EN: 古娜的旋斩 -->
+  <Milira_Skill_Sickle.label>古娜的旋斩</Milira_Skill_Sickle.label>
+  <!-- EN: 外放能量形成大镰刀，旋转攻击周身敌人的战技。能够对以自身为圆心，一定半径内的所有敌人造成伤害，会直接击杀健康值较低的敌人。\n战技对范围内单位造成100%武器护甲穿透的100%武器面板伤害，若战技造成的伤害导致目标总健康值低于25%则直接击杀该目标。使用战技消耗20点武器能量。 -->
+  <Milira_Skill_Sickle.description>外放能量形成大镰刀，旋转攻击周身敌人的战技。能够对以自身为圆心，一定半径内的所有敌人造成伤害，会直接击杀健康值较低的敌人。\n战技对范围内单位造成100%武器护甲穿透的100%武器面板伤害，若战技造成的伤害导致目标总健康值低于25%则直接击杀该目标。使用战技消耗20点武器能量。</Milira_Skill_Sickle.description>
+  
+  <!-- EN: 萝塔的投矛 -->
+  <Milira_Skill_Spear.label>萝塔的投矛</Milira_Skill_Spear.label>
+  <!-- EN: 外放能量形成投枪，随后向目标掷去的战技。能够对击中的目标及其身后范围造成伤害。\n战技在范围内造成65%护甲穿透的30伤害，使用战技消耗25点武器能量。 -->
+  <Milira_Skill_Spear.description>外放能量形成投枪，随后向目标掷去的战技。能够对击中的目标及其身后范围造成伤害。\n战技在范围内造成65%护甲穿透的30伤害，使用战技消耗25点武器能量。</Milira_Skill_Spear.description>
+  
+  <!-- EN: 诗嘉尔的轰击 -->
+  <Milira_Skill_Sword.label>诗嘉尔的轰击</Milira_Skill_Sword.label>
+  <!-- EN: 汇聚能量形成大剑，蓄力后向目标方向劈砍的战技。能够对目标方向上一整条直线造成伤害，释放战技需要长时间的蓄力。对建筑物效果拔群。\n战技对单位造成200%武器护甲穿透的300%武器面板伤害，并对命中单位附加大量电浆融毁减益累积；对建筑物造成3000%武器面板伤害。使用战技消耗100点武器能量。 -->
+  <Milira_Skill_Sword.description>汇聚能量形成大剑，蓄力后向目标方向劈砍的战技。能够对目标方向上一整条直线造成伤害，释放战技需要长时间的蓄力。对建筑物效果拔群。\n战技对单位造成200%武器护甲穿透的300%武器面板伤害，并对命中单位附加大量电浆融毁减益累积；对建筑物造成3000%武器面板伤害。使用战技消耗100点武器能量。</Milira_Skill_Sword.description>
+  
+</LanguageData>

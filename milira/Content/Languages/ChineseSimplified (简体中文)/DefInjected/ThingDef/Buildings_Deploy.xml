@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 米莉安不落要塞 -->
+  <Milian_Fortress.label>米莉安不落要塞</Milian_Fortress.label>
+  <!-- EN: 坚固的攻城炮塔，能够越过复杂的地形攻击远处的敌人。攻击时会消耗资源。 -->
+  <Milian_Fortress.description>坚固的攻城炮塔，能够越过复杂的地形攻击远处的敌人。攻击时会消耗资源。\n\n不落要塞每1%利器护甲会为要塞模式提供0.45%非爆炸伤害减免，最多可以获得90%。</Milian_Fortress.description>
+  
+  <!-- EN: 电浆团 -->
+  <MilianBullet_HeavyPlasma.label>电浆团</MilianBullet_HeavyPlasma.label>
+  
+  <!-- EN: 重型粒子炮 -->
+  <MilianFortressGun_HeavyPlasma.label>重型粒子炮</MilianFortressGun_HeavyPlasma.label>
+  <!-- EN: 。 -->
+  <MilianFortressGun_HeavyPlasma.description>笨重的大型发射器，能够发射威力巨大的粒子团。</MilianFortressGun_HeavyPlasma.description>
+  <!-- EN: 重型粒子炮 -->
+  <MilianFortressGun_HeavyPlasma.verbs.Verb_Shoot_Fortress.label>重型粒子炮</MilianFortressGun_HeavyPlasma.verbs.Verb_Shoot_Fortress.label>
+  
+  <!-- EN: 谐振仪 -->
+  <Milira_CarriedResonator_Bishop.label>谐振仪</Milira_CarriedResonator_Bishop.label>
+  <!-- EN: 能够提供特定职阶调谐的自供能建筑，有一个小范围的低角护盾提供保护，但本身极其脆弱。一段时间后失效。 -->
+  <Milira_CarriedResonator_Bishop.description>能够提供特定职阶调谐的自供能建筑，有一个小范围的低角护盾提供保护，但本身极其脆弱。一段时间后失效。</Milira_CarriedResonator_Bishop.description>
+  <!-- EN: 失效 -->
+  <Milira_CarriedResonator_Bishop.comps.CompDestroyAfterDelay.countdownLabel>失效</Milira_CarriedResonator_Bishop.comps.CompDestroyAfterDelay.countdownLabel>
+  
+  <!-- EN: 谐振仪 -->
+  <Milira_CarriedResonator_Knight.label>谐振仪</Milira_CarriedResonator_Knight.label>
+  <!-- EN: 能够提供特定职阶调谐的自供能建筑，有一个小范围的低角护盾提供保护，但本身极其脆弱。一段时间后失效。 -->
+  <Milira_CarriedResonator_Knight.description>能够提供特定职阶调谐的自供能建筑，有一个小范围的低角护盾提供保护，但本身极其脆弱。一段时间后失效。</Milira_CarriedResonator_Knight.description>
+  <!-- EN: 失效 -->
+  <Milira_CarriedResonator_Knight.comps.CompDestroyAfterDelay.countdownLabel>失效</Milira_CarriedResonator_Knight.comps.CompDestroyAfterDelay.countdownLabel>
+  
+  <!-- EN: 谐振仪 -->
+  <Milira_CarriedResonator_Pawn.label>谐振仪</Milira_CarriedResonator_Pawn.label>
+  <!-- EN: 能够提供特定职阶调谐的自供能建筑，有一个小范围的低角护盾提供保护，但本身极其脆弱。一段时间后失效。 -->
+  <Milira_CarriedResonator_Pawn.description>能够提供特定职阶调谐的自供能建筑，有一个小范围的低角护盾提供保护，但本身极其脆弱。一段时间后失效。</Milira_CarriedResonator_Pawn.description>
+  <!-- EN: 失效 -->
+  <Milira_CarriedResonator_Pawn.comps.CompDestroyAfterDelay.countdownLabel>失效</Milira_CarriedResonator_Pawn.comps.CompDestroyAfterDelay.countdownLabel>
+  
+  <!-- EN: 谐振仪 -->
+  <Milira_CarriedResonator_Rook.label>谐振仪</Milira_CarriedResonator_Rook.label>
+  <!-- EN: 能够提供特定职阶调谐的自供能建筑，有一个小范围的低角护盾提供保护，但本身极其脆弱。一段时间后失效。 -->
+  <Milira_CarriedResonator_Rook.description>能够提供特定职阶调谐的自供能建筑，有一个小范围的低角护盾提供保护，但本身极其脆弱。一段时间后失效。</Milira_CarriedResonator_Rook.description>
+  <!-- EN: 失效 -->
+  <Milira_CarriedResonator_Rook.comps.CompDestroyAfterDelay.countdownLabel>失效</Milira_CarriedResonator_Rook.comps.CompDestroyAfterDelay.countdownLabel>
+  
+  <!-- EN: 辉煌信标 -->
+  <Milira_DropBeacon.label>辉煌信标</Milira_DropBeacon.label>
+  <!-- EN: 一座能够向天空发射信标的装置。激活后立刻呼叫一队米莉安支援战场。 -->
+  <Milira_DropBeacon.description>一座能够向天空发射信标的装置。激活后立刻呼叫一队米莉安支援战场。</Milira_DropBeacon.description>
+  <Milira_DropBeacon.comps.CompDelayedPawnSpawnOnWakeup.activatedMessageKey>辉煌信标呼叫了一队米莉安支援战场。</Milira_DropBeacon.comps.CompDelayedPawnSpawnOnWakeup.activatedMessageKey>
+  <!-- EN: 失效 -->
+  <Milira_DropBeacon.comps.CompDestroyAfterDelay.countdownLabel>失效</Milira_DropBeacon.comps.CompDestroyAfterDelay.countdownLabel>
+  
+</LanguageData>

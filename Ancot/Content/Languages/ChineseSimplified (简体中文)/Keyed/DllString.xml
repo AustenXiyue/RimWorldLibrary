@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- PlaceWorker提示 -->
+  <Ancot.MustPlaceIndoorRoofed>必须放置在有屋顶的室内。</Ancot.MustPlaceIndoorRoofed>
+  <Ancot.OnlyOneInMap>这张地图只能建造一个同类型建筑。</Ancot.OnlyOneInMap>
+
+  <!-- 能力提示 -->
+  <Ancot.NoWeaponAbilityCharge>无法使用：武器缺少充能。</Ancot.NoWeaponAbilityCharge>
+  <Ancot.Ability_OnlyRace>无法使用：持有者不懂得如何使用这项能力。</Ancot.Ability_OnlyRace>
+  <Ancot.Ability_NoMechEnergy>无法使用：能量不足。</Ancot.Ability_NoMechEnergy>
+  <Ancot.AbilityMechEnergyCost>消耗能量：{0}</Ancot.AbilityMechEnergyCost>
+  <Ancot.Ability_NoSpace>无法使用：空间不足。</Ancot.Ability_NoSpace>
+  <Ancot.Ability_NoEnergyShield>无法使用：能量护盾未准备就绪。</Ancot.Ability_NoEnergyShield>
+  
+  <Ancot.SwitchVerb>切换射击</Ancot.SwitchVerb>
+  <Ancot.SwitchVerbDesc>切换到另一射击模式。</Ancot.SwitchVerbDesc>
+  <Ancot.VerbSwitchInfoDesc>这把武器可以使用的另一种射击模式。</Ancot.VerbSwitchInfoDesc>
+  <Ancot.VerbSwitch_BurstShotCount>连射次数</Ancot.VerbSwitch_BurstShotCount>
+  <Ancot.VerbSwitch_Range>射程</Ancot.VerbSwitch_Range>
+  <Ancot.VerbSwitch_WarmupTime>瞄准时间</Ancot.VerbSwitch_WarmupTime>
+  <Ancot.Second>秒</Ancot.Second>
+  <Ancot.Cancel>取消</Ancot.Cancel>
+  <Ancot.True>是</Ancot.True>
+  <Ancot.False>否</Ancot.False>
+  <Ancot.Finish>完成</Ancot.Finish>
+
+  <Ancot.PerSecond>/s</Ancot.PerSecond>
+
+  <Ancot.AutoFight>自主战斗</Ancot.AutoFight>
+  <Ancot.AutoFightDesc>将当前机械体设置为自主战斗模式。</Ancot.AutoFightDesc>
+
+  <!-- CompProperties_MechCarrier_Custom -->
+  <!-- 回收释放的单位 -->
+  <Ancot.MechCarrierNoPawnToRecover>没有可以回收的单位。</Ancot.MechCarrierNoPawnToRecover>
+
+  <Ancot.MechCarrierRecover>回收{0}</Ancot.MechCarrierRecover>
+  <Ancot.MechCarrierRecoverDesc>召回已经部署的所有{1}，将它们回收并转化为{4}储存起来。回收获得的{4}数量与被回收{1}的剩余健康度百分比正相关，当被回收的{1}的健康度为满时，可以回收{5}部署消耗。\n\n回收{1}将会使部署能力进入长时间的冷却。</Ancot.MechCarrierRecoverDesc>
+
+  <Ancot.FloatUnit_Follow>跟随</Ancot.FloatUnit_Follow>
+  <Ancot.FloatUnit_FollowDesc>当前状态为跟随。浮游单元将会环绕在{0}周围并尝试攻击接近的敌人。</Ancot.FloatUnit_FollowDesc>
+  
+  <Ancot.FloatUnitSortie>出击</Ancot.FloatUnitSortie>
+  <Ancot.FloatUnitSortieDesc>当前状态为出击。浮游单元将会主动接近并攻击{0}的敌人。</Ancot.FloatUnitSortieDesc>
+
+  <Ancot.ChargeImmediately>瞬时充能</Ancot.ChargeImmediately>
+  <Ancot.ChargeImmediatelyDesc>立刻为手持的武器充能一次。</Ancot.ChargeImmediatelyDesc>
+  <Ancot.ChargeImmediatelyReason>无法使用：正在冷却中。</Ancot.ChargeImmediatelyReason>
+
+  <Ancot.Turret>炮塔</Ancot.Turret>
+  <Ancot.TurretDescI>安装在这件服装上的武器。</Ancot.TurretDescI>
+  <Ancot.TurretDescII>安装在这个生物身上的武器。</Ancot.TurretDescII>
+
+  <Ancot.ProjectileCharged>充能子弹</Ancot.ProjectileCharged>
+  <Ancot.ProjectileChargedDesc>这把武器在存有能量时发射的子弹。</Ancot.ProjectileChargedDesc>
+  <Ancot.ProjectileCharged_Damage>伤害</Ancot.ProjectileCharged_Damage>
+  <Ancot.ProjectileCharged_ArmorPenetration>护甲穿透</Ancot.ProjectileCharged_ArmorPenetration>
+  <Ancot.ProjectileCharged_StoppingPower>抑制能力</Ancot.ProjectileCharged_StoppingPower>
+  <Ancot.ProjectileCharged_ExplosionRadius>爆炸半径</Ancot.ProjectileCharged_ExplosionRadius>
+  
+  <Ancot.MaxStamina>最大架势值</Ancot.MaxStamina>
+  <Ancot.MaxStaminaDesc>持有这面盾牌时拥有的架势值上限。</Ancot.MaxStaminaDesc>
+  <Ancot.StaminaGainPerTick>架势值回复率</Ancot.StaminaGainPerTick>
+  <Ancot.StaminaGainPerTickDesc>持有这面盾牌时自然回复架势值的速度。举盾时这个速度会降低至原来的40%。</Ancot.StaminaGainPerTickDesc>
+  <Ancot.DefenseAngle>防御角度</Ancot.DefenseAngle>
+  <Ancot.DefenseAngleDesc>持有这面盾牌时能够防御来自正面多少角度的攻击。</Ancot.DefenseAngleDesc>
+  <!-- <Ancot.StaminaConsumeFactor>护甲防御乘数</Ancot.StaminaConsumeFactor>
+  <Ancot.StaminaConsumeFactorDesc>这面盾牌的利器护甲对于防御性能的影响。数值越低，防御性能越好。</Ancot.StaminaConsumeFactorDesc> -->
+  <Ancot.BlocksRangedWeapons>阻碍射击</Ancot.BlocksRangedWeapons>
+  <Ancot.BlocksRangedWeaponsDesc>持有这面盾牌时能否进行远程攻击。</Ancot.BlocksRangedWeaponsDesc>
+  <Ancot.ShieldBreakStanceTick>破盾僵直</Ancot.ShieldBreakStanceTick>
+  <Ancot.ShieldBreakStanceTickDesc>这面盾牌在被击破后持有者将会陷入僵直的时长。</Ancot.ShieldBreakStanceTickDesc>
+  <!-- <Ancot.StaminaConsumeRateRange>远程防御乘数</Ancot.StaminaConsumeRateRange>
+  <Ancot.StaminaConsumeRateRangeDesc>这面盾牌在防御远程攻击时所消耗架势值的乘数。</Ancot.StaminaConsumeRateRangeDesc>
+  <Ancot.StaminaConsumeRateMelee>近战防御乘数</Ancot.StaminaConsumeRateMelee>
+  <Ancot.StaminaConsumeRateMeleeDesc>这面盾牌在防御近战攻击时所消耗架势值的乘数。</Ancot.StaminaConsumeRateMeleeDesc> -->
+  <Ancot.ThresholdStaminaCost>架势值消耗阈值</Ancot.ThresholdStaminaCost>
+  <Ancot.ThresholdStaminaCostDesc>这面盾牌在格挡单次攻击时所能消耗的最大架势值数量。</Ancot.ThresholdStaminaCostDesc>
+  <Ancot.StartingTicksToReset>重置冷却</Ancot.StartingTicksToReset>
+  <Ancot.StartingTicksToResetDesc>这面盾牌在被击破后恢复架势值需要的时间。</Ancot.StartingTicksToResetDesc>
+
+  <Ancot.StaminaConsumeRateRange>架势值消耗乘数（远程）</Ancot.StaminaConsumeRateRange>
+  <Ancot.StaminaConsumeRateRangeDesc>这面盾牌在格挡一次远程攻击时所消耗架势值的乘数，受到盾牌本身对于远程伤害的防护能力与盾牌的利器护甲影响。\n架势值的消耗计算公式为：\n\n架势值消耗 = 攻击的伤害量 x 攻击的护甲穿透(%) x 架势值消耗乘数（远程）\n\n超过架势值消耗阈值则按照阈值消耗计算。</Ancot.StaminaConsumeRateRangeDesc>
+
+  <Ancot.StaminaConsumeRateMelee>架势值消耗乘数（近战）</Ancot.StaminaConsumeRateMelee>
+  <Ancot.StaminaConsumeRateMeleeDesc>这面盾牌在格挡一次近战攻击时所消耗架势值的乘数，受到盾牌本身对于近战伤害的防护能力与盾牌的利器护甲影响。\n架势值的消耗计算公式为：\n\n架势值消耗 = 攻击的伤害量 x 攻击的护甲穿透(%) x 架势值消耗乘数（近战）\n\n超过架势值消耗阈值则按照阈值消耗计算。</Ancot.StaminaConsumeRateMeleeDesc>
+
+  <!-- 远行队 -->
+  <Ancot.CaravanMoveSpeedFactor>远行队成员提供的移动速度乘数</Ancot.CaravanMoveSpeedFactor>
+
+  <Ancot.SwitchAdditionalGraphic>切换额外图案样式。</Ancot.SwitchAdditionalGraphic>
+
+  <Ancot.SwitchWeapon>切换武器</Ancot.SwitchWeapon>
+  <Ancot.SwitchWeaponDesc>切换备用的武器。当备用武器栏位为空时，将手持武器放入备用武器栏位。</Ancot.SwitchWeaponDesc>
+
+</LanguageData>

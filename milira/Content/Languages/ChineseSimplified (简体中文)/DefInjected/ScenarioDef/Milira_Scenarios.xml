@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 米莉拉孤身调查 -->
+  <Milira_Scenarios.label>米莉拉孤身调查</Milira_Scenarios.label>
+  <!-- EN: 日复一日的漂流云彩与日升日落终于让人心生厌倦。在阅读完藏书室的全部书籍后，年轻的米莉拉决定离开居住已逾百年的天空都市，独自去往地面探寻书中描述的那些事物。 -->
+  <Milira_Scenarios.description>日复一日的漂流云彩与日升日落终于让人心生厌倦。在阅读完藏书室的全部书籍后，年轻的米莉拉决定离开居住已逾百年的天空都市，独自去往地面探寻书中描述的那些事物。</Milira_Scenarios.description>
+  <!-- EN: 日复一日的漂流云彩与日升日落终于让人心生厌倦。在阅读完藏书室的全部书籍后，年轻的米莉拉决定离开居住已逾百年的天空都市，独自去往地面探寻书中描述的那些事物。 -->
+  <Milira_Scenarios.scenario.description>日复一日的漂流云彩与日升日落终于让人心生厌倦。在阅读完藏书室的全部书籍后，年轻的米莉拉决定离开居住已逾百年的天空都市，独自去往地面探寻书中描述的那些事物。</Milira_Scenarios.scenario.description>
+  <!-- EN: 米莉拉孤身调查 -->
+  <Milira_Scenarios.scenario.name>米莉拉孤身调查</Milira_Scenarios.scenario.name>
+  <!-- EN: 离开天空都市的年轻米莉拉独自前往地面。 -->
+  <Milira_Scenarios.scenario.summary>离开天空都市的年轻米莉拉独自前往地面。</Milira_Scenarios.scenario.summary>
+  
+</LanguageData>

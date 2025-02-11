@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 主教I型 -->
+  <Milian_Mechanoid_BishopI.label>主教I型</Milian_Mechanoid_BishopI.label>
+  <!-- EN: 型号为主教I型的米莉安。\n\n可以装备远程武器。 -->
+  <Milian_Mechanoid_BishopI.description>型号为主教I型的米莉安。\n\n可以装备远程武器。</Milian_Mechanoid_BishopI.description>
+  <!-- EN: left fist -->
+  <Milian_Mechanoid_BishopI.tools.left_fist.label>左拳</Milian_Mechanoid_BishopI.tools.left_fist.label>
+  <!-- EN: right fist -->
+  <Milian_Mechanoid_BishopI.tools.right_fist.label>右拳</Milian_Mechanoid_BishopI.tools.right_fist.label>
+  
+  <!-- EN: 主教II型 -->
+  <Milian_Mechanoid_BishopII.label>主教II型</Milian_Mechanoid_BishopII.label>
+  <!-- EN: 型号为主教II型的米莉安。\n\n可以装备远程武器。 -->
+  <Milian_Mechanoid_BishopII.description>型号为主教II型的米莉安。\n\n可以装备远程武器。</Milian_Mechanoid_BishopII.description>
+  <!-- EN: left fist -->
+  <Milian_Mechanoid_BishopII.tools.left_fist.label>左拳</Milian_Mechanoid_BishopII.tools.left_fist.label>
+  <!-- EN: right fist -->
+  <Milian_Mechanoid_BishopII.tools.right_fist.label>右拳</Milian_Mechanoid_BishopII.tools.right_fist.label>
+  
+  <!-- EN: 执政官 -->
+  <Milian_Mechanoid_BishopIII.label>执政官</Milian_Mechanoid_BishopIII.label>
+  <!-- EN: 型号为执政官的米莉安。\n可以装备小型浮游炮。\n\n可以装备远程武器。 -->
+  <Milian_Mechanoid_BishopIII.description>型号为执政官的米莉安。\n可以装备小型浮游炮。\n\n可以装备远程武器。</Milian_Mechanoid_BishopIII.description>
+  <Milian_Mechanoid_BishopIII.comps.CompCommandPivot.gizmoLabel1>跟随</Milian_Mechanoid_BishopIII.comps.CompCommandPivot.gizmoLabel1>
+  <Milian_Mechanoid_BishopIII.comps.CompCommandPivot.gizmoLabel2>出击</Milian_Mechanoid_BishopIII.comps.CompCommandPivot.gizmoLabel2>
+  <Milian_Mechanoid_BishopIII.comps.CompCommandPivot.gizmoDesc1>当前状态为跟随。浮游单元将会环绕在执政官周围并尝试攻击接近的敌人。</Milian_Mechanoid_BishopIII.comps.CompCommandPivot.gizmoDesc1>
+  <Milian_Mechanoid_BishopIII.comps.CompCommandPivot.gizmoDesc2>当前状态为出击。浮游单元将会主动接近并攻击执政官的敌人。</Milian_Mechanoid_BishopIII.comps.CompCommandPivot.gizmoDesc2>
+  <!-- EN: left fist -->
+  <Milian_Mechanoid_BishopIII.tools.left_fist.label>左拳</Milian_Mechanoid_BishopIII.tools.left_fist.label>
+  <!-- EN: right fist -->
+  <Milian_Mechanoid_BishopIII.tools.right_fist.label>右拳</Milian_Mechanoid_BishopIII.tools.right_fist.label>
+  
+  <!-- EN: 枢机主教 -->
+  <Milian_Mechanoid_BishopIV.label>枢机主教</Milian_Mechanoid_BishopIV.label>
+  <!-- EN: 型号为枢机主教的米莉安。\n\n可以装备远程武器。 -->
+  <Milian_Mechanoid_BishopIV.description>型号为枢机主教的米莉安。\n\n可以装备远程武器。</Milian_Mechanoid_BishopIV.description>
+  <!-- EN: left fist -->
+  <Milian_Mechanoid_BishopIV.tools.left_fist.label>左拳</Milian_Mechanoid_BishopIV.tools.left_fist.label>
+  <!-- EN: right fist -->
+  <Milian_Mechanoid_BishopIV.tools.right_fist.label>右拳</Milian_Mechanoid_BishopIV.tools.right_fist.label>
+  
+</LanguageData>

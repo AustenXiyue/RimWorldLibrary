@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 执子：士兵 -->
+  <Milian_ClassHediff_Pawn.label>执子：士兵</Milian_ClassHediff_Pawn.label>
+  <!-- EN: 赋予「士兵」权能。 -->
+  <Milian_ClassHediff_Pawn.description>赋予「士兵」权能。</Milian_ClassHediff_Pawn.description>
+  
+  <Milian_ClassHediff_Pawn.stages.1.label>调谐I</Milian_ClassHediff_Pawn.stages.1.label>
+  <Milian_ClassHediff_Pawn.stages.2.label>调谐II</Milian_ClassHediff_Pawn.stages.2.label>
+  <Milian_ClassHediff_Pawn.stages.3.label>调谐III</Milian_ClassHediff_Pawn.stages.3.label>
+  <Milian_ClassHediff_Pawn.stages.4.label>调谐IV</Milian_ClassHediff_Pawn.stages.4.label>
+  
+</LanguageData>

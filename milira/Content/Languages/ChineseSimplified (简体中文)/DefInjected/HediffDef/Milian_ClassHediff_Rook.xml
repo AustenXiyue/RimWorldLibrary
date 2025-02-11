@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 执子：战车 -->
+  <Milian_ClassHediff_Rook.label>执子：战车</Milian_ClassHediff_Rook.label>
+  <!-- EN: 赋予「战车」权能。 -->
+  <Milian_ClassHediff_Rook.description>赋予「战车」权能。</Milian_ClassHediff_Rook.description>
+  
+  <Milian_ClassHediff_Rook.stages.1.label>调谐I</Milian_ClassHediff_Rook.stages.1.label>
+  <Milian_ClassHediff_Rook.stages.2.label>调谐II</Milian_ClassHediff_Rook.stages.2.label>
+  <Milian_ClassHediff_Rook.stages.3.label>调谐III</Milian_ClassHediff_Rook.stages.3.label>
+  <Milian_ClassHediff_Rook.stages.4.label>调谐IV</Milian_ClassHediff_Rook.stages.4.label>
+  
+</LanguageData>

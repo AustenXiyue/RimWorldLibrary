@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef Name= "Milira_SpaceMeleeBase" ParentName="BaseMeleeWeapon_Sharp_Quality" Abstract="True">
+    <techLevel>Spacer</techLevel>
+    <tickerType>Normal</tickerType>
+    <smeltable>true</smeltable>
+    <relicChance>0</relicChance>
+    <tradeability>Sellable</tradeability>
+    <statBases>
+      <MaxHitPoints>240</MaxHitPoints>
+      <Flammability>0</Flammability>
+      <Beauty>65</Beauty>
+      <MarketValue>4000</MarketValue>
+      <WorkToMake>60000</WorkToMake>
+    </statBases>
+    <recipeMaker>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <recipeUsers Inherit="false">
+        <li>Milira_SunBlastFurnace</li>
+      </recipeUsers>
+      <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
+      <skillRequirements>
+        <Crafting>14</Crafting>
+        <Intellectual>14</Intellectual>
+      </skillRequirements>
+      <effectWorking>Milira_SunBlastFurnaceBurning</effectWorking>
+		  <soundWorking>MiliraRecipe_SunBlastFurnace</soundWorking>
+    </recipeMaker>
+    <weaponClasses>
+      <li>Melee</li>
+    </weaponClasses>
+    <comps Inherit="False">
+      <li Class="CompProperties_Art">
+        <nameMaker>NamerArtWeaponMelee</nameMaker>
+        <descriptionMaker>ArtDescription_WeaponMelee</descriptionMaker>
+        <minQualityForArtistic>Excellent</minQualityForArtistic>
+      </li>
+      <li Class="CompProperties_Forbiddable"/>
+      <li Class="CompProperties_Styleable"/>
+      <li Class="CompProperties_Biocodable"/>
+      <li>
+        <compClass>CompQuality</compClass>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="Milira_SpaceMeleeBase">
+    <defName>Milira_Lance</defName>
+    <label>Milira's Lance</label>
+    <description>Milira's Lance. The wielder can use the combat techniques inscribed within the weapon.</description>
+    <descriptionHyperlinks>
+      <AbilityDef>Milira_Skill_Lance</AbilityDef>
+    </descriptionHyperlinks>
+    <graphicData>
+      <texPath>Milira/Weapon/Lance</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.5</drawSize>
+    </graphicData>
+    <generateCommonality>1.0</generateCommonality>
+    <statBases>
+      <Mass>9.8</Mass>
+      <Ancot_WeaponMaxCharge>100</Ancot_WeaponMaxCharge>
+      <Ancot_WeaponChargeTick>1800</Ancot_WeaponChargeTick>
+    </statBases>
+    <costList>
+      <Milira_SunPlateSteel>175</Milira_SunPlateSteel>
+      <Plasteel>120</Plasteel>
+      <Milira_SolarCrystal>6</Milira_SolarCrystal>
+      <ComponentSpacer>6</ComponentSpacer>
+    </costList>
+    <recipeMaker>
+      <researchPrerequisite>Milira_Lance</researchPrerequisite>
+    </recipeMaker>
+    <equippedStatOffsets>
+      <MoveSpeed>1.0</MoveSpeed>
+      <MeleeDodgeChance>-10</MeleeDodgeChance>
+      <MeleeHitChance>15</MeleeHitChance>
+    </equippedStatOffsets>
+    <equippedAngleOffset>35</equippedAngleOffset>
+    <weaponTags>
+      <li>Milira_Melee_Lance</li>
+    </weaponTags>
+    <tools>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>35</power>
+        <cooldownTime>2.2</cooldownTime>
+        <armorPenetration>0.65</armorPenetration>
+      </li>
+    </tools>
+    <comps>
+      <li Class="CompProperties_EquippableAbility">
+        <abilityDef>Milira_Skill_Lance</abilityDef>
+      </li>
+      <li Class="AncotLibrary.CompProperties_MeleeWeaponCharge_Ability">
+        <chargePerUse>30</chargePerUse>
+        <barColor>(0.71,0.88,0.90,0.8)</barColor>
+      </li>
+    </comps>
+  </ThingDef>
+
+
+  <ThingDef ParentName="Milira_SpaceMeleeBase">
+    <defName>Milira_Sickle</defName>
+    <label>Milira's sickle</label>
+    <description>Milira's sickle. The wielder can use the combat techniques inscribed within the weapon.</description>
+    <descriptionHyperlinks>
+      <AbilityDef>Milira_Skill_Sickle</AbilityDef>
+    </descriptionHyperlinks>
+    <graphicData>
+      <texPath>Milira/Weapon/Sickle</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.5</drawSize>
+    </graphicData>
+    <generateCommonality>1.0</generateCommonality>
+    <statBases>
+      <Mass>8.5</Mass>
+      <Ancot_WeaponMaxCharge>100</Ancot_WeaponMaxCharge>
+      <Ancot_WeaponChargeTick>1800</Ancot_WeaponChargeTick>
+    </statBases>
+    <costList>
+      <Milira_SunPlateSteel>175</Milira_SunPlateSteel>
+      <Plasteel>120</Plasteel>
+      <Milira_SolarCrystal>6</Milira_SolarCrystal>
+      <ComponentSpacer>5</ComponentSpacer>
+    </costList>
+    <recipeMaker>
+      <researchPrerequisite>Milira_Sickle</researchPrerequisite>
+    </recipeMaker>
+    <equippedStatOffsets>
+      <MeleeHitChance>8</MeleeHitChance>
+    </equippedStatOffsets>
+    <equippedAngleOffset>35</equippedAngleOffset>
+    <weaponTags>
+      <li>Milira_Melee_Sickle</li>
+    </weaponTags>
+    <tools>
+      <li>
+        <label>blade</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>24</power>
+        <cooldownTime>1.8</cooldownTime>
+        <armorPenetration>0.55</armorPenetration>
+      </li>
+      <li>
+        <label>Handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>20</power>
+        <cooldownTime>1.5</cooldownTime>
+        <armorPenetration>0.24</armorPenetration>
+      </li>
+    </tools>
+    <comps>
+      <li Class="AncotLibrary.CompProperties_MeleeWeaponCharge_Ability">
+        <chargePerUse>20</chargePerUse>
+        <barColor>(0.71,0.88,0.90,0.8)</barColor>
+      </li>
+      <li Class="CompProperties_EquippableAbility">
+        <abilityDef>Milira_Skill_Sickle</abilityDef>
+      </li>
+    </comps>
+  </ThingDef>
+
+
+  <ThingDef ParentName="Milira_SpaceMeleeBase">
+    <defName>Milira_Hammer</defName>
+    <label>Milira's Warhammer</label>
+    <description>Milira's Warhammer. The wielder can use the combat techniques inscribed within the weapon.</description>
+    <descriptionHyperlinks>
+      <AbilityDef>Milira_Skill_Hammer</AbilityDef>
+    </descriptionHyperlinks>
+    <graphicData>
+      <texPath>Milira/Weapon/Hammer</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.5</drawSize>
+    </graphicData>
+    <generateCommonality>0.4</generateCommonality>
+    <statBases>
+      <Mass>12.8</Mass>
+      <Ancot_WeaponMaxCharge>100</Ancot_WeaponMaxCharge>
+      <Ancot_WeaponChargeTick>1800</Ancot_WeaponChargeTick>
+    </statBases>
+    <costList>
+      <Milira_SunPlateSteel>225</Milira_SunPlateSteel>
+      <Plasteel>150</Plasteel>
+      <Milira_SolarCrystal>6</Milira_SolarCrystal>
+      <ComponentSpacer>8</ComponentSpacer>
+    </costList>
+    <recipeMaker>
+      <researchPrerequisite>Milira_Hammer</researchPrerequisite>
+    </recipeMaker>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.4</MoveSpeed>
+    </equippedStatOffsets>
+    <equippedAngleOffset>-25</equippedAngleOffset>
+    <weaponTags>
+      <li>Milira_Melee_Hammer</li>
+    </weaponTags>
+    <tools>
+      <li>
+        <label>hammer</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>40</power>
+        <cooldownTime>3.2</cooldownTime>
+        <armorPenetration>0.45</armorPenetration>
+        <extraMeleeDamages>
+          <li>
+            <def>Stun</def>
+            <amount>4</amount>
+            <chance>0.33</chance>
+          </li>
+        </extraMeleeDamages>
+      </li>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>32</power>
+        <cooldownTime>2.6</cooldownTime>
+        <armorPenetration>0.24</armorPenetration>
+      </li>
+    </tools>
+    <comps>
+      <li Class="AncotLibrary.CompProperties_MeleeWeaponCharge_Ability">
+        <chargePerUse>40</chargePerUse>
+        <barColor>(0.71,0.88,0.90,0.8)</barColor>
+      </li>
+      <li Class="CompProperties_EquippableAbility">
+        <abilityDef>Milira_Skill_Hammer</abilityDef>
+      </li>
+    </comps>
+  </ThingDef>
+
+
+  <ThingDef ParentName="Milira_SpaceMeleeBase">
+    <defName>Milira_TwoHandSword</defName>
+    <label>Milira's Greatsword</label>
+    <description>Milira's Greatsword. The wielder can use the combat techniques inscribed within the weapon.</description>
+    <thingClass>AncotLibrary.ThingWithComps_OverSizedWeapon</thingClass>
+    <descriptionHyperlinks>
+      <AbilityDef>Milira_Skill_Sword</AbilityDef>
+    </descriptionHyperlinks>
+    <uiIconPath>Milira/Weapon/Sword</uiIconPath>
+    <uiIconScale>1.5</uiIconScale>
+    <graphicData>
+      <texPath>Milira/Weapon/Sword</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1.5,1.5)</drawSize>
+    </graphicData>
+    <generateCommonality>1.0</generateCommonality>
+    <statBases>
+      <Mass>14.5</Mass>
+      <Ancot_WeaponMaxCharge>100</Ancot_WeaponMaxCharge>
+      <Ancot_WeaponChargeTick>1800</Ancot_WeaponChargeTick>
+    </statBases>
+    <costList>
+      <Milira_SunPlateSteel>225</Milira_SunPlateSteel>
+      <Plasteel>150</Plasteel>
+      <Milira_SolarCrystal>6</Milira_SolarCrystal>
+      <ComponentSpacer>8</ComponentSpacer>
+    </costList>
+    <recipeMaker>
+      <researchPrerequisite>Milira_Sword</researchPrerequisite>
+    </recipeMaker>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.4</MoveSpeed>
+    </equippedStatOffsets>
+    <equippedAngleOffset>50</equippedAngleOffset>
+    <weaponTags>
+      <li>Milira_Melee_TwoHandSword</li>
+    </weaponTags>
+    <tools>
+      <li>
+        <label>blade</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>36</power>
+        <cooldownTime>3.2</cooldownTime>
+        <armorPenetration>0.85</armorPenetration>
+      </li>
+    </tools>
+    <comps>
+      <li Class="AncotLibrary.CompProperties_MeleeWeaponCharge_Ability">
+        <chargePerUse>100</chargePerUse>
+        <barColor>(0.71,0.88,0.90,0.8)</barColor>
+      </li>
+      <li Class="CompProperties_EquippableAbility">
+        <abilityDef>Milira_Skill_Sword</abilityDef>
+      </li>
+    </comps>
+    <modExtensions>
+      <li Class="AncotLibrary.ExtraGraphicData_Extension">
+        <graphicData>
+          <texPath>Milira/Weapon/Sword_OnHand</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+          <drawSize>(1.5,4.5)</drawSize>
+        </graphicData>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+
+  <ThingDef ParentName="Milira_SpaceMeleeBase">
+    <defName>Milira_Spear</defName>
+    <label>Milira's Spear</label>
+    <description>Milira's Spear. The wielder can use the combat techniques inscribed within the weapon.</description>
+    <descriptionHyperlinks>
+      <AbilityDef>Milira_Skill_Spear</AbilityDef>
+    </descriptionHyperlinks>
+    <graphicData>
+      <texPath>Milira/Weapon/Spear</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1.5,1.5)</drawSize>
+    </graphicData>
+    <generateCommonality>0.8</generateCommonality>
+    <statBases>
+      <Mass>7.5</Mass>
+      <Ancot_WeaponMaxCharge>100</Ancot_WeaponMaxCharge>
+      <Ancot_WeaponChargeTick>1800</Ancot_WeaponChargeTick>
+    </statBases>
+    <costList>
+      <Milira_SunPlateSteel>125</Milira_SunPlateSteel>
+      <Plasteel>100</Plasteel>
+      <Milira_SolarCrystal>6</Milira_SolarCrystal>
+      <ComponentSpacer>5</ComponentSpacer>
+    </costList>
+    <recipeMaker>
+      <researchPrerequisite>Milira_Spear</researchPrerequisite>
+    </recipeMaker>
+    <equippedStatOffsets>
+      <MeleeHitChance>8</MeleeHitChance>
+      <MeleeDodgeChance>10</MeleeDodgeChance>
+    </equippedStatOffsets>
+    <equippedAngleOffset>35</equippedAngleOffset>
+    <weaponTags>
+      <li>Milira_Melee_Spear</li>
+    </weaponTags>
+    <tools>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>24</power>
+        <cooldownTime>1.4</cooldownTime>
+        <armorPenetration>0.85</armorPenetration>
+      </li>
+      <li>
+        <label>blade</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>20</power>
+        <cooldownTime>1.1</cooldownTime>
+        <armorPenetration>0.24</armorPenetration>
+      </li>
+    </tools>
+    <comps>
+      <li Class="AncotLibrary.CompProperties_MeleeWeaponCharge_Ability">
+        <chargePerUse>20</chargePerUse>
+        <barColor>(0.71,0.88,0.90,0.8)</barColor>
+      </li>
+      <li Class="CompProperties_EquippableAbility">
+        <abilityDef>Milira_Skill_Spear</abilityDef>
+      </li>
+    </comps>
+  </ThingDef>
+
+
+</Defs>

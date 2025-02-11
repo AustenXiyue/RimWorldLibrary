@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- <WorkGiverDef ParentName="HaulToBase"> -->
+  <WorkGiverDef>
+    <defName>Ancot_HaulToMechCarrier_Custom</defName>
+    <label>haul resource to mech carrier</label>
+    <giverClass>AncotLibrary.WorkGiver_HaulResourcesToMechCarrier_Custom</giverClass>
+    <workType>Hauling</workType>
+    <verb>haul to</verb>
+    <gerund>hauling to</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+    <priorityInType>90</priorityInType>
+  </WorkGiverDef>
+
+
+
+</Defs>

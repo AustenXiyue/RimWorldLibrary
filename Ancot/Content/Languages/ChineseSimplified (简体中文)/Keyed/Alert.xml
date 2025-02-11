@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- 机械体自主作战的警告 -->
+  <Ancot.Alert_MechAutoFight>机械体正在自主作战</Ancot.Alert_MechAutoFight>
+
+  <Ancot.Alert_MechAutoFightDescPrefix>这些机械体正在自主作战</Ancot.Alert_MechAutoFightDescPrefix>
+  <Ancot.Alert_MechAutoFightDesc>它们会优先在地图内寻找威胁并试图将其消灭。征召以获得控制权。</Ancot.Alert_MechAutoFightDesc>
+
+</LanguageData>
