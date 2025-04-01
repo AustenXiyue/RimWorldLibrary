@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>[TR]Quality Recasting Table</name>
+	<author>kearril</author>
+	<packageId>kearril.QualityRecastingTable</packageId>
+	<supportedVersions>	
+		<li>1.5</li>
+	</supportedVersions>
+	<modDependencies>	
+
+	</modDependencies>
+	<loadAfter>	
+		<li>Ludeon.RimWorld</li>
+	</loadAfter>
+	<description>品质重铸台，只需要花费少许白银，就可改变物品品质</description>
+</ModMetaData>

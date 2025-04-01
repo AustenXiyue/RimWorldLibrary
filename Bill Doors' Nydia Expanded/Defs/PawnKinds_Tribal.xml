@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!--Just here to get rid of gear health and poor equipment quality-->
+	<PawnKindDef ParentName="TribalArcherBase">
+		<defName>BDsNydiaExp_Pawnkind</defName>
+		<label>archer</label>
+		<itemQuality>Normal</itemQuality>
+		<gearHealthRange>1</gearHealthRange>
+		<apparelMoney>180~350</apparelMoney>
+		<weaponMoney>80~80</weaponMoney>
+		<weaponTags>
+			<li>NeolithicRangedBasic</li>
+		</weaponTags>
+		<disallowedTraits>
+			<li>Brawler</li>
+		</disallowedTraits>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
+		<initialWillRange>8~20</initialWillRange>
+		<initialResistanceRange>38~60</initialResistanceRange>
+	</PawnKindDef>
+</Defs>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>EnergyShieldCECompat 能量护盾CE兼容补丁</name>
+	<author>竹子菌</author>
+    <supportedVersions>
+        <li>1.4</li>
+        <li>1.5</li>
+    </supportedVersions>
+    <packageId>cn.zhuzijun.EnergyShieldCECompat</packageId>
+	<description>
+make EnergyShield compatible with Combat Extended
+    </description>
+    <modDependencies>
+        <li>
+            <packageId>CETeam.CombatExtended</packageId>
+            <displayName>Combat Extended</displayName>
+            <steamWorkshopUrl>steam://url/CommunityFilePage/2890901044</steamWorkshopUrl>
+        </li>
+        <li>
+            <packageId>zhuzi.AdvancedEnergy.Shields</packageId>
+            <displayName>EnergyShield 能量护盾</displayName>
+            <steamWorkshopUrl>steam://url/CommunityFilePage/2976306426</steamWorkshopUrl>
+        </li>
+    </modDependencies>
+</ModMetaData>

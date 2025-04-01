@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="Bullet_Shell_HighExplosive"]/comps</xpath>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="Bullet_Shell_HighExplosive"]/comps</xpath>
+			<value>
+				<li Class="BillDoorsFramework.CompProperties_FleckEmitterSmooth">
+					<fleck>Fleck_BDsRocketSmokeTrail</fleck>
+					<emissionInterval>0</emissionInterval>
+					<burstCount>1</burstCount>
+					<rotation>0~360</rotation>
+					<scale>2</scale>
+					<thickness>1</thickness>
+				</li>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="Bullet_Shell_HighExplosive"]</xpath>
+			<value>
+				<comps>
+					<li Class="BillDoorsFramework.CompProperties_FleckEmitterSmooth">
+						<fleck>Fleck_BDsRocketSmokeTrail</fleck>
+						<emissionInterval>0</emissionInterval>
+						<burstCount>1</burstCount>
+						<rotation>0~360</rotation>
+						<scale>2</scale>
+						<thickness>1</thickness>
+					</li>
+				</comps>
+			</value>
+		</nomatch>
+	</Operation>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="Bullet_Shell_Incendiary"]/comps</xpath>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="Bullet_Shell_Incendiary"]/comps</xpath>
+			<value>
+				<li Class="BillDoorsFramework.CompProperties_FleckEmitterSmooth">
+					<fleck>Fleck_BDsRocketSmokeTrail</fleck>
+					<emissionInterval>0</emissionInterval>
+					<burstCount>1</burstCount>
+					<rotation>0~360</rotation>
+					<scale>2</scale>
+					<thickness>1</thickness>
+				</li>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="Bullet_Shell_Incendiary"]</xpath>
+			<value>
+				<comps>
+					<li Class="BillDoorsFramework.CompProperties_FleckEmitterSmooth">
+						<fleck>Fleck_BDsRocketSmokeTrail</fleck>
+						<emissionInterval>0</emissionInterval>
+						<burstCount>1</burstCount>
+						<rotation>0~360</rotation>
+						<scale>2</scale>
+						<thickness>1</thickness>
+					</li>
+				</comps>
+			</value>
+		</nomatch>
+	</Operation>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="Bullet_Shell_EMP"]/comps</xpath>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="Bullet_Shell_EMP"]/comps</xpath>
+			<value>
+				<li Class="BillDoorsFramework.CompProperties_FleckEmitterSmooth">
+					<fleck>Fleck_BDsRocketSmokeTrail</fleck>
+					<emissionInterval>0</emissionInterval>
+					<burstCount>1</burstCount>
+					<rotation>0~360</rotation>
+					<scale>2</scale>
+					<thickness>1</thickness>
+				</li>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="Bullet_Shell_EMP"]</xpath>
+			<value>
+				<comps>
+					<li Class="BillDoorsFramework.CompProperties_FleckEmitterSmooth">
+						<fleck>Fleck_BDsRocketSmokeTrail</fleck>
+						<emissionInterval>0</emissionInterval>
+						<burstCount>1</burstCount>
+						<rotation>0~360</rotation>
+						<scale>2</scale>
+						<thickness>1</thickness>
+					</li>
+				</comps>
+			</value>
+		</nomatch>
+	</Operation>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="Bullet_Shell_Smoke"]/comps</xpath>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="Bullet_Shell_Smoke"]/comps</xpath>
+			<value>
+				<li Class="BillDoorsFramework.CompProperties_FleckEmitterSmooth">
+					<fleck>Fleck_BDsRocketSmokeTrail</fleck>
+					<emissionInterval>0</emissionInterval>
+					<burstCount>1</burstCount>
+					<rotation>0~360</rotation>
+					<scale>2</scale>
+					<thickness>1</thickness>
+				</li>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="Bullet_Shell_Smoke"]</xpath>
+			<value>
+				<comps>
+					<li Class="BillDoorsFramework.CompProperties_FleckEmitterSmooth">
+						<fleck>Fleck_BDsRocketSmokeTrail</fleck>
+						<emissionInterval>0</emissionInterval>
+						<burstCount>1</burstCount>
+						<rotation>0~360</rotation>
+						<scale>2</scale>
+						<thickness>1</thickness>
+					</li>
+				</comps>
+			</value>
+		</nomatch>
+	</Operation>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="Bullet_Shell_Firefoam"]/comps</xpath>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="Bullet_Shell_Firefoam"]/comps</xpath>
+			<value>
+				<li Class="BillDoorsFramework.CompProperties_FleckEmitterSmooth">
+					<fleck>Fleck_BDsRocketSmokeTrail</fleck>
+					<emissionInterval>0</emissionInterval>
+					<burstCount>1</burstCount>
+					<rotation>0~360</rotation>
+					<scale>2</scale>
+					<thickness>1</thickness>
+				</li>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="Bullet_Shell_Firefoam"]</xpath>
+			<value>
+				<comps>
+					<li Class="BillDoorsFramework.CompProperties_FleckEmitterSmooth">
+						<fleck>Fleck_BDsRocketSmokeTrail</fleck>
+						<emissionInterval>0</emissionInterval>
+						<burstCount>1</burstCount>
+						<rotation>0~360</rotation>
+						<scale>2</scale>
+						<thickness>1</thickness>
+					</li>
+				</comps>
+			</value>
+		</nomatch>
+	</Operation>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="Bullet_Shell_AntigrainWarhead"]/comps</xpath>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="Bullet_Shell_AntigrainWarhead"]/comps</xpath>
+			<value>
+				<li Class="BillDoorsFramework.CompProperties_FleckEmitterSmooth">
+					<fleck>Fleck_BDsRocketSmokeTrail</fleck>
+					<emissionInterval>0</emissionInterval>
+					<burstCount>1</burstCount>
+					<rotation>0~360</rotation>
+					<scale>2</scale>
+					<thickness>1</thickness>
+				</li>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="Bullet_Shell_AntigrainWarhead"]</xpath>
+			<value>
+				<comps>
+					<li Class="BillDoorsFramework.CompProperties_FleckEmitterSmooth">
+						<fleck>Fleck_BDsRocketSmokeTrail</fleck>
+						<emissionInterval>0</emissionInterval>
+						<burstCount>1</burstCount>
+						<rotation>0~360</rotation>
+						<scale>2</scale>
+						<thickness>1</thickness>
+					</li>
+				</comps>
+			</value>
+		</nomatch>
+	</Operation>
+
+	<Operation Class="PatchOperationConditional">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="Bullet_Shell_Tox"]/comps</xpath>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="Bullet_Shell_Tox"]/comps</xpath>
+			<value>
+				<li Class="BillDoorsFramework.CompProperties_FleckEmitterSmooth">
+					<fleck>Fleck_BDsRocketSmokeTrail</fleck>
+					<emissionInterval>0</emissionInterval>
+					<burstCount>1</burstCount>
+					<rotation>0~360</rotation>
+					<scale>2</scale>
+					<thickness>1</thickness>
+				</li>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="Bullet_Shell_Tox"]</xpath>
+			<value>
+				<comps>
+					<li Class="BillDoorsFramework.CompProperties_FleckEmitterSmooth">
+						<fleck>Fleck_BDsRocketSmokeTrail</fleck>
+						<emissionInterval>0</emissionInterval>
+						<burstCount>1</burstCount>
+						<rotation>0~360</rotation>
+						<scale>2</scale>
+						<thickness>1</thickness>
+					</li>
+				</comps>
+			</value>
+		</nomatch>
+	</Operation>
+</Patch>

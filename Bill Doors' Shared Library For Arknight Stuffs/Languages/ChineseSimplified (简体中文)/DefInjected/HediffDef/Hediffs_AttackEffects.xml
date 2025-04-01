@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: frozen -->
+  <BDAKN_HediffFrozen.label>冰冻</BDAKN_HediffFrozen.label>
+  <!-- EN: The pawn was frozen by repeated frost damage attack. This pawn will take more damage from all sources, and additional damage will be dealt from frost or icebreaker damage. -->
+  <BDAKN_HediffFrozen.description>被连续的冰冻攻击冻住了(实际实现是stun)。该角色会受到受到的伤害会增加，同时会受到更多来自破冰武器的伤害或者其他冰冻伤害。</BDAKN_HediffFrozen.description>
+  
+  <!-- EN: slowed -->
+  <BDAKN_HediffSlowed.label>寒冷</BDAKN_HediffSlowed.label>
+  <!-- EN: Slow effect caused by frost damage. If the pawn sustained another frost damage when this hediff is present the pawn will be frozen, or in effect, stunned. -->
+  <BDAKN_HediffSlowed.description>受到冰冻攻击所造成的寒冷。如果再次受到冰冻攻击，该角色会被冰冻。</BDAKN_HediffSlowed.description>
+  
+</LanguageData>

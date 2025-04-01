@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<HediffDef>
+		<defName>BDsNydiaExp_BlackFeather</defName>
+		<label>black feather</label>
+		<hediffClass>HediffWithComps</hediffClass>
+		<description>The marking leaved by Nydia's abilities. Another damage from Nydia on this pawn will cause an explosion and remove this hediff.</description>
+		<defaultLabelColor>(0.8, 0.8, 0.8)</defaultLabelColor>
+		<comps>
+			<li Class="BDsNydiaExp.HediffCompProperties_Explosive">
+				<explosionData>
+					<explosiveRadius>2.9</explosiveRadius>
+					<explosiveDamageType>BDsNydiaExp_Explosion</explosiveDamageType>
+					<damageAmountBase>20</damageAmountBase>
+				</explosionData>
+
+				<detonateLog>BDsNydiaExp_LogEntryExplode</detonateLog>
+				<detonateRule>BDsNydiaExp_DeathSentenceDetonate</detonateRule>
+			</li>
+			<li Class="BDsArknightLib.HediffCompProperties_BattleLog">
+				<removedLog>BDsNydiaExp_LogEntryFeather</removedLog>
+				<removedRule>BDsNydiaExp_DeathSentenceDissipated</removedRule>
+			</li>
+			<li Class="HediffCompProperties_Disappears">
+				<disappearsAfterTicks>600</disappearsAfterTicks>
+				<showRemainingTime>true</showRemainingTime>
+			</li>
+			<li Class="HediffCompProperties_DisappearsOnDeath"/>
+		</comps>
+		<stages>
+			<li>
+				<statOffsets>
+					<MoveSpeed>-1</MoveSpeed>
+				</statOffsets>
+			</li>
+		</stages>
+		<renderNodeProperties>
+			<li Class="PawnRenderNodeProperties">
+				<workerClass>PawnRenderNodeWorker</workerClass>
+				<nodeClass>BDsArknightLib.PawnRenderNode_EffectOverlay</nodeClass>
+				<texPath>Effects/BDNydiaExp_BlackFeatherIcon</texPath>
+				<subworkerClasses>
+					<li>BDsArknightLib.PawnRenderNodeSubWorker_StatusEffect</li>
+				</subworkerClasses>
+				<parentTagDef>Root</parentTagDef>
+				<drawSize>0.8</drawSize>
+				<useGraphic>true</useGraphic>
+				<shaderTypeDef>TransparentPostLight</shaderTypeDef>
+				<baseLayer>100</baseLayer>
+				<pawnType>Any</pawnType>
+			</li>
+		</renderNodeProperties>
+	</HediffDef>
+
+	<HediffDef>
+		<defName>BDsNydiaExp_BlackFeatherAura</defName>
+		<label>black feather aura</label>
+		<hediffClass>HediffWithComps</hediffClass>
+		<description>The aura casted by Nydia. Every 10 second, black feather will be applied to an enemy within range.</description>
+		<defaultLabelColor>(0.8, 0.8, 0.8)</defaultLabelColor>
+		<comps>
+			<li Class="HediffCompProperties_Disappears">
+				<disappearsAfterTicks>600</disappearsAfterTicks>
+				<showRemainingTime>true</showRemainingTime>
+			</li>
+			<li Class="HediffCompProperties_DisappearsOnDeath"/>
+			<li Class="BDsArknightLib.HediffCompProperties_HediffAura">
+				<compClass>BDsNydiaExp.HediffComp_BlackFeatherAura</compClass>
+				<range>16</range>
+				<interval>600</interval>
+				<maxTargets>1</maxTargets>
+				<mote>BDsNydiaExp_FeatherRing</mote>
+				<effecterDef>BDsNydiaExp_DeathSentenceEffect</effecterDef>
+				<logEntryDef>BDsNydiaExp_LogEntryFeather</logEntryDef>
+				<rulePackDef>BDsNydiaExp_DeathSentenceApply</rulePackDef>
+				<hediffs>
+					<li>
+						<hediffDef>BDsNydiaExp_BlackFeather</hediffDef>
+						<severity>1</severity>
+						<durationTicks>21600</durationTicks>
+					</li>
+				</hediffs>
+			</li>
+			<li Class="HediffCompProperties_Effecter">
+				<stateEffecter>BDsNydiaExp_FeatherRing</stateEffecter>
+			</li>
+			<li Class="BDsArknightLib.HediffCompProperties_BattleLog">
+				<addedLog>BDsNydiaExp_LogEntry</addedLog>
+				<addedRule>BDsNydiaExp_BlackFeatherAura</addedRule>
+
+				<removedLog>BDsNydiaExp_LogEntry</removedLog>
+				<removedRule>BDsNydiaExp_BlackFeatherAuraDissipate</removedRule>
+			</li>
+		</comps>
+		<renderNodeProperties>
+			<li>
+				<debugLabel>Wings</debugLabel>
+				<workerClass>BDsNydiaExp.PawnRenderNodeWorker_NydiasWingsHediff</workerClass>
+				<texPath>Things/Pawn/Humanlike/BodyAttachments/BDNydiaExp_Wings</texPath>
+				<drawSize>2</drawSize>
+				<parentTagDef>Body</parentTagDef>
+				<rotDrawMode>Fresh, Rotting</rotDrawMode>
+				<drawData>
+					<scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+					<defaultData>
+						<layer>-1</layer>
+					</defaultData>
+					<dataNorth>
+						<layer>60</layer>
+					</dataNorth>
+					<dataEast>
+						<layer>71</layer>
+					</dataEast>
+					<dataWest>
+						<layer>71</layer>
+					</dataWest>
+				</drawData>
+			</li>
+		</renderNodeProperties>
+	</HediffDef>
+</Defs>

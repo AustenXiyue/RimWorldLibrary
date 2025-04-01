@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: real deathless -->
+  <RealDeathless.label>真正不死</RealDeathless.label>
+  <!-- EN: Carriers of this gene have archites in the blood which will sustain their life processes no matter what. Carrier of this gene will never die. -->
+  <RealDeathless.description>这种基因的携带者会将超凡微械充斥在血液中，微械会不顾一切情况延续他们的生命。这个基因的携带者永远不会死。</RealDeathless.description>
+  <!-- EN: What is death? -->
+  <RealDeathless.customEffectDescriptions.0>什么是死亡？</RealDeathless.customEffectDescriptions.0>
+  <!-- EN: god -->
+  <RealDeathless.symbolPack.prefixSymbols.0.symbol>神之</RealDeathless.symbolPack.prefixSymbols.0.symbol>
+  <!-- EN: deo -->
+  <RealDeathless.symbolPack.prefixSymbols.1.symbol>上帝</RealDeathless.symbolPack.prefixSymbols.1.symbol>
+  <!-- EN: deu -->
+  <RealDeathless.symbolPack.prefixSymbols.2.symbol>圣灵</RealDeathless.symbolPack.prefixSymbols.2.symbol>
+  <!-- EN: god -->
+  <RealDeathless.symbolPack.suffixSymbols.0.symbol>之神</RealDeathless.symbolPack.suffixSymbols.0.symbol>
+  <!-- EN: deus -->
+  <RealDeathless.symbolPack.suffixSymbols.1.symbol>之圣</RealDeathless.symbolPack.suffixSymbols.1.symbol>
+  <!-- EN: immortal -->
+  <RealDeathless.symbolPack.wholeNameSymbols.0.symbol>不死者</RealDeathless.symbolPack.wholeNameSymbols.0.symbol>
+
+</LanguageData>

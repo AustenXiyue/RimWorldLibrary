@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<BDsArknightLib.AbilityForAIDef>
+		<defName>BDsNydiaExp_ArrowBarrage</defName>
+		<label>Arrow barrage</label>
+		<description>Launches multiple arrows at target and enemies near target.</description>
+		<cooldownTicksRange>3000</cooldownTicksRange>
+		<iconPath>Icons/BDsNydiaExp_Attack</iconPath>
+		<aiCanUse>true</aiCanUse>
+		<verbProperties>
+			<verbClass>Verb_CastAbility</verbClass>
+			<warmupTime>1</warmupTime>
+			<range>35.9</range>
+			<violent>true</violent>
+			<targetParams>
+				<canTargetLocations>true</canTargetLocations>
+			</targetParams>
+		</verbProperties>
+
+		<comps>
+			<li Class="BDsNydiaExp.CompProperties_AbilityLaunchProjectiles">
+				<radius>9.9</radius>
+				<count>5</count>
+				<AIcastRequireTargetCount>2</AIcastRequireTargetCount>
+				<alwaysCenter>true</alwaysCenter>
+				<requireLOS>false</requireLOS>
+				<projectileDef>BDsNydiaExp_Arrow</projectileDef>
+				<applyToThingRule>BDsNydiaExp_ArrowBarrage</applyToThingRule>
+				<logEntryDef>BDsNydiaExp_LogEntry</logEntryDef>
+			</li>
+		</comps>
+
+		<thinkNodes>
+			<li Class="JobGiver_AIAbilityFight">
+				<targetAcquireRadius>65</targetAcquireRadius>
+				<targetKeepRadius>72</targetKeepRadius>
+				<ability>BDsNydiaExp_ArrowBarrage</ability>
+				<allowTurrets>false</allowTurrets>
+				<needLOSToAcquireNonPawnTargets>false</needLOSToAcquireNonPawnTargets>
+			</li>
+		</thinkNodes>
+	</BDsArknightLib.AbilityForAIDef>
+
+	<BDsArknightLib.AbilityForAIDef>
+		<defName>BDsNydiaExp_DeathSentence</defName>
+		<label>death sentence</label>
+		<description>Applies black feather to all enemies in range.</description>
+		<cooldownTicksRange>7200</cooldownTicksRange>
+		<iconPath>Icons/BDsNydiaExp_DeathSentence</iconPath>
+		<aiCanUse>true</aiCanUse>
+		<verbProperties>
+			<verbClass>Verb_CastAbility</verbClass>
+			<warmupTime>1</warmupTime>
+			<range>35.9</range>
+			<violent>true</violent>
+			<targetParams>
+				<canTargetLocations>true</canTargetLocations>
+			</targetParams>
+		</verbProperties>
+
+		<comps>
+			<li Class="BDsArknightLib.CompProperties_AbilityGiveHediffAOE">
+				<compClass>BDsNydiaExp.CompAbilityEffect_NydiaDeathSentence</compClass>
+				<radius>5.9</radius>
+				<AIcastRequireTargetCount>2</AIcastRequireTargetCount>
+				<thingEffecter>BDsNydiaExp_DeathSentenceEffect</thingEffecter>
+				<hediffs>
+					<li>
+						<hediffDef>BDsNydiaExp_BlackFeather</hediffDef>
+						<severity>1</severity>
+						<durationTicks>21600</durationTicks>
+					</li>
+				</hediffs>
+				<applyToThingRule>BDsNydiaExp_DeathSentenceApply</applyToThingRule>
+				<logEntryDef>BDsNydiaExp_LogEntryFeather</logEntryDef>
+			</li>
+		</comps>
+
+		<priority>1</priority>
+		<thinkNodes>
+			<li Class="JobGiver_AIAbilityFight">
+				<targetAcquireRadius>65</targetAcquireRadius>
+				<targetKeepRadius>72</targetKeepRadius>
+				<ability>BDsNydiaExp_DeathSentence</ability>
+				<allowTurrets>false</allowTurrets>
+				<needLOSToAcquireNonPawnTargets>false</needLOSToAcquireNonPawnTargets>
+			</li>
+		</thinkNodes>
+	</BDsArknightLib.AbilityForAIDef>
+
+	<AbilityDef>
+		<defName>BDsNydiaExp_BlackFeatherAbility</defName>
+		<label>black feather</label>
+		<description>Casts an aura around self, applying death feather to a random enemy within range every 10 seconds.</description>
+		<cooldownTicksRange>7200</cooldownTicksRange>
+		<iconPath>Icons/BDsNydiaExp_BlackFeather</iconPath>
+		<aiCanUse>true</aiCanUse>
+		<verbProperties>
+			<verbClass>Verb_CastAbility</verbClass>
+			<warmupTime>1</warmupTime>
+			<range>15.9</range>
+			<violent>true</violent>
+			<targetable>false</targetable>
+			<targetParams>
+				<canTargetSelf>True</canTargetSelf>
+			</targetParams>
+			<soundCast>BDsNydiaExp_DeathSentenceStart</soundCast>
+		</verbProperties>
+
+		<comps>
+			<li Class="CompProperties_AbilityGiveHediff">
+				<compClass>CompAbilityEffect_GiveHediff</compClass>
+				<hediffDef>BDsNydiaExp_BlackFeatherAura</hediffDef>
+				<durationSecondsOverride>180</durationSecondsOverride>
+			</li>
+			<li Class="CompProperties_AbilityEffecterOnTarget">
+				<effecterDef>BDsNydiaExp_BlackFeatherSelf</effecterDef>
+			</li>
+		</comps>
+	</AbilityDef>
+</Defs>

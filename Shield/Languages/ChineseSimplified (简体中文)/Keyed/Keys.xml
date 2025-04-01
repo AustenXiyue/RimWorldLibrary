@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+<!-- EN: Shield Button -->
+  <SEB.Comps.ShieldSwitchLabel>护盾开关</SEB.Comps.ShieldSwitchLabel>
+<!-- EN: Press the button to switch shield. -->
+  <SEB.Comps.ShieldSwitchDesc>按这个开关护盾。</SEB.Comps.ShieldSwitchDesc>
+
+ </LanguageData>

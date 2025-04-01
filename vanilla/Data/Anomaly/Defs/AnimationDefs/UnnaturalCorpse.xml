@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+  
+  <AnimationDef>
+    <defName>UnnaturalCorpseAwokenKilling</defName>
+    <durationTicks>6</durationTicks>
+    <animationParts>
+      <li>
+        <key>Head</key>
+        <value>
+          <workerClass>AnimationWorker_UnnaturalCorpseAwokenKilling</workerClass>
+          <keyframes>
+            <li>
+              <tick>0</tick>
+              <offset>(0.02,0,0)</offset>
+            </li>
+            <li>
+              <tick>3</tick>
+              <offset>(-0.02,0,0)</offset>
+            </li>
+            <li>
+              <tick>6</tick>
+              <offset>(0.02,0,0)</offset>
+            </li>
+          </keyframes>
+        </value>
+      </li>
+    </animationParts>
+  </AnimationDef>
+  
+</Defs>

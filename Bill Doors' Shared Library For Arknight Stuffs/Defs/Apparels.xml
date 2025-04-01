@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="ApparelNoQualityBase" Name="BDAKN_ShieldBase" Abstract="True">
+		<tradeability>None</tradeability>
+		<generateAllowChance>0</generateAllowChance>
+		<generateCommonality>0</generateCommonality>
+		<thingClass>Apparel</thingClass>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/ShieldBelt/ShieldBelt</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<tickerType>Normal</tickerType>
+		<destroyOnDrop>true</destroyOnDrop>
+
+		<statBases>
+			<Mass>0</Mass>
+			<Flammability>0</Flammability>
+			<EquipDelay>2</EquipDelay>
+			<MarketValue>0</MarketValue>
+		</statBases>
+
+		<burnableByRecipe>false</burnableByRecipe>
+		<smeltable>false</smeltable>
+
+		<equippedStatOffsets>
+			<ToxicEnvironmentResistance MayRequire="ludeon.rimworld.biotech">1</ToxicEnvironmentResistance>
+			<ToxicResistance>1</ToxicResistance>
+		</equippedStatOffsets>
+
+		<apparel>
+			<countsAsClothingForNudity>false</countsAsClothingForNudity>
+			<careIfWornByCorpse>false</careIfWornByCorpse>
+			<careIfDamaged>false</careIfDamaged>
+			<wearPerDay>0</wearPerDay>
+			<bodyPartGroups>
+				<li>Torso</li>
+			</bodyPartGroups>
+			<layers>
+				<li>EyeCover</li>
+			</layers>
+			<developmentalStageFilter>Child, Adult</developmentalStageFilter>
+			<canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+			<canBeGeneratedToSatisfyToxicEnvironmentResistance>false</canBeGeneratedToSatisfyToxicEnvironmentResistance>
+			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+			<scoreOffset>0</scoreOffset>
+		</apparel>
+	</ThingDef>
+
+
+	<ThingDef ParentName="ApparelMakeableBase" Name="BDAKN_ApparelBase" Abstract="true">
+		<tradeability>None</tradeability>
+		<generateAllowChance>0</generateAllowChance>
+		<generateCommonality>0</generateCommonality>
+		<statBases>
+			<!--Apparently, an apparel that nobody else can wear is worthless-->
+			<MarketValue>0.1</MarketValue>
+			<Flammability>0</Flammability>
+		</statBases>
+		<recipeMaker>
+			<researchPrerequisite>ComplexClothing</researchPrerequisite>
+		</recipeMaker>
+		<thingCategories>
+			<li>BDPDCApparel</li>
+		</thingCategories>
+		<apparel>
+			<tags Inherit="false">
+				<li>BDAKN_Apparel</li>
+			</tags>
+			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef Name="BDAKN_HeadgearBase" ParentName="BDAKN_ApparelBase" Abstract="True">
+		<apparel>
+			<parentTagDef>ApparelHead</parentTagDef>
+		</apparel>
+	</ThingDef>
+</Defs>

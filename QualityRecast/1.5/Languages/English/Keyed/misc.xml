@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+   <settingtitle>Quality recasting table settings interface</settingtitle>
+   <Restore_Defaults>Restore Defaults</Restore_Defaults>
+    <Send_envelope>Send a pop-up window for spoof mail</Send_envelope>
+    <Send_envelope_hint>When it is turned on, a spoof letter prompt will appear every time a recast is completed. When it is turned off, a pop-up window prompt will appear only when the recast reaches master or legendary quality</Send_envelope_hint>
+    <Probability_settings>Recast probability setting</Probability_settings>
+    <Probability_settings_hint>Here you can set the probability of recasting, which is divided into 3 levels. 1 is the default level, the higher the level, the higher the probability of recasting high quality</Probability_settings_hint>
+      <Spending_quantity>The amount of silver spent on each recast</Spending_quantity>
+      <Spending_quantity_hint>Adjust the amount of silver spent on each recast, the default is 250, the adjustable range is 50~500</Spending_quantity_hint>
+
+      <Low_fuel>{0}The fuel in the quality recasting table is insufficient. Please refill the fuel in time.</Low_fuel>
+
+      <Awful_letterLabel>Awful</Awful_letterLabel>
+      <Awful_letterText>Reforge a master in the field? Practice more if you are new!</Awful_letterText>
+
+      <Poor_letterLabel>Poor</Poor_letterLabel>
+      <Poor_letterText>"Very good quality, love comes from extraordinary intelligence"   {name} is just garbage, why not make one yourself?</Poor_letterText>
+
+      <Normal_letterLabel>Normal</Normal_letterLabel>
+      <Normal_letterText>{name} recast it to a normal quality. That's enough, you should go buy one.</Normal_letterText>
+
+      <Good_letterLabel>Good</Good_letterLabel>
+      <Good_letterText>{name} has been recast to a good quality. I won't say much, as long as it works.</Good_letterText>
+
+      <Excellent_letterLabel>Excellent</Excellent_letterLabel>
+      <Excellent_letterText>{name} recast it to the best quality. If I draw ten times in a row, I will probably get gold (smirk)</Excellent_letterText>
+
+      <Masterwork_letterLabel>Masterwork</Masterwork_letterLabel>
+      <Masterwork_letterText>{name} has recast it to a masterful level. You are a fucking genius.</Masterwork_letterText>
+
+      <Legendary_letterLabel>Legendary</Legendary_letterLabel>
+      <Legendary_letterText>{name} has been reforged to legendary quality. Wow! Golden Legend!</Legendary_letterText>
+
+</LanguageData>

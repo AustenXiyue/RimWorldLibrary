@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<AKA_Ability.AKAbilityDef>
+		<defName>test</defName>
+		<label>test</label>
+		<icon></icon>
+		<range>16.9</range>
+		<reqLineofSight>true</reqLineofSight>
+		<displayGizmoUndraft>false</displayGizmoUndraft>
+		<abilityClass>AKA_Ability.AKAbility_Targetor</abilityClass>
+		<compEffectList>
+			<li Class="AKA_Ability.AbilityEffect.AE_ShootProjectile">
+				<projectile>Proj_GrenadeFrag</projectile>
+			</li>
+		</compEffectList>
+		<cooldownProperty>
+			<SPPerCharge>180</SPPerCharge>
+		</cooldownProperty>
+		<useSounds>
+
+		</useSounds>
+	</AKA_Ability.AKAbilityDef>
+</Defs>

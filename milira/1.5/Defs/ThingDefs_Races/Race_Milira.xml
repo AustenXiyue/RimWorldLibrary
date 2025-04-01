@@ -50,41 +50,7 @@
             <defName Degree="-1">PsychicSensitivity</defName>
           </li>
         </disallowedTraits>
-        <!--<newbornBackstoryFilter>
-			<li>
-			  <categories>
-				<li>Milira_General</li>
-			  </categories>
-			  <commonality>1</commonality>
-			</li>
-		</newbornBackstoryFilter>-->
-        <!-- <childBackstoryFilter>
-          <li>
-            <categories>
-              <li>Milira_General</li>
-            </categories>
-            <commonality>1</commonality>
-          </li>
-        </childBackstoryFilter>
-        <adultBackstoryFilter>
-          <li>
-            <categories>
-              <li>Milira_General</li>
-            </categories>
-            <commonality>1</commonality>
-          </li>
-          <li>
-            <categories>
-              <li>Milira_Combat</li>
-            </categories>
-            <commonality>0.2</commonality>
-          </li>
-        </adultBackstoryFilter> -->
-        <!-- <growthAges MayRequire="Ludeon.RimWorld.Biotech">
-          <li>7</li>
-          <li>15</li>
-          <li>20</li>
-        </growthAges> -->
+       
 
         <alienPartGenerator>
           <bodyTypes>

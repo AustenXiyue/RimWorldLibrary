@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="Bullet_Rocket"]/comps</xpath>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="Bullet_Rocket"]/comps</xpath>
+			<value>
+				<li Class="BillDoorsFramework.CompProperties_FleckEmitterSmooth">
+					<fleck>Fleck_BDsRocketFlame</fleck>
+					<emissionInterval>0</emissionInterval>
+					<burstCount>7</burstCount>
+					<thickness>3</thickness>
+					<scale>0.5</scale>
+					<cutoffTickRange>60~120</cutoffTickRange>
+				</li>
+				<li Class="BillDoorsFramework.CompProperties_FleckEmitterSmooth">
+					<fleck>Fleck_BDsRocketSmokeTrail</fleck>
+					<emissionInterval>0</emissionInterval>
+					<burstCount>1</burstCount>
+					<rotation>0~360</rotation>
+					<thickness>1</thickness>
+				</li>
+				<li Class="BillDoorsFramework.CompProperties_FleckEmitterSmooth">
+					<fleck>Fleck_BDsRocketSmoke</fleck>
+					<emissionInterval>0</emissionInterval>
+					<burstCount>1</burstCount>
+					<rotation>0~360</rotation>
+					<thickness>1</thickness>
+					<scale>0.5</scale>
+					<cutoffTickRange>120~240</cutoffTickRange>
+				</li>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="Bullet_Rocket"]</xpath>
+			<value>
+				<comps>
+					<li Class="BillDoorsFramework.CompProperties_FleckEmitterSmooth">
+						<fleck>Fleck_BDsRocketFlame</fleck>
+						<emissionInterval>0</emissionInterval>
+						<burstCount>7</burstCount>
+						<thickness>3</thickness>
+						<scale>0.5</scale>
+						<cutoffTickRange>60~120</cutoffTickRange>
+					</li>
+					<li Class="BillDoorsFramework.CompProperties_FleckEmitterSmooth">
+						<fleck>Fleck_BDsRocketSmokeTrail</fleck>
+						<emissionInterval>0</emissionInterval>
+						<burstCount>1</burstCount>
+						<rotation>0~360</rotation>
+						<thickness>1</thickness>
+					</li>
+					<li Class="BillDoorsFramework.CompProperties_FleckEmitterSmooth">
+						<fleck>Fleck_BDsRocketSmoke</fleck>
+						<emissionInterval>0</emissionInterval>
+						<burstCount>1</burstCount>
+						<rotation>0~360</rotation>
+						<thickness>1</thickness>
+						<scale>0.5</scale>
+						<cutoffTickRange>120~240</cutoffTickRange>
+					</li>
+				</comps>
+			</value>
+		</nomatch>
+	</Operation>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="Proj_Rocket"]/comps</xpath>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="Proj_Rocket"]/comps</xpath>
+			<value>
+				<li Class="BillDoorsFramework.CompProperties_FleckEmitterSmooth">
+					<fleck>Fleck_BDsRocketFlame</fleck>
+					<emissionInterval>0</emissionInterval>
+					<burstCount>7</burstCount>
+					<thickness>3</thickness>
+					<scale>0.5</scale>
+					<cutoffTickRange>60~120</cutoffTickRange>
+				</li>
+				<li Class="BillDoorsFramework.CompProperties_FleckEmitterSmooth">
+					<fleck>Fleck_BDsRocketSmokeTrail</fleck>
+					<emissionInterval>0</emissionInterval>
+					<burstCount>1</burstCount>
+					<rotation>0~360</rotation>
+					<thickness>1</thickness>
+				</li>
+				<li Class="BillDoorsFramework.CompProperties_FleckEmitterSmooth">
+					<fleck>Fleck_BDsRocketSmoke</fleck>
+					<emissionInterval>0</emissionInterval>
+					<burstCount>1</burstCount>
+					<rotation>0~360</rotation>
+					<thickness>1</thickness>
+					<scale>0.5</scale>
+					<cutoffTickRange>120~240</cutoffTickRange>
+				</li>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="Proj_Rocket"]</xpath>
+			<value>
+				<comps>
+					<li Class="BillDoorsFramework.CompProperties_FleckEmitterSmooth">
+						<fleck>Fleck_BDsRocketFlame</fleck>
+						<emissionInterval>0</emissionInterval>
+						<burstCount>7</burstCount>
+						<thickness>3</thickness>
+						<scale>0.5</scale>
+						<cutoffTickRange>60~120</cutoffTickRange>
+					</li>
+					<li Class="BillDoorsFramework.CompProperties_FleckEmitterSmooth">
+						<fleck>Fleck_BDsRocketSmokeTrail</fleck>
+						<emissionInterval>0</emissionInterval>
+						<burstCount>1</burstCount>
+						<rotation>0~360</rotation>
+						<thickness>1</thickness>
+					</li>
+					<li Class="BillDoorsFramework.CompProperties_FleckEmitterSmooth">
+						<fleck>Fleck_BDsRocketSmoke</fleck>
+						<emissionInterval>0</emissionInterval>
+						<burstCount>1</burstCount>
+						<rotation>0~360</rotation>
+						<thickness>1</thickness>
+						<scale>0.5</scale>
+						<cutoffTickRange>120~240</cutoffTickRange>
+					</li>
+				</comps>
+			</value>
+		</nomatch>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="Proj_Rocket"]/projectile/arcHeightFactor</xpath>
+	</Operation>
+
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="Bullet_DoomsdayRocket"]/comps</xpath>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="Bullet_DoomsdayRocket"]/comps</xpath>
+			<value>
+				<li Class="BillDoorsFramework.CompProperties_FleckEmitterSmooth">
+					<fleck>Fleck_BDsRocketFlame</fleck>
+					<emissionInterval>0</emissionInterval>
+					<burstCount>7</burstCount>
+					<thickness>3</thickness>
+					<cutoffTickRange>60~120</cutoffTickRange>
+				</li>
+				<li Class="BillDoorsFramework.CompProperties_FleckEmitterSmooth">
+					<fleck>Fleck_BDsRocketSmokeTrail</fleck>
+					<emissionInterval>0</emissionInterval>
+					<burstCount>1</burstCount>
+					<rotation>0~360</rotation>
+					<scale>2</scale>
+					<thickness>1</thickness>
+				</li>
+				<li Class="BillDoorsFramework.CompProperties_FleckEmitterSmooth">
+					<fleck>Fleck_BDsRocketSmoke</fleck>
+					<emissionInterval>0</emissionInterval>
+					<burstCount>1</burstCount>
+					<rotation>0~360</rotation>
+					<thickness>1</thickness>
+					<cutoffTickRange>120~240</cutoffTickRange>
+				</li>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="Bullet_DoomsdayRocket"]</xpath>
+			<value>
+				<comps>
+					<li Class="BillDoorsFramework.CompProperties_FleckEmitterSmooth">
+						<fleck>Fleck_BDsRocketFlame</fleck>
+						<emissionInterval>0</emissionInterval>
+						<burstCount>7</burstCount>
+						<thickness>3</thickness>
+						<cutoffTickRange>60~120</cutoffTickRange>
+					</li>
+					<li Class="BillDoorsFramework.CompProperties_FleckEmitterSmooth">
+						<fleck>Fleck_BDsRocketSmokeTrail</fleck>
+						<emissionInterval>0</emissionInterval>
+						<burstCount>1</burstCount>
+						<rotation>0~360</rotation>
+						<scale>2</scale>
+						<thickness>1</thickness>
+					</li>
+					<li Class="BillDoorsFramework.CompProperties_FleckEmitterSmooth">
+						<fleck>Fleck_BDsRocketSmoke</fleck>
+						<emissionInterval>0</emissionInterval>
+						<burstCount>1</burstCount>
+						<rotation>0~360</rotation>
+						<thickness>1</thickness>
+						<cutoffTickRange>120~240</cutoffTickRange>
+					</li>
+				</comps>
+			</value>
+		</nomatch>
+	</Operation>
+
+</Patch>

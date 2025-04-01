@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="MakeableDrugBase">
+		<defName>OmniPotion_Recovery</defName>
+		<label>Healing Salve</label>
+		<description>A magical ointment that quickly heals even the worst wounds. \nDrinking it cures the vast majority of common negative effects.</description>
+		<graphicData>
+		  <texPath>Things/Items/OP_flask</texPath>
+		  <graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<stackLimit>10</stackLimit>
+		<rotatable>false</rotatable>
+		<statBases>
+		  <WorkToMake>10000</WorkToMake>
+		  <MarketValue>1000</MarketValue>
+		  <Mass>0.1</Mass>
+		</statBases>
+		<tradeability>Sellable</tradeability>
+		<ingestible>
+		  <joyKind>Chemical</joyKind>
+		  <joy>0.05</joy>
+		  <drugCategory>Medical</drugCategory>
+		  <foodType>Processed, Fluid</foodType>
+		  <baseIngestTicks>80</baseIngestTicks>
+		  <ingestSound>Ingest_Inject</ingestSound>
+		  <ingestHoldOffsetStanding>
+			<northDefault>
+			  <offset>(0.18,0,0)</offset>
+			</northDefault>
+		  </ingestHoldOffsetStanding>
+		  <ingestCommandString>服用 {0}</ingestCommandString>
+		  <ingestReportString>正在服用 {0}.</ingestReportString>
+		  <useEatingSpeedStat>false</useEatingSpeedStat>
+		  <chairSearchRadius>0</chairSearchRadius>
+		  <outcomeDoers>
+			  <li Class="OP.OP_RemoveHeddif">
+				  <hediffDefs>
+					<li>Alzheimers</li><!--阿尔茨海默病-->
+					<li>HeartArteryBlockage</li><!--动脉阻塞-->
+					<li>Dementia</li><!--痴呆-->
+					<li>Carcinoma</li><!--癌症肿瘤-->
+					<li>ChemicalDamageModerate</li><!--化学性损伤-->
+					<li>ChemicalDamageSevere</li><!--化学性损伤-->
+					<li>Cirrhosis</li><!--肝硬化-->
+					<li>Frail</li><!--体弱-->
+					<li>Cataract</li><!--白内障-->
+					<li>BadBack</li><!--背痛-->
+					<li>HearingLoss</li><!--耳聋-->
+					<li>Asthma</li><!--哮喘-->
+					<li>TraumaSavant</li><!--创伤激发-->
+					<li>ResurrectionPsychosis</li><!--复活精神混沌-->
+					<li>LuciferiumAddiction</li><!--魔鬼素渴求-->
+					<li>DrugOverdose</li><!--成瘾品过量-->
+					<li>Sterilized</li><!--已绝育-->
+					<li>Malaria</li><!--疟疾-->
+					<li>SleepingSickness</li><!--昏睡病-->
+					<li>Plague</li><!--瘟疫-->
+					<li>GutWorms</li><!--肠道蠕虫-->
+					<li>MuscleParasites</li><!--肌肉寄生虫-->
+					<li>WoundInfection</li><!--感染-->
+					<li>FibrousMechanites</li><!--肌纤维纳米机械感染-->
+					<li>SensoryMechanites</li><!--感官纳米机械感染-->
+					<li>Scaria</li><!--狂暴症-->
+					<li>Abasia</li><!--麻痹-->
+					
+					<li>Flu</li><!--流感-->
+					<li>LungRot</li><!--肺瘟-->
+					<li>LungRotExposure</li><!--腐气暴露-->
+					<li>OrganDecay</li><!--器官衰竭-->
+					<li>BloodLoss</li><!--失血-->
+					<li>CryptosleepSickness</li><!--低温休眠症-->
+					<li>FoodPoisoning</li><!--食物中毒-->
+					<li>HeartAttack</li><!--心脏病发作-->
+					<li>PsychicComa</li><!--心灵休克-->
+					<li>PsychicHangover</li><!--精神宿醉-->
+					<li>PsychicShock</li><!--心灵冲击-->
+					<li>ToxicBuildup</li><!--中毒-->
+					<li>ResurrectionSickness</li><!--复活虚弱-->					
+					<li>Malnutrition</li><!--营养不良-->
+					<li>Heatstroke</li><!--中暑-->
+					<li>Hypothermia</li><!--低温症-->
+					<li>HypothermicSlowdown</li><!--慢性低温症-->
+					<li>PsychicBondTorn</li><!--心灵纽带撕裂-->
+					<li>RegenerationComa</li><!--再生昏迷-->
+					<li>XenogerminationComa</li><!--异种胚芽昏迷-->
+					<li>XenogermLossShock</li><!--基因缺失冲击-->
+					<li>XenogermReplicating</li><!--基因重构-->
+					<li>CrumbledMind</li><!--心智崩毁-->
+					<li>CrumblingMind</li><!--心智崩解-->
+					<li>CubeComa</li><!--魔方昏迷-->
+					<li>CubeInterest</li><!--魔方沉迷--> 
+					<li>CubeRage</li><!--魔方燥怒-->
+					<li>CubeWithdrawal</li><!--魔方戒断--> 
+					<li>DeathRefusalSickness</li><!--死亡回避后遗症--> 
+					<li>Anesthetic</li><!--麻醉-->
+				  </hediffDefs>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<recipeMaker>
+		  <soundWorking>Recipe_Drug</soundWorking>
+		  <workSkill>Intellectual</workSkill>
+		  <recipeUsers>
+			<li>DrugLab</li>
+		  </recipeUsers>
+		  <researchPrerequisite>MedicineProduction</researchPrerequisite>
+		  <skillRequirements>
+			<Crafting>12</Crafting>
+			<Intellectual>12</Intellectual>
+		  </skillRequirements>
+		  <displayPriority>3500</displayPriority>
+		</recipeMaker>
+		<costList>
+		  <MedicineHerbal>20</MedicineHerbal><!--草药-->
+		  <Neutroamine>5</Neutroamine><!--中性胺-->
+		</costList>
+		<comps>
+		  <li Class="CompProperties_Drug">
+			<listOrder>202</listOrder>
+			<overdoseSeverityOffset>0</overdoseSeverityOffset>
+		  </li>
+		</comps>
+	  </ThingDef>
+	  
+	  <ThingDef ParentName="MakeableDrugBase">
+		<defName>OmniPotion_Enhancement</defName>
+		<label>Tango</label>
+		<description>A life saver on the battlefield. \nTakes it to improve immunity and recovery.</description>
+		<graphicData>
+		  <texPath>Things/Items/OP_tango</texPath>
+		  <graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<stackLimit>10</stackLimit>
+		<rotatable>false</rotatable>
+		<statBases>
+		  <WorkToMake>1000</WorkToMake>
+		  <MarketValue>10</MarketValue>
+		  <Mass>0.1</Mass>
+		</statBases>
+		<tradeability>Sellable</tradeability>
+		<ingestible>
+		  <joyKind>Chemical</joyKind>
+		  <joy>0.05</joy>
+		  <drugCategory>Medical</drugCategory>
+		  <foodType>Processed, Fluid</foodType>
+		  <baseIngestTicks>80</baseIngestTicks>
+		  <ingestSound>Ingest_Inject</ingestSound>
+		  <ingestHoldOffsetStanding>
+			<northDefault>
+			  <offset>(0.18,0,0)</offset>
+			</northDefault>
+		  </ingestHoldOffsetStanding>
+		  <ingestCommandString>服用 {0}</ingestCommandString>
+		  <ingestReportString>正在服用 {0}.</ingestReportString>
+		  <useEatingSpeedStat>false</useEatingSpeedStat>
+		  <chairSearchRadius>0</chairSearchRadius>
+		  <outcomeDoers>
+			<li Class="IngestionOutcomeDoer_GiveHediff">
+			  <hediffDef>OP_Hediff_Immunity</hediffDef>
+			  <severity>1.0</severity>
+			  <toleranceChemical>GoJuice</toleranceChemical>
+			</li>
+			<li Class="IngestionOutcomeDoer_GiveHediff">
+			  <hediffDef>OP_Hediff_Injury_Healing</hediffDef>
+			  <severity>1.0</severity>
+			  <toleranceChemical>GoJuice</toleranceChemical>
+			</li>
+			</outcomeDoers>
+		</ingestible>
+		<recipeMaker>
+		  <soundWorking>Recipe_Drug</soundWorking>
+		  <workSkill>Intellectual</workSkill>
+		  <recipeUsers>
+			<li>DrugLab</li>
+		  </recipeUsers>
+		  <researchPrerequisite>MedicineProduction</researchPrerequisite>
+		  <skillRequirements>
+			<Intellectual>4</Intellectual>
+		  </skillRequirements>
+		  <displayPriority>3500</displayPriority>
+		</recipeMaker>
+		<costList>
+		  <MedicineHerbal>5</MedicineHerbal><!--草药-->
+		</costList>
+		<comps>
+		  <li Class="CompProperties_Drug">
+			<listOrder>202</listOrder>
+			<overdoseSeverityOffset>0</overdoseSeverityOffset>
+		  </li>
+		</comps>
+	  </ThingDef>
+	  
+	  
+	  <HediffDef>
+		<defName>OP_Hediff_Immunity</defName>
+		<hediffClass>Hediff_High</hediffClass>
+		<label>Immunity gain speed enhanced</label>
+		<labelNoun>Immunity gain speed enhanced</labelNoun>
+		<description>Immunity gain speed enhanced</description>
+		<defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+		<scenarioCanAdd>true</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<comps>
+		  <li Class="HediffCompProperties_SeverityPerDay">
+			<severityPerDay>-0.5</severityPerDay>
+			<showHoursToRecover>true</showHoursToRecover>
+		  </li>
+		</comps>
+		  <stages>
+			<li>
+				<statOffsets>
+					<ImmunityGainSpeed>0.5</ImmunityGainSpeed><!--免疫速度-->
+				</statOffsets>
+				<statFactors>
+					<ImmunityGainSpeed>1.25</ImmunityGainSpeed><!--免疫速度-->
+				</statFactors>
+			</li>
+		  </stages>
+	  </HediffDef>
+	  
+	  <HediffDef>
+		<defName>OP_Hediff_Injury_Healing</defName>
+		<hediffClass>Hediff_High</hediffClass>
+		<label>Injury healing factor enhanced</label>
+		<labelNoun>Injury healing factor enhanced</labelNoun>
+		<description>Injury healing factor enhanced</description>
+		<defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+		<scenarioCanAdd>true</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<comps>
+		  <li Class="HediffCompProperties_SeverityPerDay">
+			<severityPerDay>-0.5</severityPerDay>
+			<showHoursToRecover>true</showHoursToRecover>
+		  </li>
+		</comps>
+		  <stages>
+			<li>
+				<statOffsets>
+					<InjuryHealingFactor>0.5</InjuryHealingFactor><!--愈合速度系数-->
+				</statOffsets>
+				<statFactors>
+					<InjuryHealingFactor>1.25</InjuryHealingFactor><!--愈合速度系数-->
+				</statFactors>
+			</li>
+		  </stages>
+	  </HediffDef>
+
+		<ThingDef ParentName="MakeableDrugBase">
+			<defName>OmniPotion_Psy_Regeneration</defName>
+			<label>Clarity</label>
+			<description>Clear water that enhances the ability to meditate. \nCan slowly restore psyfocus after taking it.</description>
+			<graphicData>
+			  <texPath>Things/Items/OP_clarity</texPath>
+			  <graphicClass>Graphic_StackCount</graphicClass>
+			</graphicData>
+			<stackLimit>10</stackLimit>
+			<rotatable>false</rotatable>
+			<statBases>
+			  <WorkToMake>1000</WorkToMake>
+			  <MarketValue>10</MarketValue>
+			  <Mass>0.1</Mass>
+			</statBases>
+			<tradeability>Sellable</tradeability>
+			<ingestible>
+			  <joyKind>Chemical</joyKind>
+			  <joy>0.05</joy>
+			  <drugCategory>Medical</drugCategory>
+			  <foodType>Processed, Fluid</foodType>
+			  <baseIngestTicks>80</baseIngestTicks>
+			  <ingestSound>Ingest_Inject</ingestSound>
+			  <ingestHoldOffsetStanding>
+				<northDefault>
+				  <offset>(0.18,0,0)</offset>
+				</northDefault>
+			  </ingestHoldOffsetStanding>
+			  <ingestCommandString>服用 {0}</ingestCommandString>
+			  <ingestReportString>正在服用 {0}.</ingestReportString>
+			  <useEatingSpeedStat>false</useEatingSpeedStat>
+			  <chairSearchRadius>0</chairSearchRadius>
+			  <outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+				  <hediffDef>OP_Hediff_Psy_Regeneration</hediffDef>
+				  <severity>1.0</severity>
+				  <toleranceChemical>GoJuice</toleranceChemical>
+				</li>
+				</outcomeDoers>
+			</ingestible>
+			<recipeMaker>
+			  <soundWorking>Recipe_Drug</soundWorking>
+			  <workSkill>Intellectual</workSkill>
+			  <recipeUsers>
+				<li>DrugLab</li>
+			  </recipeUsers>
+			  <researchPrerequisite>MedicineProduction</researchPrerequisite>
+			  <skillRequirements>
+				<Intellectual>8</Intellectual>
+			  </skillRequirements>
+			  <displayPriority>3500</displayPriority>
+			</recipeMaker>
+			<costList>
+			  <PsychoidLeaves>10</PsychoidLeaves><!--精神叶-->
+			</costList>
+			<comps>
+			  <li Class="CompProperties_Drug">
+				<listOrder>202</listOrder>
+				<overdoseSeverityOffset>0</overdoseSeverityOffset>
+			  </li>
+			</comps>
+		</ThingDef>
+	  
+	    <HediffDef>
+			<defName>OP_Hediff_Psy_Regeneration</defName>
+			<hediffClass>Hediff_High</hediffClass>
+			<label>Clarity in effect</label>
+			<labelNoun>Clarity in effect</labelNoun>
+			<description>Regenerating psyfocus 5% per second</description>
+			<defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+			<scenarioCanAdd>true</scenarioCanAdd>
+			<maxSeverity>1.0</maxSeverity>
+			<isBad>false</isBad>
+			<comps>
+			  <li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-1</severityPerDay>
+				<showHoursToRecover>true</showHoursToRecover>
+			  </li>
+			  <li Class="OP.OP_RemoveHeddif_HediffCompProperties">
+				<OP_Tick>60</OP_Tick>
+				<OP_Psycast>0.05</OP_Psycast>
+			  </li>
+			</comps>
+		</HediffDef>
+		
+		<ThingDef ParentName="MakeableDrugBase">
+			<defName>OmniPotion_Psy_Regeneration_Instant</defName>
+			<label>Enchanted Mango</label>
+			<description>The unique bitter-sweet half flavor of Kiddy Island is irresistible to amphibians. \nEating it can instantly restore 30% of psyfocus.</description>
+			<graphicData>
+			  <texPath>Things/Items/OP_enchanted_mango</texPath>
+			  <graphicClass>Graphic_StackCount</graphicClass>
+			</graphicData>
+			<stackLimit>10</stackLimit>
+			<rotatable>false</rotatable>
+			<statBases>
+			  <WorkToMake>500</WorkToMake>
+			  <MarketValue>10</MarketValue>
+			  <Mass>0.1</Mass>
+			</statBases>
+			<tradeability>Sellable</tradeability>
+			<ingestible>
+			  <joyKind>Chemical</joyKind>
+			  <joy>0.05</joy>
+			  <drugCategory>Medical</drugCategory>
+			  <foodType>Processed, Fluid</foodType>
+			  <baseIngestTicks>80</baseIngestTicks>
+			  <ingestSound>Ingest_Inject</ingestSound>
+			  <ingestHoldOffsetStanding>
+				<northDefault>
+				  <offset>(0.18,0,0)</offset>
+				</northDefault>
+			  </ingestHoldOffsetStanding>
+			  <ingestCommandString>服用 {0}</ingestCommandString>
+			  <ingestReportString>正在服用 {0}.</ingestReportString>
+			  <useEatingSpeedStat>false</useEatingSpeedStat>
+			  <chairSearchRadius>0</chairSearchRadius>
+			  <outcomeDoers>
+				<li Class="IngestionOutcomeDoer_OffsetPsyfocus">
+				  <offset>0.30</offset>
+				</li>
+				</outcomeDoers>
+			</ingestible>
+			<recipeMaker>
+			  <soundWorking>Recipe_Drug</soundWorking>
+			  <workSkill>Intellectual</workSkill>
+			  <recipeUsers>
+				<li>DrugLab</li>
+			  </recipeUsers>
+			  <researchPrerequisite>MedicineProduction</researchPrerequisite>
+			  <skillRequirements>
+				<Intellectual>6</Intellectual>
+			  </skillRequirements>
+			  <displayPriority>3500</displayPriority>
+			</recipeMaker>
+			<costList>
+			  <PsychoidLeaves>2</PsychoidLeaves><!--精神叶-->
+			</costList>
+			<comps>
+			  <li Class="CompProperties_Drug">
+				<listOrder>202</listOrder>
+				<overdoseSeverityOffset>0</overdoseSeverityOffset>
+			  </li>
+			</comps>
+		</ThingDef>
+		
+		<ThingDef ParentName="MakeableDrugBase">
+			<defName>OmniPotion_Psy_Regeneration_Permanent</defName>
+			<label>Bottle</label>
+			<description>An ancient bottle that has been passed down to this day, the inner space gradually possesses magic power with the passage of time. \nCan slowly restore psyfocus after taking it, lasts indefinitely.</description>
+			<graphicData>
+			  <texPath>Things/Items/OP_bottle</texPath>
+			  <graphicClass>Graphic_StackCount</graphicClass>
+			</graphicData>
+			<stackLimit>10</stackLimit>
+			<rotatable>false</rotatable>
+			<statBases>
+			  <WorkToMake>10000</WorkToMake>
+			  <MarketValue>10</MarketValue>
+			  <Mass>0.1</Mass>
+			</statBases>
+			<tradeability>Sellable</tradeability>
+			<ingestible>
+			  <joyKind>Chemical</joyKind>
+			  <joy>0.05</joy>
+			  <drugCategory>Medical</drugCategory>
+			  <foodType>Processed, Fluid</foodType>
+			  <baseIngestTicks>80</baseIngestTicks>
+			  <ingestSound>Ingest_Inject</ingestSound>
+			  <ingestHoldOffsetStanding>
+				<northDefault>
+				  <offset>(0.18,0,0)</offset>
+				</northDefault>
+			  </ingestHoldOffsetStanding>
+			  <ingestCommandString>服用 {0}</ingestCommandString>
+			  <ingestReportString>正在服用 {0}.</ingestReportString>
+			  <useEatingSpeedStat>false</useEatingSpeedStat>
+			  <chairSearchRadius>0</chairSearchRadius>
+			  <outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+				  <hediffDef>OP_Hediff_Psy_Regeneration_Permanent</hediffDef>
+				  <severity>1.0</severity>
+				  <toleranceChemical>GoJuice</toleranceChemical>
+				</li>
+			  </outcomeDoers>
+			</ingestible>
+			<recipeMaker>
+			  <soundWorking>Recipe_Drug</soundWorking>
+			  <workSkill>Intellectual</workSkill>
+			  <recipeUsers>
+				<li>DrugLab</li>
+			  </recipeUsers>
+			  <researchPrerequisite>MedicineProduction</researchPrerequisite>
+			  <skillRequirements>
+				<Intellectual>12</Intellectual>
+			  </skillRequirements>
+			  <displayPriority>3500</displayPriority>
+			</recipeMaker>
+			<costList>
+			  <PsychoidLeaves>50</PsychoidLeaves><!--精神叶-->
+			</costList>
+			<comps>
+			  <li Class="CompProperties_Drug">
+				<listOrder>202</listOrder>
+				<overdoseSeverityOffset>0</overdoseSeverityOffset>
+			  </li>
+			</comps>
+		</ThingDef>
+		
+		<HediffDef>
+			<defName>OP_Hediff_Psy_Regeneration_Permanent</defName>
+			<hediffClass>Hediff_High</hediffClass>
+			<label>Bottle in effect</label>
+			<labelNoun>Bottle in effect</labelNoun>
+			<description>Regenerating 2.5% of psyfocus per second for an infinite amount of time.</description>
+			<defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+			<scenarioCanAdd>true</scenarioCanAdd>
+			<maxSeverity>1.0</maxSeverity>
+			<isBad>false</isBad>
+			<comps>
+			  <li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>0</severityPerDay>
+				<showHoursToRecover>true</showHoursToRecover>
+			  </li>
+			  <li Class="OP.OP_RemoveHeddif_HediffCompProperties">
+				<OP_Tick>60</OP_Tick>
+				<OP_Psycast>0.025</OP_Psycast>
+			  </li>
+			</comps>
+		</HediffDef>
+	  
+</Defs>

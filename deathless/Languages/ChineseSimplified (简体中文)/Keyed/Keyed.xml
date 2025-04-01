@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- Main -->
+  <!-- EN: Real Deathless -->
+  <ModRealDeathless>真正不死</ModRealDeathless>
+
+  <!-- Mod Settings -->
+  <!-- EN: Real Deathless: Mod Settings -->
+  <stringRD_Setting_Global>真正不死：模组配置</stringRD_Setting_Global>
+
+  <!-- Harmony Patch: Real Deathless -->
+  <!-- EN: Enable Harmony Patch: Real Deathless? -->
+  <stringRD_Patch_ShouldBeDead>启用补丁：真正不死</stringRD_Patch_ShouldBeDead>
+  <!-- EN: Turn on this option, harmony patch will be injected to achieve HP limitation. -->
+  <stringRD_Patch_ShouldBeDead_Hint>开启此项，将会通过应用Harmony补丁以实现受伤时HP限制在5%。</stringRD_Patch_ShouldBeDead_Hint>
+
+</LanguageData>

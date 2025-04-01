@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Archotech Shield Belt -->
+  <Apparel_ShieldBeltArcho.label>超凡护盾腰带</Apparel_ShieldBeltArcho.label>
+  <!-- EN: A single person smart belt composed of extraordinary micro devices. Its built-in AI will automatically adjust the energy position to prevent any attacks or environmental threats., while the wearer can shoot out without any restrictions. -->
+  <Apparel_ShieldBeltArcho.description>一个由超凡微械组成的单人用智能腰带。其内置AI会自动调节能量立场以防止任何攻击和环境威胁，与此同时穿戴者可以毫不受限的向外射击。它受损时仍然会充能，并会在能量充满时再次激活。</Apparel_ShieldBeltArcho.description>
+  
+  <!-- EN: Blood Shield Belt -->
+  <Apparel_ShieldBeltBlood.label>血原护盾腰带</Apparel_ShieldBeltBlood.label>
+  <!-- EN: A psychic shield belt made from an psychic amplifier that only a psychic can concentrate their psycast to drive it to defend against any form of attack.Advanced psycasters can also use it to avoid environmental threats. -->
+  <Apparel_ShieldBeltBlood.description>一个由血原质驱动的邪恶腰带，以一种尚不明确的方式献出伤口。此等血之艺术只有血族能够掌握，其中的佼佼者流下的鲜血足以染红海洋。</Apparel_ShieldBeltBlood.description>
+  
+  <!-- EN: Advanced Shield Belt -->
+  <Apparel_ShieldBeltEx.label>高级护盾腰带</Apparel_ShieldBeltEx.label>
+  <!-- EN: A single person energy shield device. It can intercept incoming projectiles or shrapnel, but cannot block melee attacks, high temperatures, and flames. Its energy stance adopts a special wave frequency, so the wearer can shoot outward. The advanced shield belt will immediately deplete its energy after being hit by EMP. -->
+  <Apparel_ShieldBeltEx.description>一个单人用的能量护盾装置。它可以拦截袭来的投射物或弹片，但无法阻挡近战攻击、高温以及火焰。它的能量立场采用了一种特殊的波频，因此穿戴者可以向外射击。高级护盾腰带遭受EMP打击后会立即耗尽能量。</Apparel_ShieldBeltEx.description>
+  
+  <!-- EN: Psychic Shield Belt -->
+  <Apparel_ShieldBeltPsychic.label>灵能护盾腰带</Apparel_ShieldBeltPsychic.label>
+  <!-- EN: A psychic shield belt made from an psychic amplifier that only a psychic can concentrate their psycast to drive it to defend against any form of attack.Advanced psycasters can also use it to avoid environmental threats. -->
+  <Apparel_ShieldBeltPsychic.description>一个由启灵装置制作的灵能护盾腰带，只有灵能者能够集中精神以灵能驱动它防御任何形式的攻击。高级灵能者还能够以灵能护盾避免环境威胁。</Apparel_ShieldBeltPsychic.description>
+  
+  <!-- EN: Void Shield Belt -->
+  <Apparel_ShieldBeltVoid.label>虚空护盾腰带</Apparel_ShieldBeltVoid.label>
+  <!-- EN: A shield device made from dark archotech shard, capable of breaking all incoming projectiles into the void with psycast. It has an extremely high energy limit, but cannot be recharged and will be destroyed when energy depleted. -->
+  <Apparel_ShieldBeltVoid.description>一条利用暗黑超凡碎片制作的护盾装置，能够以灵能将所有将至的伤害折跃至虚空，拥有极高的能量上限，但无法被再次充能，且能量耗尽时会湮灭。</Apparel_ShieldBeltVoid.description>
+  
+</LanguageData>

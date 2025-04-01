@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+	<!-- EN: frostbite -->
+	<BDAKN_IceDamage.label>冰冻</BDAKN_IceDamage.label>
+	<!-- EN: {0} has succumbed to frostbite. -->
+	<BDAKN_IceDamage.deathMessage>{0}被冻死了。</BDAKN_IceDamage.deathMessage>
+
+	<!-- EN: frostbite -->
+	<BDAKN_IceDamageNoIFF.label>冰冻</BDAKN_IceDamageNoIFF.label>
+	<!-- EN: {0} has succumbed to frostbite. -->
+	<BDAKN_IceDamageNoIFF.deathMessage>{0}被冻死了。</BDAKN_IceDamageNoIFF.deathMessage>
+
+	<!-- EN: frostbite -->
+	<BDAKN_IceDamageNoPlayerIFF.label>冰冻</BDAKN_IceDamageNoPlayerIFF.label>
+	<!-- EN: {0} has succumbed to frostbite. -->
+	<BDAKN_IceDamageNoPlayerIFF.deathMessage>{0}被冻死了。</BDAKN_IceDamageNoPlayerIFF.deathMessage>
+
+</LanguageData>

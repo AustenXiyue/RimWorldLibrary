@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Arrow barrage -->
+  <BDsNydiaExp_ArrowBarrage.label>鸣击</BDsNydiaExp_ArrowBarrage.label>
+  <!-- EN: Launches multiple arrows at target and enemies near target. -->
+  <BDsNydiaExp_ArrowBarrage.description>向目标和附近的其他敌人发射多根弓箭。</BDsNydiaExp_ArrowBarrage.description>
+  
+  <!-- EN: black feather -->
+  <BDsNydiaExp_BlackFeatherAbility.label>黑羽</BDsNydiaExp_BlackFeatherAbility.label>
+  <!-- EN: Casts an aura around self, applying death feather to a random enemy within range every 10 seconds. -->
+  <BDsNydiaExp_BlackFeatherAbility.description>为自身附加黑羽光环。每10秒为范围内随机一名敌人附加黑羽状态。</BDsNydiaExp_BlackFeatherAbility.description>
+  
+  <!-- EN: death sentence -->
+  <BDsNydiaExp_DeathSentence.label>死亡宣告</BDsNydiaExp_DeathSentence.label>
+  <!-- EN: Applies black feather to all enemies in range. -->
+  <BDsNydiaExp_DeathSentence.description>对目标点范围内的敌人附加黑羽状态。</BDsNydiaExp_DeathSentence.description>
+  
+</LanguageData>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+ 
+  <TR_QualityRecastingTable.label>Quality Recasting Table</TR_QualityRecastingTable.label>
+
+  <TR_QualityRecastingTable.description>Some say it is the product of extraordinary intelligence, others say it was made by the Goblin Craftsman in Terraria, but no one knows exactly where it came from. The only thing that is certain is that it can consume silver to change the quality of objects, and it is easy to operate, safe and durable.</TR_QualityRecastingTable.description>
+
+  <TR_QualityRecastingTable.comps.CompUsable.useLabel>Recast</TR_QualityRecastingTable.comps.CompUsable.useLabel>
+  
+</LanguageData>

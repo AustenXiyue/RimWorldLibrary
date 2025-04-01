@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+	<!-- EN: attack speed buff -->
+	<BDAKN_AttackSpeedBuff.label>攻速提高</BDAKN_AttackSpeedBuff.label>
+	<!-- EN: Buffs applied to the target's incoming attack speed, reducing attack delay. -->
+	<BDAKN_AttackSpeedBuff.description>增加攻速的增益。</BDAKN_AttackSpeedBuff.description>
+	<!-- EN: damage factor buff -->
+	<BDAKN_AttackSpeedBuff.labelNoun>攻速提高</BDAKN_AttackSpeedBuff.labelNoun>
+
+	<!-- EN: attack speed debuff -->
+	<BDAKN_AttackSpeedDebuff.label>攻速降低</BDAKN_AttackSpeedDebuff.label>
+	<!-- EN: Debuffs applied to the target's incoming attack speed, increasing attack delay. -->
+	<BDAKN_AttackSpeedDebuff.description>降低攻速的减益。</BDAKN_AttackSpeedDebuff.description>
+	<!-- EN: attack speed debuff -->
+	<BDAKN_AttackSpeedDebuff.labelNoun>攻速降低</BDAKN_AttackSpeedDebuff.labelNoun>
+
+	<!-- EN: damage factor buff -->
+	<BDAKN_DamageFactorBuff.label>承伤降低</BDAKN_DamageFactorBuff.label>
+	<!-- EN: Buffs applied to the target's incoming damage factor. -->
+	<BDAKN_DamageFactorBuff.description>降低承伤系数的增益。</BDAKN_DamageFactorBuff.description>
+	<!-- EN: damage factor buff -->
+	<BDAKN_DamageFactorBuff.labelNoun>承伤降低</BDAKN_DamageFactorBuff.labelNoun>
+
+	<!-- EN: damage factor debuff -->
+	<BDAKN_DamageFactorDebuff.label>承伤提高</BDAKN_DamageFactorDebuff.label>
+	<!-- EN: Debuffs applied to the target's incoming damage factor. -->
+	<BDAKN_DamageFactorDebuff.description>提高承伤系数的减益。</BDAKN_DamageFactorDebuff.description>
+	<!-- EN: damage factor debuff -->
+	<BDAKN_DamageFactorDebuff.labelNoun>承伤提高</BDAKN_DamageFactorDebuff.labelNoun>
+
+	<!-- EN: defense buff -->
+	<BDAKN_DefenseBuff.label>防御提高</BDAKN_DefenseBuff.label>
+	<!-- EN: Buffs applied to the target's armor. -->
+	<BDAKN_DefenseBuff.description>提高护甲的增益。</BDAKN_DefenseBuff.description>
+	<!-- EN: defense buff -->
+	<BDAKN_DefenseBuff.labelNoun>防御提高</BDAKN_DefenseBuff.labelNoun>
+
+	<!-- EN: defense debuff -->
+	<BDAKN_DefenseDebuff.label>防御降低</BDAKN_DefenseDebuff.label>
+	<!-- EN: Debuffs applied to the target's armor. -->
+	<BDAKN_DefenseDebuff.description>降低护甲的减益。</BDAKN_DefenseDebuff.description>
+	<!-- EN: defense debuff -->
+	<BDAKN_DefenseDebuff.labelNoun>防御降低</BDAKN_DefenseDebuff.labelNoun>
+
+	<!-- EN: move speed buff -->
+	<BDAKN_MoveSpeedBuff.label>移速提高</BDAKN_MoveSpeedBuff.label>
+	<!-- EN: Buffs applied to the target's move speed. -->
+	<BDAKN_MoveSpeedBuff.description>提高移动速度的增益。</BDAKN_MoveSpeedBuff.description>
+	<!-- EN: move speed buff -->
+	<BDAKN_MoveSpeedBuff.labelNoun>移速提高</BDAKN_MoveSpeedBuff.labelNoun>
+
+	<!-- EN: move speed debuff -->
+	<BDAKN_MoveSpeedDebuff.label>移速降低</BDAKN_MoveSpeedDebuff.label>
+	<!-- EN: Debuffs applied to the target's armor. -->
+	<BDAKN_MoveSpeedDebuff.description>降低移动速度的减益。</BDAKN_MoveSpeedDebuff.description>
+	<!-- EN: move speed debuff -->
+	<BDAKN_MoveSpeedDebuff.labelNoun>移速降低</BDAKN_MoveSpeedDebuff.labelNoun>
+
+</LanguageData>

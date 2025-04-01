@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<!-- 
+	<ThingDef ParentName="BuildingBase">
+		<defName>FTC_SpotterLight_Turret</defName>
+		<thingClass>CombatExtended.Building_TurretGunCE</thingClass>
+		<label>mobile artillery spotter</label>
+		<description>A manned artillery scope with radio. Useful to coordinate artillery strikes.\n\nUsing this on a target will mark it, removing the indirect fire penalty from any artillery pieces targeting it. Additionally, any directed fire will use the aiming accuracy and efficiency of the spotter, rather than the artillery operator to determine final accuracy.</description>
+		<graphicData>
+			<texPath>InfantryTurret/FT_Tripod</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+			<drawOffset>(0,0,-0.1)</drawOffset>
+			<damageData>
+				<rect>(0.2,0.2,0.6,0.6)</rect>
+			</damageData>
+			<shadowData>
+				<volume>(0.27,0.25,0.27)</volume>
+				<offset>(0,0,0)</offset>
+			</shadowData>
+		</graphicData>
+		<thingCategories>
+      		<li>BuildingsSecurity</li>
+  	  	</thingCategories>
+		<size>(3,3)</size>
+   		<hasTooltip>true</hasTooltip>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<altitudeLayer>Building</altitudeLayer>
+		<hasInteractionCell>True</hasInteractionCell>
+		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<stealable>false</stealable>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<fillPercent>0.5</fillPercent>
+		<tickerType>Normal</tickerType>
+		<designationCategory>Security</designationCategory>
+		<specialDisplayRadius>150</specialDisplayRadius>
+		<placeWorkers Inherit="false">
+			<li>PlaceWorker_TurretTop</li>
+			<li>PlaceWorker_PreventInteractionSpotOverlap</li>
+		</placeWorkers>
+   	 	<minifiedDef>MinifiedThing</minifiedDef>
+		<researchPrerequisites>
+			<li>FT_HeavyArtillery</li>
+		</researchPrerequisites>
+		<comps>
+			<li Class="CompProperties_Breakdownable"/>
+			<li Class="CompProperties_Forbiddable"/>
+			<li Class="CompProperties_Mannable">
+				<manWorkType>Violent</manWorkType>
+			</li>
+		</comps>
+		<statBases>
+			<MaxHitPoints>250</MaxHitPoints>
+			<Flammability>0.2</Flammability>
+			<WorkToBuild>3000</WorkToBuild>
+			<Beauty>-2</Beauty>
+			<Mass>12</Mass>
+			<Bulk>15</Bulk>
+		</statBases>
+		<costList>
+			<Steel>175</Steel>
+			<ComponentIndustrial>8</ComponentIndustrial>
+		</costList>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<building>
+    	  	<ai_combatDangerous>false</ai_combatDangerous>
+			<turretBurstWarmupTime>2.0</turretBurstWarmupTime>
+			<turretBurstCooldownTime>1.0</turretBurstCooldownTime>
+			<turretTopDrawSize>3</turretTopDrawSize>	
+			<turretGunDef>FTC_SpotterLight_Gun</turretGunDef>
+		</building>
+		<uiIconPath>Things/ArtilleryRangeFinder_Icon</uiIconPath>
+		<uiIconScale>1</uiIconScale>
+ 	</ThingDef>
+	
+  	<ThingDef ParentName="BaseArtilleryWeapon"> 
+		<thingClass>Building_TurretGun</thingClass>
+		<defName>FTC_SpotterLight_Gun</defName>
+		<label>mobile artillery spotter</label>
+		<description>A manned artillery scope with radio. Useful to coordinate artillery strikes.\n\nUsing this on a target will mark it, removing the indirect fire penalty from any artillery pieces targeting it. Additionally, any directed fire will use the aiming accuracy and efficiency of the spotter, rather than the artillery operator to determine final accuracy.</description>
+	    <graphicData>
+			<texPath>Things/ArtilleryRangeFinder_Gun</texPath>
+			<drawSize>3</drawSize>
+  		</graphicData>
+		<statBases>
+      		<Bulk>1.5</Bulk>
+      		<Mass>2.25</Mass>
+			<SightsEfficiency>2.0</SightsEfficiency>
+			<RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
+		</statBases>
+		  <verbs>
+        <li Class="CombatExtended.VerbPropertiesCE">
+          <verbClass>CombatExtended.Verb_MarkForArtillery</verbClass>
+          <hasStandardCommand>true</hasStandardCommand>
+          <defaultProjectile>Bullet_Dummy</defaultProjectile>
+          <warmupTime>2.8</warmupTime>
+          <range>150</range>
+          <muzzleFlashScale>0</muzzleFlashScale>
+          <onlyManualCast>true</onlyManualCast>
+          <targetParams>
+            <canTargetLocations>true</canTargetLocations>
+          </targetParams>
+          <ignorePartialLoSBlocker>true</ignorePartialLoSBlocker>
+        </li>
+      </verbs>
+  	</ThingDef>
+	 -->
+
+
+<!-- 噴煙者加強版 -->
+ 	<ThingDef ParentName="BuildingBase">
+		<defName>FTC_Katyusha_Turret</defName>
+		<label>multi-railed rocket Launcher</label>
+		<description>A manned stationary rocket launcher with eight rails, each of which can attach 2 rockets, can shoot sixteen shells at one time, however, it's far from accurate and consumes a huge amount of chemfuel each time it fires.</description>
+		<graphicData>
+			<texPath>Things/TurretArtillery_Base</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>3.5</drawSize>
+			<drawOffset>(0,0,0)</drawOffset>
+			<color>(160,160,160)</color>
+			<damageData>
+				<rect>(0.3,0.3,0.3,0.3)</rect>
+			</damageData>
+		</graphicData>
+		<size>(3,3)</size>
+		<thingClass>CombatExtended.Building_TurretGunCE</thingClass>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<altitudeLayer>Building</altitudeLayer>
+		<hasInteractionCell>True</hasInteractionCell>
+		<interactionCellOffset>(0,0,-2)</interactionCellOffset>
+		<stealable>false</stealable>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<fillPercent>0.85</fillPercent>
+		<tickerType>Normal</tickerType>
+		<designationCategory>Security</designationCategory>
+		<placeWorkers Inherit="false">
+			<li>PlaceWorker_NotUnderRoof</li>
+			<li>PlaceWorker_TurretTop</li>
+			<li>PlaceWorker_PreventInteractionSpotOverlap</li>
+		</placeWorkers>
+		<researchPrerequisites>
+			<li>FT_HeavyArtillery</li>
+		</researchPrerequisites>
+		<comps>
+			<li Class="CompProperties_Forbiddable"/>
+			<li Class="CompProperties_Mannable">
+				<manWorkType>Violent</manWorkType>
+			</li>
+		</comps>
+		<statBases>
+			<MaxHitPoints>500</MaxHitPoints>
+			<Flammability>0.2</Flammability>
+			<WorkToBuild>3000</WorkToBuild>
+			<Beauty>-20</Beauty>
+		</statBases>
+		<specialDisplayRadius>40</specialDisplayRadius>
+		<costList>
+			<FT_ConcreteCompressed>8</FT_ConcreteCompressed>
+			<Steel>475</Steel>
+			<ComponentIndustrial>8</ComponentIndustrial>
+		</costList>
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+		<building>
+			<turretBurstWarmupTime>2.0</turretBurstWarmupTime>
+			<turretBurstCooldownTime>1.0</turretBurstCooldownTime>
+			<turretTopDrawSize>4</turretTopDrawSize>	
+			<turretGunDef>FTC_Katyusha_Gun</turretGunDef>
+		</building>
+		<uiIconPath>Things/RailedLauncher_icon</uiIconPath>
+		<uiIconScale>1</uiIconScale>
+ 	 </ThingDef>
+
+  	<ThingDef ParentName="BaseArtilleryWeapon"> 
+		<defName>FTC_Katyusha_Gun</defName>
+		<label>multi-railed rocket</label>
+		<description>A railed rocket launcher. Lobs rocket shells over walls. Very inaccurate but mass-amount.</description>
+		<recoilPower>6</recoilPower>
+	    <graphicData>
+			<texPath>Things/RailedLauncher</texPath>
+			<drawSize>(4,4)</drawSize>
+  		</graphicData>
+		<statBases>
+			<SightsEfficiency>0.5</SightsEfficiency>
+			<ShotSpread>0.05</ShotSpread>
+			<SwayFactor>0.48</SwayFactor>
+			<RangedWeapon_Cooldown>4.0</RangedWeapon_Cooldown>
+		</statBases>
+		<comps>
+			<li Class="CombatExtended.CompProperties_Charges">
+				<chargeSpeeds>
+					<li>10</li>
+					<li>20</li>
+					<li>40</li>
+					<li>60</li>
+				</chargeSpeeds>
+			</li>
+			<li Class="CombatExtended.CompProperties_AmmoUser">
+				<magazineSize>16</magazineSize>
+				<reloadTime>15</reloadTime>
+				<ammoSet>AmmoSet_132mmM13</ammoSet>       <!-- === AmmoSet_13cmKatyusha === -->
+			</li>
+			<li Class="CombatExtended.CompProperties_FireModes">
+				<aimedBurstShotCount>8</aimedBurstShotCount>
+				<aiUseBurstMode>True</aiUseBurstMode>
+				<aiAimMode>SuppressFire</aiAimMode>
+				<noSingleShot>true</noSingleShot>		
+			</li>		
+		</comps>
+		<verbs>
+			<li Class="CombatExtended.VerbPropertiesCE">
+				<verbClass>CombatExtended.Verb_ShootMortarCE</verbClass>
+				<forceNormalTimeSpeed>false</forceNormalTimeSpeed>
+				<hasStandardCommand>true</hasStandardCommand>
+				<requireLineOfSight>false</requireLineOfSight>
+				<defaultProjectile>Ammo_132mmM13_HE</defaultProjectile>
+				<warmupTime>10</warmupTime>
+				<minRange>40</minRange>
+				<range>1000</range>
+				<burstShotCount>16</burstShotCount>
+				<ticksBetweenBurstShots>15</ticksBetweenBurstShots>
+				<soundCast>FT_NebelShot</soundCast>
+				<muzzleFlashScale>39</muzzleFlashScale>
+				<circularError>3</circularError>
+				<indirectFirePenalty>0.2</indirectFirePenalty>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+			</li>
+		</verbs>
+  	</ThingDef>
+
+
+</Defs>

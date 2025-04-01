@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<LogEntryDef>
+		<defName>BDsNydiaExp_LogEntry</defName>
+		<iconDamaged>Icons/BDNydiaExp_Icon</iconDamaged>
+		<iconDamagedFromInstigator>Icons/BDNydiaExp_Icon</iconDamagedFromInstigator>
+	</LogEntryDef>
+
+	<LogEntryDef>
+		<defName>BDsNydiaExp_LogEntryExplode</defName>
+		<iconDamaged>Effects/BDsNydiaExp_HitEffect</iconDamaged>
+		<iconDamagedFromInstigator>Icons/BDNydiaExp_Icon</iconDamagedFromInstigator>
+	</LogEntryDef>
+
+	<LogEntryDef>
+		<defName>BDsNydiaExp_LogEntryFeather</defName>
+		<iconDamaged>Effects/BDNydiaExp_BlackFeatherEffectGlow</iconDamaged>
+		<iconDamagedFromInstigator>Effects/BDNydiaExp_BlackFeatherEffectGlow</iconDamagedFromInstigator>
+	</LogEntryDef>
+
+	<RulePackDef>
+		<defName>BDsNydiaExp_SharedRules</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>curse->cursed</li>
+				<li>curse->cursed</li>
+				<li>curse->blighted</li>
+				<li>curse->affected</li>
+				<li>curse->marked</li>
+
+				<li>curseAdj->cursed</li>
+				<li>curseAdj->wicked</li>
+				<li>curseAdj->ominous</li>
+				<li>curseAdj->haunted</li>
+				<li>curseAdj->ill omened</li>
+
+				<li>fall->fell</li>
+				<li>fall->landed</li>
+				<li>fall->touched</li>
+
+				<li>head->head</li>
+				<li>head->hair</li>
+				<li>head->forehead</li>
+
+				<li>feather->[curseAdj] black feather</li>
+				<li>feather->[curseAdj] feather</li>
+				<li>feather->black feather</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+
+	<RulePackDef>
+		<defName>BDsNydiaExp_ArrowBarrage</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>r_logentry->[INITIATOR_definite] [verb_shot] [arrowNoun] [preposition] [SUBJECT_definite].</li>
+
+				<li>preposition->at</li>
+				<li>preposition->on</li>
+				<li>preposition->above</li>
+
+				<li>arrowNoun->[adj] [shape]</li>
+				<li>arrowNoun->a [shape]</li>
+
+				<li>adj->a magical</li>
+				<li>adj->a violet</li>
+				<li>adj->an azure</li>
+				<li>adj->a feathery</li>
+				<li>adj->a high arching</li>
+
+				<li>shape->arrow</li>
+				<li>shape->bolt</li>
+				<li>shape->projectile</li>
+
+				<li>verb_shot->launched</li>
+				<li>verb_shot->shot</li>
+				<li>verb_shot->unleashed</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+
+	<RulePackDef>
+		<defName>BDsNydiaExp_DeathSentenceApply</defName>
+		<include>
+			<li>BDsNydiaExp_SharedRules</li>
+		</include>
+		<rulePack>
+			<rulesStrings>
+				<li>r_logentry->[SUBJECT_definite] was [curse] by [INITIATOR_definite]'s [feather].</li>
+				<li>r_logentry->[INITIATOR_definite] [curse] [SUBJECT_definite] with [INITIATOR_possessive] [feather].</li>
+
+				<li>r_logentry->An [feather] [fall] [SUBJECT_definite]'s [head].</li>
+				<li>r_logentry->[INITIATOR_definite]'s [feather] [fall] [SUBJECT_definite]'s [head].</li>
+
+				<li>r_logentry(p=0.2)->An [feather] [fall] [SUBJECT_definite]'s [head].</li>
+				<li>r_logentry(p=0.2)->[INITIATOR_definite]'s [feather] [fall] [SUBJECT_definite]'s [head].</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+
+	<RulePackDef>
+		<defName>BDsNydiaExp_DeathSentenceDetonate</defName>
+		<include>
+			<li>BDsNydiaExp_SharedRules</li>
+		</include>
+		<rulePack>
+			<rulesStrings>
+				<li>r_logentry->The [feather] on [SUBJECT_definite]'s [head] [detonated].</li>
+				<li>r_logentry->The [feather] on [SUBJECT_definite]'s [head] [detonatePassive] incoming impact.</li>
+				<li>r_logentry(InitiatorIsNull==False)->The [feather] on [SUBJECT_definite]'s [head] [detonatePassive] by [INITIATOR_definite]'s attack.</li>
+				<li>r_logentry(InitiatorIsNull==False)->The [feather] on [SUBJECT_definite]'s [head] [detonatePassive] by [INITIATOR_definite]'s attack and [detonated].</li>
+				<li>r_logentry(InitiatorIsNull==False)->[INITIATOR_definite]'s attack caused the [feather] on [SUBJECT_definite]'s [head] to [detonate].</li>
+
+				<li>detonated->detonated</li>
+				<li>detonated->exploded</li>
+				<li>detonated->unleashed a torrent of energy</li>
+
+				<li>detonate->detonate</li>
+				<li>detonate->explode</li>
+				<li>detonate->unleash a torrent of energy</li>
+
+				<li>detonatePassive->was detonated by</li>
+				<li>detonatePassive->was set off by</li>
+				<li>detonatePassive->resonated with</li>
+				<li>detonatePassive->reacted with</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+
+	<RulePackDef>
+		<defName>BDsNydiaExp_DeathSentenceDissipated</defName>
+		<include>
+			<li>BDsNydiaExp_SharedRules</li>
+		</include>
+		<rulePack>
+			<rulesStrings>
+				<li>r_logentry->The [feather] on [SUBJECT_definite]'s [head] [dissipated].</li>
+
+				<li>dissipated->dissipated</li>
+				<li>dissipated->disappeared</li>
+				<li>dissipated->vanished</li>
+				<li>dissipated->fell off</li>
+				<li>dissipated->was blown away</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+
+	<RulePackDef>
+		<defName>BDsNydiaExp_BlackFeatherAura</defName>
+		<include>
+			<li>BDsNydiaExp_SharedRules</li>
+		</include>
+		<rulePack>
+			<rulesStrings>
+				<li>r_logentry->[SUBJECT_definite] [unleashed] a [curseAdj] aura around [INITIATOR_objective]self.</li>
+
+				<li>unleashed->unleashed</li>
+				<li>unleashed->relesed</li>
+				<li>unleashed->let out</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+
+	<RulePackDef>
+		<defName>BDsNydiaExp_BlackFeatherAuraDissipate</defName>
+		<include>
+			<li>BDsNydiaExp_SharedRules</li>
+		</include>
+		<rulePack>
+			<rulesStrings>
+				<li>r_logentry->The [curseAdj] aura around [SUBJECT_definite] [dissipated].</li>
+
+				<li>dissipated->dissipated</li>
+				<li>dissipated->disappeared</li>
+				<li>dissipated->vanished</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+</Defs>

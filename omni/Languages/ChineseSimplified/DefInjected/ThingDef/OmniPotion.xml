@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LangeageData>
+	<OmniPotion_Recovery.label>治疗药膏</OmniPotion_Recovery.label>
+	<OmniPotion_Recovery.description>即使最严重的伤口也能快速治愈的魔法药膏。\n喝下后可以治愈绝大部分常见负面效果。</OmniPotion_Recovery.description>  
+	
+	<OmniPotion_Enhancement.label>树之祭祀</OmniPotion_Enhancement.label>
+	<OmniPotion_Enhancement.description>战场上的救命稻草。\n服用后可以提高免疫能力和恢复能力。</OmniPotion_Enhancement.description>
+	
+	<OmniPotion_Psy_Regeneration.label>净化药水</OmniPotion_Psy_Regeneration.label>
+	<OmniPotion_Psy_Regeneration.description>能增强冥想能力的清水。\n服用后可以缓慢恢复精神力。</OmniPotion_Psy_Regeneration.description>
+	
+	<OmniPotion_Psy_Regeneration_Instant.label>魔法芒果</OmniPotion_Psy_Regeneration_Instant.label>
+	<OmniPotion_Psy_Regeneration_Instant.description>基迪岛上特有的苦甜参半风味让两栖动物无法抗拒。\n吃下可以立刻恢复30%精神力</OmniPotion_Psy_Regeneration_Instant.description>
+	
+	<OmniPotion_Psy_Regeneration_Permanent.label>魔瓶</OmniPotion_Psy_Regeneration_Permanent.label>
+	<OmniPotion_Psy_Regeneration_Permanent.description>一个流传至今的古老瓶子，内部空间随着时间的流逝逐渐拥有魔力。\n服用后可以缓慢恢复精神力, 持续时间无限</OmniPotion_Psy_Regeneration_Permanent.description>
+</LangeageData>

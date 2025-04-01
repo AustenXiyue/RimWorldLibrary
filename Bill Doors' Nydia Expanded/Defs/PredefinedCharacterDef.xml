@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<BillDoorsPredefinedCharacter.PredefinedCharacterParmDef>
+		<defName>BDNydiaExp_Nydia</defName>
+		<label>Nydia</label>
+		<firstName>Nydia</firstName>
+		<lastname></lastname>
+		<title>the Black Bird of Death</title>
+		<fixedAge>25</fixedAge>
+		<fixedChoroAge>25</fixedChoroAge>
+		<basePawnKindDef>BDsNydiaExp_Pawnkind</basePawnKindDef>
+		<iconPath>Icons/BDNydiaExp_Icon</iconPath>
+
+		<forcedBodyTypeDef>Female</forcedBodyTypeDef>
+		<raceDef>Human</raceDef>
+		<forcedHairDef>BDNydiaExp_NydiaHair</forcedHairDef>
+		<headType>Female_AverageEyelessNormal</headType>
+		<gender>Female</gender>
+
+		<hairColor>(0.95,0.95,0.95)</hairColor>
+		<skinColor>(1, 0.94, 0.89)</skinColor>
+		<eyeColor>(0.76, 0.38, 0.25)</eyeColor>
+		<eyeTexPath>Things/Pawn/Humanlike/Eyes/BDNydiaExp_Eyes</eyeTexPath>
+
+		<overrideFactionLeader>false</overrideFactionLeader>
+		<useFactionIdeo>true</useFactionIdeo>
+
+		<forcedApparels>
+			<BDNydiaExp_Helmet>
+				<quality>Good</quality>
+				<color>(1,1,1)</color>
+				<stuff>Steel</stuff>
+			</BDNydiaExp_Helmet>
+			<BDNydiaExp_DressInner>
+				<quality>Good</quality>
+				<color>(92,80,166)</color>
+				<stuff>Cloth</stuff>
+			</BDNydiaExp_DressInner>
+			<BDNydiaExp_DressOuter>
+				<quality>Good</quality>
+				<color>(77,77,77)</color>
+				<stuff>Cloth</stuff>
+			</BDNydiaExp_DressOuter>
+			<BDNydiaExp_Pauldrons>
+				<quality>Good</quality>
+				<color>(1,1,1)</color>
+				<stuff>Steel</stuff>
+			</BDNydiaExp_Pauldrons>
+		</forcedApparels>
+
+		<weaponDefs>
+			<li>BDsNydiaExp_Bow</li>
+		</weaponDefs>
+
+		<traits>
+			<Beauty>1</Beauty>
+			<Kind>0</Kind>
+		</traits>
+
+		<abilities>
+			<li>BDsNydiaExp_ArrowBarrage</li>
+			<li>BDsNydiaExp_DeathSentence</li>
+			<li>BDsNydiaExp_BlackFeatherAbility</li>
+		</abilities>
+
+		<skillOverrides>
+			<li>
+				<skill>Shooting</skill>
+				<amount>12</amount>
+				<passion>Major</passion>
+			</li>
+		</skillOverrides>
+
+		<tracked>true</tracked>
+		<renderNodeProperties>
+			<li Class="BillDoorsPredefinedCharacter.PawnRenderNodeProperties_PDCEyes">
+				<debugLabel>Eyes</debugLabel>
+				<parentTagDef>Head</parentTagDef>
+				<rotDrawMode>Fresh, Rotting</rotDrawMode>
+				<baseLayer>56</baseLayer>
+				<MayNotRequireMods>
+					<li>nals.facialanimation</li>
+				</MayNotRequireMods>
+				<drawData>
+					<scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+				</drawData>
+			</li>
+			<li>
+				<debugLabel>Wings folded</debugLabel>
+				<workerClass>BDsNydiaExp.PawnRenderNodeWorker_NydiasWingsFolded</workerClass>
+				<texPath>Things/Pawn/Humanlike/BodyAttachments/BDNydiaExp_WingsFolded</texPath>
+				<drawSize>1</drawSize>
+				<parentTagDef>Body</parentTagDef>
+				<rotDrawMode>Fresh, Rotting</rotDrawMode>
+				<drawData>
+					<scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+					<defaultData>
+						<layer>-1</layer>
+					</defaultData>
+					<dataNorth>
+						<layer>60</layer>
+					</dataNorth>
+					<dataEast>
+						<layer>71</layer>
+					</dataEast>
+					<dataWest>
+						<layer>71</layer>
+					</dataWest>
+				</drawData>
+			</li>
+			<li>
+				<debugLabel>Wings</debugLabel>
+				<workerClass>BDsNydiaExp.PawnRenderNodeWorker_NydiasWings</workerClass>
+				<texPath>Things/Pawn/Humanlike/BodyAttachments/BDNydiaExp_Wings</texPath>
+				<drawSize>2</drawSize>
+				<parentTagDef>Body</parentTagDef>
+				<rotDrawMode>Fresh, Rotting</rotDrawMode>
+				<drawData>
+					<scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+					<defaultData>
+						<layer>-1</layer>
+					</defaultData>
+					<dataNorth>
+						<layer>60</layer>
+					</dataNorth>
+					<dataEast>
+						<layer>71</layer>
+					</dataEast>
+					<dataWest>
+						<layer>71</layer>
+					</dataWest>
+				</drawData>
+			</li>
+		</renderNodeProperties>
+
+		<appearMethods>
+			<li>
+				<name>Woman in black</name>
+				<description>Nydia will come to rescue you when you're in distress</description>
+				<identifier>Join</identifier>
+				<defaultEnabled>true</defaultEnabled>
+			</li>
+			<li>
+				<name>Town attack</name>
+				<description>Player will be given quest to attack a town. During the assault, Nydia will show up and confront player forces.</description>
+				<identifier>AttackNPC</identifier>
+				<defaultEnabled>true</defaultEnabled>
+			</li>
+		</appearMethods>
+	</BillDoorsPredefinedCharacter.PredefinedCharacterParmDef>
+
+	<HairDef>
+		<defName>BDNydiaExp_NydiaHair</defName>
+		<label>Nydia</label>
+		<styleGender>Female</styleGender>
+		<texPath>Things/Pawn/Humanlike/Hairs/BDNydiaExp_Hair</texPath>
+		<category>BDPDCStyleItem</category>
+		<styleTags>
+			<li>BDPDC</li>
+		</styleTags>
+		<modExtensions>
+			<li Class="BillDoorsFramework.DefModExtension_HairExt">
+				<backHairTexPath>Things/Pawn/Humanlike/Hairs/BDNydiaExp_HairRear</backHairTexPath>
+			</li>
+		</modExtensions>
+	</HairDef>
+</Defs>

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	<EnergyShieldCECompat_forceBlock>Принудительный режим блокировки</EnergyShieldCECompat_forceBlock>
+	<EnergyShieldCECompat_forceBlock_tooltip>При включении будет принудительно блокировать все пули CE (включая те, что появляются внутри щита)\nКогда выключено, пули/осколки, появляющиеся внутри щита, не будут блокироваться</EnergyShieldCECompat_forceBlock_tooltip>
+	<EnergyShieldCECompat_debugMode>ОТЛАДКА</EnergyShieldCECompat_debugMode>
+</LanguageData>

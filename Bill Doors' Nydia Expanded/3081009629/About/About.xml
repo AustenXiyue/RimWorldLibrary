@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Bill Doors' Projectile Trail</name>
+	<author>3HST Limited</author>
+	<packageId>3HSTltd.ProjectileTrail</packageId>
+	<supportedVersions>
+		<li>1.4</li>
+		<li>1.5</li>
+	</supportedVersions>
+	<loadAfter>
+		<li>Ludeon.RimWorld</li>
+		<li>Ludeon.RimWorld.Ideology</li>
+	</loadAfter>
+	<modDependencies>
+		<li>
+			<packageId>3HSTltd.Framework</packageId>
+			<displayName>Bill Door's Framework</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2897160312</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	<description>Adds smoke and flame trails for some projectile.</description>
+</ModMetaData>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: violet arrow -->
+  <BDsNydiaExp_Arrow.label>箭矢</BDsNydiaExp_Arrow.label>
+  
+  <!-- EN: Nydia's bow -->
+  <BDsNydiaExp_Bow.label>妮蒂娅的弓</BDsNydiaExp_Bow.label>
+  <!-- EN: An elaborately decorated bow capable of launching arrows high up into the sky. It suspiciously resembles spines and bones, somehow. -->
+  <BDsNydiaExp_Bow.description>一把装饰华丽的长弓，能够将弓箭射到高空中。诡异的是这把弓的结构看上去像是脊椎和指骨。</BDsNydiaExp_Bow.description>
+  <!-- EN: limb -->
+  <BDsNydiaExp_Bow.tools.limb.label>弓臂</BDsNydiaExp_Bow.tools.limb.label>
+  <!-- EN: Nydia's bow -->
+  <BDsNydiaExp_Bow.verbs.Verb_ShootNydiaRaiseAiming.label>TODO</BDsNydiaExp_Bow.verbs.Verb_ShootNydiaRaiseAiming.label>
+  
+</LanguageData>

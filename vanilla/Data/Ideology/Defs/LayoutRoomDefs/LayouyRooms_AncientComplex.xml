@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <LayoutRoomDef Abstract="True" Name="UtilityRoom">
+    <floorTypes>
+      <li>PavedTile</li>
+      <li>Concrete</li>
+      <li>CarpetGreyDark</li>
+      <li>CarpetBlue</li>
+      <li>CarpetGreen</li>
+    </floorTypes>
+  </LayoutRoomDef>
+
+  <LayoutRoomDef>
+    <defName>AncientBarracks</defName>
+    <selectionWeight>0.2</selectionWeight>
+    <sketchResolverDef>AncientBarracks</sketchResolverDef>
+    <areaSizeRange>50</areaSizeRange>
+    <countRange>0~1</countRange>
+    <floorTypes>
+      <li>CarpetBlue</li>
+      <li>CarpetRed</li>
+      <li>CarpetGreen</li>
+    </floorTypes>
+  </LayoutRoomDef>
+
+  <LayoutRoomDef ParentName="UtilityRoom">
+    <defName>AncientStorageRoom</defName>
+    <selectionWeight>0.2</selectionWeight>
+    <sketchResolverDef>AncientStorageRoom</sketchResolverDef>
+  </LayoutRoomDef>
+
+  <LayoutRoomDef ParentName="UtilityRoom">
+    <defName>AncientEquipmentRoom</defName>
+    <selectionWeight>1</selectionWeight>
+    <sketchResolverDef>AncientEquipmentRoom</sketchResolverDef>
+    <areaSizeRange>0</areaSizeRange>
+  </LayoutRoomDef>
+
+  <LayoutRoomDef>
+    <defName>AncientPowerRoom</defName>
+    <selectionWeight>1</selectionWeight>
+    <sketchResolverDef>AncientPowerRoom</sketchResolverDef>
+    <countRange>0~1</countRange>
+  </LayoutRoomDef>
+
+  <LayoutRoomDef>
+    <defName>AncientLab</defName>
+    <selectionWeight>1</selectionWeight>
+    <sketchResolverDef>AncientLab</sketchResolverDef>
+    <countRange>0~1</countRange>
+    <floorTypes>
+      <li>SterileTile</li>
+    </floorTypes>
+  </LayoutRoomDef>
+
+  <LayoutRoomDef  ParentName="UtilityRoom">
+    <defName>AncientArmory</defName>
+    <selectionWeight>1</selectionWeight>
+    <sketchResolverDef>AncientArmory</sketchResolverDef>
+    <areaSizeRange>25~26</areaSizeRange>
+  </LayoutRoomDef>
+
+</Defs>

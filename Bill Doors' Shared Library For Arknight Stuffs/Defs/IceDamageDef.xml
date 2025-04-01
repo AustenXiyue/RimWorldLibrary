@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<DamageDef Name="BDAKN_IceDamageBase">
+		<defName>BDAKN_IceDamageNoIFF</defName>
+		<label>frostbite</label>
+		<workerClass>BDsArknightLib.DamageWorker_Ice</workerClass>
+		<externalViolence>true</externalViolence>
+		<deathMessage>{0} has succumbed to frostbite.</deathMessage>
+		<hediff>Frostbite</hediff>
+		<armorCategory>Heat</armorCategory>
+		<harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+		<canUseDeflectMetalEffect>false</canUseDeflectMetalEffect>
+		<minDamageToFragment>15</minDamageToFragment>
+		<defaultDamage>50</defaultDamage>
+		<defaultArmorPenetration>0.5</defaultArmorPenetration>
+		<explosionAffectOutsidePartsOnly>true</explosionAffectOutsidePartsOnly>
+		<explosionHeatEnergyPerCell>-5</explosionHeatEnergyPerCell>
+		<explosionCellFleck>BlastDry</explosionCellFleck>
+		<explosionColorCenter>(0.5, 0.75, 0.94, 0.2)</explosionColorCenter>
+		<explosionColorEdge>(1, 1, 1, 0.1)</explosionColorEdge>
+		<soundExplosion>BDAKN_FrostGrenadeExplode</soundExplosion>
+		<explosionSnowMeltAmount>1</explosionSnowMeltAmount>
+		<modExtensions>
+			<li Class="BDsArknightLib.ModExtension_DamageHediffs">
+				<hediffDef>BDAKN_HediffSlowed</hediffDef>
+				<secondHediffDef>BDAKN_HediffFrozen</secondHediffDef>
+				<duration>15</duration>
+				<secondDuration>20</secondDuration>
+
+				<chanceStat>BDAKN_FreezeChance</chanceStat>
+				<resistStat>BDAKN_ResistChance</resistStat>
+			</li>
+		</modExtensions>
+	</DamageDef>
+
+	<DamageDef ParentName="BDAKN_IceDamageBase">
+		<defName>BDAKN_IceDamage</defName>
+		<modExtensions>
+			<li Class="BDsArknightLib.ModExtension_DamageIFF"/>
+		</modExtensions>
+	</DamageDef>
+
+	<DamageDef ParentName="BDAKN_IceDamageBase">
+		<defName>BDAKN_IceDamageNoPlayerIFF</defName>
+		<modExtensions>
+			<li Class="BDsArknightLib.ModExtension_DamageIFF">
+				<playerUsable>false</playerUsable>
+			</li>
+		</modExtensions>
+	</DamageDef>
+
+	<ManeuverDef>
+		<defName>BDAKN_IceMelee</defName>
+		<requiredCapacity>BDAKN_IceMelee</requiredCapacity>
+		<verb>
+			<verbClass>Verb_MeleeAttackDamage</verbClass>
+			<meleeDamageDef>BDAKN_IceDamage</meleeDamageDef>
+		</verb>
+		<logEntryDef>MeleeAttack</logEntryDef>
+		<combatLogRulesHit>Maneuver_Slash_MeleeHit</combatLogRulesHit>
+		<combatLogRulesDeflect>Maneuver_Slash_MeleeDeflect</combatLogRulesDeflect>
+		<combatLogRulesMiss>Maneuver_Slash_MeleeMiss</combatLogRulesMiss>
+		<combatLogRulesDodge>Maneuver_Slash_MeleeDodge</combatLogRulesDodge>
+	</ManeuverDef>
+
+	<ToolCapacityDef>
+		<defName>BDAKN_IceMelee</defName>
+		<label>ice magic</label>
+	</ToolCapacityDef>
+</Defs>

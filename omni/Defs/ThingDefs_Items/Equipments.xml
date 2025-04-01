@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ApparelLayerDef>
+		<defName>OP_Equipment_Layer</defName>
+		<label>Equipped Items</label>
+		<drawOrder>10</drawOrder>
+	</ApparelLayerDef>
+	
+	<ThingDef ParentName="ApparelNoQualityBase">
+		<defName>OP_Iron_Talon</defName> 
+		<label>Iron Talon</label><!--寒铁钢爪-->
+		<description>A simple but effective weapon devised to quell a great Hellbear uprising.</description>
+		<graphicData>
+		  <texPath>Things/Weapons/OP_iron_talon</texPath>
+		  <graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<techLevel>Neolithic</techLevel><!--石器时代-->
+		<tradeTags>
+		  <li>WeaponMelee</li><!--交易类别：近战武器-->
+		</tradeTags>
+		<statBases>
+		  <WorkToMake>500</WorkToMake>
+		  <Mass>0.5</Mass>
+		  <EquipDelay>1</EquipDelay>
+		  <MarketValue>200</MarketValue>
+		  <MaxHitPoints>100</MaxHitPoints>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<thingCategories>
+		  <li>ApparelUtility</li>
+		</thingCategories>
+		<apparel>
+		  <countsAsClothingForNudity>false</countsAsClothingForNudity>
+		  <scoreOffset>4</scoreOffset>
+		  <careIfWornByCorpse>false</careIfWornByCorpse>
+		  <careIfDamaged>false</careIfDamaged>
+		  <ignoredByNonViolent>true</ignoredByNonViolent>
+		  <wearPerDay>0</wearPerDay>
+		  <bodyPartGroups>
+			<li>Hands</li>
+		  </bodyPartGroups>
+		  <layers>
+			<li>OP_Equipment_Layer</li>
+		  </layers>
+		  <defaultOutfitTags>
+			<li>Worker</li>
+		  </defaultOutfitTags>
+		</apparel>
+		<equippedStatOffsets>
+			<IncomingDamageFactor>-0.2</IncomingDamageFactor> <!--承伤系数对应2护甲-->
+			<MeleeCooldownFactor>-0.15</MeleeCooldownFactor> <!--近战冷却对应15攻速-->
+			<PlantHarvestYield>0.6</PlantHarvestYield><!--收获效率-->
+			<ButcheryMechanoidEfficiency>0.6</ButcheryMechanoidEfficiency><!--机械体拆解效率-->
+			<ButcheryFleshEfficiency>0.6</ButcheryFleshEfficiency><!--屠宰效率-->
+		</equippedStatOffsets>
+		<burnableByRecipe>false</burnableByRecipe>
+		<recipeMaker>
+		  <researchPrerequisite>Smithing</researchPrerequisite>
+			<skillRequirements>
+			<Crafting>4</Crafting>
+		  </skillRequirements>
+		  <recipeUsers>
+			<li>CraftingSpot</li>
+			<li>FueledSmithy</li>
+			<li>ElectricSmithy</li>
+		  </recipeUsers>
+		  <displayPriority>310</displayPriority>
+		  <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
+		</recipeMaker>
+		<costList>
+			<Steel>50</Steel>
+		</costList>
+		<verbs>
+		  <li>
+			<verbClass>OP.OP_Verb_CastTargetEffect</verbClass>
+			<label>Chop!</label>
+			<hasStandardCommand>true</hasStandardCommand>
+			<targetable>true</targetable>
+			<onlyManualCast>True</onlyManualCast>
+			<range>5</range>
+			<warmupTime>0.01</warmupTime>
+			<targetParams>
+			  <canTargetBuildings>false</canTargetBuildings>
+			  <canTargetPawns>true</canTargetPawns>
+			  <canTargetSelf>false</canTargetSelf>
+			  <canTargetAnimals>true</canTargetAnimals>
+			  <canTargetMechs>true</canTargetMechs>
+			  <canTargetPlants>true</canTargetPlants>
+			  <canTargetMutants>true</canTargetMutants>
+			  <canTargetHumans>false</canTargetHumans>
+			  <canTargetItems>false</canTargetItems>
+			  <canTargetFires>false</canTargetFires>
+			</targetParams>
+			<soundCast>Ability_SpineLaunch</soundCast>
+			<!--><soundAiming>PsychicArtifactWarmupSustained</soundAiming><-->
+		  </li>
+		</verbs>
+		<comps>
+			<li Class="CompProperties_ApparelReloadable">
+				<maxCharges>99999</maxCharges>
+				<destroyOnEmpty>false</destroyOnEmpty>
+				<chargeNoun>charge</chargeNoun>
+				<displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
+			</li>
+			<li Class="OP.OP_CompProperties_ItemAbility_IronTalon"></li>
+			<li Class="CompProperties_TargetEffect_FleckConnecting">
+				<fleckDef>PsycastPsychicLine</fleckDef>
+			</li>
+			<li Class="CompProperties_Styleable"></li>
+		</comps>
+	  </ThingDef>
+	
+</Defs>

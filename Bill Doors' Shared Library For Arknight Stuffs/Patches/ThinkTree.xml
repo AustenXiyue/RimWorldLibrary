@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/DutyDef[defName="Defend" or defName="AssaultColony" or defName="HuntEnemiesIndividual" or defName="AssaultThing"]/thinkNode/subNodes</xpath>
+		<value>
+			<li Class="BDsArknightLib.ThinkNode_CastAbilities"/>
+		</value>
+		<order>Prepend</order>
+	</Operation>
+</Patch>

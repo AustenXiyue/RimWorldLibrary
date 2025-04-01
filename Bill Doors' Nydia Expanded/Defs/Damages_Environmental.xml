@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<DamageDef ParentName="Bomb">
+		<workerClass>BDsArknightLib.DamageWorker_ExplosionIFF</workerClass>
+		<defName>BDsNydiaExp_Explosion</defName>
+		<defaultDamage>20</defaultDamage>
+		<explosionColorCenter>(0.41, 0.41, 0.7)</explosionColorCenter>
+		<explosionColorEdge>(0.59, 0.59, 1)</explosionColorEdge>
+	</DamageDef>
+</Defs>

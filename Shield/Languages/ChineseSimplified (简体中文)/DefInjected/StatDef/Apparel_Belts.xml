@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Hemogen Max Offset -->
+  <HemogenMaxOffset.label>血原值偏移</HemogenMaxOffset.label>
+  <!-- EN: The maximum hemogen a sanguophage can have at one time. -->
+  <HemogenMaxOffset.description>作用于血原值最大容量的偏移。</HemogenMaxOffset.description>
+  
+</LanguageData>

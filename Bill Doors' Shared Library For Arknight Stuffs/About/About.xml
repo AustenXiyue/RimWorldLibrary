@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Bill Doors' Shared Library For Arknight Stuffs</name>
+	<author>3HST Limited</author>
+	<packageId>3HSTltd.Framework.ArknightStuffs</packageId>
+	<supportedVersions>
+		<li>1.5</li>
+	</supportedVersions>
+	<loadAfter>
+		<li>Ludeon.RimWorld</li>
+		<li>Ludeon.RimWorld.Royalty</li>
+		<li>Ludeon.RimWorld.Ideology</li>
+		<li>hailuan.customquestframework</li>
+	</loadAfter>
+	<modDependencies>
+		<li>
+			<packageId>3HSTltd.Framework</packageId>
+			<displayName>Bill Door's Framework</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2897160312</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	<description>Assorted codes and defs and textures that may be used for current (waiting for restructuring in 1.6) and future arknight characters.</description>
+</ModMetaData>

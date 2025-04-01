@@ -1,0 +1,464 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <StatDef>
+    <defName>HemogenMaxOffset</defName>
+    <label>Hemogen Max Offset</label>
+    <description>The maximum hemogen offset.</description>
+    <category>Apparel</category>
+    <minValue>0</minValue>
+    <toStringStyle>FloatOne</toStringStyle>
+    <showIfUndefined>false</showIfUndefined>
+    <displayPriorityInCategory>1000</displayPriorityInCategory>
+    <parts>
+      <li Class="StatPart_Quality">
+        <factorAwful>0.6</factorAwful>
+        <factorPoor>0.8</factorPoor>
+        <factorNormal>1</factorNormal>
+        <factorGood>1.2</factorGood>
+        <factorExcellent>1.4</factorExcellent>
+        <factorMasterwork>1.7</factorMasterwork>
+        <factorLegendary>2</factorLegendary>
+      </li>
+    </parts>
+  </StatDef>
+  
+  <ThingDef ParentName="ApparelBase">
+    <defName>Apparel_ShieldBeltEx</defName>
+    <label>Advanced Shield Belt</label>
+    <description>A single person energy shield device. It can intercept incoming projectiles or shrapnel, but cannot block melee attacks, high temperatures, and flames. Its energy stance adopts a special wave frequency, so the wearer can shoot outward. The advanced shield belt will immediately deplete its energy after being hit by EMP.</description>
+    <thingClass>Apparel</thingClass>
+    <graphicData>
+      <texPath>Shield/ShieldBeltEx</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <tickerType>Normal</tickerType>
+    <techLevel>Spacer</techLevel>
+    <statBases>
+      <Mass>3</Mass>
+      <MaxHitPoints>200</MaxHitPoints>
+      <WorkToMake>30000</WorkToMake>
+      <Flammability>0</Flammability>
+      <EnergyShieldRechargeRate>0.25</EnergyShieldRechargeRate>
+      <EnergyShieldEnergyMax>2</EnergyShieldEnergyMax>
+      <EquipDelay>2</EquipDelay>
+    </statBases>
+    <thingSetMakerTags>
+      <li>RewardStandardQualitySuper</li>
+    </thingSetMakerTags>
+    <costList>
+      <ComponentSpacer>3</ComponentSpacer>
+      <Plasteel>50</Plasteel>
+      <Gold>5</Gold>
+    </costList>
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedBelt</unfinishedThingDef>
+      <researchPrerequisite>ShieldBelt</researchPrerequisite>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Machining</soundWorking>
+      <recipeUsers>
+        <li>FabricationBench</li>
+      </recipeUsers>
+      <useIngredientsForColor>false</useIngredientsForColor>
+      <skillRequirements>
+        <Crafting>10</Crafting>
+      </skillRequirements>
+      <displayPriority>300</displayPriority>
+    </recipeMaker>
+    <thingCategories>
+      <li>ApparelUtility</li>
+    </thingCategories>
+    <apparel>
+      <countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <careIfWornByCorpse>false</careIfWornByCorpse>
+      <careIfDamaged>false</careIfDamaged>
+      <wearPerDay>0</wearPerDay>
+      <bodyPartGroups>
+        <li>Waist</li>
+      </bodyPartGroups>
+      <layers>
+        <li>Belt</li>
+      </layers>
+      <tags>
+        <li>BeltDefense</li>
+      </tags>
+      <developmentalStageFilter>Child, Adult</developmentalStageFilter>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(1,1,1)</only>
+        </li>
+      </options>
+    </colorGenerator>
+    <comps>
+      <li Class="CompProperties_Shield">
+        <blocksRangedWeapons>false</blocksRangedWeapons>
+      </li>
+    </comps>
+    <allowedArchonexusCount>1</allowedArchonexusCount>
+    <tradeTags>
+      <li>Armor</li>
+    </tradeTags>
+  </ThingDef>
+  
+  <ThingDef ParentName="ApparelBase" MayRequire="Ludeon.RimWorld.Anomaly">
+    <defName>Apparel_ShieldBeltVoid</defName>
+    <label>Void Shield Belt</label>
+    <description>A shield device made from dark archotech shard, capable of breaking all incoming damage into the void with psycast. It has an extremely high energy limit, but cannot be recharged and will be destroyed when energy depleted.</description>
+    <thingClass>Apparel</thingClass>
+    <graphicData>
+      <texPath>Shield/ShieldBeltVoid</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <tickerType>Normal</tickerType>
+    <techLevel>Archotech</techLevel>
+    <statBases>
+      <Mass>3</Mass>
+      <WorkToMake>30000</WorkToMake>
+      <Flammability>0</Flammability>
+      <EnergyShieldEnergyMax>10</EnergyShieldEnergyMax>
+      <EquipDelay>2</EquipDelay>
+    </statBases>
+    <thingSetMakerTags>
+      <li>RewardStandardQualitySuper</li>
+    </thingSetMakerTags>
+    <costList>
+      <Shard>1</Shard>
+      <Bioferrite>100</Bioferrite>
+    </costList>
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedBelt</unfinishedThingDef>
+      <researchPrerequisite>ShieldBelt</researchPrerequisite>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Machining</soundWorking>
+      <recipeUsers>
+        <li>BioferriteShaper</li>
+      </recipeUsers>
+      <useIngredientsForColor>false</useIngredientsForColor>
+      <skillRequirements>
+        <Crafting>10</Crafting>
+        <Intellectual>10</Intellectual>
+      </skillRequirements>
+      <displayPriority>300</displayPriority>
+    </recipeMaker>
+    <thingCategories>
+      <li>ApparelUtility</li>
+    </thingCategories>
+    <apparel>
+      <countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <careIfWornByCorpse>false</careIfWornByCorpse>
+      <careIfDamaged>false</careIfDamaged>
+      <wearPerDay>0</wearPerDay>
+      <bodyPartGroups>
+        <li>Waist</li>
+      </bodyPartGroups>
+      <layers>
+        <li>Belt</li>
+      </layers>
+      <tags>
+        <li>BeltDefense</li>
+      </tags>
+      <developmentalStageFilter>Child, Adult</developmentalStageFilter>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(1,1,1)</only>
+        </li>
+      </options>
+    </colorGenerator>
+    <comps>
+      <li Class="ShieldEXBelt.CompProperties_ShieldEx2">
+        <blocksRangedWeapons>false</blocksRangedWeapons>
+      </li>
+    </comps>
+    <allowedArchonexusCount>1</allowedArchonexusCount>
+    <tradeTags>
+      <li>Armor</li>
+    </tradeTags>
+  </ThingDef>
+  
+  <ThingDef ParentName="ApparelBase">
+    <defName>Apparel_ShieldBeltArcho</defName>
+    <label>Archotech Shield Belt</label>
+    <description>A single person smart belt composed of extraordinary micro devices. Its built-in AI will automatically adjust the energy position to prevent any attacks or environmental threats., while the wearer can shoot out without any restrictions.It can recharge even it broken,and will active when it full with energy.</description>
+    <thingClass>Apparel</thingClass>
+    <graphicData>
+      <texPath>Shield/ShieldBeltArcho</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <tickerType>Normal</tickerType>
+    <techLevel>Archotech</techLevel>
+    <statBases>
+      <Mass>3</Mass>
+      <MaxHitPoints>300</MaxHitPoints>
+      <WorkToMake>30000</WorkToMake>
+      <Flammability>0</Flammability>
+      <EnergyShieldRechargeRate>0.4</EnergyShieldRechargeRate>
+      <EnergyShieldEnergyMax>3</EnergyShieldEnergyMax>
+      <EquipDelay>2</EquipDelay>
+    </statBases>
+    <thingSetMakerTags>
+      <li>RewardStandardLowFreq</li>
+    </thingSetMakerTags>
+    <costList>
+      <AIPersonaCore>1</AIPersonaCore>
+      <ComponentSpacer>10</ComponentSpacer>
+    </costList>
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedBelt</unfinishedThingDef>
+      <researchPrerequisite>ShieldBelt</researchPrerequisite>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Machining</soundWorking>
+      <recipeUsers>
+        <li>FabricationBench</li>
+      </recipeUsers>
+      <useIngredientsForColor>false</useIngredientsForColor>
+      <skillRequirements>
+        <Crafting>18</Crafting>
+        <Intellectual>18</Intellectual>
+      </skillRequirements>
+      <displayPriority>300</displayPriority>
+    </recipeMaker>
+    <thingCategories>
+      <li>ApparelUtility</li>
+    </thingCategories>
+    <apparel>
+      <countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <careIfWornByCorpse>false</careIfWornByCorpse>
+      <careIfDamaged>false</careIfDamaged>
+      <wearPerDay>0</wearPerDay>
+      <bodyPartGroups>
+        <li>Waist</li>
+      </bodyPartGroups>
+      <layers>
+        <li>Belt</li>
+      </layers>
+      <tags>
+        <li>BeltDefense</li>
+      </tags>
+      <developmentalStageFilter>Child, Adult</developmentalStageFilter>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(1,1,1)</only>
+        </li>
+      </options>
+    </colorGenerator>
+    <comps>
+      <li Class="ShieldEXBelt.CompProperties_ShieldEx">
+        <blocksRangedWeapons>false</blocksRangedWeapons>
+      </li>
+    </comps>
+    <allowedArchonexusCount>1</allowedArchonexusCount>
+    <tradeTags>
+      <li>Armor</li>
+    </tradeTags>
+  </ThingDef>
+  
+  <ThingDef ParentName="ApparelBase" MayRequire="Ludeon.RimWorld.Royalty">
+    <defName>Apparel_ShieldBeltPsychic</defName>
+    <label>Psychic Shield Belt</label>
+    <description>A psychic shield belt made from an psychic amplifier that only a psychic can concentrate their psycast to drive it to defend against any form of attack.Advanced psycasters can also use it to avoid environmental threats.</description>
+    <thingClass>Apparel</thingClass>
+    <graphicData>
+      <texPath>Shield/ShieldBeltPsychic</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <tickerType>Normal</tickerType>
+    <techLevel>Archotech</techLevel>
+    <statBases>
+      <Mass>3</Mass>
+      <MaxHitPoints>250</MaxHitPoints>
+      <WorkToMake>30000</WorkToMake>
+      <Flammability>0</Flammability>
+      <EquipDelay>2</EquipDelay>
+    </statBases>
+    <thingSetMakerTags>
+      <li>RewardStandardMidFreq</li>
+    </thingSetMakerTags>
+    <equippedStatOffsets>
+      <PsychicSensitivityOffset>0.4</PsychicSensitivityOffset>
+      <PsychicEntropyRecoveryRate>0.15</PsychicEntropyRecoveryRate>
+    </equippedStatOffsets>
+    <costList>
+      <PsychicAmplifier>1</PsychicAmplifier>
+      <ComponentSpacer>5</ComponentSpacer>
+    </costList>
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedBelt</unfinishedThingDef>
+      <researchPrerequisite>ShieldBelt</researchPrerequisite>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Machining</soundWorking>
+      <recipeUsers>
+        <li>FabricationBench</li>
+      </recipeUsers>
+      <useIngredientsForColor>false</useIngredientsForColor>
+      <skillRequirements>
+        <Crafting>10</Crafting>
+        <Intellectual>10</Intellectual>
+      </skillRequirements>
+      <displayPriority>300</displayPriority>
+    </recipeMaker>
+    <thingCategories>
+      <li>ApparelUtility</li>
+    </thingCategories>
+    <apparel>
+      <countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <careIfWornByCorpse>false</careIfWornByCorpse>
+      <careIfDamaged>false</careIfDamaged>
+      <wearPerDay>0</wearPerDay>
+      <bodyPartGroups>
+        <li>Waist</li>
+      </bodyPartGroups>
+      <layers>
+        <li>Belt</li>
+      </layers>
+      <tags>
+        <li>BeltDefense</li>
+      </tags>
+      <developmentalStageFilter>Child, Adult</developmentalStageFilter>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(1,1,1)</only>
+        </li>
+      </options>
+    </colorGenerator>
+    <comps>
+      <li Class="ShieldEXBelt.CompProperties_ShieldEx3">
+        <blocksRangedWeapons>false</blocksRangedWeapons>
+      </li>
+    </comps>
+    <allowedArchonexusCount>1</allowedArchonexusCount>
+    <tradeTags>
+      <li>Armor</li>
+    </tradeTags>
+  </ThingDef>
+  
+  <ThingDef ParentName="ApparelBase" MayRequire="Ludeon.RimWorld.Biotech">
+    <defName>Apparel_ShieldBeltBlood</defName>
+    <label>Blood Shield Belt</label>
+    <description>An evil belt driven by hemogen, offering wounds in an unclear way. This art of blood can only be mastered by the sanguophage clan, and the blood shed by the outstanding ones is enough to dye the ocean red.</description>
+    <thingClass>Apparel</thingClass>
+    <graphicData>
+      <texPath>Shield/ShieldBeltBlood</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <tickerType>Normal</tickerType>
+    <techLevel>Archotech</techLevel>
+    <statBases>
+      <Mass>3</Mass>
+      <MaxHitPoints>250</MaxHitPoints>
+      <WorkToMake>30000</WorkToMake>
+      <HemogenMaxOffset>50</HemogenMaxOffset>
+      <Flammability>0</Flammability>
+      <EquipDelay>2</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <HemogenGainFactor>0.5</HemogenGainFactor>
+    </equippedStatOffsets>
+    <thingSetMakerTags>
+      <li>RewardStandardMidFreq</li>
+    </thingSetMakerTags>
+    <costList>
+      <HemogenPack>25</HemogenPack>
+      <DeathrestCapacitySerum>2</DeathrestCapacitySerum>
+      <Luciferium>10</Luciferium>
+      <MechSerumHealer>1</MechSerumHealer>
+    </costList>
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedBelt</unfinishedThingDef>
+      <researchPrerequisite>ShieldBelt</researchPrerequisite>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Machining</soundWorking>
+      <recipeUsers>
+        <li>FabricationBench</li>
+      </recipeUsers>
+      <useIngredientsForColor>false</useIngredientsForColor>
+      <skillRequirements>
+        <Crafting>10</Crafting>
+        <Intellectual>10</Intellectual>
+      </skillRequirements>
+      <displayPriority>300</displayPriority>
+    </recipeMaker>
+    <thingCategories>
+      <li>ApparelUtility</li>
+    </thingCategories>
+    <apparel>
+      <countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <careIfWornByCorpse>false</careIfWornByCorpse>
+      <careIfDamaged>false</careIfDamaged>
+      <wearPerDay>0</wearPerDay>
+      <bodyPartGroups>
+        <li>Waist</li>
+      </bodyPartGroups>
+      <layers>
+        <li>Belt</li>
+      </layers>
+      <tags>
+        <li>BeltDefense</li>
+      </tags>
+      <developmentalStageFilter>Child, Adult</developmentalStageFilter>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(1,1,1)</only>
+        </li>
+      </options>
+    </colorGenerator>
+    <comps>
+      <li Class="ShieldEXBelt.CompProperties_ShieldEx4">
+        <blocksRangedWeapons>false</blocksRangedWeapons>
+      </li>
+    </comps>
+    <allowedArchonexusCount>1</allowedArchonexusCount>
+    <tradeTags>
+      <li>Armor</li>
+    </tradeTags>
+  </ThingDef>
+  
+  <HediffDef>
+    <defName>ShieldBeltEnvironmentProtect</defName>
+    <label>Environmental Protection</label>
+    <description>Targeted shielding and life support systems protect protected individuals from most environmental threats.</description>
+    <hediffClass>HediffWithComps</hediffClass>  
+    <isBad>false</isBad>
+    <defaultLabelColor>(0, 1, 0)</defaultLabelColor>
+    <stages>
+      <li>
+        <becomeVisible>false</becomeVisible>
+        <statFactors>
+          <Flammability>0</Flammability>
+        </statFactors>
+        <statOffsets>
+          <ComfyTemperatureMin>-40</ComfyTemperatureMin>
+          <ComfyTemperatureMax>40</ComfyTemperatureMax>
+          <ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
+          <HypoxiaResistance MayRequire="kentington.saveourship2">1</HypoxiaResistance>
+          <DecompressionResistance MayRequire="kentington.saveourship2">1</DecompressionResistance>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+</Defs>

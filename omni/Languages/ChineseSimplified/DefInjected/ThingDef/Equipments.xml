@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LangeageData>
+	<OP_Iron_Talon.label>寒铁钢爪</OP_Iron_Talon.label>
+	<OP_Iron_Talon.description>简单却有效的武器，为镇压地狱熊怪的起义而设计。</OP_Iron_Talon.description>
+	<OP_Iron_Talon.verbs.0.label>砍伐!</OP_Iron_Talon.verbs.0.label>
+	<OP_Iron_Talon.comps.CompProperties_ApparelReloadable.chargeNoun.label>充能</OP_Iron_Talon.comps.CompProperties_ApparelReloadable.chargeNoun.label>
+</LangeageData>

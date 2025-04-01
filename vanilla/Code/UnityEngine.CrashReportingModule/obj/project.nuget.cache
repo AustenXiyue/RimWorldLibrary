@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "3lAa7uvLf1k=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\auste\\Desktop\\rim lib\\RimWorldLibrary\\vanilla\\Code\\UnityEngine.CrashReportingModule\\UnityEngine.CrashReportingModule.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\auste\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.3\\microsoft.netframework.referenceassemblies.1.0.3.nupkg.sha512",
+    "C:\\Users\\auste\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net20\\1.0.3\\microsoft.netframework.referenceassemblies.net20.1.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

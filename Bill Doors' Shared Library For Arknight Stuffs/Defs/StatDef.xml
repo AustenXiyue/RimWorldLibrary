@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<StatDef>
+		<defName>BDAKN_IceBreakingBonus</defName>
+		<label>Icebreaking damage bonus</label>
+		<description>A multiplier on damage caused to stunned or frozen targets.</description>
+		<category>Weapon</category>
+		<defaultBaseValue>0</defaultBaseValue>
+		<minValue>0</minValue>
+		<toStringStyle>PercentZero</toStringStyle>
+		<showIfUndefined>false</showIfUndefined>
+		<parts>
+			<li Class="StatPart_Quality">
+				<factorAwful>0.8</factorAwful>
+				<factorPoor>0.9</factorPoor>
+				<factorNormal>1</factorNormal>
+				<factorGood>1.1</factorGood>
+				<factorExcellent>1.2</factorExcellent>
+				<factorMasterwork>1.35</factorMasterwork>
+				<factorLegendary>1.5</factorLegendary>
+			</li>
+		</parts>
+	</StatDef>
+
+	<StatDef>
+		<defName>BDAKN_FreezeChance</defName>
+		<label>Freeze chance</label>
+		<description>The chance applying freeze to victim.</description>
+		<category>Weapon</category>
+		<defaultBaseValue>1</defaultBaseValue>
+		<minValue>0</minValue>
+		<toStringStyle>PercentZero</toStringStyle>
+		<showIfUndefined>false</showIfUndefined>
+		<parts>
+			<li Class="StatPart_Quality">
+				<factorAwful>0.8</factorAwful>
+				<factorPoor>0.9</factorPoor>
+				<factorNormal>1</factorNormal>
+				<factorGood>1.1</factorGood>
+				<factorExcellent>1.2</factorExcellent>
+				<factorMasterwork>1.35</factorMasterwork>
+				<factorLegendary>1.5</factorLegendary>
+			</li>
+		</parts>
+	</StatDef>
+
+	<StatDef>
+		<defName>BDAKN_ResistChance</defName>
+		<label>Debuff resist chance</label>
+		<description>The chance of resisting the application of a debuff (only those from this mod).</description>
+		<category>Weapon</category>
+		<defaultBaseValue>0</defaultBaseValue>
+		<minValue>0</minValue>
+		<toStringStyle>PercentZero</toStringStyle>
+		<showIfUndefined>false</showIfUndefined>
+		<parts>
+			<li Class="StatPart_Quality">
+				<factorAwful>0.8</factorAwful>
+				<factorPoor>0.9</factorPoor>
+				<factorNormal>1</factorNormal>
+				<factorGood>1.1</factorGood>
+				<factorExcellent>1.2</factorExcellent>
+				<factorMasterwork>1.35</factorMasterwork>
+				<factorLegendary>1.5</factorLegendary>
+			</li>
+		</parts>
+	</StatDef>
+
+	<StatDef>
+		<defName>BDAKN_MultiShotCount</defName>
+		<label>multi shot count</label>
+		<description>Amount of extra projectiles launched towards nearby targets, if any. No extra shots will be fired if there're no other enemies nearby.\n\nDecimals represent the chance to launch another shot. A 1.3 multi shot count means the weapon will launch 1 shot at intended target, 1 shot at nearby enemies, and 30% chance to take another shot at another target.</description>
+		<category>Weapon</category>
+		<defaultBaseValue>0</defaultBaseValue>
+		<minValue>0</minValue>
+		<toStringStyle>FloatOne</toStringStyle>
+		<showIfUndefined>false</showIfUndefined>
+		<parts>
+			<li Class="StatPart_Quality">
+				<factorAwful>0.6</factorAwful>
+				<factorPoor>0.9</factorPoor>
+				<factorNormal>1</factorNormal>
+				<factorGood>1.1</factorGood>
+				<factorExcellent>1.3</factorExcellent>
+				<factorMasterwork>1.6</factorMasterwork>
+				<factorLegendary>2</factorLegendary>
+			</li>
+		</parts>
+	</StatDef>
+</Defs>

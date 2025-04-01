@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!--Considering I might end up making multiple characters with debuff/buff abilities, it might be better make them generic-->
+	<!--And so that same buffs doesn't stack-->
+
+	<HediffDef Name="BDAKN_BaseStatusEffect" Abstract="true">
+		<hediffClass>HediffWithComps</hediffClass>
+		<defaultLabelColor>(0.88, 0.76, 0.77)</defaultLabelColor>
+		<initialSeverity>0.01</initialSeverity>
+		<comps>
+			<li Class="HediffCompProperties_Disappears">
+				<showRemainingTime>True</showRemainingTime>
+			</li>
+		</comps>
+	</HediffDef>
+
+	<HediffDef ParentName="BDAKN_BaseStatusEffect" Name="BDAKN_BaseBuff" Abstract="true">
+		<defaultLabelColor>(0.34, 0.64, 0.27)</defaultLabelColor>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="BDsArknightLib.HediffCompProperties_DisplaySeverityFlavored"/>
+		</comps>
+	</HediffDef>
+
+	<HediffDef ParentName="BDAKN_BaseStatusEffect" Name="BDAKN_BaseDeBuff" Abstract="true">
+		<defaultLabelColor>(0.76, 0.32, 0.36)</defaultLabelColor>
+		<maxSeverity>1</maxSeverity>
+		<comps>
+			<li Class="BDsArknightLib.HediffCompProperties_DisplaySeverityFlavored">
+				<negative>True</negative>
+			</li>
+		</comps>
+	</HediffDef>
+
+	<!--Defense-->
+	<HediffDef ParentName="BDAKN_BaseBuff">
+		<defName>BDAKN_DefenseBuff</defName>
+		<label>defense buff</label>
+		<labelNoun>defense buff</labelNoun>
+		<description>Buffs applied to the target's armor.</description>
+		<stages>
+			<li>
+				<multiplyStatChangesBySeverity>true</multiplyStatChangesBySeverity>
+				<statOffsets>
+					<ArmorRating_Sharp>1</ArmorRating_Sharp>
+					<ArmorRating_Blunt>1</ArmorRating_Blunt>
+					<ArmorRating_Heat>1</ArmorRating_Heat>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<HediffDef ParentName="BDAKN_BaseDeBuff">
+		<defName>BDAKN_DefenseDebuff</defName>
+		<label>defense debuff</label>
+		<labelNoun>defense debuff</labelNoun>
+		<description>Debuffs applied to the target's armor.</description>
+		<stages>
+			<li>
+				<statFactorsBySeverity>
+					<li>
+						<stat>ArmorRating_Sharp</stat>
+						<valueBySeverity>
+							<points>
+								<li>(0,1)</li>
+								<li>(1,0)</li>
+							</points>
+						</valueBySeverity>
+					</li>
+					<li>
+						<stat>ArmorRating_Blunt</stat>
+						<valueBySeverity>
+							<points>
+								<li>(0,1)</li>
+								<li>(1,0)</li>
+							</points>
+						</valueBySeverity>
+					</li>
+					<li>
+						<stat>ArmorRating_Heat</stat>
+						<valueBySeverity>
+							<points>
+								<li>(0,1)</li>
+								<li>(1,0)</li>
+							</points>
+						</valueBySeverity>
+					</li>
+				</statFactorsBySeverity>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<!--MoveSpeed-->
+
+	<HediffDef ParentName="BDAKN_BaseBuff">
+		<defName>BDAKN_MoveSpeedBuff</defName>
+		<label>move speed buff</label>
+		<labelNoun>move speed buff</labelNoun>
+		<description>Buffs applied to the target's move speed.</description>
+		<stages>
+			<li>
+				<multiplyStatChangesBySeverity>true</multiplyStatChangesBySeverity>
+				<statOffsets>
+					<MoveSpeed>1</MoveSpeed>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<HediffDef ParentName="BDAKN_BaseDeBuff">
+		<defName>BDAKN_MoveSpeedDebuff</defName>
+		<label>move speed debuff</label>
+		<labelNoun>move speed debuff</labelNoun>
+		<description>Debuffs applied to the target's armor.</description>
+		<stages>
+			<li>
+				<statFactorsBySeverity>
+					<li>
+						<stat>MoveSpeed</stat>
+						<valueBySeverity>
+							<points>
+								<li>(0,1)</li>
+								<li>(1,0)</li>
+							</points>
+						</valueBySeverity>
+					</li>
+				</statFactorsBySeverity>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<!--AttackSpeed-->
+
+	<HediffDef  ParentName="BDAKN_BaseBuff">
+		<defName>BDAKN_AttackSpeedBuff</defName>
+		<label>attack speed buff</label>
+		<labelNoun>damage factor buff</labelNoun>
+		<description>Buffs applied to the target's incoming attack speed, reducing attack delay.</description>
+		<maxSeverity>0.9</maxSeverity>
+		<stages>
+			<li>
+				<statFactorsBySeverity>
+					<li>
+						<stat>MeleeCooldownFactor</stat>
+						<valueBySeverity>
+							<points>
+								<li>(0,1)</li>
+								<li>(1,0)</li>
+							</points>
+						</valueBySeverity>
+					</li>
+					<li>
+						<stat>AimingDelayFactor</stat>
+						<valueBySeverity>
+							<points>
+								<li>(0,1)</li>
+								<li>(1,0)</li>
+							</points>
+						</valueBySeverity>
+					</li>
+					<li>
+						<stat>RangedCooldownFactor</stat>
+						<valueBySeverity>
+							<points>
+								<li>(0,1)</li>
+								<li>(1,0)</li>
+							</points>
+						</valueBySeverity>
+					</li>
+				</statFactorsBySeverity>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<HediffDef ParentName="BDAKN_BaseDeBuff">
+		<defName>BDAKN_AttackSpeedDebuff</defName>
+		<label>attack speed debuff</label>
+		<labelNoun>attack speed debuff</labelNoun>
+		<description>Debuffs applied to the target's incoming attack speed, increasing attack delay.</description>
+		<stages>
+			<li>
+				<statFactorsBySeverity>
+					<li>
+						<stat>MeleeCooldownFactor</stat>
+						<valueBySeverity>
+							<points>
+								<li>(0,1)</li>
+								<li>(1,2)</li>
+							</points>
+						</valueBySeverity>
+					</li>
+					<li>
+						<stat>AimingDelayFactor</stat>
+						<valueBySeverity>
+							<points>
+								<li>(0,1)</li>
+								<li>(1,2)</li>
+							</points>
+						</valueBySeverity>
+					</li>
+					<li>
+						<stat>RangedCooldownFactor</stat>
+						<valueBySeverity>
+							<points>
+								<li>(0,1)</li>
+								<li>(1,2)</li>
+							</points>
+						</valueBySeverity>
+					</li>
+				</statFactorsBySeverity>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<!--DamageFactor-->
+
+	<HediffDef ParentName="BDAKN_BaseBuff">
+		<defName>BDAKN_DamageFactorBuff</defName>
+		<label>damage factor buff</label>
+		<labelNoun>damage factor buff</labelNoun>
+		<description>Buffs applied to the target's incoming damage factor.</description>
+		<maxSeverity>1</maxSeverity>
+		<stages>
+			<li>
+				<statFactorsBySeverity>
+					<li>
+						<stat>IncomingDamageFactor</stat>
+						<valueBySeverity>
+							<points>
+								<li>(0,1)</li>
+								<li>(1,0)</li>
+							</points>
+						</valueBySeverity>
+					</li>
+				</statFactorsBySeverity>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<HediffDef ParentName="BDAKN_BaseDeBuff">
+		<defName>BDAKN_DamageFactorDebuff</defName>
+		<label>damage factor debuff</label>
+		<labelNoun>damage factor debuff</labelNoun>
+		<description>Debuffs applied to the target's incoming damage factor.</description>
+		<maxSeverity>999</maxSeverity>
+		<stages>
+			<li>
+				<multiplyStatChangesBySeverity>true</multiplyStatChangesBySeverity>
+				<statOffsets>
+					<IncomingDamageFactor>1</IncomingDamageFactor>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+</Defs>

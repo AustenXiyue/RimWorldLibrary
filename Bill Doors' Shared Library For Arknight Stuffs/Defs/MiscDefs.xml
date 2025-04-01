@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<StyleItemCategoryDef>
+		<defName>BDPDCStyleItem</defName>
+		<label>special character's style items</label>
+	</StyleItemCategoryDef>
+
+	<ThingCategoryDef>
+		<defName>BDPDCWeapon</defName>
+		<label>special character's weapons</label>
+		<parent>Weapons</parent>
+	</ThingCategoryDef>
+
+	<ThingCategoryDef>
+		<defName>BDPDCApparel</defName>
+		<label>special character's apparels</label>
+		<parent>Apparel</parent>
+	</ThingCategoryDef>
+</Defs>

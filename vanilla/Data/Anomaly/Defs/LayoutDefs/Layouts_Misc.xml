@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+  <LayoutDef>
+    <defName>Labyrinth</defName>
+    <workerClass>LayoutWorkerLabyrinth</workerClass>
+    <canHaveMultipleLayoutsInRoom>true</canHaveMultipleLayoutsInRoom>
+    <multipleLayoutRoomChance>0.15</multipleLayoutRoomChance>
+    <roomDefs>
+      <li>LabyrinthEmpty</li>
+      <li>LabyrinthEndlessPit</li>
+      <li>LabyrinthObelisk</li>
+      <li>LabyrinthFloorEtchings</li>
+      <li>LabyrinthDeadBody</li>
+      <li>LabyrinthCorpseRoom</li>
+      <li>LabyrinthStatueDeadlife</li>
+      <li>LabyrinthStatueTeleporter</li>
+      <li>LabyrinthSleepingFleshbeast</li>
+      <li>LabyrinthAbandonedCamp</li>
+      <li>LabyrinthAnimalCorpses</li>
+      <li>LabyrinthHarbinger</li>
+      <li>LabyrinthTrees</li>
+      <li>LabyrinthAnimals</li>
+      <li>LabyrinthGrayBox</li>
+      <li>LabyrinthLargeGrayBox</li>
+      <li>LabyrinthLargeEmptyGrayBox</li>
+      <li>LabyrinthFloorRamblings</li>
+      <li MayRequire="Ludeon.RimWorld.Biotech">LabyrinthChildRoom</li>
+    </roomDefs>
+  </LayoutDef>
+  
+</Defs>

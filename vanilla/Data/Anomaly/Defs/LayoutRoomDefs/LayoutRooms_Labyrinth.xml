@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+  <LayoutRoomDef>
+    <defName>LabyrinthEmpty</defName>
+    <selectionWeight>0.15</selectionWeight>
+  </LayoutRoomDef>
+
+  <LayoutRoomDef>
+    <defName>LabyrinthEndlessPit</defName>
+    <roomContentsWorkerType>RoomContentsEndlessPit</roomContentsWorkerType>
+    <selectionWeight>0.1</selectionWeight>
+  </LayoutRoomDef>
+  
+  <LayoutRoomDef>
+    <defName>LabyrinthObelisk</defName>
+    <roomContentsWorkerType>RoomContentsObelisk</roomContentsWorkerType>
+    <dontPlaceRandomly>true</dontPlaceRandomly>
+    <isValidPlayerSpawnRoom>false</isValidPlayerSpawnRoom>
+  </LayoutRoomDef>
+  
+  <LayoutRoomDef>
+    <defName>LabyrinthFloorEtchings</defName>
+    <roomContentsWorkerType>RoomContentsEtchings</roomContentsWorkerType>
+    <canBeInMixedRoom>true</canBeInMixedRoom>
+    <selectionWeight>0.15</selectionWeight>
+  </LayoutRoomDef>
+  
+  <LayoutRoomDef>
+    <defName>LabyrinthStatueDeadlife</defName>
+    <roomContentsWorkerType>RoomContentsStatueDeadlife</roomContentsWorkerType>
+    <selectionWeight>0.025</selectionWeight>
+    <minSingleRectWidth>7</minSingleRectWidth>
+    <minSingleRectHeight>7</minSingleRectHeight>
+    <isValidPlayerSpawnRoom>false</isValidPlayerSpawnRoom>
+  </LayoutRoomDef>
+
+  <LayoutRoomDef>
+    <defName>LabyrinthStatueTeleporter</defName>
+    <roomContentsWorkerType>RoomContentsStatueTeleporter</roomContentsWorkerType>
+    <selectionWeight>0.025</selectionWeight>
+    <minSingleRectWidth>7</minSingleRectWidth>
+    <minSingleRectHeight>7</minSingleRectHeight>
+    <isValidPlayerSpawnRoom>false</isValidPlayerSpawnRoom>
+  </LayoutRoomDef>
+  
+  <LayoutRoomDef>
+    <defName>LabyrinthDeadBody</defName>
+    <roomContentsWorkerType>RoomContentsDeadBodyLabyrinth</roomContentsWorkerType>
+    <canBeInMixedRoom>true</canBeInMixedRoom>
+    <selectionWeight>0.05</selectionWeight>
+  </LayoutRoomDef>
+  
+  <LayoutRoomDef>
+    <defName>LabyrinthCorpseRoom</defName>
+    <roomContentsWorkerType>RoomContentsCorpseRoom</roomContentsWorkerType>
+    <canBeInMixedRoom>true</canBeInMixedRoom>
+    <selectionWeight>0.01</selectionWeight>
+  </LayoutRoomDef>
+  
+  <LayoutRoomDef>
+    <defName>LabyrinthSleepingFleshbeast</defName>
+    <roomContentsWorkerType>RoomContentsSleepingFleshbeast</roomContentsWorkerType>
+    <canBeInMixedRoom>true</canBeInMixedRoom>
+    <selectionWeight>0.05</selectionWeight>
+    <isValidPlayerSpawnRoom>false</isValidPlayerSpawnRoom>
+  </LayoutRoomDef>
+  
+  <LayoutRoomDef>
+    <defName>LabyrinthAbandonedCamp</defName>
+    <roomContentsWorkerType>RoomContentsAbandonedCamp</roomContentsWorkerType>
+    <canBeInMixedRoom>true</canBeInMixedRoom>
+    <selectionWeight>0.02</selectionWeight>
+  </LayoutRoomDef>
+  
+  <LayoutRoomDef>
+    <defName>LabyrinthAnimalCorpses</defName>
+    <roomContentsWorkerType>RoomContentsAnimalCorpses</roomContentsWorkerType>
+    <canBeInMixedRoom>true</canBeInMixedRoom>
+    <selectionWeight>0.01</selectionWeight>
+  </LayoutRoomDef>
+  
+  <LayoutRoomDef>
+    <defName>LabyrinthAnimals</defName>
+    <roomContentsWorkerType>RoomContentsAnimals</roomContentsWorkerType>
+    <canBeInMixedRoom>true</canBeInMixedRoom>
+    <selectionWeight>0.0075</selectionWeight>
+  </LayoutRoomDef>
+  
+  <LayoutRoomDef>
+    <defName>LabyrinthHarbinger</defName>
+    <roomContentsWorkerType>RoomContentsHarbinger</roomContentsWorkerType>
+    <canBeInMixedRoom>true</canBeInMixedRoom>
+    <selectionWeight>0.01</selectionWeight>
+  </LayoutRoomDef>
+  
+  <LayoutRoomDef>
+    <defName>LabyrinthTrees</defName>
+    <roomContentsWorkerType>RoomContentsTrees</roomContentsWorkerType>
+    <canBeInMixedRoom>true</canBeInMixedRoom>
+    <selectionWeight>0.03</selectionWeight>
+  </LayoutRoomDef>
+
+  <LayoutRoomDef>
+    <defName>LabyrinthGrayBox</defName>
+    <roomContentsWorkerType>RoomContentsGrayBox</roomContentsWorkerType>
+    <canBeInMixedRoom>true</canBeInMixedRoom>
+    <selectionWeight>0.05</selectionWeight>
+  </LayoutRoomDef>
+
+  <LayoutRoomDef>
+    <defName>LabyrinthLargeGrayBox</defName>
+    <roomContentsWorkerType>RoomContentsLargeGrayBox</roomContentsWorkerType>
+    <canBeInMixedRoom>false</canBeInMixedRoom>
+    <selectionWeight>0.025</selectionWeight>
+  </LayoutRoomDef>
+
+  <LayoutRoomDef>
+    <defName>LabyrinthLargeEmptyGrayBox</defName>
+    <roomContentsWorkerType>RoomContentsLargeGrayBox</roomContentsWorkerType>
+    <canBeInMixedRoom>false</canBeInMixedRoom>
+    <selectionWeight>0.025</selectionWeight>
+  </LayoutRoomDef>
+
+  <LayoutRoomDef>
+    <defName>LabyrinthFloorRamblings</defName>
+    <roomContentsWorkerType>RoomContentsRamblings</roomContentsWorkerType>
+    <canBeInMixedRoom>true</canBeInMixedRoom>
+    <selectionWeight>0.05</selectionWeight>
+  </LayoutRoomDef>
+
+  <LayoutRoomDef>
+    <defName>LabyrinthChildRoom</defName>
+    <roomContentsWorkerType>RoomContentsChildRoom</roomContentsWorkerType>
+    <selectionWeight>0.01</selectionWeight>
+  </LayoutRoomDef>
+  
+</Defs>

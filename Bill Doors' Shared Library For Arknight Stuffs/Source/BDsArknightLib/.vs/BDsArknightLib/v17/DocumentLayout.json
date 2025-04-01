@@ -1,0 +1,789 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACA78B6-63EC-4CF4-97A5-55A718FBC272}|BDsArknightLib.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\questnode_tempfactionfrom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACA78B6-63EC-4CF4-97A5-55A718FBC272}|BDsArknightLib.csproj|solutionrelative:questnode_tempfactionfrom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACA78B6-63EC-4CF4-97A5-55A718FBC272}|BDsArknightLib.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\bill doors\u0027 shared library for arknight stuffs\\source\\bdsarknightlib\\incidentworker_pdcjoin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACA78B6-63EC-4CF4-97A5-55A718FBC272}|BDsArknightLib.csproj|solutionrelative:incidentworker_pdcjoin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACA78B6-63EC-4CF4-97A5-55A718FBC272}|BDsArknightLib.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\compabilityeffect_givehediffaoe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACA78B6-63EC-4CF4-97A5-55A718FBC272}|BDsArknightLib.csproj|solutionrelative:compabilityeffect_givehediffaoe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACA78B6-63EC-4CF4-97A5-55A718FBC272}|BDsArknightLib.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\bill doors\u0027 shared library for arknight stuffs\\source\\bdsarknightlib\\hediffcomp_battlelog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACA78B6-63EC-4CF4-97A5-55A718FBC272}|BDsArknightLib.csproj|solutionrelative:hediffcomp_battlelog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACA78B6-63EC-4CF4-97A5-55A718FBC272}|BDsArknightLib.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\hediffcomp_aura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACA78B6-63EC-4CF4-97A5-55A718FBC272}|BDsArknightLib.csproj|solutionrelative:hediffcomp_aura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACA78B6-63EC-4CF4-97A5-55A718FBC272}|BDsArknightLib.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\projectile_custom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACA78B6-63EC-4CF4-97A5-55A718FBC272}|BDsArknightLib.csproj|solutionrelative:projectile_custom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACA78B6-63EC-4CF4-97A5-55A718FBC272}|BDsArknightLib.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\bill doors\u0027 shared library for arknight stuffs\\source\\bdsarknightlib\\compshieldoneuse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACA78B6-63EC-4CF4-97A5-55A718FBC272}|BDsArknightLib.csproj|solutionrelative:compshieldoneuse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACA78B6-63EC-4CF4-97A5-55A718FBC272}|BDsArknightLib.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\compabilityeffect_airequiretargetsinrange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACA78B6-63EC-4CF4-97A5-55A718FBC272}|BDsArknightLib.csproj|solutionrelative:compabilityeffect_airequiretargetsinrange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACA78B6-63EC-4CF4-97A5-55A718FBC272}|BDsArknightLib.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\bill doors\u0027 shared library for arknight stuffs\\source\\bdsarknightlib\\compabilityeffect_battlelog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACA78B6-63EC-4CF4-97A5-55A718FBC272}|BDsArknightLib.csproj|solutionrelative:compabilityeffect_battlelog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACA78B6-63EC-4CF4-97A5-55A718FBC272}|BDsArknightLib.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\compabilityeffect_giveshield.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACA78B6-63EC-4CF4-97A5-55A718FBC272}|BDsArknightLib.csproj|solutionrelative:compabilityeffect_giveshield.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACA78B6-63EC-4CF4-97A5-55A718FBC272}|BDsArknightLib.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\compabilityeffect_spawnwithfaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACA78B6-63EC-4CF4-97A5-55A718FBC272}|BDsArknightLib.csproj|solutionrelative:compabilityeffect_spawnwithfaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACA78B6-63EC-4CF4-97A5-55A718FBC272}|BDsArknightLib.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\bill doors\u0027 shared library for arknight stuffs\\source\\bdsarknightlib\\compabilityeffect_areaofeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACA78B6-63EC-4CF4-97A5-55A718FBC272}|BDsArknightLib.csproj|solutionrelative:compabilityeffect_areaofeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACA78B6-63EC-4CF4-97A5-55A718FBC272}|BDsArknightLib.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\bdakn_defof.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACA78B6-63EC-4CF4-97A5-55A718FBC272}|BDsArknightLib.csproj|solutionrelative:bdakn_defof.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACA78B6-63EC-4CF4-97A5-55A718FBC272}|BDsArknightLib.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\pawnrendernode_effectoverlay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACA78B6-63EC-4CF4-97A5-55A718FBC272}|BDsArknightLib.csproj|solutionrelative:pawnrendernode_effectoverlay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACA78B6-63EC-4CF4-97A5-55A718FBC272}|BDsArknightLib.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\compabilityeffect_areaeffectrandomcount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACA78B6-63EC-4CF4-97A5-55A718FBC272}|BDsArknightLib.csproj|solutionrelative:compabilityeffect_areaeffectrandomcount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACA78B6-63EC-4CF4-97A5-55A718FBC272}|BDsArknightLib.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\pawnrendernode_oneuseshieldstage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACA78B6-63EC-4CF4-97A5-55A718FBC272}|BDsArknightLib.csproj|solutionrelative:pawnrendernode_oneuseshieldstage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACA78B6-63EC-4CF4-97A5-55A718FBC272}|BDsArknightLib.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\gamecomponent_involuntarymovingtracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACA78B6-63EC-4CF4-97A5-55A718FBC272}|BDsArknightLib.csproj|solutionrelative:gamecomponent_involuntarymovingtracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACA78B6-63EC-4CF4-97A5-55A718FBC272}|BDsArknightLib.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\harmony.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACA78B6-63EC-4CF4-97A5-55A718FBC272}|BDsArknightLib.csproj|solutionrelative:harmony.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACA78B6-63EC-4CF4-97A5-55A718FBC272}|BDsArknightLib.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\hediffcomp_stun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACA78B6-63EC-4CF4-97A5-55A718FBC272}|BDsArknightLib.csproj|solutionrelative:hediffcomp_stun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACA78B6-63EC-4CF4-97A5-55A718FBC272}|BDsArknightLib.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\gamecomponent_damagebufftracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACA78B6-63EC-4CF4-97A5-55A718FBC272}|BDsArknightLib.csproj|solutionrelative:gamecomponent_damagebufftracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACA78B6-63EC-4CF4-97A5-55A718FBC272}|BDsArknightLib.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\modextension_craminpdcs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACA78B6-63EC-4CF4-97A5-55A718FBC272}|BDsArknightLib.csproj|solutionrelative:modextension_craminpdcs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACA78B6-63EC-4CF4-97A5-55A718FBC272}|BDsArknightLib.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\modextension_icebreaker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACA78B6-63EC-4CF4-97A5-55A718FBC272}|BDsArknightLib.csproj|solutionrelative:modextension_icebreaker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACA78B6-63EC-4CF4-97A5-55A718FBC272}|BDsArknightLib.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\modextension_projectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACA78B6-63EC-4CF4-97A5-55A718FBC272}|BDsArknightLib.csproj|solutionrelative:modextension_projectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACA78B6-63EC-4CF4-97A5-55A718FBC272}|BDsArknightLib.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\hediffcomp_killeffecter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACA78B6-63EC-4CF4-97A5-55A718FBC272}|BDsArknightLib.csproj|solutionrelative:hediffcomp_killeffecter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACA78B6-63EC-4CF4-97A5-55A718FBC272}|BDsArknightLib.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\compabilityeffect_summon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACA78B6-63EC-4CF4-97A5-55A718FBC272}|BDsArknightLib.csproj|solutionrelative:compabilityeffect_summon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACA78B6-63EC-4CF4-97A5-55A718FBC272}|BDsArknightLib.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\healingutilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACA78B6-63EC-4CF4-97A5-55A718FBC272}|BDsArknightLib.csproj|solutionrelative:healingutilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACA78B6-63EC-4CF4-97A5-55A718FBC272}|BDsArknightLib.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\hediffcomp_hediffaura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACA78B6-63EC-4CF4-97A5-55A718FBC272}|BDsArknightLib.csproj|solutionrelative:hediffcomp_hediffaura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACA78B6-63EC-4CF4-97A5-55A718FBC272}|BDsArknightLib.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\damageworker_ice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACA78B6-63EC-4CF4-97A5-55A718FBC272}|BDsArknightLib.csproj|solutionrelative:damageworker_ice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACA78B6-63EC-4CF4-97A5-55A718FBC272}|BDsArknightLib.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\abilityforaidef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACA78B6-63EC-4CF4-97A5-55A718FBC272}|BDsArknightLib.csproj|solutionrelative:abilityforaidef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACA78B6-63EC-4CF4-97A5-55A718FBC272}|BDsArknightLib.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\compabilityeffect_summonneartarget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACA78B6-63EC-4CF4-97A5-55A718FBC272}|BDsArknightLib.csproj|solutionrelative:compabilityeffect_summonneartarget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACA78B6-63EC-4CF4-97A5-55A718FBC272}|BDsArknightLib.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\jobgiver_aicastabilityfriendly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACA78B6-63EC-4CF4-97A5-55A718FBC272}|BDsArknightLib.csproj|solutionrelative:jobgiver_aicastabilityfriendly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACA78B6-63EC-4CF4-97A5-55A718FBC272}|BDsArknightLib.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\thinknodeconditional_hasapparel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACA78B6-63EC-4CF4-97A5-55A718FBC272}|BDsArknightLib.csproj|solutionrelative:thinknodeconditional_hasapparel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACA78B6-63EC-4CF4-97A5-55A718FBC272}|BDsArknightLib.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\jobgiver_aicastabilitywithdest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACA78B6-63EC-4CF4-97A5-55A718FBC272}|BDsArknightLib.csproj|solutionrelative:jobgiver_aicastabilitywithdest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACA78B6-63EC-4CF4-97A5-55A718FBC272}|BDsArknightLib.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\verb_multishot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACA78B6-63EC-4CF4-97A5-55A718FBC272}|BDsArknightLib.csproj|solutionrelative:verb_multishot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACA78B6-63EC-4CF4-97A5-55A718FBC272}|BDsArknightLib.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\lordjob_hostilewhenprovoked.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACA78B6-63EC-4CF4-97A5-55A718FBC272}|BDsArknightLib.csproj|solutionrelative:lordjob_hostilewhenprovoked.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACA78B6-63EC-4CF4-97A5-55A718FBC272}|BDsArknightLib.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\trigger_playerproximity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACA78B6-63EC-4CF4-97A5-55A718FBC272}|BDsArknightLib.csproj|solutionrelative:trigger_playerproximity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACA78B6-63EC-4CF4-97A5-55A718FBC272}|BDsArknightLib.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\hediffcomp_hitsound.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACA78B6-63EC-4CF4-97A5-55A718FBC272}|BDsArknightLib.csproj|solutionrelative:hediffcomp_hitsound.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACA78B6-63EC-4CF4-97A5-55A718FBC272}|BDsArknightLib.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\verb_castabilityself.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACA78B6-63EC-4CF4-97A5-55A718FBC272}|BDsArknightLib.csproj|solutionrelative:verb_castabilityself.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACA78B6-63EC-4CF4-97A5-55A718FBC272}|BDsArknightLib.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\compuseeffect_turninto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACA78B6-63EC-4CF4-97A5-55A718FBC272}|BDsArknightLib.csproj|solutionrelative:compuseeffect_turninto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACA78B6-63EC-4CF4-97A5-55A718FBC272}|BDsArknightLib.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\compproxtrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACA78B6-63EC-4CF4-97A5-55A718FBC272}|BDsArknightLib.csproj|solutionrelative:compproxtrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACA78B6-63EC-4CF4-97A5-55A718FBC272}|BDsArknightLib.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\compabilityeffect_spawnwithfactionareacount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACA78B6-63EC-4CF4-97A5-55A718FBC272}|BDsArknightLib.csproj|solutionrelative:compabilityeffect_spawnwithfactionareacount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACA78B6-63EC-4CF4-97A5-55A718FBC272}|BDsArknightLib.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\lordjob_variable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACA78B6-63EC-4CF4-97A5-55A718FBC272}|BDsArknightLib.csproj|solutionrelative:lordjob_variable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACA78B6-63EC-4CF4-97A5-55A718FBC272}|BDsArknightLib.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\compabilityeffect_giveapparel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACA78B6-63EC-4CF4-97A5-55A718FBC272}|BDsArknightLib.csproj|solutionrelative:compabilityeffect_giveapparel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACA78B6-63EC-4CF4-97A5-55A718FBC272}|BDsArknightLib.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\damagebuffworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACA78B6-63EC-4CF4-97A5-55A718FBC272}|BDsArknightLib.csproj|solutionrelative:damagebuffworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACA78B6-63EC-4CF4-97A5-55A718FBC272}|BDsArknightLib.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\hediff_damagebuffvisualizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACA78B6-63EC-4CF4-97A5-55A718FBC272}|BDsArknightLib.csproj|solutionrelative:hediff_damagebuffvisualizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACA78B6-63EC-4CF4-97A5-55A718FBC272}|BDsArknightLib.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\comprendernode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACA78B6-63EC-4CF4-97A5-55A718FBC272}|BDsArknightLib.csproj|solutionrelative:comprendernode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 762,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HediffComp_BattleLog.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\HediffComp_BattleLog.cs",
+              "RelativeDocumentMoniker": "HediffComp_BattleLog.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\HediffComp_BattleLog.cs",
+              "RelativeToolTip": "HediffComp_BattleLog.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAYwCYAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T10:07:20.853Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HediffComp_Aura.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\HediffComp_Aura.cs",
+              "RelativeDocumentMoniker": "HediffComp_Aura.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\HediffComp_Aura.cs",
+              "RelativeToolTip": "HediffComp_Aura.cs",
+              "ViewState": "AgIAAHAAAAAAAAAAAADwv5EAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T08:02:56.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CompAbilityEffect_GiveHediffAOE.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\CompAbilityEffect_GiveHediffAOE.cs",
+              "RelativeDocumentMoniker": "CompAbilityEffect_GiveHediffAOE.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\CompAbilityEffect_GiveHediffAOE.cs",
+              "RelativeToolTip": "CompAbilityEffect_GiveHediffAOE.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAuwE4AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T07:32:11.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "QuestNode_TempFactionFrom.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\QuestNode_TempFactionFrom.cs",
+              "RelativeDocumentMoniker": "QuestNode_TempFactionFrom.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\QuestNode_TempFactionFrom.cs",
+              "RelativeToolTip": "QuestNode_TempFactionFrom.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAA5wGoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T12:21:04.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IncidentWorker_PDCJoin.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\IncidentWorker_PDCJoin.cs",
+              "RelativeDocumentMoniker": "IncidentWorker_PDCJoin.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\IncidentWorker_PDCJoin.cs",
+              "RelativeToolTip": "IncidentWorker_PDCJoin.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAywBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T02:39:44.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Projectile_Custom.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\Projectile_Custom.cs",
+              "RelativeDocumentMoniker": "Projectile_Custom.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\Projectile_Custom.cs",
+              "RelativeToolTip": "Projectile_Custom.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T15:34:01.55Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CompShieldOneUse.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\CompShieldOneUse.cs",
+              "RelativeDocumentMoniker": "CompShieldOneUse.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\CompShieldOneUse.cs",
+              "RelativeToolTip": "CompShieldOneUse.cs",
+              "ViewState": "AgIAAOEAAAAAAAAAAAAmwP0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T16:43:34.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CompAbilityEffect_BattleLog.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\CompAbilityEffect_BattleLog.cs",
+              "RelativeDocumentMoniker": "CompAbilityEffect_BattleLog.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\CompAbilityEffect_BattleLog.cs",
+              "RelativeToolTip": "CompAbilityEffect_BattleLog.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T10:19:12.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CompAbilityEffect_GiveShield.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\CompAbilityEffect_GiveShield.cs",
+              "RelativeDocumentMoniker": "CompAbilityEffect_GiveShield.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\CompAbilityEffect_GiveShield.cs",
+              "RelativeToolTip": "CompAbilityEffect_GiveShield.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T11:04:01.16Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CompAbilityEffect_AIRequireTargetsInRange.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\CompAbilityEffect_AIRequireTargetsInRange.cs",
+              "RelativeDocumentMoniker": "CompAbilityEffect_AIRequireTargetsInRange.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\CompAbilityEffect_AIRequireTargetsInRange.cs",
+              "RelativeToolTip": "CompAbilityEffect_AIRequireTargetsInRange.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAwwEEAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T16:27:42.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CompAbilityEffect_SpawnWithFaction.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\CompAbilityEffect_SpawnWithFaction.cs",
+              "RelativeDocumentMoniker": "CompAbilityEffect_SpawnWithFaction.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\CompAbilityEffect_SpawnWithFaction.cs",
+              "RelativeToolTip": "CompAbilityEffect_SpawnWithFaction.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAABqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T16:33:30.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CompAbilityEffect_AreaOfEffect.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\CompAbilityEffect_AreaOfEffect.cs",
+              "RelativeDocumentMoniker": "CompAbilityEffect_AreaOfEffect.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\CompAbilityEffect_AreaOfEffect.cs",
+              "RelativeToolTip": "CompAbilityEffect_AreaOfEffect.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T16:19:12.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BDAKN_DefOf.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\BDAKN_DefOf.cs",
+              "RelativeDocumentMoniker": "BDAKN_DefOf.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\BDAKN_DefOf.cs",
+              "RelativeToolTip": "BDAKN_DefOf.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T14:03:46.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PawnRenderNode_EffectOverlay.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\PawnRenderNode_EffectOverlay.cs",
+              "RelativeDocumentMoniker": "PawnRenderNode_EffectOverlay.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\PawnRenderNode_EffectOverlay.cs",
+              "RelativeToolTip": "PawnRenderNode_EffectOverlay.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAADwvz0AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T12:31:47.125Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CompAbilityEffect_AreaEffectRandomCount.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\CompAbilityEffect_AreaEffectRandomCount.cs",
+              "RelativeDocumentMoniker": "CompAbilityEffect_AreaEffectRandomCount.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\CompAbilityEffect_AreaEffectRandomCount.cs",
+              "RelativeToolTip": "CompAbilityEffect_AreaEffectRandomCount.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwDcAAABoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T07:38:54.519Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "PawnRenderNode_OneUseShieldStage.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\PawnRenderNode_OneUseShieldStage.cs",
+              "RelativeDocumentMoniker": "PawnRenderNode_OneUseShieldStage.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\PawnRenderNode_OneUseShieldStage.cs",
+              "RelativeToolTip": "PawnRenderNode_OneUseShieldStage.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T10:58:28.992Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "GameComponent_InvoluntaryMovingTracker.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\GameComponent_InvoluntaryMovingTracker.cs",
+              "RelativeDocumentMoniker": "GameComponent_InvoluntaryMovingTracker.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\GameComponent_InvoluntaryMovingTracker.cs",
+              "RelativeToolTip": "GameComponent_InvoluntaryMovingTracker.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T12:51:52.428Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Harmony.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\Harmony.cs",
+              "RelativeDocumentMoniker": "Harmony.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\Harmony.cs",
+              "RelativeToolTip": "Harmony.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG0AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T07:13:50.463Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "HediffComp_Stun.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\HediffComp_Stun.cs",
+              "RelativeDocumentMoniker": "HediffComp_Stun.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\HediffComp_Stun.cs",
+              "RelativeToolTip": "HediffComp_Stun.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T06:10:29.386Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "GameComponent_DamageBuffTracker.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\GameComponent_DamageBuffTracker.cs",
+              "RelativeDocumentMoniker": "GameComponent_DamageBuffTracker.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\GameComponent_DamageBuffTracker.cs",
+              "RelativeToolTip": "GameComponent_DamageBuffTracker.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T12:56:23.579Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ModExtension_CramInPDCs.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\ModExtension_CramInPDCs.cs",
+              "RelativeDocumentMoniker": "ModExtension_CramInPDCs.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\ModExtension_CramInPDCs.cs",
+              "RelativeToolTip": "ModExtension_CramInPDCs.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB4AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T12:28:28.836Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ModExtension_IceBreaker.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\ModExtension_IceBreaker.cs",
+              "RelativeDocumentMoniker": "ModExtension_IceBreaker.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\ModExtension_IceBreaker.cs",
+              "RelativeToolTip": "ModExtension_IceBreaker.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T13:21:19.306Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ModExtension_Projectile.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\ModExtension_Projectile.cs",
+              "RelativeDocumentMoniker": "ModExtension_Projectile.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\ModExtension_Projectile.cs",
+              "RelativeToolTip": "ModExtension_Projectile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T15:13:46.844Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "HediffComp_KillEffecter.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\HediffComp_KillEffecter.cs",
+              "RelativeDocumentMoniker": "HediffComp_KillEffecter.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\HediffComp_KillEffecter.cs",
+              "RelativeToolTip": "HediffComp_KillEffecter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-25T11:21:43.209Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "CompAbilityEffect_Summon.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\CompAbilityEffect_Summon.cs",
+              "RelativeDocumentMoniker": "CompAbilityEffect_Summon.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\CompAbilityEffect_Summon.cs",
+              "RelativeToolTip": "CompAbilityEffect_Summon.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAcwBwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-25T07:02:17.885Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "HealingUtilities.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\HealingUtilities.cs",
+              "RelativeDocumentMoniker": "HealingUtilities.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\HealingUtilities.cs",
+              "RelativeToolTip": "HealingUtilities.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAowF8AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T14:08:42.616Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "HediffComp_HediffAura.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\HediffComp_HediffAura.cs",
+              "RelativeDocumentMoniker": "HediffComp_HediffAura.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\HediffComp_HediffAura.cs",
+              "RelativeToolTip": "HediffComp_HediffAura.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAYwD4AAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T19:24:06.75Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "DamageWorker_Ice.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\DamageWorker_Ice.cs",
+              "RelativeDocumentMoniker": "DamageWorker_Ice.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\DamageWorker_Ice.cs",
+              "RelativeToolTip": "DamageWorker_Ice.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAA0wA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T07:09:23.385Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "AbilityForAIDef.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\AbilityForAIDef.cs",
+              "RelativeDocumentMoniker": "AbilityForAIDef.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\AbilityForAIDef.cs",
+              "RelativeToolTip": "AbilityForAIDef.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T15:00:51.148Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "JobGiver_AICastAbilityFriendly.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\JobGiver_AICastAbilityFriendly.cs",
+              "RelativeDocumentMoniker": "JobGiver_AICastAbilityFriendly.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\JobGiver_AICastAbilityFriendly.cs",
+              "RelativeToolTip": "JobGiver_AICastAbilityFriendly.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAACEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T15:36:00.931Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "CompAbilityEffect_SummonNearTarget.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\CompAbilityEffect_SummonNearTarget.cs",
+              "RelativeDocumentMoniker": "CompAbilityEffect_SummonNearTarget.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\CompAbilityEffect_SummonNearTarget.cs",
+              "RelativeToolTip": "CompAbilityEffect_SummonNearTarget.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T09:19:05.774Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "JobGiver_AICastAbilityWithDest.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\JobGiver_AICastAbilityWithDest.cs",
+              "RelativeDocumentMoniker": "JobGiver_AICastAbilityWithDest.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\JobGiver_AICastAbilityWithDest.cs",
+              "RelativeToolTip": "JobGiver_AICastAbilityWithDest.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAUwGUAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T15:07:19.525Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Verb_MultiShot.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\Verb_MultiShot.cs",
+              "RelativeDocumentMoniker": "Verb_MultiShot.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\Verb_MultiShot.cs",
+              "RelativeToolTip": "Verb_MultiShot.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAswFIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T13:19:40.249Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ThinkNodeConditional_HasApparel.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\ThinkNodeConditional_HasApparel.cs",
+              "RelativeDocumentMoniker": "ThinkNodeConditional_HasApparel.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\ThinkNodeConditional_HasApparel.cs",
+              "RelativeToolTip": "ThinkNodeConditional_HasApparel.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T14:36:55.565Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "LordJob_HostileWhenProvoked.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\LordJob_HostileWhenProvoked.cs",
+              "RelativeDocumentMoniker": "LordJob_HostileWhenProvoked.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\LordJob_HostileWhenProvoked.cs",
+              "RelativeToolTip": "LordJob_HostileWhenProvoked.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAcwCoAAACjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T12:47:43.954Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Trigger_PlayerProximity.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\Trigger_PlayerProximity.cs",
+              "RelativeDocumentMoniker": "Trigger_PlayerProximity.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\Trigger_PlayerProximity.cs",
+              "RelativeToolTip": "Trigger_PlayerProximity.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwAwAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T11:49:24.64Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "HediffComp_HitSound.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\HediffComp_HitSound.cs",
+              "RelativeDocumentMoniker": "HediffComp_HitSound.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\HediffComp_HitSound.cs",
+              "RelativeToolTip": "HediffComp_HitSound.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T15:42:59.364Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Verb_CastAbilitySelf.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\Verb_CastAbilitySelf.cs",
+              "RelativeDocumentMoniker": "Verb_CastAbilitySelf.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\Verb_CastAbilitySelf.cs",
+              "RelativeToolTip": "Verb_CastAbilitySelf.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T14:34:29.533Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "CompUseEffect_TurnInto.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\CompUseEffect_TurnInto.cs",
+              "RelativeDocumentMoniker": "CompUseEffect_TurnInto.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\CompUseEffect_TurnInto.cs",
+              "RelativeToolTip": "CompUseEffect_TurnInto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T06:52:53.054Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "CompProxTrigger.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\CompProxTrigger.cs",
+              "RelativeDocumentMoniker": "CompProxTrigger.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\CompProxTrigger.cs",
+              "RelativeToolTip": "CompProxTrigger.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAQwD0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T06:35:09.985Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "CompAbilityEffect_SpawnWithFactionAreaCount.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\CompAbilityEffect_SpawnWithFactionAreaCount.cs",
+              "RelativeDocumentMoniker": "CompAbilityEffect_SpawnWithFactionAreaCount.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\CompAbilityEffect_SpawnWithFactionAreaCount.cs",
+              "RelativeToolTip": "CompAbilityEffect_SpawnWithFactionAreaCount.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T07:53:08.795Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "LordJob_Variable.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\LordJob_Variable.cs",
+              "RelativeDocumentMoniker": "LordJob_Variable.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\LordJob_Variable.cs",
+              "RelativeToolTip": "LordJob_Variable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-25T08:41:20.241Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "CompAbilityEffect_GiveApparel.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\CompAbilityEffect_GiveApparel.cs",
+              "RelativeDocumentMoniker": "CompAbilityEffect_GiveApparel.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\CompAbilityEffect_GiveApparel.cs",
+              "RelativeToolTip": "CompAbilityEffect_GiveApparel.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAA6wCkAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T07:08:12.013Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "DamageBuffWorker.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\DamageBuffWorker.cs",
+              "RelativeDocumentMoniker": "DamageBuffWorker.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\DamageBuffWorker.cs",
+              "RelativeToolTip": "DamageBuffWorker.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T13:15:57.09Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Hediff_DamageBuffVisualizer.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\Hediff_DamageBuffVisualizer.cs",
+              "RelativeDocumentMoniker": "Hediff_DamageBuffVisualizer.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\Hediff_DamageBuffVisualizer.cs",
+              "RelativeToolTip": "Hediff_DamageBuffVisualizer.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAA1wBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T13:13:58.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "CompRenderNode.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\CompRenderNode.cs",
+              "RelativeDocumentMoniker": "CompRenderNode.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bill Doors\u0027 Shared Library For Arknight Stuffs\\Source\\BDsArknightLib\\CompRenderNode.cs",
+              "RelativeToolTip": "CompRenderNode.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T07:01:41.908Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

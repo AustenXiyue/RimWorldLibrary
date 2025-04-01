@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<QuestScriptDef>
+		<defName>BDsNydiaExp_TownAttackQuest</defName>
+
+		<questNameRules>
+			<rulesStrings>
+				<li>questName->Hired gun for [asker_nameDef]</li>
+			</rulesStrings>
+		</questNameRules>
+		<questDescriptionRules>
+			<rulesStrings>
+				<li>questDescription->[asker_nameDef], [asker_faction_leaderTitle] of [asker_faction_name], wanted your favor.\n[asker_nameDef] had some conflict with a tavern owner in a remote town a long time ago and wanted you to "sort it out".\n[asker_nameDef] also mentioned a rogue archer with black feathers is rumored to be seen near the region but [asker_nameDef] told you not to worry about it.</li>
+			</rulesStrings>
+		</questDescriptionRules>
+
+		<root Class="RimWorld.QuestGen.QuestNode_Sequence">
+			<nodes>
+				<li Class="QuestNode_Multiply">
+					<value1>10000</value1>
+					<value2>10000</value2>
+					<storeAs>rewardValue</storeAs>
+				</li>
+
+
+				<li Class="QuestNode_GetPawn">
+					<storeAs>asker</storeAs>
+					<mustBeFactionLeader>true</mustBeFactionLeader>
+					<mustBeNonHostileToPlayer>true</mustBeNonHostileToPlayer>
+					<hostileWeight>0.15</hostileWeight>
+					<selectionWeight>1</selectionWeight>
+				</li>
+
+
+				<li Class="QuestEditor_Library.QuestNode_RandomCustomMap">
+					<tags />
+					<datas>
+						<li>
+							<key>BDsNydiaExp_Village</key>
+							<value>1</value>
+						</li>
+					</datas>
+					<buffer>10</buffer>
+					<bufferMin>20</bufferMin>
+					<siteIconPath>World/WorldObjects/DefaultSettlement</siteIconPath>
+					<expandingIconPath>World/WorldObjects/Expanding/Town</expandingIconPath>
+					<replaceMapGeneration>False</replaceMapGeneration>
+					<disdestroyBecauseOfNoColonist>False</disdestroyBecauseOfNoColonist>
+					<enableBlack>True</enableBlack>
+					<storeAs>site</storeAs>
+					<faction>RandomHostile</faction>
+					<distance>
+						<min>10</min>
+						<max>20</max>
+					</distance>
+					<blacklist />
+				</li>
+
+				<li Class="QuestNode_Signal">
+					<inSignal>site.AllEnemiesDefeated</inSignal>
+					<node Class="QuestNode_Sequence">
+						<nodes>
+							<li Class="QuestNode_Notify_PlayerRaidedSomeone">
+								<getRaidersFromMapParent>$site</getRaidersFromMapParent>
+							</li>
+							<li Class="QuestNode_GiveRewards">
+								<parms>
+									<rewardValue>10000</rewardValue>
+									<allowGoodwill>true</allowGoodwill>
+									<allowRoyalFavor>true</allowRoyalFavor>
+									<chosenPawnSignal>ChosenPawnForReward</chosenPawnSignal>
+								</parms>
+								<addCampLootReward>true</addCampLootReward>
+								<customLetterLabel TKey="LetterLabelPaymentArrived">Payment arrived</customLetterLabel>
+								<customLetterText TKey="LetterTextPaymentArrived">You have defeated the bandit camp!\n\nThe payment from [asker_faction_name] has arrived.</customLetterText>
+								<nodeIfChosenPawnSignalUsed Class="QuestNode_Letter">
+									<letterDef>ChoosePawn</letterDef>
+									<label TKey="LetterLabelFavorReceiver">[asker_faction_royalFavorLabel]</label>
+									<text TKey="LetterTextFavorReceiver">These colonists participated in the victory for the quest [resolvedQuestName]. [asker_definite] wants to know who should receive the [royalFavorReward_amount] [asker_faction_royalFavorLabel] for this service.</text>
+									<useColonistsOnMap>$site</useColonistsOnMap>
+									<chosenPawnSignal>ChosenPawnForReward</chosenPawnSignal>
+								</nodeIfChosenPawnSignalUsed>
+							</li>
+						</nodes>
+					</node>
+				</li>
+				<li Class="QuestNode_End">
+					<inSignal>site.AllEnemiesDefeated</inSignal>
+					<outcome>Success</outcome>
+				</li>
+				<li Class="RimWorld.QuestGen.QuestNode_WorldObjectTimeout">
+					<worldObject>$site</worldObject>
+					<isQuestTimeout>true</isQuestTimeout>
+					<delayTicks>$(randInt(7,15)*60000)</delayTicks>
+					<inSignalDisable>site.MapGenerated</inSignalDisable>
+					<node Class="QuestNode_Sequence">
+						<nodes>
+							<li Class="QuestNode_Letter">
+								<label TKey="LetterLabelQuestExpired">Quest expired: [resolvedQuestName]</label>
+								<text TKey="LetterTextQuestExpired">[refugee_nameDef]'s signal has been lost, and [refugee_pronoun] can no longer be rescued. The quest [resolvedQuestName] has expired.</text>
+							</li>
+							<li Class="QuestNode_End">
+								<outcome>Fail</outcome>
+							</li>
+						</nodes>
+					</node>
+				</li>
+			</nodes>
+		</root>
+
+		<rootSelectionWeight>0</rootSelectionWeight>
+		<rootMinPoints>0</rootMinPoints>
+		<rootMinProgressScore>0</rootMinProgressScore>
+		<rootIncreasesPopulation>False</rootIncreasesPopulation>
+		<minRefireDays>30</minRefireDays>
+		<decreeSelectionWeight>0</decreeSelectionWeight>
+		<autoAccept>False</autoAccept>
+		<hideOnCleanup>False</hideOnCleanup>
+		<expireDaysRange>
+			<min>10</min>
+			<max>20</max>
+		</expireDaysRange>
+		<nameMustBeUnique>False</nameMustBeUnique>
+		<defaultChallengeRating>1</defaultChallengeRating>
+		<defaultHidden>False</defaultHidden>
+		<isRootSpecial>True</isRootSpecial>
+		<canGiveRoyalFavor>False</canGiveRoyalFavor>
+		<hideInvolvedFactionsInfo>False</hideInvolvedFactionsInfo>
+		<affectedByPopulation>False</affectedByPopulation>
+		<affectedByPoints>True</affectedByPoints>
+		<defaultCharity>False</defaultCharity>
+		<sendAvailableLetter>True</sendAvailableLetter>
+		<epic>True</epic>
+		<endOnColonyMove>False</endOnColonyMove>
+		<ignoreConfigErrors>False</ignoreConfigErrors>
+		<ignoreIllegalLabelCharacterConfigError>False</ignoreIllegalLabelCharacterConfigError>
+	</QuestScriptDef>
+</Defs>

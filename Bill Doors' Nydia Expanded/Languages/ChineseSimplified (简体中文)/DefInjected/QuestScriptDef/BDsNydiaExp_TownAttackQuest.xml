@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>questDescription->[asker_nameDef], [asker_faction_leaderTitle] of [asker_faction_name], wanted your favor.\n[asker_nameDef] had some conflict with a tavern owner in a remote town a long time ago and wanted you to "sort it out".\n[asker_nameDef] also mentioned a rogue archer with black feathers is rumored to be seen near the region but [asker_nameDef] told you not to worry about it.</li>
+  -->
+  <BDsNydiaExp_TownAttackQuest.questDescriptionRules.rulesStrings>TODO</BDsNydiaExp_TownAttackQuest.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->Hired gun for [asker_nameDef]</li>
+  -->
+  <BDsNydiaExp_TownAttackQuest.questNameRules.rulesStrings>TODO</BDsNydiaExp_TownAttackQuest.questNameRules.rulesStrings>
+  <!-- EN: RandomHostile -->
+  <BDsNydiaExp_TownAttackQuest.root.nodes.RandomCustomMap.faction.slateRef>TODO</BDsNydiaExp_TownAttackQuest.root.nodes.RandomCustomMap.faction.slateRef>
+  <!-- EN: Payment arrived -->
+  <BDsNydiaExp_TownAttackQuest.root.nodes.siteAllEnemiesDefeated.node.nodes.GiveRewards.customLetterLabel.slateRef>TODO</BDsNydiaExp_TownAttackQuest.root.nodes.siteAllEnemiesDefeated.node.nodes.GiveRewards.customLetterLabel.slateRef>
+  <!-- EN: You have defeated the bandit camp!\n\nThe payment from [asker_faction_name] has arrived. -->
+  <BDsNydiaExp_TownAttackQuest.root.nodes.siteAllEnemiesDefeated.node.nodes.GiveRewards.customLetterText.slateRef>TODO</BDsNydiaExp_TownAttackQuest.root.nodes.siteAllEnemiesDefeated.node.nodes.GiveRewards.customLetterText.slateRef>
+  <!-- EN: [asker_faction_royalFavorLabel] -->
+  <BDsNydiaExp_TownAttackQuest.root.nodes.siteAllEnemiesDefeated.node.nodes.GiveRewards.nodeIfChosenPawnSignalUsed.label.slateRef>TODO</BDsNydiaExp_TownAttackQuest.root.nodes.siteAllEnemiesDefeated.node.nodes.GiveRewards.nodeIfChosenPawnSignalUsed.label.slateRef>
+  <!-- EN: These colonists participated in the victory for the quest [resolvedQuestName]. [asker_definite] wants to know who should receive the [royalFavorReward_amount] [asker_faction_royalFavorLabel] for this service. -->
+  <BDsNydiaExp_TownAttackQuest.root.nodes.siteAllEnemiesDefeated.node.nodes.GiveRewards.nodeIfChosenPawnSignalUsed.text.slateRef>TODO</BDsNydiaExp_TownAttackQuest.root.nodes.siteAllEnemiesDefeated.node.nodes.GiveRewards.nodeIfChosenPawnSignalUsed.text.slateRef>
+  <!-- EN: Quest expired: [resolvedQuestName] -->
+  <BDsNydiaExp_TownAttackQuest.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>TODO</BDsNydiaExp_TownAttackQuest.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>
+  <!-- EN: [refugee_nameDef]'s signal has been lost, and [refugee_pronoun] can no longer be rescued. The quest [resolvedQuestName] has expired. -->
+  <BDsNydiaExp_TownAttackQuest.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>TODO</BDsNydiaExp_TownAttackQuest.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>
+  
+</LanguageData>

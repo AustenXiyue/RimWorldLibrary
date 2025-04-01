@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+  <GeneDef>
+    <defName>RealDeathless</defName>
+    <label>real deathless</label>
+    <description>Carriers of this gene have archites in the blood which will sustain their life processes no matter what. Carrier of this gene will never die.</description>
+    <geneClass>RealDeathless.Gene_RealDeathless</geneClass>
+    <iconPath>UI/Icons/Genes/Gene_Deathless</iconPath>
+    <displayCategory>Archite</displayCategory>
+    <marketValueFactor>2</marketValueFactor>
+    <biostatCpx>5</biostatCpx>
+    <biostatArc>1</biostatArc>
+    <biostatMet>0</biostatMet>
+    <customEffectDescriptions>
+      <li>What is death?</li>
+    </customEffectDescriptions>
+    <symbolPack>
+      <wholeNameSymbols>
+        <li>
+          <symbol>immortal</symbol>
+        </li>
+      </wholeNameSymbols>
+      <prefixSymbols>
+        <li>
+          <symbol>god</symbol>
+        </li>
+        <li>
+          <symbol>deo</symbol>
+        </li>
+        <li>
+          <symbol>deu</symbol>
+        </li>
+      </prefixSymbols>
+      <suffixSymbols>
+        <li>
+          <symbol>god</symbol>
+        </li>
+        <li>
+          <symbol>deus</symbol>
+        </li>
+      </suffixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+</Defs>

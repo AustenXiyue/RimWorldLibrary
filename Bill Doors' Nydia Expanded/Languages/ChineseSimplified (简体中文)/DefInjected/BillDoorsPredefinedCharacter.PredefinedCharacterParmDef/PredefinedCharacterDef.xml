@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+	<!-- EN: Nydia -->
+	<BDNydiaExp_Nydia.label>妮蒂娅</BDNydiaExp_Nydia.label>
+	<!-- EN: Nydia will come to rescue you when you're in distress -->
+	<BDNydiaExp_Nydia.appearMethods.0.description>她将会在玩家情况危急的时候前来帮助。</BDNydiaExp_Nydia.appearMethods.0.description>
+	<!-- EN: Woman in black -->
+	<BDNydiaExp_Nydia.appearMethods.0.name>黑衣女子</BDNydiaExp_Nydia.appearMethods.0.name>
+	<!-- EN: Player will be given quest to attack a town. During the assault, Nydia will show up and confront player forces. -->
+	<BDNydiaExp_Nydia.appearMethods.1.description>玩家会收到一个要求摧毁据点的任务。攻击过程中她会出现并攻击玩家。</BDNydiaExp_Nydia.appearMethods.1.description>
+	<!-- EN: Town attack -->
+	<BDNydiaExp_Nydia.appearMethods.1.name>支援据点</BDNydiaExp_Nydia.appearMethods.1.name>
+	<!-- EN: Nydia -->
+	<BDNydiaExp_Nydia.firstName>妮蒂娅</BDNydiaExp_Nydia.firstName>
+	<!-- EN: Wings folded -->
+	<BDNydiaExp_Nydia.renderNodeProperties.1.debugLabel>翅膀(折叠)</BDNydiaExp_Nydia.renderNodeProperties.1.debugLabel>
+	<!-- EN: the Black Bird of Death -->
+	<BDNydiaExp_Nydia.title>黑羽的送死鸟</BDNydiaExp_Nydia.title>
+
+</LanguageData>

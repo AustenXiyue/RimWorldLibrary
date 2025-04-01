@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<SoundDef>
+		<defName>BDsNydiaExp_Shot</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>BDsNydiaExp/NydiaShot</clipPath>
+					</li>
+				</grains>
+				<volumeRange>50~65</volumeRange>
+				<pitchRange>0.93~1.1</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>BDsNydiaExp_Hit</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>BDsNydiaExp/NydiaHit</clipPath>
+					</li>
+				</grains>
+				<volumeRange>50~65</volumeRange>
+				<pitchRange>0.93~1.1</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>BDsNydiaExp_DeathSentenceApply</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>BDsNydiaExp/NydiaDeathSentenceApply</clipPath>
+					</li>
+				</grains>
+				<volumeRange>50~65</volumeRange>
+				<pitchRange>0.93~1.1</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>BDsNydiaExp_DeathSentenceStart</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>BDsNydiaExp/NydiaDeathSentenceStart</clipPath>
+					</li>
+				</grains>
+				<volumeRange>50~65</volumeRange>
+				<pitchRange>0.93~1.1</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+</Defs>

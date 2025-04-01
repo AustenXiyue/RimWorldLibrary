@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Environmental Protection -->
+  <ShieldBeltEnvironmentProtect.label>环境保护</ShieldBeltEnvironmentProtect.label>
+  <!-- EN: Targeted shielding and life support systems protect protected individuals from most environmental threats. -->
+  <ShieldBeltEnvironmentProtect.description>靶向屏蔽与生命维持系统使受护者免受大部分环境威胁的影响。</ShieldBeltEnvironmentProtect.description>
+  
+</LanguageData>

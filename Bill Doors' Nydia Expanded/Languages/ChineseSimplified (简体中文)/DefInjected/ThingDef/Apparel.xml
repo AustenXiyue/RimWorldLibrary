@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Nydia's dress -->
+  <BDNydiaExp_DressInner.label>妮蒂娅的裙子</BDNydiaExp_DressInner.label>
+  <!-- EN: A dress with suspiciously huge cleavage. Doesn't cover groin either somehow. -->
+  <BDNydiaExp_DressInner.description>一条胸前大面积开窗的裙子，不知道为什么根本不挡下体。</BDNydiaExp_DressInner.description>
+  
+  <!-- EN: Nydia's tabard -->
+  <BDNydiaExp_DressOuter.label>妮蒂娅的外套</BDNydiaExp_DressOuter.label>
+  <!-- EN: A tabard with semi-transparent meshes showing off her belly. Doesn't fully cover her breasts either. -->
+  <BDNydiaExp_DressOuter.description>一件前摆点缀了半透明花纹的外套，说是外套但是挡不住胸前。</BDNydiaExp_DressOuter.description>
+  
+  <!-- EN: Nydia's helmet -->
+  <BDNydiaExp_Helmet.label>妮蒂娅的面罩</BDNydiaExp_Helmet.label>
+  <!-- EN: An intimating looking helmet. -->
+  <BDNydiaExp_Helmet.description>一个很有威慑力的面具，妮蒂娅的衣服中最正常的一件。</BDNydiaExp_Helmet.description>
+  <!-- EN: Nydia's helmet -->
+  <BDNydiaExp_Helmet.apparel.renderNodeProperties.0.debugLabel>妮蒂娅的面罩</BDNydiaExp_Helmet.apparel.renderNodeProperties.0.debugLabel>
+  <!-- EN: Nydia's helmet rear -->
+  <BDNydiaExp_Helmet.apparel.renderNodeProperties.1.debugLabel>妮蒂娅的面罩(后)</BDNydiaExp_Helmet.apparel.renderNodeProperties.1.debugLabel>
+  
+  <!-- EN: Nydia's pauldrons -->
+  <BDNydiaExp_Pauldrons.label>妮蒂娅的臂甲</BDNydiaExp_Pauldrons.label>
+  <!-- EN: A pair of pauldrons, couters, gauntlets and a single piece of chestpiece likely meant to deflect bow string. Somehow the chestpiece protects her whole torso, maybe it's because enemies are more likely to focus on there? -->
+  <BDNydiaExp_Pauldrons.description>一对肩甲，臂甲，金属手套。以及一片护胸，也许是用来防止弓弦和她的傲人胸部高速接触的。\n不知道为什么这套护甲能提供全躯干防护，可能是因为敌人都被吸引了注意力？</BDNydiaExp_Pauldrons.description>
+  
+</LanguageData>

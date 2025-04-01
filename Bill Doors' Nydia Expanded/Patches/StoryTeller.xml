@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/StorytellerDef[@Name="BaseStoryteller"]/comps</xpath>
+		<value>
+			<li Class="BDsNydiaExp.StorytellerCompProperties_TriggeredPct">
+				<incident>BDsNydiaExp_NydiaJoin</incident>
+				<delayTicks>600</delayTicks>
+				<!--So that when a 3 man colony is down to last man, Nydia arrives-->
+				<!--Luckily this ruled out many possible edge cases. The side effect is if you only have two pawns, it requires all of them to be incapacited-->
+				<pctDowned>0.65</pctDowned>
+
+				<pawnDef>BDNydiaExp_Nydia</pawnDef>
+				<methodIdentifier>Join</methodIdentifier>
+				<hediffBlacklist>
+					<Anesthetic>0.6~999</Anesthetic>
+					<li>PsychicShock</li>
+					<li>PsychicComa</li>
+					<li>BrainShock</li>
+					<li>DrugOverdose</li>
+					<FoodPoisoning>0.2~0.8</FoodPoisoning>
+					<!--Just think about it, you and your buddy had hell of a party and every one of you were blacked out. And then Nydia comes wondering who needs help.-->
+					<AlcoholHigh>0.7~999</AlcoholHigh>
+					<!--If you're freezing or starving to death, there's nothing much Nydia could help anyway-->
+					<Heatstroke>0.5~999</Heatstroke>
+					<Hypothermia>0.5~999</Hypothermia>
+					<Malnutrition>0.3~999</Malnutrition>
+
+					<PsychicBreakdown MayRequire="Ludeon.RimWorld.Royalty">5~999</PsychicBreakdown>
+
+					<!--Another edge case is you lives with two wifes, both of them enter labor at the same time.-->
+					<li MayRequire="Ludeon.RimWorld.Biotech">PregnancyLabor</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">PregnancyLaborPushing</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">PostpartumExhaustion</li>
+
+					<li MayRequire="Ludeon.RimWorld.Anomaly">DarkPsychicShock</li>
+
+					<li MayRequire="arandomkiwi.downforme">aRandomKiwi_DFM_WTBD</li>
+
+					<li MayRequire="ceteam.combatextended">MuscleSpasms</li>
+					<li MayRequire="ceteam.combatextended">Tranquilizer</li>
+					<li MayRequire="ceteam.combatextended">Neuralizer</li>
+
+					<li MayRequire="Veltaris.Mechtech">AV_NeuroferiumPoisoning</li>
+					<li MayRequire="Veltaris.Mechtech">AV_CollarSleep</li>
+
+					<li MayRequire="rh2.handtohand">CP_CQC_TakeDown</li>
+					<li MayRequire="rh2.handtohand">CP_Hediff_RKO</li>
+					<li MayRequire="rh2.handtohand">CP_Hediff_LegSweep</li>
+					<li MayRequire="rh2.handtohand">CP_Hediff_PhantomPunch</li>
+					<li MayRequire="rh2.handtohand">CP_Hediff_Roundhouse</li>
+
+					<li>BDAKN_HediffSlowed</li>
+					<li>BDAKN_HediffFrozen</li>
+				</hediffBlacklist>
+			</li>
+		</value>
+	</Operation>
+</Patch>

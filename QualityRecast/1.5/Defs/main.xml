@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingDef ParentName="BuildingBase">
+        <defName>TR_QualityRecastingTable</defName>
+        <label>Quality Recasting Table</label>
+        <description>Some say it is the product of extraordinary intelligence, others say it was made by the Goblin Craftsman in Terraria, but no one knows exactly where it came from. The only thing that is certain is that it can consume silver to change the quality of objects, and it is easy to operate, safe and durable.</description>
+        <graphicData>
+          <texPath>TR_QualityRecastingTable</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+          <drawSize>(2,2)</drawSize>
+          <shadowData>
+            <volume>(1.1, 0.75, 1.1)</volume>
+          </shadowData>
+        </graphicData>
+        <altitudeLayer>Building</altitudeLayer>
+        <passability>PassThroughOnly</passability>
+        <fillPercent>0.3</fillPercent>
+        <rotatable>false</rotatable>
+        <building>
+          <ai_chillDestination>false</ai_chillDestination>          
+        </building>
+        <designationCategory>Misc</designationCategory>
+        <uiOrder>2500</uiOrder>
+        <statBases>
+          <MaxHitPoints>200</MaxHitPoints>
+          <WorkToBuild>8000</WorkToBuild>
+          <Mass>25</Mass>
+          <Flammability>0.5</Flammability>
+        </statBases>
+        <size>(2,2)</size>
+        <costList>
+          <Steel>75</Steel>
+          <Gold>100</Gold>          
+        </costList>
+        <killedLeavings>
+          <ChunkSlagSteel>5</ChunkSlagSteel>
+        </killedLeavings>
+        <researchPrerequisites>         
+        </researchPrerequisites>
+        <comps>
+          <li Class="CompProperties_Usable">
+            <useJob>UseItem</useJob>
+            <useLabel>Recast</useLabel>
+            <useDuration>0</useDuration>
+            <warmupMote>Mote_ResurrectAbility</warmupMote>
+            <showUseGizmo>true</showUseGizmo> 
+          </li>
+          <li Class="CompProperties_Targetable">
+            <compClass>Quality_Recasting_Table.CompTargetable_SingleThingWithQuality</compClass>
+          </li>
+          <li Class="Quality_Recasting_Table.CompProperties_QualityRecasting">          
+          </li>
+          <li Class="CompProperties_Refuelable">
+            <fuelConsumptionRate>0</fuelConsumptionRate>
+            <fuelCapacity>2000</fuelCapacity>
+            <fuelFilter>
+              <thingDefs>
+                <li>Silver</li>
+              </thingDefs>
+            </fuelFilter>
+            <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+            <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+            <initialAllowAutoRefuel>false</initialAllowAutoRefuel>
+            <autoRefuelPercent>0.5</autoRefuelPercent>
+          </li>
+        </comps>
+        <tickerType>Normal</tickerType>
+        <filthLeaving>Filth_MachineBits</filthLeaving>
+      </ThingDef>
+
+
+
+
+      <jobDef>
+        <defName>DoRecasting</defName>
+        <driverClass>Quality_Recasting_Table.JobDriver_DoRecasting</driverClass>
+        <allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+        <reportString>Recasting</reportString>
+      </jobDef>
+
+
+      <SoundDef>
+        <defName>TR_RecastCompleted</defName>
+        <context>MapOnly</context>
+            <maxSimultaneous>1</maxSimultaneous>
+        <eventNames />
+        <subSounds>
+          <li>
+            <grains>
+              <li Class="AudioGrain_Clip">
+                <clipPath>TR_RecastCompleted</clipPath>
+              </li>
+            </grains>
+            <volumeRange>
+              <min>500</min>
+              <max>500</max>
+            </volumeRange>
+            <pitchRange>
+              <min>1.2</min>
+              <max>1.5</max>
+            </pitchRange>
+            <distRange>
+              <min>0</min>
+              <max>70</max>
+            </distRange>
+            <sustainLoop>False</sustainLoop>
+          </li>
+        </subSounds>
+      </SoundDef>
+
+</Defs>

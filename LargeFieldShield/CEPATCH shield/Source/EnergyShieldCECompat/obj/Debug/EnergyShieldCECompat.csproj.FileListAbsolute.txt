@@ -1,0 +1,4 @@
+Z:\SteamLibrary\steamapps\common\RimWorld\Mods\EnergyShieldCECompat\Assemblies\EnergyShieldCECompat.dll
+Z:\SteamLibrary\steamapps\common\RimWorld\Mods\EnergyShieldCECompat\Source\EnergyShieldCECompat\obj\Debug\EnergyShieldCECompat.csproj.AssemblyReference.cache
+Z:\SteamLibrary\steamapps\common\RimWorld\Mods\EnergyShieldCECompat\Source\EnergyShieldCECompat\obj\Debug\EnergyShieldCECompat.csproj.CoreCompileInputs.cache
+Z:\SteamLibrary\steamapps\common\RimWorld\Mods\EnergyShieldCECompat\Source\EnergyShieldCECompat\obj\Debug\EnergyShieldCECompat.dll

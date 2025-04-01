@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+ 
+  <TR_QualityRecastingTable.label>品质重铸台</TR_QualityRecastingTable.label>
+
+  <TR_QualityRecastingTable.description>有人说它是超凡智能的产物，也有人说它是泰拉瑞亚的哥布林工匠倾情制作，但没人确切得知道它的来历。唯一能确定的是，它能够消耗白银，从而改变物体的品质，操作简单，安全耐用。</TR_QualityRecastingTable.description>
+
+  <TR_QualityRecastingTable.comps.CompUsable.useLabel>重铸</TR_QualityRecastingTable.comps.CompUsable.useLabel>
+  
+</LanguageData>

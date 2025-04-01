@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+   <settingtitle>品质重铸台设置界面</settingtitle>
+   <Restore_Defaults>恢复默认</Restore_Defaults>
+    <Send_envelope>是否发送恶搞信件弹窗</Send_envelope>
+    <Send_envelope_hint>开启时，每次完成重铸都会有恶搞信件提示，关闭后，只有当重铸出大师级或者传奇级品质后才会有弹窗提示</Send_envelope_hint>
+    <Probability_settings>重铸概率设置</Probability_settings>
+    <Probability_settings_hint>这里可以设置重铸的概率，分为3个档位。1为默认档位，档位越高，重铸出高品质的概率越高</Probability_settings_hint>
+      <Spending_quantity>每次重铸花费的白银数</Spending_quantity>
+      <Spending_quantity_hint>调整每次重铸花费的白银数，默认为250，可调整范围为50~500</Spending_quantity_hint>
+
+      <Low_fuel>{0}发现品质重铸台的燃料不足，请及时补充燃料</Low_fuel>
+
+      <Awful_letterLabel>极差</Awful_letterLabel>
+      <Awful_letterText>重铸领域大神？菜就多练！</Awful_letterText>
+
+      <Poor_letterLabel>较差</Poor_letterLabel>
+      <Poor_letterText>“非常好品质，爱来自超凡智能”   {name}纯废物一个，不如自己造一把。</Poor_letterText>
+
+      <Normal_letterLabel>一般</Normal_letterLabel>
+      <Normal_letterText>{name}重铸出了一般级的品质。差不多得了，你还是去买一把吧。</Normal_letterText>
+
+      <Good_letterLabel>良好</Good_letterLabel>
+      <Good_letterText>{name}重铸出了良好级的品质。不多说了，能用就行</Good_letterText>
+
+      <Excellent_letterLabel>极佳</Excellent_letterLabel>
+      <Excellent_letterText>{name}重铸出了极佳级的品质。再来个十连抽估计就能出金了（坏笑）</Excellent_letterText>
+
+      <Masterwork_letterLabel>大师级</Masterwork_letterLabel>
+      <Masterwork_letterText>{name}重铸出了大师级的品质。你踏马真是个天才</Masterwork_letterText>
+
+      <Legendary_letterLabel>传奇级</Legendary_letterLabel>
+      <Legendary_letterText>{name}重铸出了传奇级的品质。哇！金色传说！</Legendary_letterText>
+
+</LanguageData>

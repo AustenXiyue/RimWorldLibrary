@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <DamageDef>
+    <defName>Digested</defName>
+    <label>digestion</label>
+    <workerClass>DamageWorker_AddInjury</workerClass>
+    <deathMessage>{0} died from being digested.</deathMessage>
+    <hediff>Digested</hediff>
+  </DamageDef>
+
+  <DamageDef>
+    <defName>EnergyBolt</defName>
+    <label>energy bolt</label>
+    <workerClass>DamageWorker_AddInjury</workerClass>
+    <externalViolence>true</externalViolence>
+    <deathMessage>{0} has been killed by an energy bolt.</deathMessage>
+    <hediff>EnergyBolt</hediff>
+    <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+    <impactSoundType>Electric</impactSoundType>
+    <armorCategory>Sharp</armorCategory>
+    <overkillPctToDestroyPart>0~0.7</overkillPctToDestroyPart>
+    <isRanged>true</isRanged>
+    <makesAnimalsFlee>true</makesAnimalsFlee>
+  </DamageDef>
+  
+  <DamageDef ParentName="Arrow">
+    <defName>Nerve</defName>
+    <label>nerve</label>
+    <workerClass>DamageWorker_Nerve</workerClass>
+    <deathMessage>{0} has been killed by nerve shock.</deathMessage>
+  </DamageDef>
+  
+  <DamageDef>
+    <defName>NerveStun</defName>
+    <label>nerve stun</label>
+    <causeStun>true</causeStun>
+    <stunAdaptationTicks>240</stunAdaptationTicks>
+  </DamageDef>
+  
+  <DamageDef>
+    <defName>Psychic</defName>
+    <label>psychic</label>
+    <externalViolence>true</externalViolence>
+    <workerClass>DamageWorker_AddInjury</workerClass>
+    <deathMessage>{0} has been killed by a psychic attack.</deathMessage>
+    <hediff>PsychicInjury</hediff>
+    <hediffSkin>PsychicInjurySkin</hediffSkin>
+    <hediffSolid>PsychicInjurySolid</hediffSolid>
+  </DamageDef>
+
+  <DamageDef>
+    <defName>DeadlifeDust</defName>
+    <label>deadlife dust</label>
+    <canInterruptJobs>false</canInterruptJobs>
+    <makesBlood>false</makesBlood>
+    <defaultDamage>0</defaultDamage>
+    <explosionCellFleck>BlastExtinguisher</explosionCellFleck>
+    <explosionColorEdge>(0.706, 0.839, 0.09, 0.05)</explosionColorEdge>
+    <harmsHealth>false</harmsHealth>
+    <soundExplosion>Explosion_Smoke</soundExplosion>
+    <combatLogRules>Damage_Smoke</combatLogRules>
+  </DamageDef>
+
+  <DamageDef ParentName="Vaporize">
+    <defName>NociosphereVaporize</defName>
+    <soundExplosion>FleshmelterBolt_Blast</soundExplosion>
+  </DamageDef>
+  
+</Defs>

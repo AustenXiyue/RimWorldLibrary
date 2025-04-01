@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>OmniPotion</name>
+  <author>Ecc</author>
+  <description>
+	添加了五个可制作的药剂，涵盖治病、提高免疫和愈合能力、恢复精神力三方面。
+2025.1.7：增加英语翻译（机翻）
+2025.1.8：增加了一个新的道具：寒铁钢爪
+2025.2.3：增加一个可配置选项，决定净化药水和魔瓶的buff是否会清空精神熵
+
+1. 树之祭祀，战场上的救命稻草，服用后可以提高免疫能力和恢复能力。（+50%、x1.25、持续2天）（应该没有人出门不买吃树吧）
+前置科技：医药生产，制作于：药物实验台，需要：智识4，原料：草药x5
+
+
+2. 治疗药膏，即使最严重的伤口也能快速治愈的魔法药膏，喝下后可以治愈绝大部分常见负面效果，在边缘杂病论.jpg中的基本都能治（不包括疤痕、部位缺失），不在的也基本能治，好奇的话可以自己看xml文件。（酱油喂个大药谢谢）
+前置科技：医药生产，制作于：药物实验台，需要：智识12+手工12，原料：草药x20，中性胺x5
+
+
+3. 净化药水，能增强冥想能力的清水，服用后可以缓慢恢复精神力。（每秒5%，持续1天）（不要钱的小净化）
+前置科技：医药生产，制作于：药物实验台，需要：智识8，原料：精神叶x10
+
+
+4. 魔法芒果，基迪岛上特有的苦甜参半风味让两栖动物无法抗拒，吃下可以立刻恢复30%精神力。（出门6芒果，大哥爱上我）
+前置科技：医药生产，制作于：药物实验台，需要：智识6，原料：精神叶x2
+
+
+5. 魔瓶，一个流传至今的古老瓶子，内部空间随着时间的流逝逐渐拥有魔力，服用后可以缓慢恢复精神力，持续时间无限。（每秒2.5%）（众所周知，瓶子+铲子=无限蓝）
+前置科技：医药生产，制作于：药物实验台，需要：智识12，原料：精神叶x50
+
+
+6. 寒铁钢爪，简单却有效的武器，为镇压地狱熊怪的起义而设计。一件可以装备的道具，被动提供一些承伤系数、近战冷却减免、屠宰效率、机械体拆解效率、收获效率（对应护甲攻速和farm效率）
+主动效果：对植物使用可以立刻砍伐植物，对非人类单位（例如动物、机械体等）使用可以秒杀该单位，具体用法可以自行发掘哦。（回来吧寒铁钢爪😭我最骄傲的信仰😭历历在目的主动😭眼泪莫名在流淌😭一直记得刷的快😭还有免费的砍树😭野区兵线全刷光😭就算通宵也不累😭）
+前置科技：锻造，制作于：锻造台（燃料or电力）、手工加工点，需要：手工4，原料：钢铁x50
+
+
+个人一时兴起的产物，略正义，数值脚填。灵感及素材来源：笨蛋的鼠族灵能拓展、DOTA2，如有侵权请联系我，第一时间删除
+
+==============================================================
+Added five craftable items covering three areas: healing, improving immunity and injury healing, and restoring psyfocus.
+2025.1.7: Added English translations (sry my English sucks)
+2025.1.7: Added a new item: Iron Talon
+2025.2.3: Added a configurable option that decides whether buff from Clarity and Bottle can clear entropy
+
+1. Tango, a life saver on the battlefield. Takes it to improve immunity and injury recovery.(+50%, x1.25, lasts for 2 days) 
+Unlocks: Medicine Production. Created at: Drug Lab. Requires: Intellectual 4. Ingredients: Herbal Medecine x5
+
+
+2. Healing Salve, a magical ointment that quickly heals even the worst wounds. Drinking it cures the vast majority of common negative effects. If you're interested you can look at the xml file for yourself. 
+Unlocks: Medicine Production. Created at: Drug Lab. Requires: Intellectual 12 + crafting 12. Ingredients: Herbal Medecine x20, Neutroamine x5
+
+
+3. Clarity, clear water that enhances the ability to meditate. Can slowly restore psyfocus after taking it (5% per second for 1 day)
+Unlocks: Medicine Production. Created at: Drug Lab. Requires: Intellectual 8. Ingredients: Psychoid Leaves x10
+
+
+4. Enchanted Mango, the unique bitter-sweet half flavor of Kiddy Island is irresistible to amphibians. Eating it can instantly restore 30% of psyfocus.
+Unlocks: Medicine Production. Created at: Drug Lab. Requires: Intellectual 6. Ingredients: Psychoid Leaves x2
+
+
+5. Bottle, an ancient bottle that has been passed down to this day, the inner space gradually possesses magic power with the passage of time. Can slowly restore psyfocus after taking it, lasts indefinitely. (2.5% per second) 
+Unlocks: Medicine Production. Created at: Drug Lab. Requires: Intellectual 12. Ingredients: Psychoid Leaves x50
+
+
+6. Iron Talon, a simple but effective weapon devised to quell a great Hellbear uprising. Passive: Reduce a bit of incoming damage multiplier and melee cooldown, enhance plant harvest yield, butchery efficiency and mechanoid shredding efficiency.
+Active: Use it on plants to cut them down immediately, and on non-human units (e.g. animals, mechanoids, etc.) to kill them immediately, you can discover the specific usage on your own.
+Unlocks: Smithing. Created at: Smithy(Fueled or Electric) or Crafting Spot. Requires: Crafting 4. Ingredients: Steel x50
+
+
+Product of my personal whim, slight unfair, just have fun. Inspiration and material source: [Bendan]RatkinPsycast, DOTA2, if any infringement, please contact me, I'll delete it asap.
+  </description>
+  <packageId>Ecc.OmniPotion</packageId>
+  <modDependencies>
+		<li>
+			<packageId>Ludeon.RimWorld.Royalty</packageId>
+			<displayName>Royalty</displayName>
+		</li>
+		<li>
+			<packageId>Ludeon.RimWorld.Ideology</packageId>
+			<displayName>Ideology</displayName>
+		</li>
+		<li>
+			<packageId>Ludeon.RimWorld.Biotech</packageId>
+			<displayName>Biotech</displayName>
+		</li>
+		<li>
+			<packageId>Ludeon.RimWorld.Anomaly</packageId>
+			<displayName>Anomaly</displayName>
+		</li>
+	</modDependencies>
+  <supportedVersions>
+	<li>1.5</li>
+  </supportedVersions>
+  <loadAfter>
+	<li>Ludeon.RimWorld</li>
+	<li>Ludeon.RimWorld.Royalty</li>
+	<li>Ludeon.RimWorld.Ideology</li>
+	<li>Ludeon.RimWorld.Biotech</li>
+	<li>Ludeon.RimWorld.Anomaly</li>
+  </loadAfter>
+</ModMetaData>

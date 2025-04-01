@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+	<!-- EN:
+    <li>questDescription->[asker_nameFull], [asker_faction_leaderTitle] of [asker_faction_name], has sent us a message. Some of [asker_possessive] personal foes are living in a small town controlled by [siteFaction_name].\n[asker_nameDef] is asking us to destroy the town, which means eliminating all enemies and turrets. [asker_label] says that [sitePart0_description]. [asker_label] also mention some local news, one of which rumors about a rogue archer with black feathers.</li>
+  -->
+	<BDsNydiaExp_TownRaid.questDescriptionRules.rulesStrings>
+		<li>questDescription->[asker_nameFull], [asker_faction_name]的[asker_faction_leaderTitle]，向我们提出了一个请求：[asker_possessive]的一些仇人目前正居住在一座[siteFaction_name]的小镇里。\n[asker_nameDef]请求我们帮忙摧毁那座小镇，杀掉所有守军。[asker_label]提到[sitePart0_description]。同时[asker_label]也聊了一些当地的新闻，其中包括一段关于黑色翅膀的弓箭手的传闻。</li>
+	</BDsNydiaExp_TownRaid.questDescriptionRules.rulesStrings>
+	<!-- EN:
+    <li>questName->The [adj] [camp]</li>
+    <li>questName->[adj] [camp]</li>
+    <li>questName->[asker_nameDef] and the [camp]</li>
+    <li>camp->Town</li>
+    <li>camp->Settlement</li>
+    <li>camp->Farm</li>
+    <li>adj->Wanted</li>
+    <li>adj->Hunted</li>
+    <li>adj->Doomed</li>
+  -->
+	<BDsNydiaExp_TownRaid.questNameRules.rulesStrings>
+		<li>questName->[adj]的[camp]</li>
+		<li>questName->[asker_nameDef]和[camp]</li>
+		<li>camp->村庄</li>
+		<li>camp->城镇</li>
+		<li>camp->小镇</li>
+		<li>adj->宁静</li>
+		<li>adj->暗潮涌动</li>
+		<li>adj->被盯上</li>
+	</BDsNydiaExp_TownRaid.questNameRules.rulesStrings>
+	<!-- EN: Quest expired: [resolvedQuestName] -->
+	<BDsNydiaExp_TownRaid.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>任务超时: [resolvedQuestName]</BDsNydiaExp_TownRaid.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>
+	<!-- EN: The wanted individuals have left the town. The quest [resolvedQuestName] has expired. -->
+	<BDsNydiaExp_TownRaid.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>[asker_label]的仇人已经离开了小镇，[resolvedQuestName]任务被取消了。</BDsNydiaExp_TownRaid.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>
+	<!-- EN: Quest failed: [resolvedQuestName] -->
+	<BDsNydiaExp_TownRaid.root.nodes.siteDestroyed.node.nodes.Letter.label.slateRef>任务失败: [resolvedQuestName]</BDsNydiaExp_TownRaid.root.nodes.siteDestroyed.node.nodes.Letter.label.slateRef>
+	<!-- EN: The town folks discovered your presence, the wanted individuals have left the town. The quest [resolvedQuestName] has ended. -->
+	<BDsNydiaExp_TownRaid.root.nodes.siteDestroyed.node.nodes.Letter.text.slateRef>村民们发现了你的存在，[asker_label]的仇人已经离开了小镇，[resolvedQuestName]任务失败了。</BDsNydiaExp_TownRaid.root.nodes.siteDestroyed.node.nodes.Letter.text.slateRef>
+	<!-- EN: Payment arrived -->
+	<BDsNydiaExp_TownRaid.root.nodes.siteAllEnemiesDefeated-1.node.nodes.GiveRewards.customLetterLabel.slateRef>奖励已送达</BDsNydiaExp_TownRaid.root.nodes.siteAllEnemiesDefeated-1.node.nodes.GiveRewards.customLetterLabel.slateRef>
+	<!-- EN: You have destroyed the town!\n\nThe payment from [asker_faction_name] has arrived. -->
+	<BDsNydiaExp_TownRaid.root.nodes.siteAllEnemiesDefeated-1.node.nodes.GiveRewards.customLetterText.slateRef>小镇被摧毁了！\n\n来自[asker_faction_name]的奖励已经送达。</BDsNydiaExp_TownRaid.root.nodes.siteAllEnemiesDefeated-1.node.nodes.GiveRewards.customLetterText.slateRef>
+	<!-- EN: [asker_faction_royalFavorLabel] -->
+	<BDsNydiaExp_TownRaid.root.nodes.siteAllEnemiesDefeated-1.node.nodes.GiveRewards.nodeIfChosenPawnSignalUsed.label.slateRef>[asker_faction_royalFavorLabel]</BDsNydiaExp_TownRaid.root.nodes.siteAllEnemiesDefeated-1.node.nodes.GiveRewards.nodeIfChosenPawnSignalUsed.label.slateRef>
+	<!-- EN: These colonists participated in the victory for the quest [resolvedQuestName]. [asker_definite] wants to know who should receive the [royalFavorReward_amount] [asker_faction_royalFavorLabel] for this service. -->
+	<BDsNydiaExp_TownRaid.root.nodes.siteAllEnemiesDefeated-1.node.nodes.GiveRewards.nodeIfChosenPawnSignalUsed.text.slateRef>殖民者们成功的完成了[resolvedQuestName]这项任务。 [asker_definite]想要知道谁应该接受这[royalFavorReward_amount] x [asker_faction_royalFavorLabel]。</BDsNydiaExp_TownRaid.root.nodes.siteAllEnemiesDefeated-1.node.nodes.GiveRewards.nodeIfChosenPawnSignalUsed.text.slateRef>
+
+</LanguageData>

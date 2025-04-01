@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	<EnergyShieldCECompat_forceBlock>强制阻挡模式</EnergyShieldCECompat_forceBlock>
+	<EnergyShieldCECompat_forceBlock_tooltip>开启后会强制阻挡所有CE子弹(包括在护盾内生成的情况)\n未开启时,在护盾内部生成的子弹/破片不会被护盾阻挡</EnergyShieldCECompat_forceBlock_tooltip>
+	<EnergyShieldCECompat_debugMode>DEBUG</EnergyShieldCECompat_debugMode>
+</LanguageData>

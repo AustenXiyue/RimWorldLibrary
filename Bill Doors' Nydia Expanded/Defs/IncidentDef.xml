@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<IncidentDef>
+		<defName>BDsNydiaExp_NydiaJoin</defName>
+		<label>Nydia join</label>
+		<category>Special</category>
+		<targetTags>
+			<li>Map_PlayerHome</li>
+		</targetTags>
+		<workerClass>BDsNydiaExp.IncidentWorker_NydiaJoin</workerClass>
+		<letterLabel>black feathered archer</letterLabel>
+		<letterText>Sensing trouble, a black feathered archer came to rescue.\n\nWill [PAWN_pronoun] be able to set things right in these parts?</letterText>
+		<baseChance>0</baseChance>
+		<minRefireDays>60</minRefireDays>
+		<modExtensions>
+			<li Class="BillDoorsPredefinedCharacter.ModExtension_PDCDef">
+				<def>BDNydiaExp_Nydia</def>
+			</li>
+		</modExtensions>
+	</IncidentDef>
+
+	<IncidentDef>
+		<defName>BDsNydiaExp_NydiaAttack</defName>
+		<label>Nydia attack</label>
+		<category>Special</category>
+		<targetTags>
+			<li>Map_Misc</li>
+		</targetTags>
+		<workerClass>BDsArknightLib.IncidentWorker_PDCAttack</workerClass>
+		<letterLabel>black feathered archer</letterLabel>
+		<letterText>Sensing a settlement in distress, a black feathered archer came to reinforce them.</letterText>
+		<letterDef>NegativeEvent</letterDef>
+		<baseChance>0</baseChance>
+		<minRefireDays>60</minRefireDays>
+		<modExtensions>
+			<li Class="BillDoorsPredefinedCharacter.ModExtension_PDCDefs">
+				<defs>
+					<li>BDNydiaExp_Nydia</li>
+				</defs>
+			</li>
+		</modExtensions>
+	</IncidentDef>
+</Defs>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LangeageData>
+	<OP_Hediff_Immunity.label>免疫能力提高</OP_Hediff_Immunity.label>
+	<OP_Hediff_Immunity.description>免疫能力提高</OP_Hediff_Immunity.description>
+
+	<OP_Hediff_Injury_Healing.label>愈合能力提高</OP_Hediff_Injury_Healing.label>
+	<OP_Hediff_Injury_Healing.description>愈合能力提高</OP_Hediff_Injury_Healing.description>
+	
+	<OP_Hediff_Psy_Regeneration.label>净化药水生效</OP_Hediff_Psy_Regeneration.label>
+	<OP_Hediff_Psy_Regeneration.description>每秒回复5%精神力</OP_Hediff_Psy_Regeneration.description>
+	
+	<OP_Hediff_Psy_Regeneration_Permanent.label>魔瓶生效</OP_Hediff_Psy_Regeneration_Permanent.label>
+	<OP_Hediff_Psy_Regeneration_Permanent.description>每秒回复2.5%精神力, 持续时间无限</OP_Hediff_Psy_Regeneration_Permanent.description>
+</LangeageData>

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	<EnergyShieldCECompat_forceBlock>Force Block Mode</EnergyShieldCECompat_forceBlock>
+	<EnergyShieldCECompat_forceBlock_tooltip>When enabled, it will forcibly block all CE projectiles (including those generated inside the shield). When disabled, projectiles/shrapnel generated inside the shield will not be blocked by the shield.</EnergyShieldCECompat_forceBlock_tooltip>
+	<EnergyShieldCECompat_debugMode>DEBUG</EnergyShieldCECompat_debugMode>
+</LanguageData>

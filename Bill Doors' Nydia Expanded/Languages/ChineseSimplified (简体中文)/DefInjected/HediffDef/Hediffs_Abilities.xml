@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: black feather -->
+  <BDsNydiaExp_BlackFeather.label>黑羽</BDsNydiaExp_BlackFeather.label>
+  <!-- EN: The marking leaved by Nydia's abilities. Another damage from Nydia on this pawn will cause an explosion and remove this hediff. -->
+  <BDsNydiaExp_BlackFeather.description>妮蒂娅的技能施加的标记。此人再次受到来自她的伤害时会产生一次伤害来源判定为妮蒂娅的爆炸，然后移除该健康状态。</BDsNydiaExp_BlackFeather.description>
+  
+  <!-- EN: black feather aura -->
+  <BDsNydiaExp_BlackFeatherAura.label>黑羽光环</BDsNydiaExp_BlackFeatherAura.label>
+  <!-- EN: The aura casted by Nydia. Every 10 second, black feather will be applied to an enemy within range. -->
+  <BDsNydiaExp_BlackFeatherAura.description>每10秒为附近一名敌人附加黑羽状态的光环。</BDsNydiaExp_BlackFeatherAura.description>
+  
+</LanguageData>

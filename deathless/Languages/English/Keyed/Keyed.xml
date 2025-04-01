@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+    <!-- Main -->
+    <ModRealDeathless>Real Deathless</ModRealDeathless>
+
+    <!-- Mod Settings -->
+    <stringRD_Setting_Global>Real Deathless: Mod Settings</stringRD_Setting_Global>
+
+    <!-- Harmony Patch: Real Deathless -->
+    <stringRD_Patch_ShouldBeDead>Enable Harmony Patch: Real Deathless?</stringRD_Patch_ShouldBeDead>
+    <stringRD_Patch_ShouldBeDead_Hint>Turn on this option, harmony patch will be applied to achieve HP limitation when hurt.</stringRD_Patch_ShouldBeDead_Hint>
+
+</LanguageData>

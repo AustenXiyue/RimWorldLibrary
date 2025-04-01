@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<SoundDef>
+		<defName>BDAKN_FrostGrenadeExplode</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>5</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>BDAKN/FrostGrenadeExplode</clipPath>
+					</li>
+				</grains>
+				<volumeRange>50~65</volumeRange>
+				<pitchRange>0.93~1.1</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>BDAKN_IceShatterLarge</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>BDAKN/ShatterBig</clipPath>
+					</li>
+				</grains>
+				<volumeRange>30~55</volumeRange>
+				<pitchRange>0.93~1.1</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>BDAKN_IceShatterMedium</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>BDAKN/ShatterMedium</clipPath>
+					</li>
+				</grains>
+				<volumeRange>20~30</volumeRange>
+				<pitchRange>0.93~1.1</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>BDAKN_IceShatterSmall</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>5</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>BDAKN/ShatterSmall</clipPath>
+					</li>
+				</grains>
+				<volumeRange>10~25</volumeRange>
+				<pitchRange>0.9~1.3</pitchRange>
+				<muteWhenPaused>true</muteWhenPaused>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>BDAKN_IceShatterTiny</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>5</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>BDAKN/ShatterTiny</clipPath>
+					</li>
+				</grains>
+				<volumeRange>20~30</volumeRange>
+				<pitchRange>0.8~1.5</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+</Defs>

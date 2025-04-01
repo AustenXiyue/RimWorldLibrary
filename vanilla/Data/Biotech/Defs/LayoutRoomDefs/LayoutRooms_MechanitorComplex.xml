@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <LayoutRoomDef>
+    <defName>AncientRechargeRoom</defName>
+    <sketchResolverDef>AncientRechargeRoom</sketchResolverDef>
+    <floorTypes>
+      <li>CarpetGreyDark</li>
+      <li>CarpetBlue</li>
+      <li>CarpetGreen</li>
+    </floorTypes>
+  </LayoutRoomDef>
+
+  <LayoutRoomDef>
+    <defName>AncientMechGestatorRoom</defName>
+    <sketchResolverDef>AncientMechGestatorRoom</sketchResolverDef>
+    <floorTypes>
+      <li>CarpetGreyDark</li>
+      <li>TileMarble</li>
+      <li>Concrete</li>
+    </floorTypes>
+  </LayoutRoomDef>
+
+  <LayoutRoomDef>
+    <defName>AncientMechGeneratorRoom</defName>
+    <sketchResolverDef>AncientMechGeneratorRoom</sketchResolverDef>
+    <floorTypes>
+      <li>Concrete</li>
+    </floorTypes>
+  </LayoutRoomDef>
+
+  <LayoutRoomDef>
+    <defName>AncientBandNodeRoom</defName>
+    <sketchResolverDef>AncientBandNodeRoom</sketchResolverDef>
+    <floorTypes>
+      <li>CarpetGreyDark</li>
+      <li>CarpetRed</li>
+    </floorTypes>
+    <countRange>0~1</countRange>
+    <selectionWeight>2</selectionWeight>
+  </LayoutRoomDef>
+  
+</Defs>

@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>r_logentry->[INITIATOR_definite] [verb_shot] [arrowNoun] [preposition] [SUBJECT_definite].</li>
+    <li>preposition->at</li>
+    <li>preposition->on</li>
+    <li>preposition->above</li>
+    <li>arrowNoun->[adj] [shape]</li>
+    <li>arrowNoun->a [shape]</li>
+    <li>adj->a magical</li>
+    <li>adj->a violet</li>
+    <li>adj->an azure</li>
+    <li>adj->a feathery</li>
+    <li>adj->a high arching</li>
+    <li>shape->arrow</li>
+    <li>shape->bolt</li>
+    <li>shape->projectile</li>
+    <li>verb_shot->launched</li>
+    <li>verb_shot->shot</li>
+    <li>verb_shot->unleashed</li>
+  -->
+  <BDsNydiaExp_ArrowBarrage.rulePack.rulesStrings>
+    <li>r_logentry->[INITIATOR_definite]向[SUBJECT_definite][preposition][verb_shot]了一枝[arrowNoun]。</li>
+    <li>preposition->上方</li>
+    <li>preposition->头顶</li>
+    <li>preposition->头上</li>
+    <li>arrowNoun->[adj][shape]</li>
+    <li>arrowNoun->[shape]</li>
+    <li>adj->魔法</li>
+    <li>adj->紫色的</li>
+    <li>adj->蓝色的</li>
+    <li>adj->高抛的</li>
+    <li>shape->弓箭</li>
+    <li>shape->箭</li>
+    <li>shape->箭矢</li>
+    <li>verb_shot->发射</li>
+    <li>verb_shot->射出</li>
+  </BDsNydiaExp_ArrowBarrage.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>r_logentry->[SUBJECT_definite] [unleashed] a [curseAdj] aura around [INITIATOR_objective]self.</li>
+    <li>unleashed->unleashed</li>
+    <li>unleashed->relesed</li>
+    <li>unleashed->let out</li>
+  -->
+  <BDsNydiaExp_BlackFeatherAura.rulePack.rulesStrings>
+    <li>r_logentry->[SUBJECT_definite]在[INITIATOR_objective]身边[unleashed]了[curseAdj]的[aura]。</li>
+    <li>unleashed->释放</li>
+    <li>unleashed->展开</li>
+    <li>unleashed->放出</li>
+    <li>aura->光环</li>
+    <li>aura->立场</li>
+    <li>aura->气场</li>
+  </BDsNydiaExp_BlackFeatherAura.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>r_logentry->The [curseAdj] aura around [SUBJECT_definite] [dissipated].</li>
+    <li>dissipated->dissipated</li>
+    <li>dissipated->disappeared</li>
+    <li>dissipated->vanished</li>
+  -->
+  <BDsNydiaExp_BlackFeatherAuraDissipate.rulePack.rulesStrings>
+    <li>r_logentry->[SUBJECT_definite]身边[curseAdj]的[aura][dissipated]了。</li>
+    <li>dissipated->消散</li>
+    <li>dissipated->消失</li>
+    <li>dissipated->散去</li>
+    <li>aura->光环</li>
+    <li>aura->立场</li>
+    <li>aura->气场</li>
+  </BDsNydiaExp_BlackFeatherAuraDissipate.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>r_logentry->[SUBJECT_definite] was [curse] by [INITIATOR_definite]'s [feather].</li>
+    <li>r_logentry->[INITIATOR_definite] [curse] [SUBJECT_definite] with [INITIATOR_possessive] [feather].</li>
+    <li>r_logentry->An [feather] [fall] [SUBJECT_definite]'s [head].</li>
+    <li>r_logentry->[INITIATOR_definite]'s [feather] [fall] [SUBJECT_definite]'s [head].</li>
+    <li>r_logentry(p=0.2)->An [feather] [fall] [SUBJECT_definite]'s [head].</li>
+    <li>r_logentry(p=0.2)->[INITIATOR_definite]'s [feather] [fall] [SUBJECT_definite]'s [head].</li>
+  -->
+  <BDsNydiaExp_DeathSentenceApply.rulePack.rulesStrings>
+    <li>r_logentry->[SUBJECT_definite]被[INITIATOR_definite]的[feather][curse]了。</li>
+    <li>r_logentry->[INITIATOR_definite]用[INITIATOR_possessive][feather][curse]了[SUBJECT_definite]。</li>
+    <li>r_logentry->一片[feather][fall][SUBJECT_definite]的[head]。</li>
+    <li>r_logentry->[INITIATOR_definite]的[feather][fall][SUBJECT_definite]的[head]。</li>
+    <li>r_logentry(p=0.2)->一片[feather][fall][SUBJECT_definite]的[head]。</li>
+    <li>r_logentry(p=0.2)->[INITIATOR_definite]的[feather][fall][SUBJECT_definite]的[head]。</li>
+  </BDsNydiaExp_DeathSentenceApply.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>r_logentry->The [feather] on [SUBJECT_definite]'s [head] [detonated].</li>
+    <li>r_logentry->The [feather] on [SUBJECT_definite]'s [head] [detonatePassive] incoming impact.</li>
+    <li>r_logentry(InitiatorIsNull==False)->The [feather] on [SUBJECT_definite]'s [head] [detonatePassive] by [INITIATOR_definite]'s attack.</li>
+    <li>r_logentry(InitiatorIsNull==False)->The [feather] on [SUBJECT_definite]'s [head] [detonatePassive] by [INITIATOR_definite]'s attack and [detonated].</li>
+    <li>r_logentry(InitiatorIsNull==False)->[INITIATOR_definite]'s attack caused the [feather] on [SUBJECT_definite]'s [head] to [detonate].</li>
+    <li>detonated->detonated</li>
+    <li>detonated->exploded</li>
+    <li>detonated->unleashed a torrent of energy</li>
+    <li>detonate->detonate</li>
+    <li>detonate->explode</li>
+    <li>detonate->unleash a torrent of energy</li>
+    <li>detonatePassive->was detonated by</li>
+    <li>detonatePassive->was set off by</li>
+    <li>detonatePassive->resonated with</li>
+    <li>detonatePassive->reacted with</li>
+  -->
+  <BDsNydiaExp_DeathSentenceDetonate.rulePack.rulesStrings>
+    <li>r_logentry->[SUBJECT_definite][head]的[feather][detonated]。</li>
+    <li>r_logentry->[SUBJECT_definite][head]的[feather]在攻击下[detonated]。</li>
+    <li>r_logentry(InitiatorIsNull==False)->[SUBJECT_definite][head]的[feather]被[INITIATOR_definite]的攻击[detonatePassive]。</li>
+    <li>r_logentry(InitiatorIsNull==False)->[SUBJECT_definite][head]的[feather]和[INITIATOR_definite]的攻击发生了[resonate]。</li>
+    <li>r_logentry(InitiatorIsNull==False)->[SUBJECT_definite][head]的[feather]被[INITIATOR_definite]的攻击[detonatePassive]。</li>
+    <li>r_logentry(InitiatorIsNull==False)->[SUBJECT_definite][head]的[feather]和[INITIATOR_definite]的攻击发生了[resonate]然后[detonated]。</li>
+    <li>r_logentry(InitiatorIsNull==False)->[INITIATOR_definite]的攻击导致[SUBJECT_definite][head]的[feather][detonated].</li>
+    <li>detonated->爆炸了</li>
+    <li>detonated->碎裂了</li>
+    <li>detonated->释放出了大量能量</li>
+    <li>detonatePassive->引爆了</li>
+    <li>detonatePassive->触发了</li>
+    <li>resonate->共鸣</li>
+    <li>resonate->共振</li>
+    <li>resonate->反应</li>
+  </BDsNydiaExp_DeathSentenceDetonate.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>r_logentry->The [feather] on [SUBJECT_definite]'s [head] [dissipated].</li>
+    <li>dissipated->dissipated</li>
+    <li>dissipated->disappeared</li>
+    <li>dissipated->vanished</li>
+    <li>dissipated->fell off</li>
+    <li>dissipated->was blown away</li>
+  -->
+  <BDsNydiaExp_DeathSentenceDissipated.rulePack.rulesStrings>
+    <li>r_logentry->[SUBJECT_definite][head]的[feather][dissipated]。</li>
+    <li>dissipated->消散了</li>
+    <li>dissipated->消失了</li>
+    <li>dissipated->不见了</li>
+    <li>dissipated->掉落了</li>
+    <li>dissipated->被吹走了</li>
+  </BDsNydiaExp_DeathSentenceDissipated.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>curse->cursed</li>
+    <li>curse->cursed</li>
+    <li>curse->blighted</li>
+    <li>curse->affected</li>
+    <li>curse->marked</li>
+    <li>curseAdj->cursed</li>
+    <li>curseAdj->wicked</li>
+    <li>curseAdj->ominous</li>
+    <li>curseAdj->haunted</li>
+    <li>curseAdj->ill omened</li>
+    <li>fall->fell</li>
+    <li>fall->landed</li>
+    <li>fall->touched</li>
+    <li>head->head</li>
+    <li>head->hair</li>
+    <li>head->forehead</li>
+    <li>feather->[curseAdj] black feather</li>
+    <li>feather->[curseAdj] feather</li>
+    <li>feather->black feather</li>
+  -->
+  <BDsNydiaExp_SharedRules.rulePack.rulesStrings>
+    <li>curse->诅咒</li>
+    <li>curse->标记</li>
+    <li>curseAdj->诅咒的</li>
+    <li>curseAdj->被诅咒的</li>
+    <li>curseAdj->死亡的</li>
+    <li>curseAdj->不祥的</li>
+    <li>curseAdj->不幸的</li>
+    <li>fall->降落在</li>
+    <li>fall->降临在</li>
+    <li>fall->落在</li>
+    <li>fall->触碰了</li>
+    <li>head->头顶</li>
+    <li>head->发梢</li>
+    <li>head->额头</li>
+    <li>feather->[curseAdj]黑羽</li>
+    <li>feather->[curseAdj]羽毛</li>
+    <li>feather->黑羽</li>
+  </BDsNydiaExp_SharedRules.rulePack.rulesStrings>
+  
+</LanguageData>

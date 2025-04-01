@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: special character's apparels -->
+  <BDPDCApparel.label>固定角色服装</BDPDCApparel.label>
+  
+  <!-- EN: special character's weapons -->
+  <BDPDCWeapon.label>固定角色武器</BDPDCWeapon.label>
+  
+</LanguageData>
